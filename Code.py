@@ -7,6 +7,7 @@ from json import loads
 from os.path import exists
 from openpyxl import Workbook, load_workbook
 from datetime import datetime
+from os import startfile
 
 
 # ATTRIBUTES:
@@ -112,5 +113,7 @@ for page_num in count(start=1):  # infinite loop
         sleep(1)
         exit(response.reason)
 
+
+startfile(excel_file)  # automatically open Excel Sheet when process completes
 
 print('SUCCESS')
