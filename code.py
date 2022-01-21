@@ -6,7 +6,7 @@ from itertools import count
 website = 'https://coinmarketcap.com'
 
 
-for page_num in count(start=91):  # infinite loop
+for page_num in count(start=1):  # infinite loop
 
     webpage = f'{website}/?page={page_num}'
     response = get_request(url=webpage)
