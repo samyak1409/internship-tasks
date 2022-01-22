@@ -53,7 +53,7 @@ for page_num in count(start=1):  # infinite loop
 
     if response.status_code == 200:  # everything's okay
 
-        # SCRAPING LAYER 1:
+        # SCRAPING PART 1:
 
         soup = BeautifulSoup(markup=response.text, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
         # print(soup.prettify()); input()  # debugging
@@ -71,13 +71,19 @@ for page_num in count(start=1):  # infinite loop
             currency_site = website + currency_sub_url
             print(f'{num}) {currency_site} \n')
 
-            # SCRAPING LAYER 2:
+            # SCRAPING PART 2:
 
-            soup = BeautifulSoup(markup=get_request(url=currency_site).text, features='html.parser')
-            # print(soup.prettify()); input()  # debugging
+            while True:  # "soup.find(name='script', id='__NEXT_DATA__')" MAY return None, which WILL BE FIXED after some tries
+                soup = BeautifulSoup(markup=get_request(url=currency_site).text, features='html.parser')
+                # print(soup.prettify()); input()  # debugging
 
-            json_str = soup.find(name='script', id='__NEXT_DATA__').text  # found with the help of "View page source"
-            # print(json_str); input()  # debugging
+                try:
+                    json_str = soup.find(name='script', id='__NEXT_DATA__').text  # all thanks to "View page source"!
+                except AttributeError:
+                    continue  # try again
+
+                # print(json_str); input()  # debugging
+                break
 
             json_dict = loads(s=json_str)  # parse
             # from json import dumps; print(dumps(obj=json_dict, indent=8)); input()  # debugging
