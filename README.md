@@ -1,6 +1,6 @@
-# Crypto Meta Extractor
+# Internship Tasks
 
-This repository contains the code which extracts some metadata of all the cryptocurrencies listed (>9K) on [CoinMarketCap](https://coinmarketcap.com).
+This repository contains codes of Web Scraping tasks of my Internship.
 
 
 ## Coding Standards
