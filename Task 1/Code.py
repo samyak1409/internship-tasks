@@ -46,21 +46,24 @@ wb.save(excel_file)
 website_html_parsed = BeautifulSoup(markup=get_request(url=website).text, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
 # print(website_html_parsed.prettify()); exit()  # debugging
 
-model_html_list = website_html_parsed.find(name='tbody').find_all(name='tr')  # list of HTML of all the miner models
-# print(model_html_list); exit()  # debugging
+model_row_html_list = website_html_parsed.find(name='tbody').find_all(name='tr')  # list of HTML of all the miner models
+# print(model_row_html_list); exit()  # debugging
 
-for sr_num, model_html in enumerate(iterable=model_html_list, start=1):
+for sr_num, model_row_html in enumerate(iterable=model_row_html_list, start=1):
 
     row_num = sr_num + 2
 
     print(f'\n{sr_num}')
     sheet.cell(row=row_num, column=1, value=sr_num)
 
-    # print(model_html.prettify(), '\n')  # debugging
+    # print(model_row_html.prettify(), '\n')  # debugging
 
-    div_tags = model_html.find_all(name='div')
+    # 'Model', 'Release', 'Hashrate', 'Power', 'Noise', 'Algo', 'Profitability':
+    div_tags = model_row_html.find_all(name='div')
     # print(div_tags)  # debugging
-    values = list(map(lambda div_tag: normalize('NFKD', div_tag.text).strip(), div_tags))[3:][:7]  # https://stackoverflow.com/a/34669482
+    values = list(map(lambda div_tag: normalize('NFKD', div_tag.text).strip(), div_tags))  # https://stackoverflow.com/a/34669482
+    # print(values)  # debugging
+    values = values[3:][:7]  # for a reason 🤫
     # print(values)  # debugging
 
     # Algos' Name Correction: (if there will be multiple algos of a model, extraction using ".text" will give the number of algos and not their names)
@@ -75,15 +78,34 @@ for sr_num, model_html in enumerate(iterable=model_html_list, start=1):
         print(value)
         sheet.cell(row=row_num, column=column_num, value=value)
 
-    model_page = website + model_html.a['href']
+    # 'Link':
+    model_page = website + model_row_html.a['href']
     print(model_page)
     sheet.cell(row=row_num, column=9, value=model_page)
 
-    wb.save(excel_file)  # (after every insertion)
-
     # SCRAPING PART 2: ['Description', Profitability, Algorithms, 'Specifications', 'Minable coins', 'Mining pools', 'Where to buy?', 'Cloud mining']
 
-    #
+    model_page_html_parsed = BeautifulSoup(markup=get_request(url=model_page).text, features='html.parser')
+    # print(model_page_html_parsed.prettify()); exit()  # debugging
+
+    container_div = model_page_html_parsed.body.find(name='div', class_='container', recursive=False)
+    # print(container_div.prettify()); exit()  # debugging
+
+    # 'Description':
+    desc = container_div.p.text
+    # print(desc)  # debugging
+    desc = ' '.join(desc.split())
+    print(desc)
+    sheet.cell(row=row_num, column=10, value=desc)
+
+    # 'Specifications':
+    specs_dict = {}
+    for spec_row_html in container_div.find(name='div', class_='col-sm-8').table.find_all(name='tr'):
+        specs_dict[spec_row_html.th.text] = spec_row_html.td.text
+    print(specs_dict)
+    sheet.cell(row=row_num, column=11, value=str(specs_dict))
+
+    wb.save(excel_file)  # (after every insertion)
 
 
 startfile(excel_file)  # automatically open Excel Sheet when process completes
