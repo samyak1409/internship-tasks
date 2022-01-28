@@ -17,7 +17,7 @@ from os import startfile
 
 website = 'https://www.asicminervalue.com'
 excel_file = 'Scraped Data.xlsx'
-column_names = ['#', 'Model', 'Release', 'Hashrate', 'Power', 'Noise', 'Algo', 'Profitability', 'Link']
+column_names = ['#', 'Model', 'Release', 'Hashrate', 'Power', 'Noise', 'Algorithms', 'Profitability', 'Link', 'Description', 'Specifications', 'Minable coins', 'Mining pools', 'Where to buy?', 'Cloud mining']
 
 
 # CONNECTING TO EXCEL SHEET:
@@ -41,7 +41,7 @@ wb.save(excel_file)
 # print(sheet); exit()  # debugging
 
 
-# SCRAPING PART 1:
+# SCRAPING PART 1: ['Model', 'Release', 'Hashrate', 'Power', 'Noise', 'Algo', 'Profitability', 'Link']
 
 website_html_parsed = BeautifulSoup(markup=get_request(url=website).text, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
 # print(website_html_parsed.prettify()); exit()  # debugging
@@ -75,13 +75,13 @@ for sr_num, model_html in enumerate(iterable=model_html_list, start=1):
         print(value)
         sheet.cell(row=row_num, column=column_num, value=value)
 
-    model_page = website + model_html.find(name='a')['href']
+    model_page = website + model_html.a['href']
     print(model_page)
     sheet.cell(row=row_num, column=9, value=model_page)
 
     wb.save(excel_file)  # (after every insertion)
 
-    # SCRAPING PART 2:
+    # SCRAPING PART 2: ['Description', Profitability, Algorithms, 'Specifications', 'Minable coins', 'Mining pools', 'Where to buy?', 'Cloud mining']
 
     #
 
