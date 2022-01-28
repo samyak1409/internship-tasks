@@ -1,0 +1,3119 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/Task 1/Code.py"
+
+1
+Goldshell KD6
+Apr 2022
+26.3Th/s
+2630W
+80db
+Kadena
+$103.62/day
+https://www.asicminervalue.com/miners/goldshell/kd6
+Model KD6 from Goldshell mining Kadena algorithm with a maximum hashrate of 26.3Th/s for a power consumption of 2630W.
+{'Manufacturer': 'Goldshell', 'Model': 'KD6', 'Also known as': 'KD6 Kadena miner', 'Release': 'April 2022', 'Size': '200 x 264 x 290mm', 'Weight': '8500g', 'Noise level': '80db', 'Fan(s)': '2', 'Power': '2630W', 'Voltage': '176~264V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Blake2S algorithm exclusive for KDA.'}
+['Kadena (KDA)']
+
+2
+Bitmain Antminer E9 (3Gh)
+Coming soon
+3Gh/s
+2556W
+75db
+EtHash
+$101.84/day
+https://www.asicminervalue.com/miners/bitmain/antminer-e9-3gh
+Model Antminer E9 (3Gh) from Bitmain mining EtHash algorithm with a maximum hashrate of 3Gh/s for a power consumption of 2556W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer E9 (3Gh)', 'Release': 'Coming soon', 'Size': '195 x 290 x 400mm', 'Weight': '14200g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '2556W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+3
+Jasminer X4
+Nov 2021
+2.5Gh/s
+1200W
+75db
+EtHash
+$87.54/day
+https://www.asicminervalue.com/miners/jasminer/x4
+Model X4 from Jasminer mining EtHash algorithm with a maximum hashrate of 2.5Gh/s for a power consumption of 1200W.
+{'Manufacturer': 'Jasminer', 'Model': 'X4', 'Also known as': 'SUNLUNE JASMINER X4 ETCHASH SERVER', 'Release': 'November 2021', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '1200W', 'Interface': 'Ethernet', 'Memory': '5GB', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+4
+Goldshell KD5
+Mar 2021
+18Th/s
+2250W
+80db
+Kadena
+$69.62/day
+https://www.asicminervalue.com/miners/goldshell/kd5
+Model KD5 from Goldshell mining Kadena algorithm with a maximum hashrate of 18Th/s for a power consumption of 2250W.
+{'Manufacturer': 'Goldshell', 'Model': 'KD5', 'Also known as': 'KD5 Kadena miner', 'Release': 'March 2021', 'Size': '200 x 264 x 290mm', 'Weight': '8500g', 'Noise level': '80db', 'Fan(s)': '2', 'Power': '2250W', 'Voltage': '176~264V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Kadena (KDA)']
+
+5
+Innosilicon A11 Pro ETH (2000Mh)
+Coming soon
+2Gh/s
+2500W
+75db
+EtHash
+$65.60/day
+https://www.asicminervalue.com/miners/innosilicon/a11-pro-eth-2000mh
+A11 first batch will be 1500Mh and not 2000Mh.
+{'Manufacturer': 'Innosilicon', 'Model': 'A11 Pro ETH (2000Mh)', 'Also known as': 'A11 Pro ETHMiner 8G 2000Mh', 'Release': 'Coming soon', 'Noise level': '75db', 'Power': '2500W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Memory': '8Gb', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+6
+iBeLink BM-K1+
+Sep 2021
+15Th/s
+2250W
+74db
+Kadena
+$56.94/day
+https://www.asicminervalue.com/miners/ibelink/bm-k1-1
+Model BM-K1+ from iBeLink mining Kadena algorithm with a maximum hashrate of 15Th/s for a power consumption of 2250W.
+{'Manufacturer': 'iBeLink', 'Model': 'BM-K1+', 'Also known as': 'BM-K1 PLUS', 'Release': 'September 2021', 'Size': '128 x 201 x 402mm', 'Weight': '6600g', 'Noise level': '74db', 'Fan(s)': '2', 'Power': '2250W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Blake (2s-kadena) algorithm'}
+['Kadena (KDA)']
+
+7
+Bitmain Antminer L7 (9.5Gh)
+Nov 2021
+9.5Gh/s
+3425W
+75db
+Scrypt
+$54.52/day
+https://www.asicminervalue.com/miners/bitmain/antminer-l7-9-5gh
+Model Antminer L7 (9.5Gh) from Bitmain mining Scrypt algorithm with a maximum hashrate of 9.5Gh/s for a power consumption of 3425W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer L7 (9.5Gh)', 'Also known as': 'Antminer L7 9500Mh', 'Release': 'November 2021', 'Size': '195 x 290 x 370mm', 'Weight': '15000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3425W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+8
+Bitmain Antminer L7 (9.16Gh)
+Nov 2021
+9.16Gh/s
+3425W
+75db
+Scrypt
+$52.21/day
+https://www.asicminervalue.com/miners/bitmain/antminer-l7-9-16gh
+Model Antminer L7 (9.16Gh) from Bitmain mining Scrypt algorithm with a maximum hashrate of 9.16Gh/s for a power consumption of 3425W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer L7 (9.16Gh)', 'Also known as': 'Antminer L7 9160Mh', 'Release': 'November 2021', 'Size': '195 x 290 x 370mm', 'Weight': '15000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3425W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+9
+Innosilicon A11 Pro ETH (1500Mh)
+Nov 2021
+1.5Gh/s
+2350W
+75db
+EtHash
+$47.83/day
+https://www.asicminervalue.com/miners/innosilicon/a11-pro-eth-1500mh
+Model A11 Pro ETH (1500Mh) from Innosilicon mining EtHash algorithm with a maximum hashrate of 1.5Gh/s for a power consumption of 2350W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A11 Pro ETH (1500Mh)', 'Also known as': 'A11 Pro ETHMiner 8G 1500Mh', 'Release': 'November 2021', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '2350W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Memory': '8Gb', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+10
+Innosilicon A10 Pro+ ETH (750Mh)
+Dec 2020
+750Mh/s
+1350W
+75db
+EtHash
+$23.41/day
+https://www.asicminervalue.com/miners/innosilicon/a10-pro-eth-750mh
+Model A10 Pro+ ETH (750Mh) from Innosilicon mining EtHash algorithm with a maximum hashrate of 750Mh/s for a power consumption of 1350W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A10 Pro+ ETH (750Mh)', 'Also known as': 'A10 PRO-S 7GB ETHMiner', 'Release': 'December 2020', 'Size': '136 x 285 x 362mm', 'Weight': '8100g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1350W', 'Voltage': '12V', 'Memory': '7Gb', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+11
+Goldshell KD2
+Mar 2021
+6Th/s
+830W
+55db
+Kadena
+$22.98/day
+https://www.asicminervalue.com/miners/goldshell/kd2
+Model KD2 from Goldshell mining Kadena algorithm with a maximum hashrate of 6Th/s for a power consumption of 830W.
+{'Manufacturer': 'Goldshell', 'Model': 'KD2', 'Also known as': 'KD2 Kadena miner', 'Release': 'March 2021', 'Size': '200 x 264 x 290mm', 'Weight': '7300g', 'Noise level': '55db', 'Fan(s)': '2', 'Power': '830W', 'Voltage': '176~264V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Kadena (KDA)']
+
+12
+iPollo G1
+Dec 2020
+36GPS
+2800W
+75db
+Cuckatoo32
+$20.63/day
+https://www.asicminervalue.com/miners/ipollo/g1
+Model G1 from iPollo mining Cuckatoo32 algorithm with a maximum hashrate of 36GPS for a power consumption of 2800W.
+{'Manufacturer': 'iPollo', 'Model': 'G1', 'Also known as': 'Nano labs iPollo G1 Grin Miner', 'Release': 'December 2020', 'Size': '158 x 350 x 355mm', 'Weight': '19000g', 'Chip boards': '3', 'Chip name': 'FinFET', 'Chip size': '12nm', 'Chip count': '30', 'Noise level': '75db', 'Cooling': 'Fan', 'Fan(s)': '4', 'Power': '2800W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+
+13
+iBeLink BM-K1
+Nov 2020
+5.3Th/s
+835W
+74db
+Kadena
+$20.00/day
+https://www.asicminervalue.com/miners/ibelink/bm-k1
+Model BM-K1 from iBeLink mining Kadena algorithm with a maximum hashrate of 5.3Th/s for a power consumption of 835W.
+{'Manufacturer': 'iBeLink', 'Model': 'BM-K1', 'Release': 'November 2020', 'Size': '131 x 157 x 299mm', 'Weight': '6600g', 'Chip boards': '4', 'Chip count': '120', 'Noise level': '74db', 'Fan(s)': '2', 'Power': '835W', 'Voltage': '190-240V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Blake (2s-kadena) algorithm'}
+['Kadena (KDA)']
+
+14
+Bitmain Antminer S19 Pro+ Hyd (198Th)
+May 2022
+198Th/s
+5445W
+50db
+SHA-256
+$18.40/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s19-pro-hyd-198th
+Model Antminer S19 Pro+ Hyd (198Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 198Th/s for a power consumption of 5445W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S19 Pro+ Hyd (198Th)', 'Also known as': 'j0-10', 'Release': 'May 2022', 'Size': '410 x 196 x 209mm', 'Weight': '17500g', 'Noise level': '50db', 'Cooling': 'Watercooling', 'Power': '5445W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+15
+Jasminer X4-1U
+Nov 2021
+520Mh/s
+240W
+65db
+EtHash
+$18.24/day
+https://www.asicminervalue.com/miners/jasminer/x4-1u
+Model X4-1U from Jasminer mining EtHash algorithm with a maximum hashrate of 520Mh/s for a power consumption of 240W.
+{'Manufacturer': 'Jasminer', 'Model': 'X4-1U', 'Also known as': 'SUNLUNE JASMINER X4-1U ETCHASH SERVER', 'Release': 'November 2021', 'Size': '450 x 44 x 462mm', 'Noise level': '65db', 'Power': '240W', 'Interface': 'Ethernet', 'Memory': '5GB', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+16
+Jasminer X4-C 1U
+Nov 2021
+450Mh/s
+240W
+65db
+EtHash
+$15.69/day
+https://www.asicminervalue.com/miners/jasminer/x4-c-1u
+Model X4-C 1U from Jasminer mining EtHash algorithm with a maximum hashrate of 450Mh/s for a power consumption of 240W.
+{'Manufacturer': 'Jasminer', 'Model': 'X4-C 1U', 'Also known as': 'SUNLUNE JASMINER X4-C 1U ETCHASH SERVER', 'Release': 'November 2021', 'Size': '450 x 44 x 462mm', 'Noise level': '65db', 'Power': '240W', 'Interface': 'Ethernet', 'Memory': '5GB', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+17
+Innosilicon A10 Pro ETH (500Mh)
+May 2020
+500Mh/s
+960W
+75db
+EtHash
+$15.44/day
+https://www.asicminervalue.com/miners/innosilicon/a10-pro-eth-500mh
+Model A10 Pro ETH (500Mh) from Innosilicon mining EtHash algorithm with a maximum hashrate of 500Mh/s for a power consumption of 960W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A10 Pro ETH (500Mh)', 'Also known as': 'ETH Miner King A10 Pro', 'Release': 'May 2020', 'Size': '136 x 285 x 362mm', 'Weight': '8100g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '960W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Memory': '6G RAM', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+18
+Bitmain Antminer S19 XP (140Th)
+Jul 2022
+140Th/s
+3010W
+75db
+SHA-256
+$15.43/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s19-xp-140th
+Model Antminer S19 XP (140Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 140Th/s for a power consumption of 3010W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S19 XP (140Th)', 'Also known as': 'S19XP', 'Release': 'July 2022', 'Size': '195 x 290 x 400mm', 'Weight': '14500g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3010W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+19
+Goldshell LT6
+Jan 2022
+3.35Gh/s
+3200W
+80db
+Scrypt
+$13.49/day
+https://www.asicminervalue.com/miners/goldshell/lt6
+Model LT6 from Goldshell mining Scrypt algorithm with a maximum hashrate of 3.35Gh/s for a power consumption of 3200W.
+{'Manufacturer': 'Goldshell', 'Model': 'LT6', 'Also known as': 'Goldshell LT6 Litecoin/Dogecoin Miner', 'Release': 'January 2022', 'Size': '264 x 200 x 290mm', 'Weight': '12500g', 'Noise level': '80db', 'Fan(s)': '4', 'Power': '3200W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+20
+StrongU STU-U1++
+Jul 2019
+52Th/s
+2200W
+76db
+Blake256R14
+$12.56/day
+https://www.asicminervalue.com/miners/strongu/stu-u1-2
+Model STU-U1++ from StrongU mining Blake256R14 algorithm with a maximum hashrate of 52Th/s for a power consumption of 2200W.
+{'Manufacturer': 'StrongU', 'Model': 'STU-U1++', 'Also known as': 'Miner U1 Plus Plus', 'Release': 'July 2019', 'Size': '130 x 220 x 390mm', 'Weight': '8200g', 'Noise level': '76db', 'Cooling': '12038 fan', 'Fan(s)': '2', 'Power': '2200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '4 - 45 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+21
+MicroBT Whatsminer D1
+Nov 2018
+48Th/s
+2200W
+75db
+Blake256R14
+$11.10/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-d1
+Model Whatsminer D1 from MicroBT mining Blake256R14 algorithm with a maximum hashrate of 48Th/s for a power consumption of 2200W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer D1', 'Also known as': 'Whatsminer DCR 48Th/s, D10V1', 'Release': 'November 2018', 'Size': '130 x 220 x 390mm', 'Weight': '8500g', 'Chip boards': '3', 'Chip name': 'FinFET', 'Chip size': '16nm', 'Chip count': '315', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C'}
+['Decred (DCR)']
+
+22
+Bitmain Antminer D7 (1286Gh)
+Oct 2021
+1.286Th/s
+3148W
+75db
+X11
+$10.76/day
+https://www.asicminervalue.com/miners/bitmain/antminer-d7-1286gh
+Model Antminer D7 (1286Gh) from Bitmain mining X11 algorithm with a maximum hashrate of 1.286Th/s for a power consumption of 3148W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer D7 (1286Gh)', 'Also known as': 'Antminer D7 1.286Th', 'Release': 'October 2021', 'Size': '400 x 195 x 290mm', 'Weight': '14200g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3148W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+23
+iPollo B2
+Oct 2021
+110Th/s
+3250W
+75db
+SHA-256
+$9.57/day
+https://www.asicminervalue.com/miners/ipollo/b2
+Model B2 from iPollo mining SHA-256 algorithm with a maximum hashrate of 110Th/s for a power consumption of 3250W.
+{'Manufacturer': 'iPollo', 'Model': 'B2', 'Also known as': 'iPollo B II', 'Release': 'October 2021', 'Size': '350 x 158 x 355mm', 'Weight': '20000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3250W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+24
+Bitmain Antminer S19 Pro (110Th)
+May 2020
+110Th/s
+3250W
+75db
+SHA-256
+$9.57/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s19-pro-110th
+Model Antminer S19 Pro (110Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 110Th/s for a power consumption of 3250W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S19 Pro (110Th)', 'Release': 'May 2020', 'Size': '195 x 290 x 370mm', 'Weight': '13200g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3250W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+25
+MicroBT Whatsminer M30S++
+Oct 2020
+112Th/s
+3472W
+75db
+SHA-256
+$9.28/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m30s-2
+Model Whatsminer M30S++ from MicroBT mining SHA-256 algorithm with a maximum hashrate of 112Th/s for a power consumption of 3472W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M30S++', 'Release': 'October 2020', 'Size': '125 x 225 x 425mm', 'Chip size': '12nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3472W', 'Voltage': '12V', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 90 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+26
+Bitmain Antminer S19j Pro (104Th)
+Jul 2021
+104Th/s
+3068W
+75db
+SHA-256
+$9.07/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s19j-pro-104th
+Model Antminer S19j Pro (104Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 104Th/s for a power consumption of 3068W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S19j Pro (104Th)', 'Release': 'July 2021', 'Size': '195 x 290 x 370mm', 'Weight': '13200g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3068W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+27
+Innosilicon A6+ LTCMaster
+Mar 2019
+2.2Gh/s
+2100W
+82db
+Scrypt
+$8.86/day
+https://www.asicminervalue.com/miners/innosilicon/a6-ltcmaster-1
+Model A6+ LTCMaster from Innosilicon mining Scrypt algorithm with a maximum hashrate of 2.2Gh/s for a power consumption of 2100W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A6+ LTCMaster', 'Release': 'March 2019', 'Size': '360 x 155 x 247mm', 'Weight': '9310g', 'Noise level': '82db', 'Fan(s)': '4', 'Power': '2100W', 'Voltage': '12V', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+28
+Bitmain Antminer S19j Pro (100Th)
+Jun 2021
+100Th/s
+3050W
+75db
+SHA-256
+$8.43/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s19j-pro-100th
+Model Antminer S19j Pro (100Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 100Th/s for a power consumption of 3050W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S19j Pro (100Th)', 'Release': 'June 2021', 'Size': '195 x 290 x 370mm', 'Weight': '13200g', 'Noise level': '75db', 'Cooling': '2', 'Fan(s)': '4', 'Power': '3050W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+29
+Bitmain Antminer S19j Pro (96Th)
+Aug 2021
+96Th/s
+2832W
+75db
+SHA-256
+$8.37/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s19j-pro-96th
+Model Antminer S19j Pro (96Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 96Th/s for a power consumption of 2832W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S19j Pro (96Th)', 'Release': 'August 2021', 'Size': '195 x 290 x 400mm', 'Weight': '14200g', 'Noise level': '75db', 'Cooling': '2', 'Fan(s)': '4', 'Power': '2832W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+30
+Bitmain Antminer DR5 (35Th)
+Sep 2021
+35Th/s
+1610W
+76db
+Blake256R14
+$8.08/day
+https://www.asicminervalue.com/miners/bitmain/antminer-dr5-35th
+Model Antminer DR5 (35Th) from Bitmain mining Blake256R14 algorithm with a maximum hashrate of 35Th/s for a power consumption of 1610W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer DR5 (35Th)', 'Release': 'September 2021', 'Size': '178 x 238 x 297mm', 'Weight': '7750g', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1610W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+31
+Goldshell LT5
+Mar 2021
+2.05Gh/s
+2080W
+80db
+Scrypt
+$7.90/day
+https://www.asicminervalue.com/miners/goldshell/lt5
+Model LT5 from Goldshell mining Scrypt algorithm with a maximum hashrate of 2.05Gh/s for a power consumption of 2080W.
+{'Manufacturer': 'Goldshell', 'Model': 'LT5', 'Also known as': 'LT5 Dogecoin + Litecoin', 'Release': 'March 2021', 'Size': '200 x 264 x 290mm', 'Weight': '8500g', 'Noise level': '80db', 'Fan(s)': '2', 'Power': '2080W', 'Voltage': '176~264V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Can mine Litecoin and Dogecoin at the same time.'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+32
+Bitmain Antminer Z15
+Jun 2020
+420ksol/s
+1510W
+72db
+Equihash
+$7.78/day
+https://www.asicminervalue.com/miners/bitmain/antminer-z15
+Model Antminer Z15 from Bitmain mining Equihash algorithm with a maximum hashrate of 420ksol/s for a power consumption of 1510W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer Z15', 'Release': 'June 2020', 'Size': '133 x 245 x 290mm', 'Weight': '9000g', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1510W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['ZenCash (ZEN)', 'Zcash (ZEC)', 'Hush (HUSH)', 'Pirate (ARRR)', 'Horizen (ZEN)', 'Komodo (KMD)']
+
+33
+Goldshell LT5 Pro
+Aug 2021
+2.45Gh/s
+3100W
+80db
+Scrypt
+$7.68/day
+https://www.asicminervalue.com/miners/goldshell/lt5-pro
+Model LT5 Pro from Goldshell mining Scrypt algorithm with a maximum hashrate of 2.45Gh/s for a power consumption of 3100W.
+{'Manufacturer': 'Goldshell', 'Model': 'LT5 Pro', 'Also known as': 'LT5 Pro Dogecoin + Litecoin', 'Release': 'August 2021', 'Size': '200 x 264 x 270mm', 'Weight': '8500g', 'Noise level': '80db', 'Fan(s)': '2', 'Power': '3100W', 'Voltage': '176~264V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+34
+Goldshell CK6
+Dec 2021
+19.3Th/s
+3300W
+80db
+Eaglesong
+$7.63/day
+https://www.asicminervalue.com/miners/goldshell/ck6
+Model CK6 from Goldshell mining Eaglesong algorithm with a maximum hashrate of 19.3Th/s for a power consumption of 3300W.
+{'Manufacturer': 'Goldshell', 'Model': 'CK6', 'Also known as': 'CKB Nervos Miner ', 'Release': 'December 2021', 'Size': '264 x 200 x 290mm', 'Weight': '8500g', 'Noise level': '80db', 'Fan(s)': '4', 'Power': '3300W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Nervos (CKB)']
+
+35
+MicroBT Whatsminer M30S+
+Oct 2020
+100Th/s
+3400W
+75db
+SHA-256
+$7.42/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m30s-1
+Model Whatsminer M30S+ from MicroBT mining SHA-256 algorithm with a maximum hashrate of 100Th/s for a power consumption of 3400W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M30S+', 'Release': 'October 2020', 'Size': '155 x 225 x 425mm', 'Chip size': '12nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3400W', 'Voltage': '12V', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 90 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+36
+Bitmain Antminer DR5 (34Th)
+Dec 2018
+34Th/s
+1800W
+76db
+Blake256R14
+$7.17/day
+https://www.asicminervalue.com/miners/bitmain/antminer-dr5-34th
+Model Antminer DR5 (34Th) from Bitmain mining Blake256R14 algorithm with a maximum hashrate of 34Th/s for a power consumption of 1800W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer DR5 (34Th)', 'Release': 'December 2018', 'Size': '175 x 279 x 238mm', 'Weight': '9400g', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1800W', 'Wires': 'PSU include', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+37
+Bitmain Antminer S19 (95Th)
+May 2020
+95Th/s
+3250W
+75db
+SHA-256
+$6.99/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s19-95th
+Model Antminer S19 (95Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 95Th/s for a power consumption of 3250W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S19 (95Th)', 'Release': 'May 2020', 'Size': '195 x 290 x 400mm', 'Weight': '14500g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3250W', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+38
+Goldshell KD-BOX
+May 2021
+1.6Th/s
+205W
+35db
+Kadena
+$6.17/day
+https://www.asicminervalue.com/miners/goldshell/kd-box
+Model KD-BOX from Goldshell mining Kadena algorithm with a maximum hashrate of 1.6Th/s for a power consumption of 205W.
+{'Manufacturer': 'Goldshell', 'Model': 'KD-BOX', 'Also known as': 'KDA-BOX', 'Release': 'May 2021', 'Size': '150 x 180 x 85mm', 'Noise level': '35db', 'Fan(s)': '2', 'Power': '205W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Kadena (KDA)']
+
+39
+Bitmain Antminer S19j (90Th)
+Jun 2021
+90Th/s
+3250W
+75db
+SHA-256
+$6.13/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s19j-90th
+Model Antminer S19j (90Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 90Th/s for a power consumption of 3250W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S19j (90Th)', 'Release': 'June 2021', 'Size': '195 x 290 x 370mm', 'Weight': '14200g', 'Noise level': '75db', 'Cooling': '2', 'Fan(s)': '5', 'Power': '3250W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+40
+Canaan AvalonMiner 1246
+Jan 2021
+90Th/s
+3420W
+75db
+SHA-256
+$5.64/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-1246
+Model AvalonMiner 1246 from Canaan mining SHA-256 algorithm with a maximum hashrate of 90Th/s for a power consumption of 3420W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 1246', 'Release': 'January 2021', 'Size': '331 x 195 x 292mm', 'Weight': '12800g', 'Chip name': 'A12', 'Noise level': '75db', 'Cooling': '12038', 'Fan(s)': '4', 'Power': '3420W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+41
+Bitmain Antminer T19 (88Th)
+Aug 2021
+88Th/s
+3344W
+75db
+SHA-256
+$5.52/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t19-88th
+Model Antminer T19 (88Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 88Th/s for a power consumption of 3344W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T19 (88Th)', 'Release': 'August 2021', 'Size': '195 x 290 x 400mm', 'Weight': '14200g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3344W', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+42
+MicroBT Whatsminer M30S
+Apr 2020
+86Th/s
+3268W
+72db
+SHA-256
+$5.39/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m30s
+Model Whatsminer M30S from MicroBT mining SHA-256 algorithm with a maximum hashrate of 86Th/s for a power consumption of 3268W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M30S', 'Release': 'April 2020', 'Size': '150 x 225 x 390mm', 'Weight': '10500g', 'Chip boards': '3', 'Chip name': 'Samsung', 'Chip size': '8nm', 'Chip count': '444', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '3268W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+43
+Bitmain Antminer T19 (84Th)
+Jun 2020
+84Th/s
+3150W
+75db
+SHA-256
+$5.39/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t19-84th
+Model Antminer T19 (84Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 84Th/s for a power consumption of 3150W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T19 (84Th)', 'Also known as': 'Model 240-Ca', 'Release': 'June 2020', 'Size': '195 x 290 x 400mm', 'Weight': '14200g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3150W', 'Voltage': '12V', 'Interface': 'Ethernet 10/100M', 'Temperature': '5 - 40 °C', 'Humidity': '10 - 90 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+44
+Goldshell HS5
+Feb 2021
+2.7Th/s
+2650W
+80db
+Handshake, Blake2B-Sia
+$5.12/day
+https://www.asicminervalue.com/miners/goldshell/hs5
+Model HS5 from Goldshell mining 2 algorithms (Handshake, Blake2B-Sia) with a maximum hashrate of 5.4Th/s for a power consumption of 2650W.
+{'Manufacturer': 'Goldshell', 'Model': 'HS5', 'Release': 'February 2021', 'Size': '264 x 200 x 290mm', 'Weight': '8500g', 'Noise level': '80db', 'Fan(s)': '4', 'Power': '2650W', 'Voltage': '176~264V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['SiaCoin (SC)', 'Handshake (HNS)']
+
+45
+iPollo B1
+Oct 2021
+85Th/s
+3400W
+75db
+SHA-256
+$4.84/day
+https://www.asicminervalue.com/miners/ipollo/b1
+Model B1 from iPollo mining SHA-256 algorithm with a maximum hashrate of 85Th/s for a power consumption of 3400W.
+{'Manufacturer': 'iPollo', 'Model': 'B1', 'Also known as': 'iPollo B I ', 'Release': 'October 2021', 'Size': '350 x 158 x 355mm', 'Weight': '20000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3400W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+46
+StrongU Hornbill H8 Pro
+Jul 2021
+84Th/s
+3360W
+76db
+SHA-256
+$4.78/day
+https://www.asicminervalue.com/miners/strongu/hornbill-h8-pro
+Model Hornbill H8 Pro from StrongU mining SHA-256 algorithm with a maximum hashrate of 84Th/s for a power consumption of 3360W.
+{'Manufacturer': 'StrongU', 'Model': 'Hornbill H8 Pro', 'Release': 'July 2021', 'Size': '155 x 223 x 390mm', 'Weight': '11500g', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '3360W', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+47
+Bitmain Antminer S17+ (73Th)
+Dec 2019
+73Th/s
+2920W
+75db
+SHA-256
+$4.16/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s17-73th
+Model Antminer S17+ (73Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 73Th/s for a power consumption of 2920W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S17+ (73Th)', 'Also known as': '266-Aa', 'Release': 'December 2019', 'Size': '175 x 298 x 304mm', 'Weight': '11000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '2920W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+48
+Canaan AvalonMiner 1166 Pro
+Aug 2020
+81Th/s
+3400W
+75db
+SHA-256
+$4.15/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-1166-pro
+Model AvalonMiner 1166 Pro from Canaan mining SHA-256 algorithm with a maximum hashrate of 81Th/s for a power consumption of 3400W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 1166 Pro', 'Also known as': 'A1166 Pro', 'Release': 'August 2020', 'Size': '306 x 405 x 442mm', 'Weight': '12800g', 'Noise level': '75db', 'Cooling': '12038', 'Fan(s)': '4', 'Power': '3400W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+49
+MicroBT Whatsminer M31S+
+Dec 2020
+80Th/s
+3360W
+70db
+SHA-256
+$4.09/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m31s-1
+Model Whatsminer M31S+ from MicroBT mining SHA-256 algorithm with a maximum hashrate of 80Th/s for a power consumption of 3360W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M31S+', 'Also known as': 'M31S PLUS', 'Release': 'December 2020', 'Size': '120 x 230 x 390mm', 'Weight': '11500g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '3360W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+50
+Innosilicon A6 LTCMaster
+Jan 2018
+1.23Gh/s
+1500W
+82db
+Scrypt
+$4.02/day
+https://www.asicminervalue.com/miners/innosilicon/a6-ltcmaster
+Model A6 LTCMaster from Innosilicon mining Scrypt algorithm with a maximum hashrate of 1.23Gh/s for a power consumption of 1500W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A6 LTCMaster', 'Release': 'January 2018', 'Size': '350 x 155 x 500mm', 'Weight': '7550g', 'Chip boards': '8', 'Noise level': '82db', 'Fan(s)': '4', 'Power': '1500W', 'Wires': '17 * 6pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+51
+Goldshell X5S
+Oct 2021
+1.36Gh/s
+1850W
+70db
+Scrypt
+$3.89/day
+https://www.asicminervalue.com/miners/goldshell/x5s
+Model X5S from Goldshell mining 2 algorithms (Scrypt) with a maximum hashrate of 1.36Gh/s for a power consumption of 1850W.
+{'Manufacturer': 'Goldshell', 'Model': 'X5S', 'Release': 'October 2021', 'Size': '125 x 160 x 415mm', 'Weight': '5200g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1850W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+52
+Goldshell CK5
+Mar 2021
+12Th/s
+2400W
+80db
+Eaglesong
+$3.74/day
+https://www.asicminervalue.com/miners/goldshell/ck5
+Model CK5 from Goldshell mining Eaglesong algorithm with a maximum hashrate of 12Th/s for a power consumption of 2400W.
+{'Manufacturer': 'Goldshell', 'Model': 'CK5', 'Also known as': 'CKB Miner', 'Release': 'March 2021', 'Size': '264 x 200 x 290mm', 'Weight': '8500g', 'Noise level': '80db', 'Fan(s)': '2', 'Power': '2400W', 'Voltage': '220V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Nervos (CKB)']
+
+53
+Goldshell HS3
+Oct 2020
+2Th/s
+2000W
+75db
+Handshake, Blake2B-Sia
+$3.69/day
+https://www.asicminervalue.com/miners/goldshell/hs3
+Model HS3 from Goldshell mining 2 algorithms (Handshake, Blake2B-Sia) with a maximum hashrate of 4Th/s for a power consumption of 2000W.
+{'Manufacturer': 'Goldshell', 'Model': 'HS3', 'Also known as': 'HS3 Handshake miner 2000Gh/s', 'Release': 'October 2020', 'Size': '180 x 280 x 310mm', 'Weight': '7000g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2000W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['SiaCoin (SC)', 'Handshake (HNS)']
+
+54
+MicroBT Whatsminer M31S
+Apr 2020
+76Th/s
+3220W
+75db
+SHA-256
+$3.45/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m31s
+Model Whatsminer M31S from MicroBT mining SHA-256 algorithm with a maximum hashrate of 76Th/s for a power consumption of 3220W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M31S', 'Release': 'April 2020', 'Size': '130 x 220 x 390mm', 'Weight': '12500g', 'Chip size': '12nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3220W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+55
+StrongU Hornbill H8
+Oct 2020
+74Th/s
+3330W
+76db
+SHA-256
+$3.15/day
+https://www.asicminervalue.com/miners/strongu/hornbill-h8
+Model Hornbill H8 from StrongU mining SHA-256 algorithm with a maximum hashrate of 74Th/s for a power consumption of 3330W.
+{'Manufacturer': 'StrongU', 'Model': 'Hornbill H8', 'Release': 'October 2020', 'Size': '155 x 223 x 390mm', 'Weight': '11500g', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '3330W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+56
+Bitmain Antminer S17 Pro (53Th)
+Apr 2019
+53Th/s
+2094W
+82db
+SHA-256
+$3.09/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s17-pro-53th
+Model Antminer S17 Pro (53Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 53Th/s for a power consumption of 2094W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S17 Pro (53Th)', 'Also known as': 'Antminer S17 Pro-53TH/s', 'Release': 'April 2019', 'Size': '178 x 296 x 298mm', 'Weight': '9500g', 'Chip boards': '3', 'Chip name': 'BM1397', 'Chip size': '7nm', 'Chip count': '144', 'Noise level': '82db', 'Fan(s)': '4', 'Power': '2094W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+57
+Bitmain Antminer S17 Pro (50Th)
+Apr 2019
+50Th/s
+1975W
+82db
+SHA-256
+$2.92/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s17-pro-50th
+Model Antminer S17 Pro (50Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 50Th/s for a power consumption of 1975W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S17 Pro (50Th)', 'Also known as': 'Antminer S17 Pro-50TH/s', 'Release': 'April 2019', 'Size': '178 x 296 x 298mm', 'Weight': '9500g', 'Chip boards': '3', 'Chip name': 'BM1397', 'Chip size': '7nm', 'Chip count': '144', 'Noise level': '82db', 'Fan(s)': '4', 'Power': '1975W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+58
+Bitmain Antminer S17e (64Th)
+Nov 2019
+64Th/s
+2880W
+80db
+SHA-256
+$2.72/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s17e-64th
+Model Antminer S17e (64Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 64Th/s for a power consumption of 2880W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S17e (64Th)', 'Also known as': 'Antminer S17e 64TH/s (266-A)', 'Release': 'November 2019', 'Size': '175 x 304 x 338mm', 'Weight': '10500g', 'Chip boards': '3', 'Chip name': 'BM1397', 'Chip size': '7nm', 'Chip count': '144', 'Noise level': '80db', 'Fan(s)': '4', 'Power': '2880W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+59
+FusionSilicon X6 Miner
+Aug 2018
+860Mh/s
+1079W
+72db
+Scrypt
+$2.72/day
+https://www.asicminervalue.com/miners/fusionsilicon/x6-miner
+Model X6 Miner from FusionSilicon mining Scrypt algorithm with a maximum hashrate of 860Mh/s for a power consumption of 1079W.
+{'Manufacturer': 'FusionSilicon', 'Model': 'X6 Miner', 'Release': 'August 2018', 'Size': '130 x 198 x 340mm', 'Weight': '4300g', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1079W', 'Voltage': '12-13V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+60
+Innosilicon T3+ 52T
+May 2019
+52Th/s
+2800W
+75db
+SHA-256
+$2.61/day
+https://www.asicminervalue.com/miners/innosilicon/t3-52t
+Model T3+ 52T from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 52Th/s for a power consumption of 2800W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T3+ 52T', 'Also known as': 'Terminator3-Plus-52T', 'Release': 'May 2019', 'Size': '141 x 220 x 430mm', 'Weight': '10000g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2800W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+61
+Bolon Miner B11
+Aug 2021
+70Th/s
+3300W
+75db
+SHA-256
+$2.55/day
+https://www.asicminervalue.com/miners/bolon-miner/b11
+Model B11 from Bolon Miner mining SHA-256 algorithm with a maximum hashrate of 70Th/s for a power consumption of 3300W.
+{'Manufacturer': 'Bolon Miner', 'Model': 'B11', 'Also known as': 'Bolonminer B11', 'Release': 'August 2021', 'Size': '390 x 223 x 155mm', 'Weight': '11500g', 'Noise level': '75db', 'Cooling': '1412 Fan', 'Fan(s)': '2', 'Power': '3300W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+62
+Bitmain Antminer S17 (56Th)
+Apr 2019
+56Th/s
+2520W
+82db
+SHA-256
+$2.38/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s17-56th
+Model Antminer S17 (56Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 56Th/s for a power consumption of 2520W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S17 (56Th)', 'Also known as': 'Antminer S17-56TH/s', 'Release': 'April 2019', 'Size': '178 x 296 x 298mm', 'Weight': '9500g', 'Chip boards': '3', 'Chip name': 'BM1397', 'Chip size': '7nm', 'Chip count': '144', 'Noise level': '82db', 'Fan(s)': '4', 'Power': '2520W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+63
+Jasminer X4 BRICK
+Dec 2021
+65Mh/s
+30W
+50db
+EtHash
+$2.28/day
+https://www.asicminervalue.com/miners/jasminer/x4-brick
+Model X4 BRICK from Jasminer mining EtHash algorithm with a maximum hashrate of 65Mh/s for a power consumption of 30W.
+{'Manufacturer': 'Jasminer', 'Model': 'X4 BRICK', 'Also known as': 'SUNLUNE JASMINER X4 ETCHASH BRICK', 'Release': 'December 2021', 'Size': '257 x 100 x 200mm', 'Weight': '4800g', 'Noise level': '50db', 'Cooling': 'Fanless', 'Power': '30W', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Ubiq (UBQ)', 'Ethereum (ETH)', 'Ethereum Classic (ETC)', 'Musicoin (MUSIC)', 'Pirl (PIRL)', 'EtherGem (EGEM)', 'Callisto (CLO)', 'QuarkChain (QKC)']
+
+64
+StrongU STU-U8 Pro
+Sep 2019
+60Th/s
+2800W
+76db
+SHA-256
+$2.26/day
+https://www.asicminervalue.com/miners/strongu/stu-u8-pro
+Model STU-U8 Pro from StrongU mining SHA-256 algorithm with a maximum hashrate of 60Th/s for a power consumption of 2800W.
+{'Manufacturer': 'StrongU', 'Model': 'STU-U8 Pro', 'Also known as': 'Miner U8 Pro', 'Release': 'September 2019', 'Size': '182 x 220 x 390mm', 'Weight': '8200g', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '2800W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+65
+Bitmain Antminer S17 (53Th)
+Apr 2019
+53Th/s
+2385W
+82db
+SHA-256
+$2.25/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s17-53th
+Model Antminer S17 (53Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 53Th/s for a power consumption of 2385W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S17 (53Th)', 'Also known as': 'Antminer S17-53TH/s', 'Release': 'April 2019', 'Size': '178 x 296 x 298mm', 'Weight': '9500g', 'Chip boards': '3', 'Chip name': 'BM1397', 'Chip size': '7nm', 'Chip count': '144', 'Noise level': '82db', 'Fan(s)': '4', 'Power': '2385W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+66
+Goldshell X5
+Jul 2021
+850Mh/s
+1450W
+70db
+Scrypt
+$2.17/day
+https://www.asicminervalue.com/miners/goldshell/x5
+Model X5 from Goldshell mining 3 algorithms (Scrypt) with a maximum hashrate of 850Mh/s for a power consumption of 1450W.
+{'Manufacturer': 'Goldshell', 'Model': 'X5', 'Release': 'July 2021', 'Size': '125 x 190 x 375mm', 'Weight': '4600g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1450W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+67
+Innosilicon A4+ LTCMaster
+Nov 2017
+620Mh/s
+750W
+80db
+Scrypt
+$2.04/day
+https://www.asicminervalue.com/miners/innosilicon/a4-ltcmaster
+Model A4+ LTCMaster from Innosilicon mining Scrypt algorithm with a maximum hashrate of 620Mh/s for a power consumption of 750W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A4+ LTCMaster', 'Release': 'November 2017', 'Size': '125 x 155 x 350mm', 'Weight': '3830g', 'Chip boards': '4', 'Chip size': '14nm', 'Chip count': '288', 'Noise level': '80db', 'Fan(s)': '2', 'Power': '750W', 'Wires': '9 * 6Pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+68
+MicroBT Whatsminer M20S
+Aug 2019
+68Th/s
+3360W
+75db
+SHA-256
+$2.03/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m20s
+Model Whatsminer M20S from MicroBT mining SHA-256 algorithm with a maximum hashrate of 68Th/s for a power consumption of 3360W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M20S', 'Release': 'August 2019', 'Size': '130 x 220 x 390mm', 'Weight': '12500g', 'Chip name': 'TSMC', 'Chip size': '12nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3360W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+69
+Ebang Ebit E11++
+Oct 2018
+44Th/s
+1980W
+75db
+SHA-256
+$1.87/day
+https://www.asicminervalue.com/miners/ebang/ebit-e11-2
+Model Ebit E11++ from Ebang mining SHA-256 algorithm with a maximum hashrate of 44Th/s for a power consumption of 1980W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E11++', 'Also known as': 'E11++ 44T', 'Release': 'October 2018', 'Chip name': 'DW1228', 'Chip size': '10nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1980W', 'Voltage': '11.8V～13.0V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+70
+StrongU STU-U8
+Jul 2019
+46Th/s
+2100W
+76db
+SHA-256
+$1.87/day
+https://www.asicminervalue.com/miners/strongu/stu-u8
+Model STU-U8 from StrongU mining SHA-256 algorithm with a maximum hashrate of 46Th/s for a power consumption of 2100W.
+{'Manufacturer': 'StrongU', 'Model': 'STU-U8', 'Also known as': 'Miner U8', 'Release': 'July 2019', 'Size': '130 x 220 x 390mm', 'Weight': '8200g', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '2100W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+71
+Canaan AvalonMiner 1126 Pro
+Aug 2021
+68Th/s
+3420W
+75db
+SHA-256
+$1.86/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-1126-pro
+Model AvalonMiner 1126 Pro from Canaan mining SHA-256 algorithm with a maximum hashrate of 68Th/s for a power consumption of 3420W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 1126 Pro', 'Also known as': 'Avalon 1126 Pro S', 'Release': 'August 2021', 'Size': '331 x 195 x 292mm', 'Weight': '11200g', 'Chip name': 'K210', 'Noise level': '75db', 'Power': '3420W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+72
+Bitmain Antminer T17+ (64Th)
+Dec 2019
+64Th/s
+3200W
+75db
+SHA-256
+$1.80/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t17-64th
+Model Antminer T17+ (64Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 64Th/s for a power consumption of 3200W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T17+ (64Th)', 'Also known as': '266-Aa', 'Release': 'December 2019', 'Size': '175 x 298 x 304mm', 'Weight': '10000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+73
+Goldshell HS3-SE
+Nov 2020
+930Gh/s
+930W
+55db
+Handshake, Blake2B-Sia
+$1.71/day
+https://www.asicminervalue.com/miners/goldshell/hs3-se
+Model HS3-SE from Goldshell mining 2 algorithms (Handshake, Blake2B-Sia) with a maximum hashrate of 1.86Th/s for a power consumption of 930W.
+{'Manufacturer': 'Goldshell', 'Model': 'HS3-SE', 'Release': 'November 2020', 'Size': '200 x 264 x 290mm', 'Weight': '7300g', 'Noise level': '55db', 'Fan(s)': '4', 'Power': '930W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['SiaCoin (SC)', 'Handshake (HNS)']
+
+74
+MicroBT Whatsminer M32S
+Nov 2020
+66Th/s
+3432W
+75db
+SHA-256
+$1.48/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m32s
+Model Whatsminer M32S from MicroBT mining SHA-256 algorithm with a maximum hashrate of 66Th/s for a power consumption of 3432W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M32S', 'Release': 'November 2020', 'Size': '150 x 240 x 390mm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3432W', 'Voltage': '220V', 'Interface': 'Ethernet', 'Temperature': '-5 - 4 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+75
+Bitmain Antminer L3+ (600Mh)
+Oct 2017
+600Mh/s
+850W
+75db
+Scrypt
+$1.45/day
+https://www.asicminervalue.com/miners/bitmain/antminer-l3-600mh
+Model Antminer L3+ (600Mh) from Bitmain mining Scrypt algorithm with a maximum hashrate of 600Mh/s for a power consumption of 850W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer L3+ (600Mh)', 'Release': 'October 2017', 'Size': '188 x 130 x 352mm', 'Weight': '4400g', 'Chip boards': '4', 'Chip name': 'BM1485', 'Chip count': '288', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '850W', 'Wires': '9 * 6pins  ', 'Voltage': '11.6 ~ 13.0V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Overclocked L3+'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+76
+Canaan AvalonMiner 1146 Pro
+Aug 2020
+63Th/s
+3276W
+75db
+SHA-256
+$1.41/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-1146-pro
+Model AvalonMiner 1146 Pro from Canaan mining SHA-256 algorithm with a maximum hashrate of 63Th/s for a power consumption of 3276W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 1146 Pro', 'Also known as': 'A1146 Pro', 'Release': 'August 2020', 'Size': '306 x 405 x 442mm', 'Weight': '12800g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '3276W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+77
+Ebang Ebit E12+
+Sep 2019
+50Th/s
+2500W
+75db
+SHA-256
+$1.41/day
+https://www.asicminervalue.com/miners/ebang/ebit-e12-1
+Model Ebit E12+ from Ebang mining SHA-256 algorithm with a maximum hashrate of 50Th/s for a power consumption of 2500W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E12+', 'Also known as': 'E12+ 50TH/S', 'Release': 'September 2019', 'Size': '215 x 196 x 310mm', 'Weight': '10500g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '2500W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+78
+Innosilicon T3 43T
+Jan 2019
+43Th/s
+2100W
+75db
+SHA-256
+$1.35/day
+https://www.asicminervalue.com/miners/innosilicon/t3-43t
+Model T3 43T from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 43Th/s for a power consumption of 2100W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T3 43T', 'Also known as': 'Terminator3-43T', 'Release': 'January 2019', 'Size': '141 x 220 x 430mm', 'Weight': '10000g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2100W', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+79
+Bitmain Antminer L3++ (580Mh)
+May 2018
+580Mh/s
+942W
+76db
+Scrypt
+$1.22/day
+https://www.asicminervalue.com/miners/bitmain/antminer-l3-580mh
+Model Antminer L3++ (580Mh) from Bitmain mining Scrypt algorithm with a maximum hashrate of 580Mh/s for a power consumption of 942W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer L3++ (580Mh)', 'Release': 'May 2018', 'Size': '188 x 130 x 352mm', 'Weight': '4400g', 'Chip boards': '4', 'Chip count': '288', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '942W', 'Wires': '9*6pin', 'Voltage': '11.60~13.00 V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+80
+Goldshell ST-BOX
+Aug 2021
+13.92kh/s
+61W
+35db
+CryptoNightR
+$1.19/day
+https://www.asicminervalue.com/miners/goldshell/st-box
+Model ST-BOX from Goldshell mining CryptoNightR algorithm with a maximum hashrate of 13.92kh/s for a power consumption of 61W.
+{'Manufacturer': 'Goldshell', 'Model': 'ST-BOX', 'Release': 'August 2021', 'Size': '150 x 175 x 84mm', 'Weight': '2000g', 'Noise level': '35db', 'Fan(s)': '1', 'Power': '61W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Sumokoin (SUMO)', 'StarCoin (STC)', 'Lethean (LTHN)']
+
+81
+Bitmain Antminer L3+ (504Mh)
+Jun 2017
+504Mh/s
+800W
+70db
+Scrypt
+$1.11/day
+https://www.asicminervalue.com/miners/bitmain/antminer-l3-504mh
+Model Antminer L3+ (504Mh) from Bitmain mining Scrypt algorithm with a maximum hashrate of 504Mh/s for a power consumption of 800W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer L3+ (504Mh)', 'Release': 'June 2017', 'Size': '188 x 130 x 352mm', 'Weight': '4400g', 'Chip boards': '4', 'Chip name': 'BM1485', 'Chip count': '288', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '800W', 'Wires': '9 * 6pins  ', 'Voltage': '11.6 ~ 13.0V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+82
+MicroBT Whatsminer M32
+Jul 2020
+62Th/s
+3348W
+75db
+SHA-256
+$1.03/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m32
+Model Whatsminer M32 from MicroBT mining SHA-256 algorithm with a maximum hashrate of 62Th/s for a power consumption of 3348W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M32', 'Release': 'July 2020', 'Size': '230 x 350 x 490mm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3348W', 'Interface': 'Ethernet', 'Temperature': '0 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+83
+Bitmain Antminer L3++ (596Mh)
+May 2018
+596Mh/s
+1050W
+70db
+Scrypt
+$1.02/day
+https://www.asicminervalue.com/miners/bitmain/antminer-l3-596mh
+Model Antminer L3++ (596Mh) from Bitmain mining Scrypt algorithm with a maximum hashrate of 596Mh/s for a power consumption of 1050W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer L3++ (596Mh)', 'Release': 'May 2018', 'Size': '188 x 130 x 352mm', 'Weight': '4600g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1050W', 'Wires': '9*6pins', 'Voltage': '11.6 ~ 13.0V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+84
+BW L21
+Jan 2018
+550Mh/s
+950W
+75db
+Scrypt
+$0.99/day
+https://www.asicminervalue.com/miners/bw/l21
+Model L21 from BW mining Scrypt algorithm with a maximum hashrate of 550Mh/s for a power consumption of 950W.
+{'Manufacturer': 'BW', 'Model': 'L21', 'Release': 'January 2018', 'Size': '130 x 155 x 350mm', 'Weight': '5750g', 'Chip boards': '3', 'Chip size': '28nm', 'Chip count': '144', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '950W', 'Wires': '6 * 6pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+85
+Baikal BK-G28
+Oct 2018
+28Gh/s
+1300W
+70db
+X11, Quark, Qubit, Myriad-Groestl, Nist5, Skein, X11Gost, Groestl
+$0.88/day
+https://www.asicminervalue.com/miners/baikal/bk-g28
+Model BK-G28 from Baikal mining 8 algorithms (X11, Quark, Qubit, Myriad-Groestl, Nist5, Skein, X11Gost, Groestl) with a maximum hashrate of 28Gh/s for a power consumption of 1300W.
+{'Manufacturer': 'Baikal', 'Model': 'BK-G28', 'Release': 'October 2018', 'Size': '300 x 190 x 158mm', 'Weight': '6550g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1300W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'DigiByte (DGB)', 'Groestlcoin (GRS)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'Quark (QRK)', 'Bulwark (BWK)', 'Sibcoin (SIB)', 'Myriad-Groestl (XMY)', 'DigitalpriceClassic (DPC)']
+
+86
+Bitmain Antminer T17e (53Th)
+Nov 2019
+53Th/s
+2915W
+80db
+SHA-256
+$0.73/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t17e-53th
+Model Antminer T17e (53Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 53Th/s for a power consumption of 2915W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T17e (53Th)', 'Also known as': 'Antminer T17e 53TH/s (266-A)', 'Release': 'November 2019', 'Size': '175 x 298 x 304mm', 'Noise level': '80db', 'Fan(s)': '4', 'Power': '2915W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+87
+iPollo G1 Mini
+Jan 2021
+1.2GPS
+120W
+40db
+Cuckatoo32
+$0.61/day
+https://www.asicminervalue.com/miners/ipollo/g1-mini
+Model G1 Mini from iPollo mining Cuckatoo32 algorithm with a maximum hashrate of 1.2GPS for a power consumption of 120W.
+{'Manufacturer': 'iPollo', 'Model': 'G1 Mini', 'Release': 'January 2021', 'Size': '148 x 158 x 78mm', 'Weight': '1g', 'Noise level': '40db', 'Power': '120W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+
+88
+Goldshell Mini-DOGE
+Jul 2021
+185Mh/s
+233W
+35db
+Scrypt
+$0.58/day
+https://www.asicminervalue.com/miners/goldshell/mini-doge
+Model Mini-DOGE from Goldshell mining Scrypt algorithm with a maximum hashrate of 185Mh/s for a power consumption of 233W.
+{'Manufacturer': 'Goldshell', 'Model': 'Mini-DOGE', 'Release': 'July 2021', 'Size': '150 x 175 x 84mm', 'Weight': '2000g', 'Noise level': '35db', 'Fan(s)': '2', 'Power': '233W', 'Interface': 'Ethernet / WIFI', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 85 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+89
+Bitmain Antminer T17 (40Th)
+May 2019
+40Th/s
+2200W
+82db
+SHA-256
+$0.55/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t17-40th
+Model Antminer T17 (40Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 40Th/s for a power consumption of 2200W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T17 (40Th)', 'Release': 'May 2019', 'Size': '298 x 178 x 296mm', 'Weight': '11500g', 'Chip boards': '3', 'Chip count': '90', 'Noise level': '82db', 'Fan(s)': '4', 'Power': '2200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '10 - 90 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+90
+Innosilicon T3 39T
+Mar 2019
+39Th/s
+2150W
+75db
+SHA-256
+$0.52/day
+https://www.asicminervalue.com/miners/innosilicon/t3-39t
+Model T3 39T from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 39Th/s for a power consumption of 2150W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T3 39T', 'Release': 'March 2019', 'Size': '140 x 198 x 415mm', 'Weight': '8650g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2150W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+91
+Ebang Ebit E11+
+Oct 2018
+37Th/s
+2035W
+75db
+SHA-256
+$0.51/day
+https://www.asicminervalue.com/miners/ebang/ebit-e11-1
+Model Ebit E11+ from Ebang mining SHA-256 algorithm with a maximum hashrate of 37Th/s for a power consumption of 2035W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E11+', 'Also known as': 'E11+ 37T', 'Release': 'October 2018', 'Chip name': 'DW1228', 'Chip size': '10nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2035W', 'Voltage': '11.8V～13.0V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+92
+Bitmain Antminer S15 (28Th)
+Dec 2018
+28Th/s
+1596W
+76db
+SHA-256
+$0.48/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s15-28th
+Model Antminer S15 (28Th) from Bitmain mining 2 algorithms (SHA-256) with a maximum hashrate of 28Th/s for a power consumption of 1596W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S15 (28Th)', 'Release': 'December 2018', 'Size': '176 x 221 x 279mm', 'Weight': '7000g', 'Chip name': 'BM1391BE', 'Chip size': '7nm', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1596W', 'Wires': 'APW8 PSU included', 'Voltage': '16V-18V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+93
+Goldshell HS-BOX
+May 2021
+235Gh/s
+230W
+35db
+Handshake, Blake2B-Sia
+$0.45/day
+https://www.asicminervalue.com/miners/goldshell/hs-box
+Model HS-BOX from Goldshell mining 2 algorithms (Handshake, Blake2B-Sia) with a maximum hashrate of 470Gh/s for a power consumption of 230W.
+{'Manufacturer': 'Goldshell', 'Model': 'HS-BOX', 'Release': 'May 2021', 'Size': '175 x 150 x 84mm', 'Noise level': '35db', 'Fan(s)': '2', 'Power': '230W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['SiaCoin (SC)', 'Handshake (HNS)']
+
+94
+StrongU STU-U6
+Nov 2019
+440Gh/s
+2200W
+76db
+X11
+$0.45/day
+https://www.asicminervalue.com/miners/strongu/stu-u6
+Model STU-U6 from StrongU mining X11 algorithm with a maximum hashrate of 440Gh/s for a power consumption of 2200W.
+{'Manufacturer': 'StrongU', 'Model': 'STU-U6', 'Release': 'November 2019', 'Size': '135 x 208 x 370mm', 'Weight': '7200g', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '2200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+95
+Ebang Ebit E12
+Sep 2019
+44Th/s
+2500W
+75db
+SHA-256
+$0.37/day
+https://www.asicminervalue.com/miners/ebang/ebit-e12
+Model Ebit E12 from Ebang mining SHA-256 algorithm with a maximum hashrate of 44Th/s for a power consumption of 2500W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E12', 'Also known as': 'E12 44TH/S', 'Release': 'September 2019', 'Size': '215 x 196 x 310mm', 'Weight': '10150g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '2500W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+96
+Goldshell CK-BOX
+Jul 2021
+1.05Th/s
+215W
+35db
+Eaglesong
+$0.31/day
+https://www.asicminervalue.com/miners/goldshell/ck-box
+Model CK-BOX from Goldshell mining Eaglesong algorithm with a maximum hashrate of 1.05Th/s for a power consumption of 215W.
+{'Manufacturer': 'Goldshell', 'Model': 'CK-BOX', 'Also known as': 'CK-BOX 1050GH/s', 'Release': 'July 2021', 'Size': '175 x 150 x 84mm', 'Weight': '2000g', 'Noise level': '35db', 'Fan(s)': '1', 'Power': '215W', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Nervos (CKB)']
+
+97
+Innosilicon T3+ 57T
+Sep 2019
+57Th/s
+3300W
+75db
+SHA-256
+$0.31/day
+https://www.asicminervalue.com/miners/innosilicon/t3-57t
+Model T3+ 57T from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 57Th/s for a power consumption of 3300W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T3+ 57T', 'Also known as': 'T3+57T', 'Release': 'September 2019', 'Size': '203 x 305 x 278mm', 'Weight': '10380g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3300W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+98
+Goldshell HS1-PLUS
+Oct 2020
+105Gh/s
+115W
+34db
+Handshake
+$0.16/day
+https://www.asicminervalue.com/miners/goldshell/hs1-plus
+Model HS1-PLUS from Goldshell mining Handshake algorithm with a maximum hashrate of 105Gh/s for a power consumption of 115W.
+{'Manufacturer': 'Goldshell', 'Model': 'HS1-PLUS', 'Also known as': 'HS1+', 'Release': 'October 2020', 'Size': '86 x 97 x 157mm', 'Weight': '450g', 'Noise level': '34db', 'Fan(s)': '1', 'Power': '115W', 'Wires': 'PCIe 6pin', 'Voltage': '12V~15A', 'Interface': 'USB', 'Temperature': '5 - 35 °C', 'Humidity': '10 - 90 %'}
+['Handshake (HNS)']
+
+99
+Baikal BK-X
+Nov 2017
+10Gh/s
+630W
+65db
+X11, Quark, Qubit, Myriad-Groestl, Skein, Nist5, X11Gost, Groestl
+$0.16/day
+https://www.asicminervalue.com/miners/baikal/bk-x
+Model BK-X from Baikal mining 8 algorithms (X11, Quark, Qubit, Myriad-Groestl, Skein, Nist5, X11Gost, Groestl) with a maximum hashrate of 10Gh/s for a power consumption of 630W.
+{'Manufacturer': 'Baikal', 'Model': 'BK-X', 'Also known as': 'Giant X10', 'Release': 'November 2017', 'Size': '125 x 130 x 312mm', 'Weight': '3700g', 'Chip boards': '3', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '630W', 'Wires': '6 * 6pins', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': 'null - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'DigiByte (DGB)', 'Groestlcoin (GRS)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'Quark (QRK)', 'Bulwark (BWK)', 'Sibcoin (SIB)', 'Myriad-Groestl (XMY)', 'DigitalpriceClassic (DPC)']
+
+100
+Goldshell LB-BOX
+Aug 2021
+175Gh/s
+162W
+35db
+Lbry
+$0.15/day
+https://www.asicminervalue.com/miners/goldshell/lb-box
+Model LB-BOX from Goldshell mining Lbry algorithm with a maximum hashrate of 175Gh/s for a power consumption of 162W.
+{'Manufacturer': 'Goldshell', 'Model': 'LB-BOX', 'Also known as': 'LB-BOX', 'Release': 'August 2021', 'Size': '150 x 180 x 85mm', 'Noise level': '35db', 'Fan(s)': '2', 'Power': '162W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['LBRY (LBC)']
+
+101
+Goldshell LB1
+Apr 2021
+87Gh/s
+80W
+55db
+Lbry
+$0.08/day
+https://www.asicminervalue.com/miners/goldshell/lb1
+Model LB1 from Goldshell mining Lbry algorithm with a maximum hashrate of 87Gh/s for a power consumption of 80W.
+{'Manufacturer': 'Goldshell', 'Model': 'LB1', 'Also known as': 'Lbry Miner 87 ', 'Release': 'April 2021', 'Size': '155 x 97 x 86mm', 'Weight': '1100g', 'Noise level': '55db', 'Fan(s)': '1', 'Power': '80W', 'Voltage': 'PCI-E 6pin 12V', 'Interface': 'USB-A', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['LBRY (LBC)']
+
+102
+Dayun Zig M1
+Nov 2018
+2.611Gh/s
+784W
+db
+Groestl, Myriad-Groestl, Lbry, Pascal, Lyra2REv2
+$0.03/day
+https://www.asicminervalue.com/miners/dayun/zig-m1
+Model Zig M1 from Dayun mining 5 algorithms (Groestl, Myriad-Groestl, Lbry, Pascal, Lyra2REv2) with a maximum hashrate of 4.3Gh/s for a power consumption of 784W.
+{'Manufacturer': 'Dayun', 'Model': 'Zig M1', 'Release': 'November 2018', 'Size': '140 x 170 x 300mm', 'Weight': '5800g', 'Fan(s)': '2', 'Power': '784W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Vertcoin (VTC)', 'PascalCoin (PASC)', 'Monacoin (MONA)', 'Groestlcoin (GRS)', 'PascalLite (PASL)', 'LBRY (LBC)', 'Myriad-Groestl (XMY)', 'Galactrum (ORE)', 'Rupee (RUP)', 'Straks (STAK)']
+
+103
+Baikal BK-B
+Jan 2018
+160Gh/s
+410W
+65db
+Blake256R14, Blake256R8, Blake2B, Lbry, Pascal
+-$0.01/day
+https://www.asicminervalue.com/miners/baikal/bk-b
+Model BK-B from Baikal mining 5 algorithms (Blake256R14, Blake256R8, Blake2B, Lbry, Pascal) with a maximum hashrate of 160Gh/s for a power consumption of 410W.
+{'Manufacturer': 'Baikal', 'Model': 'BK-B', 'Also known as': 'Giant B', 'Release': 'January 2018', 'Size': '125 x 130 x 312mm', 'Weight': '3800g', 'Chip boards': '3', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '410W', 'Wires': '6 * 6pins', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['PascalCoin (PASC)', 'PascalLite (PASL)', 'LBRY (LBC)', 'Decred (DCR)', 'SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+104
+Bitmain Antminer T15 (23Th)
+Dec 2018
+23Th/s
+1541W
+75db
+SHA-256
+-$0.01/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t15-23th
+Model Antminer T15 (23Th) from Bitmain mining 2 algorithms (SHA-256) with a maximum hashrate of 23Th/s for a power consumption of 1541W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T15 (23Th)', 'Release': 'December 2018', 'Size': '176 x 205 x 279mm', 'Weight': '6600g', 'Chip size': '7nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1541W', 'Wires': 'APW8 PSU included', 'Voltage': '16V-18V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+105
+MicroBT Whatsminer M21
+Aug 2019
+31Th/s
+1860W
+75db
+SHA-256
+-$0.02/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m21
+Model Whatsminer M21 from MicroBT mining SHA-256 algorithm with a maximum hashrate of 31Th/s for a power consumption of 1860W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M21', 'Release': 'August 2019', 'Size': '200 x 300 x 440mm', 'Weight': '7150g', 'Chip name': 'TSMC', 'Chip size': '12nm', 'Noise level': '75db', 'Power': '1860W', 'Interface': 'Ethernet', 'Temperature': '-5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+106
+MicroBT Whatsminer M21S
+Jun 2019
+56Th/s
+3360W
+75db
+SHA-256
+-$0.04/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m21s
+Model Whatsminer M21S from MicroBT mining SHA-256 algorithm with a maximum hashrate of 56Th/s for a power consumption of 3360W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M21S', 'Release': 'June 2019', 'Size': '155 x 240 x 390mm', 'Weight': '12500g', 'Chip name': 'TSMC', 'Chip size': '12nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3360W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+107
+FusionSilicon X7 Miner
+Mar 2019
+262Gh/s
+1420W
+72db
+X11
+-$0.05/day
+https://www.asicminervalue.com/miners/fusionsilicon/x7-miner
+Model X7 Miner from FusionSilicon mining X11 algorithm with a maximum hashrate of 262Gh/s for a power consumption of 1420W.
+{'Manufacturer': 'FusionSilicon', 'Model': 'X7 Miner', 'Release': 'March 2019', 'Size': '130 x 198 x 340mm', 'Weight': '4800g', 'Chip boards': '3', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1420W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+108
+Baikal Mini Miner
+Sep 2016
+150Mh/s
+50W
+45db
+X11, X13, X14, X15, Quark, Qubit
+-$0.06/day
+https://www.asicminervalue.com/miners/baikal/mini-miner
+Model Mini Miner from Baikal mining 6 algorithms (X11, X13, X14, X15, Quark, Qubit) with a maximum hashrate of 150Mh/s for a power consumption of 50W.
+{'Manufacturer': 'Baikal', 'Model': 'Mini Miner', 'Release': 'September 2016', 'Size': '100 x 95 x 140mm', 'Weight': '475g', 'Noise level': '45db', 'Fan(s)': '1', 'Power': '50W', 'Wires': '∅2.5 DC Plug', 'Voltage': '12V 5A', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'DigiByte (DGB)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'Quark (QRK)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Geocoin (GEO)', 'Stratis (STRAT)', 'Axe (AXE)']
+
+109
+Baikal Miner Cube
+Apr 2017
+300Mh/s
+90W
+45db
+X11, X13, X14, X15, Quark, Qubit
+-$0.12/day
+https://www.asicminervalue.com/miners/baikal/miner-cube
+Model Miner Cube from Baikal mining 6 algorithms (X11, X13, X14, X15, Quark, Qubit) with a maximum hashrate of 300Mh/s for a power consumption of 90W.
+{'Manufacturer': 'Baikal', 'Model': 'Miner Cube', 'Release': 'April 2017', 'Size': '135 x 135 x 108mm', 'Noise level': '45db', 'Fan(s)': '1', 'Power': '90W', 'Wires': '2.5 DC plug', 'Voltage': '12V 10A', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'DigiByte (DGB)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'Quark (QRK)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Geocoin (GEO)', 'Stratis (STRAT)', 'Axe (AXE)']
+
+110
+Baikal BK-N
+Mar 2018
+20kh/s
+60W
+60db
+CryptoNight, CryptoNight-Lite
+-$0.16/day
+https://www.asicminervalue.com/miners/baikal/bk-n
+Model BK-N from Baikal mining 2 algorithms (CryptoNight, CryptoNight-Lite) with a maximum hashrate of 40kh/s for a power consumption of 60W.
+{'Manufacturer': 'Baikal', 'Model': 'BK-N', 'Also known as': 'Giant N', 'Release': 'March 2018', 'Size': '198 x 125 x 139mm', 'Weight': '1800g', 'Chip boards': '3', 'Noise level': '60db', 'Fan(s)': '1', 'Power': '60W', 'Wires': '6pin * 3', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+111
+Bitmain Antminer Z11
+Apr 2019
+135ksol/s
+1418W
+70db
+Equihash
+-$0.18/day
+https://www.asicminervalue.com/miners/bitmain/antminer-z11
+Model Antminer Z11 from Bitmain mining Equihash algorithm with a maximum hashrate of 135ksol/s for a power consumption of 1418W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer Z11', 'Release': 'April 2019', 'Size': '134 x 242 x 302mm', 'Weight': '5400g', 'Chip boards': '3', 'Chip size': '12nm', 'Chip count': '9', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1418W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['ZenCash (ZEN)', 'Zcash (ZEC)', 'Hush (HUSH)', 'Pirate (ARRR)', 'Horizen (ZEN)', 'Komodo (KMD)']
+
+112
+Baikal Quadruple Mini Miner
+Aug 2016
+600Mh/s
+192W
+50db
+X11, X13, X14, X15, Quark, Qubit
+-$0.25/day
+https://www.asicminervalue.com/miners/baikal/quadruple-mini-miner
+Model Quadruple Mini Miner from Baikal mining 6 algorithms (X11, X13, X14, X15, Quark, Qubit) with a maximum hashrate of 600Mh/s for a power consumption of 192W.
+{'Manufacturer': 'Baikal', 'Model': 'Quadruple Mini Miner', 'Release': 'August 2016', 'Size': '140 x 100 x 355mm', 'Weight': '1720g', 'Noise level': '50db', 'Fan(s)': '4', 'Power': '192W', 'Wires': '4 * 2.5 DC plug', 'Voltage': '12V 5A', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'DigiByte (DGB)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'Quark (QRK)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Geocoin (GEO)', 'Stratis (STRAT)', 'Axe (AXE)']
+
+113
+Baikal Giant A900
+Oct 2016
+900Mh/s
+270W
+65db
+X11, X13, X14, X15, Quark, Qubit
+-$0.31/day
+https://www.asicminervalue.com/miners/baikal/giant-a900
+Model Giant A900 from Baikal mining 6 algorithms (X11, X13, X14, X15, Quark, Qubit) with a maximum hashrate of 900Mh/s for a power consumption of 270W.
+{'Manufacturer': 'Baikal', 'Model': 'Giant A900', 'Release': 'October 2016', 'Size': '123 x 123 x 300mm', 'Weight': '2550g', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '270W', 'Wires': '6pins', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'DigiByte (DGB)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'Quark (QRK)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Geocoin (GEO)', 'Stratis (STRAT)', 'Axe (AXE)']
+
+114
+Innosilicon T3 50T
+Jul 2019
+50Th/s
+3100W
+75db
+SHA-256
+-$0.32/day
+https://www.asicminervalue.com/miners/innosilicon/t3-50t
+Model T3 50T from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 50Th/s for a power consumption of 3100W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T3 50T', 'Also known as': 'Terminator3-50T', 'Release': 'July 2019', 'Size': '272 x 203 x 268mm', 'Weight': '10000g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3100W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+115
+Baikal BK-N+
+Mar 2018
+40kh/s
+120W
+60db
+CryptoNight, CryptoNight-Lite
+-$0.33/day
+https://www.asicminervalue.com/miners/baikal/bk-n-1
+Model BK-N+ from Baikal mining 2 algorithms (CryptoNight, CryptoNight-Lite) with a maximum hashrate of 80kh/s for a power consumption of 120W.
+{'Manufacturer': 'Baikal', 'Model': 'BK-N+', 'Also known as': 'Giant N+', 'Release': 'March 2018', 'Size': '125 x 130 x 312mm', 'Weight': '3700g', 'Noise level': '60db', 'Fan(s)': '1', 'Power': '120W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+116
+Innosilicon A9 ZMaster
+Jun 2018
+50ksol/s
+620W
+70db
+Equihash
+-$0.34/day
+https://www.asicminervalue.com/miners/innosilicon/a9-zmaster
+Model A9 ZMaster from Innosilicon mining Equihash algorithm with a maximum hashrate of 50ksol/s for a power consumption of 620W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A9 ZMaster', 'Release': 'June 2018', 'Size': '125 x 155 x 360mm', 'Weight': '5920g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '620W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['ZenCash (ZEN)', 'Zcash (ZEC)', 'Hush (HUSH)', 'Pirate (ARRR)', 'Horizen (ZEN)', 'Komodo (KMD)']
+
+117
+FFMiner Decred D18
+Jun 2018
+340Gh/s
+180W
+55db
+Blake256R14
+-$0.39/day
+https://www.asicminervalue.com/miners/ffminer/decred-d18
+Model Decred D18 from FFMiner mining Blake256R14 algorithm with a maximum hashrate of 340Gh/s for a power consumption of 180W.
+{'Manufacturer': 'FFMiner', 'Model': 'Decred D18', 'Also known as': 'Flying Fish D18', 'Release': 'June 2018', 'Size': '90 x 85 x 225mm', 'Weight': '1650g', 'Noise level': '55db', 'Fan(s)': '1', 'Power': '180W', 'Wires': 'Round plug or 6pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Admin interface in Chinese only'}
+['Decred (DCR)']
+
+118
+Innosilicon A9++ ZMaster
+May 2019
+140ksol/s
+1550W
+75db
+Equihash
+-$0.42/day
+https://www.asicminervalue.com/miners/innosilicon/a9-zmaster-2
+Model A9++ ZMaster from Innosilicon mining Equihash algorithm with a maximum hashrate of 140ksol/s for a power consumption of 1550W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A9++ ZMaster', 'Also known as': 'A9 Plus Plus ZMaster', 'Release': 'May 2019', 'Size': '155 x 250 x 360mm', 'Weight': '11000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '1550W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['ZenCash (ZEN)', 'Zcash (ZEC)', 'Hush (HUSH)', 'Pirate (ARRR)', 'Horizen (ZEN)', 'Komodo (KMD)']
+
+119
+Ebang Ebit E11
+Oct 2018
+30Th/s
+1950W
+75db
+SHA-256
+-$0.45/day
+https://www.asicminervalue.com/miners/ebang/ebit-e11
+Model Ebit E11 from Ebang mining SHA-256 algorithm with a maximum hashrate of 30Th/s for a power consumption of 1950W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E11', 'Also known as': 'E11 30T', 'Release': 'October 2018', 'Chip name': 'DW1228', 'Chip size': '10nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1950W', 'Voltage': '11.8V～13.0V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+120
+Innosilicon A8C CryptoMaster
+May 2018
+80kh/s
+175W
+70db
+CryptoNight
+-$0.47/day
+https://www.asicminervalue.com/miners/innosilicon/a8c-cryptomaster
+Model A8C CryptoMaster from Innosilicon mining CryptoNight algorithm with a maximum hashrate of 80kh/s for a power consumption of 175W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A8C CryptoMaster', 'Also known as': 'A8 C', 'Release': 'May 2018', 'Size': '123 x 155 x 275mm', 'Weight': '2640g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '175W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+121
+Innosilicon T2 Turbo 25T
+Oct 2018
+25Th/s
+2050W
+75db
+SHA-256
+-$0.47/day
+https://www.asicminervalue.com/miners/innosilicon/t2-turbo-25t
+Model T2 Turbo 25T from Innosilicon mining 4 algorithms (SHA-256) with a maximum hashrate of 25Th/s for a power consumption of 2050W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T2 Turbo 25T', 'Also known as': 'T2T-25T', 'Release': 'October 2018', 'Size': '141 x 220 x 391mm', 'Weight': '9000g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2050W', 'Wires': 'PSU included', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+122
+Canaan AvalonMiner 1047
+Sep 2019
+37Th/s
+2380W
+70db
+SHA-256
+-$0.49/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-1047
+Model AvalonMiner 1047 from Canaan mining SHA-256 algorithm with a maximum hashrate of 37Th/s for a power consumption of 2380W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 1047', 'Also known as': 'A1047', 'Release': 'September 2019', 'Size': '190 x 190 x 292mm', 'Weight': '7600g', 'Chip name': 'A3205', 'Chip size': '16nm', 'Chip count': '240', 'Noise level': '70db', 'Cooling': '12038 Fan', 'Fan(s)': '2', 'Power': '2380W', 'Interface': 'Ethernet', 'Temperature': '-5 - 35 °C', 'Humidity': '5 - 90 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+123
+Obelisk SC1 Slim
+Jan 2019
+550Gh/s
+450W
+75db
+Blake2B, Blake2B-Sia
+-$0.50/day
+https://www.asicminervalue.com/miners/obelisk/sc1-slim
+Model SC1 Slim from Obelisk mining 2 algorithms (Blake2B, Blake2B-Sia) with a maximum hashrate of 550Gh/s for a power consumption of 450W.
+{'Manufacturer': 'Obelisk', 'Model': 'SC1 Slim', 'Also known as': 'SC1 slim, 1-board (Gen 2)', 'Release': 'January 2019', 'Chip boards': '1', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '450W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['SiaCoin (SC)', 'SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+124
+MicroBT Whatsminer M10
+Sep 2018
+33Th/s
+2145W
+75db
+SHA-256
+-$0.50/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m10
+Model Whatsminer M10 from MicroBT mining SHA-256 algorithm with a maximum hashrate of 33Th/s for a power consumption of 2145W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M10', 'Also known as': 'M10V1', 'Release': 'September 2018', 'Size': '130 x 220 x 390mm', 'Weight': '8550g', 'Chip boards': '3', 'Chip name': 'FinFET', 'Chip size': '16nm', 'Chip count': '315', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2145W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+125
+Baikal Giant+ A2000
+Aug 2017
+2Gh/s
+450W
+65db
+X11, X13, X14, X15, Quark, Qubit
+-$0.57/day
+https://www.asicminervalue.com/miners/baikal/giant-a2000
+Model Giant+ A2000 from Baikal mining 6 algorithms (X11, X13, X14, X15, Quark, Qubit) with a maximum hashrate of 2Gh/s for a power consumption of 450W.
+{'Manufacturer': 'Baikal', 'Model': 'Giant+ A2000', 'Release': 'August 2017', 'Size': '125 x 140 x 300mm', 'Weight': '2980g', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '450W', 'Wires': '6 pins', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'DigiByte (DGB)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'Quark (QRK)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Geocoin (GEO)', 'Stratis (STRAT)', 'Axe (AXE)']
+
+126
+Bitmain Antminer Z9 Mini
+Jun 2018
+10ksol/s
+300W
+65db
+Equihash
+-$0.58/day
+https://www.asicminervalue.com/miners/bitmain/antminer-z9-mini
+Model Antminer Z9 Mini from Bitmain mining Equihash algorithm with a maximum hashrate of 10ksol/s for a power consumption of 300W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer Z9 Mini', 'Release': 'June 2018', 'Chip boards': '3', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '300W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['ZenCash (ZEN)', 'Zcash (ZEC)', 'Hush (HUSH)', 'Pirate (ARRR)', 'Horizen (ZEN)', 'Komodo (KMD)']
+
+127
+Baikal BK-N70
+May 2018
+70kh/s
+240W
+62db
+CryptoNight, CryptoNight-Lite
+-$0.60/day
+https://www.asicminervalue.com/miners/baikal/bk-n70
+Model BK-N70 from Baikal mining 2 algorithms (CryptoNight, CryptoNight-Lite) with a maximum hashrate of 140kh/s for a power consumption of 240W.
+{'Manufacturer': 'Baikal', 'Model': 'BK-N70', 'Release': 'May 2018', 'Size': '125 x 130 x 312mm', 'Weight': '4000g', 'Noise level': '62db', 'Fan(s)': '1', 'Power': '240W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+128
+StrongU STU-U1
+Oct 2018
+11Th/s
+1600W
+76db
+Blake256R14
+-$0.61/day
+https://www.asicminervalue.com/miners/strongu/stu-u1
+Model STU-U1 from StrongU mining Blake256R14 algorithm with a maximum hashrate of 11Th/s for a power consumption of 1600W.
+{'Manufacturer': 'StrongU', 'Model': 'STU-U1', 'Also known as': 'Miner U1', 'Release': 'October 2018', 'Size': '130 x 210 x 348mm', 'Weight': '6500g', 'Noise level': '76db', 'Cooling': '12038 fan', 'Fan(s)': '2', 'Power': '1600W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+129
+MicroBT Whatsminer M10S
+Sep 2018
+55Th/s
+3500W
+75db
+SHA-256
+-$0.61/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m10s
+Model Whatsminer M10S from MicroBT mining SHA-256 algorithm with a maximum hashrate of 55Th/s for a power consumption of 3500W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M10S', 'Release': 'September 2018', 'Size': '130 x 220 x 390mm', 'Weight': '10700g', 'Chip boards': '3', 'Chip name': 'FinFET Compact', 'Chip size': '16nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3500W', 'Voltage': '12', 'Interface': 'Ethernet', 'Temperature': '-5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+130
+Obelisk SC1
+Jun 2018
+550Gh/s
+500W
+65db
+Blake2B, Blake2B-Sia
+-$0.64/day
+https://www.asicminervalue.com/miners/obelisk/sc1
+Model SC1 from Obelisk mining 2 algorithms (Blake2B, Blake2B-Sia) with a maximum hashrate of 550Gh/s for a power consumption of 500W.
+{'Manufacturer': 'Obelisk', 'Model': 'SC1', 'Also known as': 'SC1, 2-board (Gen 1)', 'Release': 'June 2018', 'Size': '200 x 200 x 360mm', 'Weight': '9000g', 'Chip size': '28nm', 'Noise level': '65db', 'Power': '500W', 'Wires': 'PSU include', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['SiaCoin (SC)', 'SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+131
+StrongU STU-U1+
+Oct 2018
+12.8Th/s
+1850W
+76db
+Blake256R14
+-$0.68/day
+https://www.asicminervalue.com/miners/strongu/stu-u1-1
+Model STU-U1+ from StrongU mining Blake256R14 algorithm with a maximum hashrate of 12.8Th/s for a power consumption of 1850W.
+{'Manufacturer': 'StrongU', 'Model': 'STU-U1+', 'Also known as': 'Miner U1 Plus', 'Release': 'October 2018', 'Size': '130 x 210 x 348mm', 'Weight': '6600g', 'Noise level': '76db', 'Cooling': '12038 fan', 'Fan(s)': '2', 'Power': '1850W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+132
+Canaan AvalonMiner 1066
+Sep 2019
+50Th/s
+3250W
+75db
+SHA-256
+-$0.75/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-1066
+Model AvalonMiner 1066 from Canaan mining SHA-256 algorithm with a maximum hashrate of 50Th/s for a power consumption of 3250W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 1066', 'Also known as': 'A1066', 'Release': 'September 2019', 'Size': '195 x 292 x 331mm', 'Weight': '11400g', 'Chip name': 'A3205', 'Chip size': '16nm', 'Chip count': '342', 'Noise level': '75db', 'Cooling': '12038 Fan', 'Fan(s)': '4', 'Power': '3250W', 'Interface': 'Ethernet', 'Temperature': '-5 - 35 °C', 'Humidity': '5 - 90 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+133
+Holic H22
+Dec 2018
+22Th/s
+1700W
+70db
+SHA-256
+-$0.82/day
+https://www.asicminervalue.com/miners/holic/h22
+Model H22 from Holic mining SHA-256 algorithm with a maximum hashrate of 22Th/s for a power consumption of 1700W.
+{'Manufacturer': 'Holic', 'Model': 'H22', 'Release': 'December 2018', 'Size': '175 x 189 x 420mm', 'Chip size': '10nm', 'Chip count': '161', 'Noise level': '70db', 'Cooling': '190 CFM 9.2 ∅', 'Fan(s)': '2', 'Power': '1700W', 'Voltage': '11.6 ~ 13V', 'Interface': 'Ethernet / WiFi', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+134
+Innosilicon T2 Turbo+ 32T
+Sep 2018
+32Th/s
+2200W
+72db
+SHA-256
+-$0.83/day
+https://www.asicminervalue.com/miners/innosilicon/t2-turbo-32t
+Model T2 Turbo+ 32T from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 32Th/s for a power consumption of 2200W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T2 Turbo+ 32T', 'Also known as': 'T2turbo+32T (T2T-32T)', 'Release': 'September 2018', 'Size': '150 x 180 x 400mm', 'Weight': '7500g', 'Chip name': 'FinFET', 'Chip size': '10nm', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '2200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+135
+Bitmain Antminer S11 (20.5Th)
+Nov 2018
+20.5Th/s
+1530W
+76db
+SHA-256
+-$0.88/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s11-20-5th
+Model Antminer S11 (20.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 20.5Th/s for a power consumption of 1530W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S11 (20.5Th)', 'Release': 'November 2018', 'Size': '176 x 221 x 279mm', 'Weight': '6500g', 'Chip size': '16nm', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1530W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+136
+Bitmain Antminer S9 SE (16Th)
+Jul 2019
+16Th/s
+1280W
+76db
+SHA-256
+-$0.93/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9-se-16th
+Model Antminer S9 SE (16Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 16Th/s for a power consumption of 1280W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9 SE (16Th)', 'Also known as': 'S9 Special Edition', 'Release': 'July 2019', 'Size': '129 x 200 x 321mm', 'Weight': '4560g', 'Chip boards': '3', 'Chip size': '16nm', 'Chip count': '180', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1280W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+137
+Bitmain Antminer R4
+Feb 2017
+8.7Th/s
+845W
+52db
+SHA-256
+-$0.94/day
+https://www.asicminervalue.com/miners/bitmain/antminer-r4
+Model Antminer R4 from Bitmain mining SHA-256 algorithm with a maximum hashrate of 8.7Th/s for a power consumption of 845W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer R4', 'Release': 'February 2017', 'Size': '100 x 222 x 515mm', 'Weight': '2500g', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '126', 'Noise level': '52db', 'Fan(s)': '1', 'Power': '845W', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '-20 - 60 °C', 'Humidity': '20 - 90 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+138
+Innosilicon A8 CryptoMaster
+Apr 2018
+160kh/s
+350W
+70db
+CryptoNight
+-$0.94/day
+https://www.asicminervalue.com/miners/innosilicon/a8-cryptomaster
+Model A8 CryptoMaster from Innosilicon mining CryptoNight algorithm with a maximum hashrate of 160kh/s for a power consumption of 350W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A8 CryptoMaster', 'Release': 'April 2018', 'Size': '245 x 155 x 275mm', 'Weight': '5990g', 'Noise level': '70db', 'Fan(s)': '4', 'Power': '350W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+139
+Bitmain Antminer S3
+Jul 2014
+478Gh/s
+366W
+60db
+SHA-256
+-$0.97/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s3
+Model Antminer S3 from Bitmain mining SHA-256 algorithm with a maximum hashrate of 478Gh/s for a power consumption of 366W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S3', 'Release': 'July 2014', 'Size': '137 x 160 x 331mm', 'Weight': '5200g', 'Chip boards': '2', 'Chip name': 'BM1382', 'Chip size': '28nm', 'Chip count': '32', 'Noise level': '60db', 'Fan(s)': '2', 'Power': '366W', 'Wires': '4 * 6pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+140
+PinIdea DR-3
+Apr 2017
+600Mh/s
+345W
+50db
+X11
+-$0.98/day
+https://www.asicminervalue.com/miners/pinidea/dr-3
+Model DR-3 from PinIdea mining X11 algorithm with a maximum hashrate of 600Mh/s for a power consumption of 345W.
+{'Manufacturer': 'PinIdea', 'Model': 'DR-3', 'Release': 'April 2017', 'Size': '135 x 165 x 200mm', 'Noise level': '50db', 'Fan(s)': '2', 'Power': '345W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 55 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+141
+Obelisk SC1 Dual
+Mar 2019
+1.1Th/s
+900W
+75db
+Blake2B, Blake2B-Sia
+-$0.99/day
+https://www.asicminervalue.com/miners/obelisk/sc1-dual
+Model SC1 Dual from Obelisk mining 2 algorithms (Blake2B, Blake2B-Sia) with a maximum hashrate of 1.1Th/s for a power consumption of 900W.
+{'Manufacturer': 'Obelisk', 'Model': 'SC1 Dual', 'Also known as': 'SC1 slim, 2-board (Gen 2)', 'Release': 'March 2019', 'Chip boards': '2', 'Chip count': '64', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '900W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['SiaCoin (SC)', 'SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+142
+PinIdea RR-210
+Apr 2018
+30kh/s
+350W
+55db
+CryptoNight, CryptoNight-Lite
+-$1.00/day
+https://www.asicminervalue.com/miners/pinidea/rr-210
+Model RR-210 from PinIdea mining 2 algorithms (CryptoNight, CryptoNight-Lite) with a maximum hashrate of 60kh/s for a power consumption of 350W.
+{'Manufacturer': 'PinIdea', 'Model': 'RR-210', 'Also known as': '150', 'Release': 'April 2018', 'Size': '180 x 380 x 5000mm', 'Noise level': '55db', 'Fan(s)': '2', 'Power': '350W', 'Wires': '6pins * 4', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+143
+PinIdea RR-200
+Apr 2018
+27kh/s
+350W
+55db
+CryptoNight, CryptoNight-Lite
+-$1.00/day
+https://www.asicminervalue.com/miners/pinidea/rr-200
+Model RR-200 from PinIdea mining 2 algorithms (CryptoNight, CryptoNight-Lite) with a maximum hashrate of 55kh/s for a power consumption of 350W.
+{'Manufacturer': 'PinIdea', 'Model': 'RR-200', 'Release': 'April 2018', 'Size': '150 x 180 x 380mm', 'Weight': '5000g', 'Noise level': '55db', 'Fan(s)': '2', 'Power': '350W', 'Wires': '6pins * 4', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+144
+Innosilicon A9+ ZMaster
+Jan 2019
+120ksol/s
+1550W
+75db
+Equihash
+-$1.00/day
+https://www.asicminervalue.com/miners/innosilicon/a9-zmaster-1
+Model A9+ ZMaster from Innosilicon mining Equihash algorithm with a maximum hashrate of 120ksol/s for a power consumption of 1550W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A9+ ZMaster', 'Also known as': 'A9 Plus ZMaster', 'Release': 'January 2019', 'Size': '155 x 250 x 360mm', 'Weight': '11000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '1550W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['ZenCash (ZEN)', 'Zcash (ZEC)', 'Hush (HUSH)', 'Pirate (ARRR)', 'Horizen (ZEN)', 'Komodo (KMD)']
+
+145
+Obelisk DCR1
+Jun 2018
+1.2Th/s
+500W
+65db
+Blake256R14
+-$1.00/day
+https://www.asicminervalue.com/miners/obelisk/dcr1
+Model DCR1 from Obelisk mining Blake256R14 algorithm with a maximum hashrate of 1.2Th/s for a power consumption of 500W.
+{'Manufacturer': 'Obelisk', 'Model': 'DCR1', 'Release': 'June 2018', 'Size': '200 x 200 x 360mm', 'Weight': '9000g', 'Chip size': '28nm', 'Noise level': '65db', 'Power': '500W', 'Wires': 'PSU include', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+146
+Bitmain Antminer B3 (780Hz)
+May 2018
+780h/s
+360W
+72db
+Tensority
+Unknown
+https://www.asicminervalue.com/miners/bitmain/antminer-b3-780hz
+Model Antminer B3 (780Hz) from Bitmain mining Tensority algorithm with a maximum hashrate of 780h/s for a power consumption of 360W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer B3 (780Hz)', 'Release': 'May 2018', 'Size': '124 x 155 x 313mm', 'Chip boards': '3', 'Chip count': '12', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '360W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Bytom (BTM)']
+
+147
+iBeLink BM-N1
+Nov 2020
+6.6Th/s
+2400W
+72db
+Eaglesong
+-$1.05/day
+https://www.asicminervalue.com/miners/ibelink/bm-n1
+Model BM-N1 from iBeLink mining Eaglesong algorithm with a maximum hashrate of 6.6Th/s for a power consumption of 2400W.
+{'Manufacturer': 'iBeLink', 'Model': 'BM-N1', 'Release': 'November 2020', 'Size': '205 x 317 x 505mm', 'Weight': '9900g', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '2400W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['Nervos (CKB)']
+
+148
+Bitmain Antminer B3 (1Kh)
+May 2018
+1kh/s
+380W
+72db
+Tensority
+Unknown
+https://www.asicminervalue.com/miners/bitmain/antminer-b3-1kh
+Model Antminer B3 (1Kh) from Bitmain mining Tensority algorithm with a maximum hashrate of 1kh/s for a power consumption of 380W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer B3 (1Kh)', 'Release': 'May 2018', 'Size': '124 x 155 x 313mm', 'Chip boards': '3', 'Chip count': '12', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '380W', 'Voltage': '12', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Firmware updated version of 780hz.'}
+['Bytom (BTM)']
+
+149
+Baikal BK-D
+Jun 2018
+320Gh/s
+1100W
+65db
+Blake256R14, Blake256R8, Lbry, Pascal
+-$1.11/day
+https://www.asicminervalue.com/miners/baikal/bk-d
+Model BK-D from Baikal mining 4 algorithms (Blake256R14, Blake256R8, Lbry, Pascal) with a maximum hashrate of 320Gh/s for a power consumption of 1100W.
+{'Manufacturer': 'Baikal', 'Model': 'BK-D', 'Release': 'June 2018', 'Size': '310 x 115 x 135mm', 'Weight': '6500g', 'Noise level': '65db', 'Fan(s)': '2', 'Power': '1100W', 'Wires': '8 * 6pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Dual mining, can mine 2 algorithms at the same time.'}
+['PascalCoin (PASC)', 'PascalLite (PASL)', 'LBRY (LBC)', 'Decred (DCR)']
+
+150
+Innosilicon A4 Dominator
+Jul 2017
+280Mh/s
+1050W
+75db
+Scrypt
+-$1.13/day
+https://www.asicminervalue.com/miners/innosilicon/a4-dominator
+Model A4 Dominator from Innosilicon mining Scrypt algorithm with a maximum hashrate of 280Mh/s for a power consumption of 1050W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A4 Dominator', 'Release': 'July 2017', 'Size': '260 x 130 x 280mm', 'Weight': '9200g', 'Chip boards': '4', 'Chip size': '14nm', 'Chip count': '80', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1050W', 'Wires': '8 * 6pins', 'Voltage': '11.60 ~ 13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '10 - 90 %'}
+['Gulden (NLG)', 'GameCredits (GAME)', 'Emerald (EMD)', 'Dogecoin (DOGE)', 'Florincoin (FLO)', 'Litecoin (LTC)', 'Verge (XVG)', 'Einsteinium (EMC2)', 'DigiByte (DGB)', 'Auroracoin (AUR)']
+
+151
+Bitfily Snow Panther B1
+Jul 2018
+16Th/s
+1380W
+75db
+SHA-256
+-$1.22/day
+https://www.asicminervalue.com/miners/bitfily/snow-panther-b1
+Model Snow Panther B1 from Bitfily mining SHA-256 algorithm with a maximum hashrate of 16Th/s for a power consumption of 1380W.
+{'Manufacturer': 'Bitfily', 'Model': 'Snow Panther B1', 'Release': 'July 2018', 'Size': '130 x 160 x 355mm', 'Weight': '4500g', 'Chip name': 'BFL1001', 'Chip size': '10nm', 'Chip count': '189', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1380W', 'Voltage': '11.6 - 13V', 'Interface': 'Ethernet', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+152
+Bitmain Antminer DR3
+Sep 2018
+7.8Th/s
+1410W
+76db
+Blake256R14
+-$1.23/day
+https://www.asicminervalue.com/miners/bitmain/antminer-dr3
+Model Antminer DR3 from Bitmain mining Blake256R14 algorithm with a maximum hashrate of 7.8Th/s for a power consumption of 1410W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer DR3', 'Release': 'September 2018', 'Size': '130 x 187 x 293mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip count': '162', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1410W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+153
+Holic H28
+Dec 2018
+28Th/s
+2100W
+70db
+SHA-256
+-$1.23/day
+https://www.asicminervalue.com/miners/holic/h28
+Model H28 from Holic mining SHA-256 algorithm with a maximum hashrate of 28Th/s for a power consumption of 2100W.
+{'Manufacturer': 'Holic', 'Model': 'H28', 'Release': 'December 2018', 'Size': '175 x 189 x 420mm', 'Chip size': '10nm', 'Chip count': '250', 'Noise level': '70db', 'Cooling': '190 CFM 9.2 ∅', 'Fan(s)': '2', 'Power': '2100W', 'Voltage': '11.6 ~ 13V', 'Interface': 'Ethernet / WiFi', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+154
+Bitmain Antminer X3 (220Kh)
+May 2018
+220kh/s
+465W
+76db
+CryptoNight
+-$1.24/day
+https://www.asicminervalue.com/miners/bitmain/antminer-x3-220kh
+Model Antminer X3 (220Kh) from Bitmain mining CryptoNight algorithm with a maximum hashrate of 220kh/s for a power consumption of 465W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer X3 (220Kh)', 'Release': 'May 2018', 'Size': '125 x 207 x 334mm', 'Weight': '5500g', 'Chip boards': '3', 'Chip name': 'BM1700', 'Chip count': '180', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '465W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+155
+Bitmain Antminer S9 (11.5Th)
+Jun 2016
+11.5Th/s
+1127W
+85db
+SHA-256
+-$1.27/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9-11-5th
+Model Antminer S9 (11.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 11.5Th/s for a power consumption of 1127W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9 (11.5Th)', 'Release': 'June 2016', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '189', 'Noise level': '85db', 'Fan(s)': '2', 'Power': '1127W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+156
+Innosilicon A8+ CryptoMaster
+Apr 2018
+240kh/s
+480W
+70db
+CryptoNight
+-$1.28/day
+https://www.asicminervalue.com/miners/innosilicon/a8-cryptomaster-1
+Model A8+ CryptoMaster from Innosilicon mining CryptoNight algorithm with a maximum hashrate of 240kh/s for a power consumption of 480W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A8+ CryptoMaster', 'Release': 'April 2018', 'Size': '160 x 250 x 350mm', 'Weight': '7300g', 'Noise level': '70db', 'Fan(s)': '4', 'Power': '480W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+157
+Canaan AvalonMiner 841
+Apr 2018
+13.6Th/s
+1290W
+65db
+SHA-256
+-$1.37/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-841
+Model AvalonMiner 841 from Canaan mining SHA-256 algorithm with a maximum hashrate of 13.6Th/s for a power consumption of 1290W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 841', 'Also known as': 'Avalon A8', 'Release': 'April 2018', 'Size': '150 x 136 x 370mm', 'Weight': '4700g', 'Chip boards': '4', 'Chip name': 'A3210', 'Chip size': '16nm', 'Chip count': '104', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '1290W', 'Wires': '8 * 6pin', 'Voltage': ' 12 - 12.6V', 'Interface': 'AUC3 - RJ45', 'Temperature': '5 - 30 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+158
+Bitmain Antminer S9 (12.5Th)
+Feb 2017
+12.5Th/s
+1225W
+85db
+SHA-256
+-$1.38/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9-12-5th
+Model Antminer S9 (12.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 12.5Th/s for a power consumption of 1225W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9 (12.5Th)', 'Release': 'February 2017', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '189', 'Noise level': '85db', 'Fan(s)': '2', 'Power': '1225W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+159
+Bitmain Antminer S9i (14Th)
+May 2018
+14Th/s
+1320W
+76db
+SHA-256
+-$1.39/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9i-14th
+Model Antminer S9i (14Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 14Th/s for a power consumption of 1320W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9i (14Th)', 'Release': 'May 2018', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '189', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1320W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+160
+Bitmain Antminer S9j (14.5Th)
+Aug 2018
+14.5Th/s
+1350W
+76db
+SHA-256
+-$1.39/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9j-14-5th
+Model Antminer S9j (14.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 14.5Th/s for a power consumption of 1350W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9j (14.5Th)', 'Release': 'August 2018', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Noise level': '76db', 'Cooling': '2', 'Power': '1350W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+161
+Obelisk SC1 Immersion
+Mar 2019
+2.2Th/s
+1600W
+30db
+Blake2B, Blake2B-Sia
+-$1.41/day
+https://www.asicminervalue.com/miners/obelisk/sc1-immersion
+Model SC1 Immersion from Obelisk mining 2 algorithms (Blake2B, Blake2B-Sia) with a maximum hashrate of 2.2Th/s for a power consumption of 1600W.
+{'Manufacturer': 'Obelisk', 'Model': 'SC1 Immersion', 'Also known as': 'SC1 immersion, 4 boards (Gen 2)', 'Release': 'March 2019', 'Chip boards': '4', 'Chip count': '128', 'Noise level': '30db', 'Cooling': 'Immersed in liquid', 'Fan(s)': 'No fans', 'Power': '1600W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['SiaCoin (SC)', 'SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+162
+Pantech SX6
+Sep 2017
+8.5Th/s
+1000W
+72db
+SHA-256
+-$1.42/day
+https://www.asicminervalue.com/miners/pantech/sx6
+Model SX6 from Pantech mining SHA-256 algorithm with a maximum hashrate of 8.5Th/s for a power consumption of 1000W.
+{'Manufacturer': 'Pantech', 'Model': 'SX6', 'Release': 'September 2017', 'Size': '125 x 160 x 300mm', 'Weight': '3000g', 'Chip boards': '2', 'Chip name': 'Bitfury', 'Chip size': '16nm', 'Chip count': '208', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1000W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+163
+Bitmain Antminer S9k (13.5Th)
+Aug 2019
+13.5Th/s
+1310W
+76db
+SHA-256
+-$1.45/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9k-13-5th
+Model Antminer S9k (13.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 13.5Th/s for a power consumption of 1310W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9k (13.5Th)', 'Release': 'August 2019', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '189', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1310W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': 'null - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+164
+Canaan AvalonMiner 921
+Sep 2018
+20Th/s
+1700W
+db
+SHA-256
+-$1.45/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-921
+Model AvalonMiner 921 from Canaan mining SHA-256 algorithm with a maximum hashrate of 20Th/s for a power consumption of 1700W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 921', 'Also known as': 'Avalon A9, A921', 'Release': 'September 2018', 'Size': '150 x 136 x 370mm', 'Chip name': 'A3207', 'Chip size': '7nm', 'Cooling': '14038 Fan', 'Fan(s)': '1', 'Power': '1700W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+165
+Canaan AvalonMiner 821
+Feb 2018
+11.5Th/s
+1200W
+65db
+SHA-256
+-$1.48/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-821
+Model AvalonMiner 821 from Canaan mining SHA-256 algorithm with a maximum hashrate of 11.5Th/s for a power consumption of 1200W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 821', 'Also known as': 'Avalon A8', 'Release': 'February 2018', 'Size': '150 x 136 x 370mm', 'Weight': '4700g', 'Chip boards': '4', 'Chip name': 'A3210', 'Chip size': '16nm', 'Chip count': '104', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '1200W', 'Wires': '8 * 6pin', 'Voltage': ' 12 - 12.6V', 'Interface': 'AUC3 - RJ45', 'Temperature': '5 - 30 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+166
+Bitmain Antminer S9i (13Th)
+May 2018
+13Th/s
+1280W
+76db
+SHA-256
+-$1.48/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9i-13th
+Model Antminer S9i (13Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 13Th/s for a power consumption of 1280W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9i (13Th)', 'Release': 'May 2018', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1280W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+167
+GMO miner B2
+Oct 2018
+24Th/s
+1950W
+70db
+SHA-256
+-$1.48/day
+https://www.asicminervalue.com/miners/gmo-miner/b2-1
+Model B2 from GMO miner mining SHA-256 algorithm with a maximum hashrate of 24Th/s for a power consumption of 1950W.
+{'Manufacturer': 'GMO miner', 'Model': 'B2', 'Release': 'October 2018', 'Chip name': 'GMO72b', 'Chip size': '7nm', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1950W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+168
+Bitmain Antminer S9 (13.5Th)
+Sep 2017
+13.5Th/s
+1323W
+85db
+SHA-256
+-$1.49/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9-13-5th
+Model Antminer S9 (13.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 13.5Th/s for a power consumption of 1323W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9 (13.5Th)', 'Release': 'September 2017', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '189', 'Noise level': '85db', 'Fan(s)': '2', 'Power': '1323W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+169
+Bitmain Antminer S5
+Dec 2014
+1.155Th/s
+590W
+65db
+SHA-256
+-$1.50/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s5
+Model Antminer S5 from Bitmain mining SHA-256 algorithm with a maximum hashrate of 1.155Th/s for a power consumption of 590W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S5', 'Release': 'December 2014', 'Size': '137 x 155 x 298mm', 'Chip name': 'BM1384', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '590W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+170
+Bitmain Antminer S9 (13Th)
+Jul 2017
+13Th/s
+1300W
+85db
+SHA-256
+-$1.51/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9-13th
+Model Antminer S9 (13Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 13Th/s for a power consumption of 1300W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9 (13Th)', 'Release': 'July 2017', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Noise level': '85db', 'Fan(s)': '2', 'Power': '1300W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+171
+Halong Mining DragonMint T1
+Apr 2018
+16Th/s
+1480W
+75db
+SHA-256
+-$1.51/day
+https://www.asicminervalue.com/miners/halong-mining/dragonmint-t1
+Model DragonMint T1 from Halong Mining mining SHA-256 algorithm with a maximum hashrate of 16Th/s for a power consumption of 1480W.
+{'Manufacturer': 'Halong Mining', 'Model': 'DragonMint T1', 'Also known as': 'DragonMint 16T', 'Release': 'April 2018', 'Size': '125 x 155 x 340mm', 'Weight': '6000g', 'Chip boards': '3', 'Chip name': 'DM8575', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1480W', 'Wires': '9 * 6pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'ASICBoost ready'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+172
+Bitmain Antminer B7 (96Kh)
+Mar 2019
+96kh/s
+528W
+65db
+Tensority
+Unknown
+https://www.asicminervalue.com/miners/bitmain/antminer-b7-96kh
+Model Antminer B7 (96Kh) from Bitmain mining Tensority algorithm with a maximum hashrate of 96kh/s for a power consumption of 528W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer B7 (96Kh)', 'Release': 'March 2019', 'Size': '130 x 155 x 244mm', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '528W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Bytom (BTM)']
+
+173
+Bitmain Antminer S9 (14Th)
+Nov 2017
+14Th/s
+1372W
+85db
+SHA-256
+-$1.54/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9-14th
+Model Antminer S9 (14Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 14Th/s for a power consumption of 1372W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9 (14Th)', 'Release': 'November 2017', 'Size': '135 x 158 x 350mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '189', 'Noise level': '85db', 'Fan(s)': '2', 'Power': '1372W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+174
+Bitmain Antminer S7-LN
+Jun 2016
+2.7Th/s
+697W
+48db
+SHA-256
+-$1.54/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s7-ln
+Model Antminer S7-LN from Bitmain mining SHA-256 algorithm with a maximum hashrate of 2.7Th/s for a power consumption of 697W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S7-LN', 'Release': 'June 2016', 'Size': '150 x 275 x 306mm', 'Weight': '7500g', 'Chip boards': '3', 'Chip name': 'BM1385', 'Chip size': '28nm', 'Chip count': '90', 'Noise level': '48db', 'Fan(s)': '2', 'Power': '697W', 'Wires': 'PSU included', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': 'null - 35 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+175
+Innosilicon T2 Terminator
+May 2018
+17.2Th/s
+1570W
+72db
+SHA-256
+-$1.56/day
+https://www.asicminervalue.com/miners/innosilicon/t2-terminator
+Model T2 Terminator from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 17.2Th/s for a power consumption of 1570W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T2 Terminator', 'Also known as': 'Terminator 2', 'Release': 'May 2018', 'Size': '150 x 180 x 400mm', 'Weight': '7500g', 'Chip size': '10nm', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1570W', 'Voltage': '12V', 'Temperature': '0 - 50 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+176
+Innosilicon T2 Turbo
+Aug 2018
+24Th/s
+1980W
+72db
+SHA-256
+-$1.57/day
+https://www.asicminervalue.com/miners/innosilicon/t2-turbo
+Model T2 Turbo from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 24Th/s for a power consumption of 1980W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T2 Turbo', 'Also known as': 'T2turbo 24T (T2T-24T)', 'Release': 'August 2018', 'Size': '150 x 180 x 400mm', 'Weight': '7500g', 'Chip name': 'FinFET', 'Chip size': '10nm', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1980W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+177
+Innosilicon T2 Turbo 26T
+Jul 2021
+26Th/s
+2100W
+75db
+SHA-256
+-$1.57/day
+https://www.asicminervalue.com/miners/innosilicon/t2-turbo-26t
+Model T2 Turbo 26T from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 26Th/s for a power consumption of 2100W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T2 Turbo 26T', 'Also known as': 'T2T-26T', 'Release': 'July 2021', 'Size': '138 x 193 x 425mm', 'Weight': '9000g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2100W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+178
+Innosilicon T2 Turbo 29T/30T
+Jan 2021
+30Th/s
+2400W
+72db
+SHA-256
+-$1.57/day
+https://www.asicminervalue.com/miners/innosilicon/t2-turbo-29t-30t
+Model T2 Turbo 29T/30T from Innosilicon mining 2 algorithms (SHA-256) with a maximum hashrate of 30Th/s for a power consumption of 2400W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T2 Turbo 29T/30T', 'Also known as': 'T2T-29T/30T', 'Release': 'January 2021', 'Size': '141 x 220 x 391mm', 'Weight': '9000g', 'Noise level': '72db', 'Cooling': '2', 'Fan(s)': '75', 'Power': '2400W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 85 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+179
+Bitmain Antminer Z9
+Sep 2018
+42ksol/s
+970W
+75db
+Equihash
+-$1.58/day
+https://www.asicminervalue.com/miners/bitmain/antminer-z9
+Model Antminer Z9 from Bitmain mining Equihash algorithm with a maximum hashrate of 42ksol/s for a power consumption of 970W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer Z9', 'Release': 'September 2018', 'Size': '132 x 226 x 279mm', 'Weight': '4700g', 'Chip boards': '3', 'Chip count': '48', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '970W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['ZenCash (ZEN)', 'Zcash (ZEC)', 'Hush (HUSH)', 'Pirate (ARRR)', 'Horizen (ZEN)', 'Komodo (KMD)']
+
+180
+Ebang Ebit E10
+Feb 2018
+18Th/s
+1650W
+75db
+SHA-256
+-$1.65/day
+https://www.asicminervalue.com/miners/ebang/ebit-e10
+Model Ebit E10 from Ebang mining SHA-256 algorithm with a maximum hashrate of 18Th/s for a power consumption of 1650W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E10', 'Release': 'February 2018', 'Size': '146 x 189 x 418mm', 'Weight': '9800g', 'Chip boards': '4', 'Chip name': 'DW1228', 'Chip size': '10nm', 'Chip count': '280', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1650W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-10 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+181
+Innosilicon A5 DashMaster
+Oct 2017
+32.5Gh/s
+750W
+75db
+X11
+-$1.66/day
+https://www.asicminervalue.com/miners/innosilicon/a5-dashmaster
+Model A5 DashMaster from Innosilicon mining X11 algorithm with a maximum hashrate of 32.5Gh/s for a power consumption of 750W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A5 DashMaster', 'Release': 'October 2017', 'Size': '135 x 158 x 400mm', 'Weight': '3100g', 'Chip boards': '4', 'Noise level': '75db', 'Fan(s)': '1', 'Power': '750W', 'Wires': '8 * 6pins', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 85 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+182
+Ebang Ebit E9.2
+May 2018
+12Th/s
+1320W
+70db
+SHA-256
+-$1.74/day
+https://www.asicminervalue.com/miners/ebang/ebit-e9-2
+Model Ebit E9.2 from Ebang mining SHA-256 algorithm with a maximum hashrate of 12Th/s for a power consumption of 1320W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E9.2', 'Release': 'May 2018', 'Size': '126 x 155 x 290mm', 'Weight': '4700g', 'Chip name': 'DW1228', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1320W', 'Wires': '9*6pin', 'Voltage': '11.8V～13.0V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+183
+Ebang Ebit E9i
+Jul 2018
+13.5Th/s
+1420W
+74db
+SHA-256
+-$1.77/day
+https://www.asicminervalue.com/miners/ebang/ebit-e9i
+Model Ebit E9i from Ebang mining SHA-256 algorithm with a maximum hashrate of 13.5Th/s for a power consumption of 1420W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E9i', 'Release': 'July 2018', 'Size': '147 x 161 x 305mm', 'Weight': '5500g', 'Chip boards': '4', 'Chip count': '120', 'Noise level': '74db', 'Power': '1420W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+184
+Baikal BK-N240
+May 2018
+240kh/s
+650W
+62db
+CryptoNight, CryptoNight-Lite
+-$1.77/day
+https://www.asicminervalue.com/miners/baikal/bk-n240
+Model BK-N240 from Baikal mining 2 algorithms (CryptoNight, CryptoNight-Lite) with a maximum hashrate of 480kh/s for a power consumption of 650W.
+{'Manufacturer': 'Baikal', 'Model': 'BK-N240', 'Release': 'May 2018', 'Size': '190 x 150 x 320mm', 'Weight': '6500g', 'Noise level': '62db', 'Fan(s)': '1', 'Power': '650W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Dinastycoin (DCY)', 'Karbo (KRB)', 'Bytecoin (BCN)', 'Monero Original (XMO)', 'Monero Classic (XMC)']
+
+185
+Innosilicon T2 Turbo HF+
+Jul 2021
+33Th/s
+2600W
+72db
+SHA-256
+-$1.81/day
+https://www.asicminervalue.com/miners/innosilicon/t2-turbo-hf
+Model T2 Turbo HF+ from Innosilicon mining SHA-256 algorithm with a maximum hashrate of 33Th/s for a power consumption of 2600W.
+{'Manufacturer': 'Innosilicon', 'Model': 'T2 Turbo HF+', 'Also known as': 'T2THF+', 'Release': 'July 2021', 'Size': '309 x 203 x 290mm', 'Weight': '10000g', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '2600W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+186
+Halong Mining DragonMint B29
+Apr 2018
+2.1Th/s
+900W
+70db
+Blake256R14
+-$1.83/day
+https://www.asicminervalue.com/miners/halong-mining/dragonmint-b29
+Model DragonMint B29 from Halong Mining mining Blake256R14 algorithm with a maximum hashrate of 2.1Th/s for a power consumption of 900W.
+{'Manufacturer': 'Halong Mining', 'Model': 'DragonMint B29', 'Release': 'April 2018', 'Size': '310 x 124 x 155mm', 'Weight': '6000g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '900W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+187
+Bitfily Snow Panther B1+
+Aug 2018
+24.5Th/s
+2100W
+75db
+SHA-256
+-$1.83/day
+https://www.asicminervalue.com/miners/bitfily/snow-panther-b1-1
+Model Snow Panther B1+ from Bitfily mining SHA-256 algorithm with a maximum hashrate of 24.5Th/s for a power consumption of 2100W.
+{'Manufacturer': 'Bitfily', 'Model': 'Snow Panther B1+', 'Release': 'August 2018', 'Size': '150 x 185 x 370mm', 'Weight': '5700g', 'Chip name': 'BFL1001', 'Chip size': '10nm', 'Chip count': '288', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '2100W', 'Voltage': '11.6 - 13V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+188
+Bitmain Antminer S9 Hydro (18Th)
+Aug 2018
+18Th/s
+1728W
+45db
+SHA-256
+-$1.88/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s9-hydro-18th
+Model Antminer S9 Hydro (18Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 18Th/s for a power consumption of 1728W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S9 Hydro (18Th)', 'Release': 'August 2018', 'Size': '125 x 190 x 360mm', 'Weight': '5150g', 'Noise level': '45db', 'Cooling': 'Water cooling', 'Fan(s)': '2', 'Power': '1728W', 'Voltage': '11.6 - 13V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+189
+FFMiner DS19
+Aug 2018
+3.1Th/s
+980W
+67db
+Blake256R14
+-$1.96/day
+https://www.asicminervalue.com/miners/ffminer/ds19
+Model DS19 from FFMiner mining Blake256R14 algorithm with a maximum hashrate of 3.1Th/s for a power consumption of 980W.
+{'Manufacturer': 'FFMiner', 'Model': 'DS19', 'Also known as': 'Flying Fish DS19', 'Release': 'August 2018', 'Size': '130 x 170 x 330mm', 'Noise level': '67db', 'Fan(s)': '1', 'Power': '980W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)', 'SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+190
+iBeLink DM22G
+Sep 2017
+22Gh/s
+810W
+81db
+X11
+-$1.99/day
+https://www.asicminervalue.com/miners/ibelink/dm22g
+Model DM22G from iBeLink mining X11 algorithm with a maximum hashrate of 22Gh/s for a power consumption of 810W.
+{'Manufacturer': 'iBeLink', 'Model': 'DM22G', 'Release': 'September 2017', 'Size': '350 x 180 x 490mm', 'Weight': '19000g', 'Chip boards': '4', 'Chip name': 'TNB0303', 'Chip count': '216', 'Noise level': '81db', 'Fan(s)': '5', 'Power': '810W', 'Wires': 'PSU Included', 'Voltage': '12V', 'Rack format': '4U', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+191
+Innosilicon D9 DecredMaster
+Apr 2018
+2.4Th/s
+1000W
+70db
+Blake256R14
+-$2.01/day
+https://www.asicminervalue.com/miners/innosilicon/d9-decredmaster
+Model D9 DecredMaster from Innosilicon mining Blake256R14 algorithm with a maximum hashrate of 2.4Th/s for a power consumption of 1000W.
+{'Manufacturer': 'Innosilicon', 'Model': 'D9 DecredMaster', 'Release': 'April 2018', 'Size': '130 x 155 x 310mm', 'Weight': '3600g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1000W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'You need to update the firmware to reach 2.4Th'}
+['Decred (DCR)']
+
+192
+Ebang Ebit E9
+Sep 2018
+6.3Th/s
+1077W
+72db
+SHA-256
+-$2.02/day
+https://www.asicminervalue.com/miners/ebang/ebit-e9-1
+Model Ebit E9 from Ebang mining SHA-256 algorithm with a maximum hashrate of 6.3Th/s for a power consumption of 1077W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E9', 'Release': 'September 2018', 'Size': '155 x 126 x 290mm', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1077W', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+193
+Canaan AvalonMiner 741
+Apr 2017
+7.3Th/s
+1150W
+65db
+SHA-256
+-$2.06/day
+https://www.asicminervalue.com/miners/canaan/avalonminer-741
+Model AvalonMiner 741 from Canaan mining SHA-256 algorithm with a maximum hashrate of 7.3Th/s for a power consumption of 1150W.
+{'Manufacturer': 'Canaan', 'Model': 'AvalonMiner 741', 'Also known as': 'Avalon A7', 'Release': 'April 2017', 'Size': '136 x 150 x 320mm', 'Weight': '4300g', 'Chip name': 'A3212', 'Chip size': '16nm', 'Chip count': '88', 'Noise level': '65db', 'Fan(s)': '1', 'Power': '1150W', 'Wires': '6 * 6pins', 'Voltage': '12 - 12.6V', 'Interface': 'AUC3 - RJ45', 'Temperature': '-5 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+194
+Innosilicon A10 ETHMaster (500Mh)
+Sep 2019
+500Mh/s
+750W
+75db
+EtHash4G
+Unknown
+https://www.asicminervalue.com/miners/innosilicon/a10-ethmaster-500mh
+Buy PRO model instead, not enough RAM to mine ETH with this model.
+{'Manufacturer': 'Innosilicon', 'Model': 'A10 ETHMaster (500Mh)', 'Also known as': 'A10 ETHKing', 'Release': 'September 2019', 'Size': '136 x 285 x 362mm', 'Weight': '8100g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '750W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+
+195
+iBeLink DM11G
+Jul 2017
+10.8Gh/s
+810W
+81db
+X11
+-$2.17/day
+https://www.asicminervalue.com/miners/ibelink/dm11g
+Model DM11G from iBeLink mining X11 algorithm with a maximum hashrate of 10.8Gh/s for a power consumption of 810W.
+{'Manufacturer': 'iBeLink', 'Model': 'DM11G', 'Release': 'July 2017', 'Size': '350 x 180 x 490mm', 'Weight': '19000g', 'Chip boards': '4', 'Chip name': 'TNB0303', 'Chip count': '64', 'Noise level': '81db', 'Fan(s)': '5', 'Power': '810W', 'Wires': 'PSU included', 'Voltage': '12V', 'Rack format': '4U', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+196
+Bitmain Antminer E3 (190Mh)
+Jul 2018
+190Mh/s
+760W
+76db
+EtHash4G
+Unknown
+https://www.asicminervalue.com/miners/bitmain/antminer-e3-190mh
+Model Antminer E3 (190Mh) from Bitmain mining EtHash4G algorithm with a maximum hashrate of 190Mh/s for a power consumption of 760W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer E3 (190Mh)', 'Release': 'July 2018', 'Size': '130 x 328 x 399mm', 'Weight': '10500g', 'Chip boards': '3', 'Chip count': '18', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '760W', 'Voltage': '11.60~13.00 V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+
+197
+Ebang Ebit E9+
+Jan 2018
+9Th/s
+1300W
+75db
+SHA-256
+-$2.19/day
+https://www.asicminervalue.com/miners/ebang/ebit-e9
+Model Ebit E9+ from Ebang mining SHA-256 algorithm with a maximum hashrate of 9Th/s for a power consumption of 1300W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E9+', 'Release': 'January 2018', 'Size': '126 x 155 x 290mm', 'Weight': '4700g', 'Chip boards': '3', 'Chip name': 'DW1227', 'Chip size': '14nm', 'Chip count': '132', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1300W', 'Wires': '9 * 6pin', 'Voltage': '11.8V～13.0V', 'Interface': 'Ethernet', 'Temperature': '-10 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+198
+Bitmain Antminer T9 (11.5Th)
+Apr 2017
+11.5Th/s
+1450W
+68db
+SHA-256
+-$2.20/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t9-11-5th
+Model Antminer T9 (11.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 11.5Th/s for a power consumption of 1450W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T9 (11.5Th)', 'Release': 'April 2017', 'Size': '135 x 158 x 350mm', 'Weight': '3800g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '171', 'Noise level': '68db', 'Fan(s)': '2', 'Power': '1450W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+199
+PinIdea DR-100 Pro
+Nov 2017
+21Gh/s
+900W
+55db
+X11
+-$2.27/day
+https://www.asicminervalue.com/miners/pinidea/dr-100-pro
+Model DR-100 Pro from PinIdea mining X11 algorithm with a maximum hashrate of 21Gh/s for a power consumption of 900W.
+{'Manufacturer': 'PinIdea', 'Model': 'DR-100 Pro', 'Release': 'November 2017', 'Size': '150 x 180 x 380mm', 'Weight': '5000g', 'Noise level': '55db', 'Fan(s)': '2', 'Power': '900W', 'Wires': '5 * 6pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+200
+Bitmain Antminer V9 (4Th)
+Mar 2018
+4Th/s
+1027W
+76db
+SHA-256
+-$2.27/day
+https://www.asicminervalue.com/miners/bitmain/antminer-v9-4th
+Model Antminer V9 (4Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 4Th/s for a power consumption of 1027W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer V9 (4Th)', 'Release': 'March 2018', 'Size': '123 x 155 x 301mm', 'Weight': '3050g', 'Chip name': 'BM1580', 'Chip count': '135', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1027W', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+201
+PinIdea DR-100
+Aug 2017
+19Gh/s
+900W
+55db
+X11
+-$2.30/day
+https://www.asicminervalue.com/miners/pinidea/dr-100
+Model DR-100 from PinIdea mining X11 algorithm with a maximum hashrate of 19Gh/s for a power consumption of 900W.
+{'Manufacturer': 'PinIdea', 'Model': 'DR-100', 'Release': 'August 2017', 'Size': '150 x 180 x 380mm', 'Weight': '5000g', 'Noise level': '55db', 'Fan(s)': '2', 'Power': '900W', 'Wires': '5 * 6pin', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+202
+Bitmain Antminer E3 (180Mh)
+Jul 2018
+180Mh/s
+800W
+75db
+EtHash4G
+Unknown
+https://www.asicminervalue.com/miners/bitmain/antminer-e3-180mh
+Model Antminer E3 (180Mh) from Bitmain mining EtHash4G algorithm with a maximum hashrate of 180Mh/s for a power consumption of 800W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer E3 (180Mh)', 'Release': 'July 2018', 'Weight': '13000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '800W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+
+203
+Ebang Ebit E9.3
+May 2018
+16Th/s
+1760W
+72db
+SHA-256
+-$2.31/day
+https://www.asicminervalue.com/miners/ebang/ebit-e9-3
+Model Ebit E9.3 from Ebang mining SHA-256 algorithm with a maximum hashrate of 16Th/s for a power consumption of 1760W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E9.3', 'Release': 'May 2018', 'Weight': '6900g', 'Chip name': 'DW1228', 'Chip size': '10nm', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1760W', 'Wires': '13*6PIN', 'Voltage': '11.8V～13.0V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+204
+Bitmain Antminer T9+ (10.5Th)
+Jan 2018
+10.5Th/s
+1432W
+76db
+SHA-256
+-$2.32/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t9-10-5th
+Model Antminer T9+ (10.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 10.5Th/s for a power consumption of 1432W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T9+ (10.5Th)', 'Release': 'January 2018', 'Size': '125 x 190 x 320mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '162', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1432W', 'Wires': '10 * 6pin', 'Voltage': '11.60~13.00 V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+205
+Aisen A1 Pro
+May 2021
+23Th/s
+2200W
+72db
+SHA-256
+-$2.38/day
+https://www.asicminervalue.com/miners/aisen/a1-pro
+Model A1 Pro from Aisen mining SHA-256 algorithm with a maximum hashrate of 23Th/s for a power consumption of 2200W.
+{'Manufacturer': 'Aisen', 'Model': 'A1 Pro', 'Also known as': 'Aixin A1 Pro / Love Core A1 Pro', 'Release': 'May 2021', 'Size': '255 x 215 x 445mm', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '2200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+206
+Bitmain Antminer T9 (12.5Th)
+Aug 2017
+12.5Th/s
+1576W
+68db
+SHA-256
+-$2.39/day
+https://www.asicminervalue.com/miners/bitmain/antminer-t9-12-5th
+Model Antminer T9 (12.5Th) from Bitmain mining SHA-256 algorithm with a maximum hashrate of 12.5Th/s for a power consumption of 1576W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer T9 (12.5Th)', 'Release': 'August 2017', 'Size': '135 x 158 x 350mm', 'Weight': '3800g', 'Chip boards': '3', 'Chip name': 'BM1387', 'Chip size': '16nm', 'Chip count': '171', 'Noise level': '68db', 'Fan(s)': '2', 'Power': '1576W', 'Wires': '10 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+207
+FusionSilicon X1 Miner
+Jan 2019
+12.96Gh/s
+1110W
+72db
+Lyra2REv2
+-$2.50/day
+https://www.asicminervalue.com/miners/fusionsilicon/x1-miner
+Model X1 Miner from FusionSilicon mining Lyra2REv2 algorithm with a maximum hashrate of 12.96Gh/s for a power consumption of 1110W.
+{'Manufacturer': 'FusionSilicon', 'Model': 'X1 Miner', 'Release': 'January 2019', 'Size': '130 x 198 x 340mm', 'Weight': '4300g', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '1110W', 'Voltage': '12-13V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Vertcoin (VTC)', 'Monacoin (MONA)', 'Galactrum (ORE)', 'Rupee (RUP)', 'Straks (STAK)']
+
+208
+Innosilicon D9+ DecredMaster
+Aug 2018
+2.8Th/s
+1230W
+70db
+Blake256R14
+-$2.53/day
+https://www.asicminervalue.com/miners/innosilicon/d9-decredmaster-1
+Model D9+ DecredMaster from Innosilicon mining Blake256R14 algorithm with a maximum hashrate of 2.8Th/s for a power consumption of 1230W.
+{'Manufacturer': 'Innosilicon', 'Model': 'D9+ DecredMaster', 'Release': 'August 2018', 'Size': '130 x 155 x 310mm', 'Weight': '3600g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1230W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+209
+Todek Toddminer C1
+Mar 2020
+1.55Th/s
+1380W
+70db
+Eaglesong
+-$2.60/day
+https://www.asicminervalue.com/miners/todek/toddminer-c1
+Model Toddminer C1 from Todek mining Eaglesong algorithm with a maximum hashrate of 1.55Th/s for a power consumption of 1380W.
+{'Manufacturer': 'Todek', 'Model': 'Toddminer C1', 'Release': 'March 2020', 'Size': '125 x 160 x 347mm', 'Weight': '4600g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1380W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Nervos (CKB)']
+
+210
+Bitmain Antminer D5 (119Gh)
+Nov 2018
+119Gh/s
+1566W
+76db
+X11
+-$2.68/day
+https://www.asicminervalue.com/miners/bitmain/antminer-d5-119gh
+Model Antminer D5 (119Gh) from Bitmain mining X11 algorithm with a maximum hashrate of 119Gh/s for a power consumption of 1566W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer D5 (119Gh)\t', 'Release': 'November 2018', 'Size': '265 x 388 x 486mm', 'Weight': '7500g', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1566W', 'Wires': 'PSU include', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+211
+Bitmain Antminer S7
+Sep 2015
+4.73Th/s
+1293W
+62db
+SHA-256
+-$2.91/day
+https://www.asicminervalue.com/miners/bitmain/antminer-s7
+Model Antminer S7 from Bitmain mining SHA-256 algorithm with a maximum hashrate of 4.73Th/s for a power consumption of 1293W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer S7', 'Release': 'September 2015', 'Size': '123 x 155 x 301mm', 'Weight': '3900g', 'Chip boards': '3', 'Chip name': 'BM1385', 'Chip size': '28nm', 'Chip count': '135', 'Noise level': '62db', 'Fan(s)': '2', 'Power': '1293W', 'Wires': '8 * 6pins', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+212
+Dayun Zig Z1+
+Oct 2018
+7.25Gh/s
+1200W
+70db
+Lyra2REv2
+-$3.06/day
+https://www.asicminervalue.com/miners/dayun/zig-z1-1
+Model Zig Z1+ from Dayun mining Lyra2REv2 algorithm with a maximum hashrate of 7.25Gh/s for a power consumption of 1200W.
+{'Manufacturer': 'Dayun', 'Model': 'Zig Z1+', 'Also known as': 'Zig Z1 Plus', 'Release': 'October 2018', 'Chip size': '28nm', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Vertcoin (VTC)', 'Monacoin (MONA)', 'Galactrum (ORE)', 'Rupee (RUP)', 'Straks (STAK)']
+
+213
+Dayun Zig Z1
+Sep 2018
+6.8Gh/s
+1200W
+70db
+Lyra2REv2
+-$3.09/day
+https://www.asicminervalue.com/miners/dayun/zig-z1
+Model Zig Z1 from Dayun mining Lyra2REv2 algorithm with a maximum hashrate of 6.8Gh/s for a power consumption of 1200W.
+{'Manufacturer': 'Dayun', 'Model': 'Zig Z1', 'Release': 'September 2018', 'Chip size': '28nm', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Vertcoin (VTC)', 'Monacoin (MONA)', 'Galactrum (ORE)', 'Rupee (RUP)', 'Straks (STAK)']
+
+214
+Bitmain Antminer D3 (15Gh)
+Sep 2017
+15Gh/s
+1200W
+75db
+X11
+-$3.22/day
+https://www.asicminervalue.com/miners/bitmain/antminer-d3-15gh
+Model Antminer D3 (15Gh) from Bitmain mining X11 algorithm with a maximum hashrate of 15Gh/s for a power consumption of 1200W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer D3 (15Gh)', 'Release': 'September 2017', 'Size': '130 x 190 x 320mm', 'Weight': '5500g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1200W', 'Wires': '9 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+215
+Innosilicon A5+ DashMaster
+Mar 2018
+65Gh/s
+1500W
+75db
+X11
+-$3.32/day
+https://www.asicminervalue.com/miners/innosilicon/a5-dashmaster-1
+Model A5+ DashMaster from Innosilicon mining X11 algorithm with a maximum hashrate of 65Gh/s for a power consumption of 1500W.
+{'Manufacturer': 'Innosilicon', 'Model': 'A5+ DashMaster', 'Release': 'March 2018', 'Size': '250 x 155 x 265mm', 'Weight': '6020g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '1500W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 85 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+216
+Bitmain Antminer D3 (17.5Gh)
+Oct 2017
+17.5Gh/s
+1280W
+75db
+X11
+-$3.42/day
+https://www.asicminervalue.com/miners/bitmain/antminer-d3-17-5gh
+Model Antminer D3 (17.5Gh) from Bitmain mining X11 algorithm with a maximum hashrate of 17.5Gh/s for a power consumption of 1280W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer D3 (17.5Gh)', 'Release': 'October 2017', 'Size': '130 x 190 x 320mm', 'Weight': '5500g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1280W', 'Wires': '9 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+217
+Bitmain Antminer G2
+Dec 2017
+220Mh/s
+1200W
+72db
+EtHash4G
+Unknown
+https://www.asicminervalue.com/miners/bitmain/antminer-g2
+Model Antminer G2 from Bitmain mining EtHash4G algorithm with a maximum hashrate of 220Mh/s for a power consumption of 1200W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer G2', 'Release': 'December 2017', 'Size': '545 x 612 x 100mm', 'Weight': '15000g', 'Chip boards': '8', 'Chip name': 'RX570', 'Noise level': '72db', 'Fan(s)': '6', 'Power': '1200W', 'Rack format': '3U', 'Interface': 'Ethernet', 'Processor': 'Inter Skylake-s G3900-LGA1151, PCH-B150', 'Memory': '8GB UDIMM, DDR4 -2133', 'Operating system': 'CentOS 7.0', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+
+218
+iBeLink DSM7T
+Aug 2018
+7Th/s
+2100W
+76db
+Blake256R14, Blake2B
+-$3.50/day
+https://www.asicminervalue.com/miners/ibelink/dsm7t
+Model DSM7T from iBeLink mining 2 algorithms (Blake256R14, Blake2B) with a maximum hashrate of 7Th/s for a power consumption of 2100W.
+{'Manufacturer': 'iBeLink', 'Model': 'DSM7T', 'Release': 'August 2018', 'Size': '490 x 180 x 390mm', 'Weight': '15600g', 'Chip boards': '4', 'Noise level': '76db', 'Fan(s)': '6', 'Power': '2100W', 'Wires': 'Built-in PSU', 'Voltage': '190-240V', 'Interface': 'Ethernet', 'Humidity': '5 - 95 %'}
+['Decred (DCR)', 'SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+219
+Bitmain Antminer K5 (1130Gh)
+Apr 2020
+1.13Th/s
+1580W
+72db
+Eaglesong
+-$3.55/day
+https://www.asicminervalue.com/miners/bitmain/antminer-k5-1130gh
+You should know that profits will drop drastically after first batch delivery. In addition, if CKB choose to fork to another algorithm, this device could become totally useless.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer K5 (1130Gh)', 'Release': 'April 2020', 'Size': '331 x 234 x 391mm', 'Weight': '6100g', 'Noise level': '72db', 'Fan(s)': '4', 'Power': '1580W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Nervos (CKB)']
+
+220
+Bitmain Antminer D3 (19.3Gh)
+Oct 2017
+19.3Gh/s
+1350W
+75db
+X11
+-$3.59/day
+https://www.asicminervalue.com/miners/bitmain/antminer-d3-19-3gh
+Model Antminer D3 (19.3Gh) from Bitmain mining X11 algorithm with a maximum hashrate of 19.3Gh/s for a power consumption of 1350W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer D3 (19.3Gh)', 'Release': 'October 2017', 'Size': '130 x 190 x 320mm', 'Weight': '5500g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '1350W', 'Wires': '9 * 6pins', 'Voltage': '11.60 ~13.00V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+221
+Dayun Zig Z1 Pro
+Jun 2019
+13Gh/s
+1500W
+72db
+Lyra2REv2
+-$3.62/day
+https://www.asicminervalue.com/miners/dayun/zig-z1-pro
+Model Zig Z1 Pro from Dayun mining Lyra2REv2 algorithm with a maximum hashrate of 13Gh/s for a power consumption of 1500W.
+{'Manufacturer': 'Dayun', 'Model': 'Zig Z1 Pro', 'Also known as': 'Z1Pro', 'Release': 'June 2019', 'Chip size': '28nm', 'Noise level': '72db', 'Fan(s)': '4', 'Power': '1500W', 'Voltage': '12V', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Vertcoin (VTC)', 'Monacoin (MONA)', 'Galactrum (ORE)', 'Rupee (RUP)', 'Straks (STAK)']
+
+222
+Bitmain Antminer A3 (815Gh)
+Jan 2018
+815Gh/s
+1275W
+76db
+Blake2B
+-$3.64/day
+https://www.asicminervalue.com/miners/bitmain/antminer-a3-815gh
+Model Antminer A3 (815Gh) from Bitmain mining Blake2B algorithm with a maximum hashrate of 815Gh/s for a power consumption of 1275W.
+{'Manufacturer': 'Bitmain', 'Model': 'Antminer A3 (815Gh)', 'Release': 'January 2018', 'Size': '125 x 208 x 321mm', 'Weight': '4200g', 'Chip boards': '3', 'Chip name': 'BM1720', 'Chip count': '180', 'Noise level': '76db', 'Fan(s)': '2', 'Power': '1275W', 'Wires': '10 * 6pin ', 'Voltage': '11.60~13.00 V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+223
+MicroBT Whatsminer M3
+Jan 2018
+12Th/s
+2000W
+78db
+SHA-256
+-$3.69/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m3
+Model Whatsminer M3 from MicroBT mining SHA-256 algorithm with a maximum hashrate of 12Th/s for a power consumption of 2000W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M3', 'Also known as': 'M3V1', 'Release': 'January 2018', 'Size': '125 x 155 x 335mm', 'Weight': '8100g', 'Chip boards': '3', 'Chip name': 'SMTI 1700', 'Chip size': '28nm', 'Chip count': '198', 'Noise level': '78db', 'Fan(s)': '2', 'Power': '2000W', 'Wires': '10 * 6pins', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-10 - 45 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'PSU include'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+224
+MicroBT Whatsminer M3X
+Mar 2018
+12.5Th/s
+2050W
+78db
+SHA-256
+-$3.75/day
+https://www.asicminervalue.com/miners/microbt/whatsminer-m3x
+Model Whatsminer M3X from MicroBT mining SHA-256 algorithm with a maximum hashrate of 12.5Th/s for a power consumption of 2050W.
+{'Manufacturer': 'MicroBT', 'Model': 'Whatsminer M3X', 'Also known as': 'M3V2', 'Release': 'March 2018', 'Size': '170 x 200 x 340mm', 'Weight': '7500g', 'Chip boards': '3', 'Chip name': 'SMTI 1700', 'Chip size': '28nm', 'Chip count': '198', 'Noise level': '78db', 'Fan(s)': '2', 'Power': '2050W', 'Wires': '10 * 6pins', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '-10 - 45 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'PSU include'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+225
+Innosilicon S11 SiaMaster
+Apr 2018
+4.3Th/s
+1350W
+70db
+Blake2B
+-$3.82/day
+https://www.asicminervalue.com/miners/innosilicon/s11-siamaster
+Model S11 SiaMaster from Innosilicon mining Blake2B algorithm with a maximum hashrate of 4.3Th/s for a power consumption of 1350W.
+{'Manufacturer': 'Innosilicon', 'Model': 'S11 SiaMaster', 'Release': 'April 2018', 'Size': '130 x 155 x 290mm', 'Weight': '3700g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1350W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'This 3.8Th model can go up to 4.3Th with a firmware update.'}
+['SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+226
+Halong Mining DragonMint B52
+Apr 2018
+3.83Th/s
+1380W
+70db
+Blake2B
+-$3.84/day
+https://www.asicminervalue.com/miners/halong-mining/dragonmint-b52
+Model DragonMint B52 from Halong Mining mining Blake2B algorithm with a maximum hashrate of 3.83Th/s for a power consumption of 1380W.
+{'Manufacturer': 'Halong Mining', 'Model': 'DragonMint B52', 'Release': 'April 2018', 'Size': '295 x 124 x 155mm', 'Weight': '6000g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '1380W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+227
+Bitfily Snow Panther D1
+Jul 2018
+6Th/s
+2100W
+db
+Blake256R14
+-$3.87/day
+https://www.asicminervalue.com/miners/bitfily/snow-panther-d1
+Model Snow Panther D1 from Bitfily mining Blake256R14 algorithm with a maximum hashrate of 6Th/s for a power consumption of 2100W.
+{'Manufacturer': 'Bitfily', 'Model': 'Snow Panther D1', 'Release': 'July 2018', 'Size': '390 x 180 x 490mm', 'Weight': '17000g', 'Power': '2100W', 'Voltage': '190 - 240V', 'Interface': 'Ethernet', 'Temperature': 'null - 40 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+228
+iBeLink DSM6T
+Jun 2018
+6Th/s
+2100W
+78db
+Blake256R14
+-$3.87/day
+https://www.asicminervalue.com/miners/ibelink/dsm6t
+Model DSM6T from iBeLink mining Blake256R14 algorithm with a maximum hashrate of 6Th/s for a power consumption of 2100W.
+{'Manufacturer': 'iBeLink', 'Model': 'DSM6T', 'Also known as': 'DCR 6Th/s', 'Release': 'June 2018', 'Size': '490 x 180 x 390mm', 'Weight': '17600g', 'Noise level': '78db', 'Fan(s)': '6', 'Power': '2100W', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['Decred (DCR)']
+
+229
+GMO miner B3
+Nov 2018
+33Th/s
+3417W
+75db
+SHA-256
+-$4.16/day
+https://www.asicminervalue.com/miners/gmo-miner/b3
+Model B3 from GMO miner mining SHA-256 algorithm with a maximum hashrate of 33Th/s for a power consumption of 3417W.
+{'Manufacturer': 'GMO miner', 'Model': 'B3', 'Release': 'November 2018', 'Size': '136 x 163 x 430mm', 'Weight': '5000g', 'Chip boards': '3', 'Chip name': 'GMO72b', 'Chip size': '7nm', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3417W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': 'null - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+230
+Spondoolies SPx36
+Sep 2018
+540Gh/s
+4400W
+75db
+X11
+-$4.35/day
+https://www.asicminervalue.com/miners/spondoolies/spx36
+Model SPx36 from Spondoolies mining X11 algorithm with a maximum hashrate of 540Gh/s for a power consumption of 4400W.
+{'Manufacturer': 'Spondoolies', 'Model': 'SPx36', 'Release': 'September 2018', 'Size': '595 x 434 x 88mm', 'Weight': '19500g', 'Chip count': '150', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '4400W', 'Rack format': '2U', 'Interface': 'Ethernet', 'Temperature': '5 - 35 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+231
+StrongU STU-U2
+Oct 2018
+7Th/s
+1600W
+76db
+Blake2B
+-$4.35/day
+https://www.asicminervalue.com/miners/strongu/stu-u2
+Model STU-U2 from StrongU mining Blake2B algorithm with a maximum hashrate of 7Th/s for a power consumption of 1600W.
+{'Manufacturer': 'StrongU', 'Model': 'STU-U2', 'Also known as': 'Miner U2', 'Release': 'October 2018', 'Size': '130 x 210 x 348mm', 'Weight': '6500g', 'Noise level': '76db', 'Cooling': '2×12038', 'Fan(s)': '2', 'Power': '1600W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['SpaceCash (SPACE)', 'SiaClassic (SCC)']
+
+232
+Bitfury Tardis
+Nov 2018
+80Th/s
+6300W
+80db
+SHA-256
+-$4.37/day
+https://www.asicminervalue.com/miners/bitfury/tardis
+Model Tardis from Bitfury mining SHA-256 algorithm with a maximum hashrate of 80Th/s for a power consumption of 6300W.
+{'Manufacturer': 'Bitfury', 'Model': 'Tardis', 'Release': 'November 2018', 'Size': '264 x 483 x 591mm', 'Weight': '37000g', 'Chip boards': '8', 'Chip name': 'Bitfury Clarke', 'Chip size': '14nm', 'Chip count': '1024', 'Noise level': '80db', 'Fan(s)': '6', 'Power': '6300W', 'Voltage': '200–277 VAC, 45–66 Hz\u2029', 'Rack format': '6U', 'Interface': 'Ethernet 100BASE-TX, IEEE 802.3u', 'Temperature': '-20 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+233
+Todek Toddminer C1 PRO
+May 2020
+3Th/s
+2700W
+70db
+Eaglesong
+-$5.11/day
+https://www.asicminervalue.com/miners/todek/toddminer-c1-pro
+Model Toddminer C1 PRO from Todek mining Eaglesong algorithm with a maximum hashrate of 3Th/s for a power consumption of 2700W.
+{'Manufacturer': 'Todek', 'Model': 'Toddminer C1 PRO', 'Release': 'May 2020', 'Size': '185 x 281 x 300mm', 'Weight': '12000g', 'Noise level': '70db', 'Fan(s)': '2', 'Power': '2700W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Nervos (CKB)']
+
+234
+iBeLink DM56G
+May 2018
+56Gh/s
+2100W
+72db
+X11
+-$5.18/day
+https://www.asicminervalue.com/miners/ibelink/dm56g
+Model DM56G from iBeLink mining X11 algorithm with a maximum hashrate of 56Gh/s for a power consumption of 2100W.
+{'Manufacturer': 'iBeLink', 'Model': 'DM56G', 'Release': 'May 2018', 'Size': '390 x 180 x 490mm', 'Weight': '16500g', 'Chip name': 'TNB0306', 'Chip count': '270', 'Noise level': '72db', 'Fan(s)': '6', 'Power': '2100W', 'Interface': 'Ethernet', 'Temperature': '0 - 40 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+235
+Dayun Zig D1
+Nov 2018
+48Gh/s
+2200W
+55db
+X11
+-$5.60/day
+https://www.asicminervalue.com/miners/dayun/zig-d1
+Model Zig D1 from Dayun mining X11 algorithm with a maximum hashrate of 48Gh/s for a power consumption of 2200W.
+{'Manufacturer': 'Dayun', 'Model': 'Zig D1', 'Release': 'November 2018', 'Size': '290 x 170 x 300mm', 'Weight': '9850g', 'Noise level': '55db', 'Fan(s)': '2', 'Power': '2200W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['MonetaryUnit (MUE)', 'CannabisCoin (CANN)', 'Dash (DASH)', 'DigitalpriceClassic (DPC)', 'Onix (ONX)', 'Axe (AXE)']
+
+236
+Ebang Ebit E10D
+Sep 2021
+25Th/s
+3500W
+75db
+SHA-256
+-$5.78/day
+https://www.asicminervalue.com/miners/ebang/ebit-e10d
+Model Ebit E10D from Ebang mining SHA-256 algorithm with a maximum hashrate of 25Th/s for a power consumption of 3500W.
+{'Manufacturer': 'Ebang', 'Model': 'Ebit E10D', 'Release': 'September 2021', 'Size': '215 x 196 x 310mm', 'Weight': '12000g', 'Noise level': '75db', 'Fan(s)': '2', 'Power': '3500W', 'Wires': '2x 1800W PSU', 'Interface': 'Ethernet', 'Temperature': '5 - 45 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+237
+Bitfily Snow Panther A1
+Jan 2018
+49Th/s
+5400W
+82db
+SHA-256
+-$7.12/day
+https://www.asicminervalue.com/miners/bitfily/snow-panther-a1
+Model Snow Panther A1 from Bitfily mining SHA-256 algorithm with a maximum hashrate of 49Th/s for a power consumption of 5400W.
+{'Manufacturer': 'Bitfily', 'Model': 'Snow Panther A1', 'Also known as': 'Snow Leopard A1', 'Release': 'January 2018', 'Size': '275 x 483 x 599mm', 'Weight': '40000g', 'Chip boards': '6', 'Chip name': 'BF16BTC', 'Chip size': '16nm', 'Chip count': '576', 'Noise level': '82db', 'Fan(s)': '6 x 12038', 'Power': '5400W', 'Voltage': '48v – 57.6v', 'Rack format': '6U', 'Interface': 'Ethernet', 'Temperature': '-10 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+238
+Hummer Miner Mars H1
+Jul 2020
+88Gh/s
+2800W
+75db
+Handshake
+-$7.65/day
+https://www.asicminervalue.com/miners/hummer-miner/mars-h1
+Model Mars H1 from Hummer Miner mining Handshake algorithm with a maximum hashrate of 88Gh/s for a power consumption of 2800W.
+{'Manufacturer': 'Hummer Miner', 'Model': 'Mars H1', 'Release': 'July 2020', 'Size': '200 x 350 x 360mm', 'Weight': '21000g', 'Noise level': '75db', 'Fan(s)': '4', 'Power': '2800W', 'Voltage': '12V', 'Interface': 'Ethernet', 'Temperature': '5 - 40 °C', 'Humidity': '5 - 90 %'}
+['Handshake (HNS)']
+
+239
+Pantech WX6
+Jan 2018
+34Th/s
+5000W
+72db
+SHA-256
+-$8.55/day
+https://www.asicminervalue.com/miners/pantech/wx6
+Model WX6 from Pantech mining SHA-256 algorithm with a maximum hashrate of 34Th/s for a power consumption of 5000W.
+{'Manufacturer': 'Pantech', 'Model': 'WX6', 'Release': 'January 2018', 'Chip boards': '8', 'Chip name': 'Bitfury', 'Chip size': '16nm', 'Chip count': '416', 'Noise level': '72db', 'Fan(s)': '2', 'Power': '5000W', 'Voltage': '11.60 ~ 13.00V', 'Interface': 'Ethernet', 'Temperature': '-30 - 50 °C', 'Humidity': '5 - 95 %', 'Additionnal infos': 'Water cooling system'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+240
+Bitfury B8
+Dec 2017
+49Th/s
+6400W
+85db
+SHA-256
+-$10.00/day
+https://www.asicminervalue.com/miners/bitfury/b8
+Model B8 from Bitfury mining SHA-256 algorithm with a maximum hashrate of 49Th/s for a power consumption of 6400W.
+{'Manufacturer': 'Bitfury', 'Model': 'B8', 'Release': 'December 2017', 'Size': '440 x 270 x 650mm', 'Weight': '37000g', 'Chip boards': '6', 'Chip name': 'BF16BTC8162', 'Chip size': '16nm', 'Chip count': '576', 'Noise level': '85db', 'Fan(s)': '6', 'Power': '6400W', 'Voltage': '48V – 57.6V', 'Rack format': '6U', 'Interface': 'Ethernet', 'Temperature': '-10 - 40 °C', 'Humidity': '5 - 95 %'}
+['Acoin (ACOIN)', 'Curecoin (CURE)', 'Joulecoin (XJO)', 'Unbreakable (UNB)', 'eMark (DEM)', 'BitcoinCash (BCH)', 'Bitcoin (BTC)', 'Peercoin (PPC)', 'Terracoin (TRC)', 'BitcoinSV (BSV)']
+
+SUCCESS
+
+Process finished with exit code 0

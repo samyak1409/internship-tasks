@@ -59,6 +59,7 @@ for sr_num, model_row_html in enumerate(iterable=model_row_html_list, start=1):
     # print(model_row_html.prettify(), '\n')  # debugging
 
     # 'Model', 'Release', 'Hashrate', 'Power', 'Noise', 'Algo', 'Profitability':
+
     div_tags = model_row_html.find_all(name='div')
     # print(div_tags)  # debugging
     values = list(map(lambda div_tag: normalize('NFKD', div_tag.text).strip(), div_tags))  # https://stackoverflow.com/a/34669482
@@ -104,6 +105,29 @@ for sr_num, model_row_html in enumerate(iterable=model_row_html_list, start=1):
         specs_dict[spec_row_html.th.text] = spec_row_html.td.text
     print(specs_dict)
     sheet.cell(row=row_num, column=11, value=str(specs_dict))
+
+    # 'Minable coins', 'Mining pools', 'Where to buy?', 'Cloud mining':
+
+    for div_tag in container_div.find_all(name='div', class_='col-sm-12'):
+        if div_tag.h2 is not None:
+            match div_tag.h2.text:
+
+                case 'Minable coins':
+                    coin_names = []
+                    for img_tag in div_tag.find_all(name='img'):
+                        x = BeautifulSoup(markup=img_tag['title'], features='html.parser')
+                        coin_names.append(x.text.removesuffix(x.i.text))
+                    print(coin_names)
+                    sheet.cell(row=row_num, column=12, value=', '.join(coin_names))
+
+                case 'Minable pools':
+                    pass
+
+                case 'Where to buy?':
+                    pass
+
+                case 'Cloud mining':
+                    pass
 
     wb.save(excel_file)  # (after every insertion)
 
