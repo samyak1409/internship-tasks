@@ -46,7 +46,7 @@ wb.save(excel_file)
 website_html_parsed = BeautifulSoup(markup=get_request(url=website).text, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
 # print(website_html_parsed.prettify()); exit()  # debugging
 
-model_row_html_list = website_html_parsed.find(name='tbody').find_all(name='tr')  # list of HTML of all the miner models
+model_row_html_list = website_html_parsed.tbody.find_all(name='tr')  # list of HTML of all the miner models
 # print(model_row_html_list); exit()  # debugging
 
 for sr_num, model_row_html in enumerate(iterable=model_row_html_list, start=1):
@@ -62,7 +62,7 @@ for sr_num, model_row_html in enumerate(iterable=model_row_html_list, start=1):
 
     div_tags = model_row_html.find_all(name='div')
     # print(div_tags)  # debugging
-    values = list(map(lambda div_tag: normalize('NFKD', div_tag.text).strip(), div_tags))  # https://stackoverflow.com/a/34669482
+    values = list(map(lambda div: normalize('NFKD', div.text).strip(), div_tags))  # https://stackoverflow.com/a/34669482
     # print(values)  # debugging
     values = values[3:][:7]  # for a reason 🤫
     # print(values)  # debugging
@@ -115,16 +115,23 @@ for sr_num, model_row_html in enumerate(iterable=model_row_html_list, start=1):
                 case 'Minable coins':
                     coin_names = []
                     for img_tag in div_tag.find_all(name='img'):
-                        x = BeautifulSoup(markup=img_tag['title'], features='html.parser')
-                        coin_names.append(x.text.removesuffix(x.i.text))
+                        coin_name_html = BeautifulSoup(markup=img_tag['title'], features='html.parser')
+                        # print(coin_name_html.prettify())  # debugging
+                        coin_names.append(coin_name_html.text.removesuffix(coin_name_html.i.text))
                     print(coin_names)
                     sheet.cell(row=row_num, column=12, value=', '.join(coin_names))
 
-                case 'Minable pools':
-                    pass
+                case 'Mining pools':
+                    pools_links = [pool_row_html.a['href'] for pool_row_html in div_tag.find_all(name='tr')]
+                    print(pools_links)
+                    sheet.cell(row=row_num, column=13, value=', '.join(pools_links))
 
                 case 'Where to buy?':
-                    pass
+                    stores_dict = {}
+                    for store_row_html in div_tag.tbody.find_all(name='tr'):
+                        stores_dict[store_row_html.b.text] = store_row_html.find(name='a', class_='btn btn-primary')['href']
+                    print(stores_dict)
+                    sheet.cell(row=row_num, column=14, value=str(stores_dict))
 
                 case 'Cloud mining':
                     pass
