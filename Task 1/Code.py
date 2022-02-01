@@ -1,5 +1,8 @@
-# I need the entire data on page https://www.asicminervalue.com/ --Model, Release, Hashrate, Power, Noise, Algo, Profitability, and the link associated with each model
-# Using the link associated with each model -you will need to parse the specific page for each of the hardware - For example, for Jasminer - we need all its data -- profitability, Algorithms (Algorythm Hashrate Consumption Efficiency Profitability), Description, All fields in specifications, minable coins, mining pools, all the information in Where to buy and cloud mining information (including the html links).
+"""
+I need the entire data on page https://www.asicminervalue.com/ --Model, Release, Hashrate, Power, Noise, Algo, Profitability, and the link associated with each model
+
+Using the link associated with each model -you will need to parse the specific page for each of the hardware - For example, for Jasminer - we need all its data -- profitability, Algorithms (Algorythm Hashrate Consumption Efficiency Profitability), Description, All fields in specifications, minable coins, mining pools, all the information in Where to buy and cloud mining information (including the html links).
+"""
 
 
 # IMPORTS:
