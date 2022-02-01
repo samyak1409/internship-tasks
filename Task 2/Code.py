@@ -28,7 +28,7 @@ for height in count(start=5200791):  # infinite loop
 
         print(f'\n#{height}')
 
-        response = get_request(f'https://api.cosmos.network/blocks/{height}')
+        response = get_request(url=f'https://api.cosmos.network/blocks/{height}')
 
         if response.status_code == 200:  # everything's good
 
