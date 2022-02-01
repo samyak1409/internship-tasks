@@ -78,9 +78,9 @@ for sr_num, model_row_html in enumerate(iterable=model_row_html_list, start=1):
     else:  # value is a number => there were multiple algos of this model
         values[5] = div_tags[8].span['title']  # correcting
 
-    for column_num, (column_name, value) in enumerate(iterable=zip(column_names[1:], values), start=2):
-        print(f'{column_name}: {value}')
-        sheet.cell(row=row_num, column=column_num, value=value)
+    for column_num, value in enumerate(iterable=values, start=1):
+        print(f'{column_names[column_num]}: {value}')
+        sheet.cell(row=row_num, column=column_num+1, value=value)
 
     # 'Link':
     model_page = website + model_row_html.a['href']
