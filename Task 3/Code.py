@@ -22,7 +22,18 @@ WEBSITE = 'https://atomscan.com'
 EXCEL_FILE = 'Scraped Data.xlsx'
 COLUMN_NAMES = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer', 'Transaction Hashes', 'Transaction Details']
 MAXIMIZE_CHROME = False
-START = 91  # range: [1, ~10M]
+START = 9286724  # range: [1, ~10M]
+
+
+# FUNCTIONS:
+
+def get_parsed_page_html():
+    return BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+
+
+def wait_to_load():
+    print('PLEASE WAIT...')
+    sleep(1)
 
 
 # CONNECTING TO EXCEL SHEET:
@@ -65,7 +76,7 @@ print('\nMAKE SURE YOU HAVE A FAST INTERNET CONNECTION AND LAG-FREE SYSTEM!')
 try:
     blocks = int(input('\nHow many?: '))
 except ValueError:
-    print('\nERROR: EMPTY OR NON-NUMERIC INPUT')
+    raise SystemExit('\nERROR: EMPTY OR NON-NUMERIC INPUT')
 else:
     if MAXIMIZE_CHROME:
         driver.maximize_window()
@@ -86,13 +97,10 @@ else:
         driver.get(url=url)  # open the webpage
 
         # 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer':
-        for try_ in range(2):  # when 'Proposer' will not load correctly, will try one more time
-
-            page_html_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
-            # print(page_html_parsed.prettify()); exit()  # debugging
+        for try_ in range(2):  # if 'Proposer' will not load correctly, will try one more time
 
             try:
-                block_details_div = page_html_parsed.find(name='div', class_='card-content block-details').div
+                block_details_div = get_parsed_page_html().find(name='div', class_='card-content block-details').div
             except AttributeError:  # "Block Not Found"
                 reached_max_height = True
                 print('\nSTOPPING: REACHED MAXIMUM BLOCK HEIGHT...')
@@ -112,8 +120,7 @@ else:
             proposer, validator_link = list(values[-1].items())[0]
             if proposer == validator_link.split('/')[-1]:
                 if try_ == 0:
-                    print('PLEASE WAIT...')
-                    sleep(1)  # waiting for 'Proposer' to load in case still loading
+                    wait_to_load()  # waiting for 'Proposer' to load in case still loading
             else:
                 break
 
@@ -126,25 +133,33 @@ else:
 
         if int(values[2]) > 0:  # if transaction(s) exist
             # 'Transaction Hashes':
-            hash_dict = {}
-            for transaction_row in page_html_parsed.tbody.find_all(name='tr'):
-                hash_ = transaction_row.td.next_sibling
-                hash_dict[hash_.div.text] = WEBSITE + hash_.a['href']
-            print('Transaction Hashes:', hash_dict)
-            sheet.cell(row=row_num, column=8, value=str(hash_dict))
+            while True:  # when there will be more no. of transactions, may not load immediately, will be loaded after a few tries
+                hash_dict = {}
+                try_again = False
+                for txn_row in get_parsed_page_html().tbody.find_all(name='tr'):
+                    hash_ = txn_row.td.next_sibling
+                    try:
+                        hash_dict[hash_.div.text] = WEBSITE + hash_.a['href']
+                    except TypeError:  # ('NoneType' object is not subscriptable)
+                        try_again = True
+                        break  # for loop
+                if try_again:
+                    wait_to_load()  # waiting for 'Transactions' to load
+                    continue
+                print('Transaction Hashes:', hash_dict)
+                sheet.cell(row=row_num, column=8, value=str(hash_dict))
+                break
 
             # 'Transaction Details':
-            transaction_details = {}
-            for hash_, transaction_link in hash_dict.items():
-                driver.get(url=transaction_link)  # open the webpage
-                transaction_page_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')
-                # print(transaction_page_parsed.prettify()); exit()   # debugging
-                hash_details = {}
-                for x in transaction_page_parsed.find(name='div', class_='card-content').div.find_all(name='div', class_='columns'):
-                    hash_details[x.div.text] = x.div.next_sibling.text.strip()
-                transaction_details[hash_] = hash_details
-            print('Transaction Details:', transaction_details)
-            sheet.cell(row=row_num, column=9, value=str(transaction_details))
+            txn_details = {}
+            for txn_hash, txn_link in hash_dict.items():
+                driver.get(url=txn_link)  # open the webpage
+                txn_detail = {}
+                for detail_row in get_parsed_page_html().find(name='div', class_='card-content').div.find_all(name='div', class_='columns'):
+                    txn_detail[detail_row.div.text] = detail_row.div.next_sibling.text.strip()
+                txn_details[txn_hash] = txn_detail
+            print('Transaction Details:', txn_details)
+            sheet.cell(row=row_num, column=9, value=str(txn_details))
 
         wb.save(EXCEL_FILE)  # (after every row insertion)
 
