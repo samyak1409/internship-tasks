@@ -1,6 +1,9 @@
 """
-Write a Python script to scrape from https://atomscan.com/blocks/1 till https://atomscan.com/blocks/9272083.
+Write a Python script to scrape from https://atomscan.com/blocks/1 till the latest block.
 We need to scrape every piece of information there.
+
+We will have to write one more follow-on code that will parse through all these transaction hashes and collect the detailed transactions' data.
+See this: https://atomscan.com/transactions/DC6DFDF7C91B14F7FCB6227B487F16F1AA747A8EA17EC8F2294C835C28A1BA4C
 """
 
 
