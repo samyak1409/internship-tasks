@@ -13,7 +13,6 @@ from os.path import exists
 from openpyxl import Workbook, load_workbook
 from datetime import datetime
 from os import startfile
-from time import sleep
 
 
 # ATTRIBUTES:
@@ -50,18 +49,21 @@ wb.save(excel_file)
 
 try:
     driver = Chrome()  # webdriver init
-
 except WebDriverException:
-    exit('''\nERROR: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/getting-started#h.p_ID_36 \n
+    raise SystemExit('''\nERROR: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/getting-started#h.p_ID_36 \n
 TL;DR:
 1) Download the ChromeDriver binary for your platform from https://chromedriver.chromium.org/downloads
 2) Include the ChromeDriver location in your PATH environment variable''')
 
-else:
-    driver.minimize_window()
+driver.minimize_window()
 
+print('\nMAKE SURE YOU HAVE A FAST INTERNET CONNECTION AND LAG-FREE SYSTEM!')
+
+try:
     blocks = int(input('\nHow many?: '))
-
+except ValueError:
+    print('<empty or non-numeric input>')
+else:
     driver.maximize_window()
 
     for height in range(1, blocks+1):
@@ -76,7 +78,6 @@ else:
         sheet.cell(row=row_num, column=2, value=url)
 
         driver.get(url=url)  # open the webpage
-        sleep(1)  # waiting to make sure page is completely and correctly loaded
 
         page_html_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
         # print(page_html_parsed.prettify()); break  # debugging
@@ -98,9 +99,8 @@ else:
 
         wb.save(excel_file)  # (after every row insertion)
 
+    startfile(excel_file)  # automatically open Excel Sheet when process completes
+    print('\nSUCCESS')
+
+finally:
     driver.quit()
-
-
-startfile(excel_file)  # automatically open Excel Sheet when process completes
-
-print('\nSUCCESS')
