@@ -20,7 +20,7 @@ from time import sleep
 
 WEBSITE = 'https://atomscan.com'
 EXCEL_FILE = 'Scraped Data.xlsx'
-COLUMN_NAMES = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer', 'Transaction Hashes', ]
+COLUMN_NAMES = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer', 'Transaction Hashes', 'Transaction Details']
 MAXIMIZE_CHROME = False
 START = 91  # range: [1, ~10M]
 
@@ -89,7 +89,7 @@ else:
         for try_ in range(2):  # when 'Proposer' will not load correctly, will try one more time
 
             page_html_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
-            # print(page_html_parsed.prettify()); break  # debugging
+            # print(page_html_parsed.prettify()); exit()  # debugging
 
             try:
                 block_details_div = page_html_parsed.find(name='div', class_='card-content block-details').div
@@ -97,8 +97,7 @@ else:
                 reached_max_height = True
                 print('\nSTOPPING: REACHED MAXIMUM BLOCK HEIGHT...')
                 break
-
-            # print(block_details_div.prettify()); break  # debugging
+            # print(block_details_div.prettify()); exit()  # debugging
 
             values = []
             for row_div in block_details_div.find_all(name='div', class_='columns', recursive=False):
@@ -125,14 +124,27 @@ else:
             print(f'{COLUMN_NAMES[column_index]}: {value}')
             sheet.cell(row=row_num, column=column_index+1, value=str(value))
 
-        # 'Transaction Hashes':
         if int(values[2]) > 0:  # if transaction(s) exist
+            # 'Transaction Hashes':
             hash_dict = {}
             for transaction_row in page_html_parsed.tbody.find_all(name='tr'):
                 hash_ = transaction_row.td.next_sibling
                 hash_dict[hash_.div.text] = WEBSITE + hash_.a['href']
             print('Transaction Hashes:', hash_dict)
             sheet.cell(row=row_num, column=8, value=str(hash_dict))
+
+            # 'Transaction Details':
+            transaction_details = {}
+            for hash_, transaction_link in hash_dict.items():
+                driver.get(url=transaction_link)  # open the webpage
+                transaction_page_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')
+                # print(transaction_page_parsed.prettify()); exit()   # debugging
+                hash_details = {}
+                for x in transaction_page_parsed.find(name='div', class_='card-content').div.find_all(name='div', class_='columns'):
+                    hash_details[x.div.text] = x.div.next_sibling.text.strip()
+                transaction_details[hash_] = hash_details
+            print('Transaction Details:', transaction_details)
+            sheet.cell(row=row_num, column=9, value=str(transaction_details))
 
         wb.save(EXCEL_FILE)  # (after every row insertion)
 
