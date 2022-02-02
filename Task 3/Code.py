@@ -18,29 +18,30 @@ from time import sleep
 
 # ATTRIBUTES:
 
-website = 'https://atomscan.com'
-excel_file = 'Scraped Data.xlsx'
-column_names = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer']
-maximize_chrome = False
+WEBSITE = 'https://atomscan.com'
+EXCEL_FILE = 'Scraped Data.xlsx'
+COLUMN_NAMES = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer']
+MAXIMIZE_CHROME = False
+START = 1  # range: [1, ~10M]
 
 
 # CONNECTING TO EXCEL SHEET:
 
 sheet_title = str(datetime.now()).replace(':', ';')  # ':' not allowed as an Excel sheet name
 
-if not exists(excel_file):
+if not exists(EXCEL_FILE):
     wb = Workbook()
     sheet = wb.active
     sheet.title = sheet_title
 else:
-    wb = load_workbook(excel_file)
+    wb = load_workbook(EXCEL_FILE)
     sheet = wb.create_sheet(title=sheet_title)
     wb.active = sheet
 
-for column_num, column_name in enumerate(iterable=column_names, start=1):
+for column_num, column_name in enumerate(iterable=COLUMN_NAMES, start=1):
     sheet.cell(row=1, column=column_num, value=column_name)  # inserting column names
 
-wb.save(excel_file)
+wb.save(EXCEL_FILE)
 
 # print(sheet); exit()  # debugging
 
@@ -64,19 +65,21 @@ print('\nMAKE SURE YOU HAVE A FAST INTERNET CONNECTION AND LAG-FREE SYSTEM!')
 try:
     blocks = int(input('\nHow many?: '))
 except ValueError:
-    print('<empty or non-numeric input>')
+    print('\nERROR: EMPTY OR NON-NUMERIC INPUT')
 else:
-    if maximize_chrome:
+    if MAXIMIZE_CHROME:
         driver.maximize_window()
 
-    for height in range(1, blocks+1):
+    reached_max_height = False
 
-        row_num = height + 2
+    for height in range(START, START+blocks):
+
+        row_num = height-START + 3
 
         print(f'\nBlock #{height}')
         sheet.cell(row=row_num, column=1, value=height)
 
-        url = f'{website}/blocks/{height}'
+        url = f'{WEBSITE}/blocks/{height}'
         print('URL:', url)
         sheet.cell(row=row_num, column=2, value=url)
 
@@ -87,7 +90,13 @@ else:
             page_html_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
             # print(page_html_parsed.prettify()); break  # debugging
 
-            block_details_div = page_html_parsed.find(name='div', class_='card-content block-details').div
+            try:
+                block_details_div = page_html_parsed.find(name='div', class_='card-content block-details').div
+            except AttributeError:  # "Block Not Found"
+                reached_max_height = True
+                print('\nSTOPPING: REACHED MAXIMUM BLOCK HEIGHT...')
+                break
+
             # print(block_details_div.prettify()); break  # debugging
 
             # 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer':
@@ -98,25 +107,28 @@ else:
                 value_div = key_div.next_sibling
                 value = value_div.text
                 if key_div.text == 'Proposer':
-                    value = {value: website+value_div.a['href']}
+                    value = {value: WEBSITE+value_div.a['href']}
                 values.append(value)
 
-            proposer_name, proposer_link = list(values[-1].items())[0]
-            if proposer_name == proposer_link.split('/')[-1]:
+            proposer, validator_link = list(values[-1].items())[0]
+            if proposer == validator_link.split('/')[-1]:
                 if try_ == 0:
-                    print('Please wait...')
+                    print('PLEASE WAIT...')
                     sleep(1)  # waiting for 'Proposer' to load in case still loading
             else:
                 break
 
+        if reached_max_height:
+            break
+
         for column_index, value in enumerate(iterable=values, start=2):
-            print(f'{column_names[column_index]}: {value}')
+            print(f'{COLUMN_NAMES[column_index]}: {value}')
             sheet.cell(row=row_num, column=column_index+1, value=str(value))
 
-        wb.save(excel_file)  # (after every row insertion)
+        wb.save(EXCEL_FILE)  # (after every row insertion)
 
-    startfile(excel_file)  # automatically open Excel Sheet when process completes
-    print('\nSUCCESS')
+    startfile(EXCEL_FILE)  # automatically open Excel Sheet when process completes
+    print('\nSUCCESS!')
 
 finally:
     driver.quit()
