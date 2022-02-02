@@ -22,7 +22,7 @@ WEBSITE = 'https://atomscan.com'
 EXCEL_FILE = 'Scraped Data.xlsx'
 COLUMN_NAMES = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer', 'Transaction Hashes', 'Transaction Details']
 MAXIMIZE_CHROME = False
-START = 9286724  # range: [1, ~10M]
+START = 1  # range: [1, ~10M]
 
 
 # FUNCTIONS:
@@ -32,7 +32,7 @@ def get_parsed_page_html():
 
 
 def wait_to_load():
-    print('PLEASE WAIT...')
+    print('SLOW INTERNET: PLEASE WAIT...')
     sleep(1)
 
 
@@ -71,7 +71,7 @@ TL;DR:
 
 driver.minimize_window()  # to show the following info
 
-print('\nMAKE SURE YOU HAVE A FAST INTERNET CONNECTION AND LAG-FREE SYSTEM!')
+print('\nMAKE SURE YOU HAVE FAST INTERNET AND LAG-FREE SYSTEM!')
 
 try:
     blocks = int(input('\nHow many?: '))
@@ -97,7 +97,10 @@ else:
         driver.get(url=url)  # open the webpage
 
         # 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer':
-        for try_ in range(2):  # if 'Proposer' will not load correctly, will try one more time
+
+        already_tried = False  # if 'Proposer' will not load correctly, will try one more time
+
+        while True:  # sometimes block details may take time to load
 
             try:
                 block_details_div = get_parsed_page_html().find(name='div', class_='card-content block-details').div
@@ -107,31 +110,36 @@ else:
                 break
             # print(block_details_div.prettify()); exit()  # debugging
 
-            values = []
+            block_details = []
             for row_div in block_details_div.find_all(name='div', class_='columns', recursive=False):
                 # print(row_div.prettify()); continue  # debugging
                 key_div = row_div.div
                 value_div = key_div.next_sibling
-                value = value_div.text
+                block_detail = value_div.text
                 if key_div.text == 'Proposer':
-                    value = {value: WEBSITE+value_div.a['href']}
-                values.append(value)
+                    block_detail = {block_detail: WEBSITE+value_div.a['href']}
+                block_details.append(block_detail)
 
-            proposer, validator_link = list(values[-1].items())[0]
-            if proposer == validator_link.split('/')[-1]:
-                if try_ == 0:
-                    wait_to_load()  # waiting for 'Proposer' to load in case still loading
-            else:
-                break
+            if not block_details:  # if block_details is empty
+                wait_to_load()  # waiting for 'Block Details' to load
+                continue
+
+            proposer, validator_link = list(block_details[-1].items())[0]
+            if (proposer == validator_link.split('/')[-1]) and (not already_tried):
+                wait_to_load()  # waiting for 'Proposer' to load in case still loading
+                already_tried = True
+                continue  # trying one more time
+
+            break  # while True
 
         if reached_max_height:
             break
 
-        for column_index, value in enumerate(iterable=values, start=2):
-            print(f'{COLUMN_NAMES[column_index]}: {value}')
-            sheet.cell(row=row_num, column=column_index+1, value=str(value))
+        for column_index, block_detail in enumerate(iterable=block_details, start=2):
+            print(f'{COLUMN_NAMES[column_index]}: {block_detail}')
+            sheet.cell(row=row_num, column=column_index+1, value=str(block_detail))
 
-        if int(values[2]) > 0:  # if transaction(s) exist
+        if int(block_details[2]) > 0:  # if transaction(s) exist
             # 'Transaction Hashes':
             while True:  # when there will be more no. of transactions, may not load immediately, will be loaded after a few tries
                 hash_dict = {}
@@ -155,8 +163,13 @@ else:
             for txn_hash, txn_link in hash_dict.items():
                 driver.get(url=txn_link)  # open the webpage
                 txn_detail = {}
-                for detail_row in get_parsed_page_html().find(name='div', class_='card-content').div.find_all(name='div', class_='columns'):
-                    txn_detail[detail_row.div.text] = detail_row.div.next_sibling.text.strip()
+                while True:  # sometimes transaction detail may take time to load
+                    for detail_row in get_parsed_page_html().find(name='div', class_='card-content').div.find_all(name='div', class_='columns'):
+                        txn_detail[detail_row.div.text] = detail_row.div.next_sibling.text.strip()
+                    if not txn_detail:  # if txn_detail is empty
+                        wait_to_load()  # waiting for 'Transaction Details' to load
+                        continue
+                    break
                 txn_details[txn_hash] = txn_detail
             print('Transaction Details:', txn_details)
             sheet.cell(row=row_num, column=9, value=str(txn_details))
