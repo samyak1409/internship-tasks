@@ -13,6 +13,7 @@ from os.path import exists
 from openpyxl import Workbook, load_workbook
 from datetime import datetime
 from os import startfile
+from time import sleep
 
 
 # ATTRIBUTES:
@@ -20,6 +21,7 @@ from os import startfile
 website = 'https://atomscan.com'
 excel_file = 'Scraped Data.xlsx'
 column_names = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer']
+maximize_chrome = False
 
 
 # CONNECTING TO EXCEL SHEET:
@@ -55,7 +57,7 @@ TL;DR:
 1) Download the ChromeDriver binary for your platform from https://chromedriver.chromium.org/downloads
 2) Include the ChromeDriver location in your PATH environment variable''')
 
-driver.minimize_window()
+driver.minimize_window()  # to show the following info
 
 print('\nMAKE SURE YOU HAVE A FAST INTERNET CONNECTION AND LAG-FREE SYSTEM!')
 
@@ -64,7 +66,8 @@ try:
 except ValueError:
     print('<empty or non-numeric input>')
 else:
-    driver.maximize_window()
+    if maximize_chrome:
+        driver.maximize_window()
 
     for height in range(1, blocks+1):
 
@@ -79,23 +82,36 @@ else:
 
         driver.get(url=url)  # open the webpage
 
-        page_html_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
-        # print(page_html_parsed.prettify()); break  # debugging
+        for try_ in range(2):  # when 'Proposer' will not load correctly, will try one more time
 
-        block_details_div = page_html_parsed.find(name='div', class_='card-content block-details').div
-        # print(block_details_div.prettify()); break  # debugging
+            page_html_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+            # print(page_html_parsed.prettify()); break  # debugging
 
-        # 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer':
-        row_div_list = block_details_div.find_all(name='div', class_='columns', recursive=False)
-        for column_num, row_div in enumerate(iterable=row_div_list, start=2):
-            # print(row_div.prettify()); continue  # debugging
-            key_div = row_div.div
-            value_div = key_div.next_sibling
-            value = value_div.text
-            if key_div.text == 'Proposer':
-                value = {value: website+value_div.a['href']}
-            print(f'{column_names[column_num]}: {value}')
-            sheet.cell(row=row_num, column=column_num+1, value=str(value))
+            block_details_div = page_html_parsed.find(name='div', class_='card-content block-details').div
+            # print(block_details_div.prettify()); break  # debugging
+
+            # 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer':
+            values = []
+            for row_div in block_details_div.find_all(name='div', class_='columns', recursive=False):
+                # print(row_div.prettify()); continue  # debugging
+                key_div = row_div.div
+                value_div = key_div.next_sibling
+                value = value_div.text
+                if key_div.text == 'Proposer':
+                    value = {value: website+value_div.a['href']}
+                values.append(value)
+
+            proposer_name, proposer_link = list(values[-1].items())[0]
+            if proposer_name == proposer_link.split('/')[-1]:
+                if try_ == 0:
+                    print('Please wait...')
+                    sleep(1)  # waiting for 'Proposer' to load in case still loading
+            else:
+                break
+
+        for column_index, value in enumerate(iterable=values, start=2):
+            print(f'{column_names[column_index]}: {value}')
+            sheet.cell(row=row_num, column=column_index+1, value=str(value))
 
         wb.save(excel_file)  # (after every row insertion)
 
