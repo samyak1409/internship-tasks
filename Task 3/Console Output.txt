@@ -1,87 +1,91 @@
 C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/Task 3/Code.py"
 
+MAKE SURE YOU HAVE A FAST INTERNET CONNECTION AND LAG-FREE SYSTEM!
+
 How many?: 10
 
-Block #1
-URL: https://atomscan.com/blocks/1
-Time: 12/11/2019, 21:41:34
-Height: 1
+Block #91
+URL: https://atomscan.com/blocks/91
+Time: 12/11/2019, 22:13:44
+Height: 91
 Number of Transactions: 0
-Block Hash: 7307AF7F400F3D9BC5113FA2E8FC3851713140F9037F21FFF64973DA5A5256B1
-Proposer: {'DokiaCapital': 'https://atomscan.com/validators/cosmosvaloper14lultfckehtszvzw4ehu0apvsr77afvyju5zzy'}
-
-Block #2
-URL: https://atomscan.com/blocks/2
-Time: 12/11/2019, 22:00:31
-Height: 2
-Number of Transactions: 0
-Block Hash: 8696E740680DB1FA6FA6F609B217C02B92070F8B4FD2C72E82B6FC99D63BF5B7
-Proposer: {'DokiaCapital': 'https://atomscan.com/validators/cosmosvaloper14lultfckehtszvzw4ehu0apvsr77afvyju5zzy'}
-
-Block #3
-URL: https://atomscan.com/blocks/3
-Time: 12/11/2019, 22:01:40
-Height: 3
-Number of Transactions: 0
-Block Hash: BFF3272C3138EE5E81670A46C19BDBCDE8EA94C2F6633DFAB3A7D785B2E7924B
-Proposer: {'DokiaCapital': 'https://atomscan.com/validators/cosmosvaloper14lultfckehtszvzw4ehu0apvsr77afvyju5zzy'}
-
-Block #4
-URL: https://atomscan.com/blocks/4
-Time: 12/11/2019, 22:01:48
-Height: 4
-Number of Transactions: 0
-Block Hash: FC03C3E5633346D2D556120D886DF8EEB2F03DEBB90B487084177BAB35F05E81
+Block Hash: 2950B7360BC4ADCF181BF068507B289B13D765E10C9985520FF646F29D04E9FF
 Proposer: {'Sikka': 'https://atomscan.com/validators/cosmosvaloper1ey69r37gfxvxg62sh4r0ktpuc46pzjrm873ae8'}
 
-Block #5
-URL: https://atomscan.com/blocks/5
-Time: 12/11/2019, 22:02:00
-Height: 5
-Number of Transactions: 0
-Block Hash: 9D064228B9170C40C84C6F9C983B75D25574C6A68CCA67E727BCADAF2A93831A
-Proposer: {'Sikka': 'https://atomscan.com/validators/cosmosvaloper1ey69r37gfxvxg62sh4r0ktpuc46pzjrm873ae8'}
+Block #92
+URL: https://atomscan.com/blocks/92
+Time: 12/11/2019, 22:13:51
+Height: 92
+Number of Transactions: 1
+Block Hash: 12038986D3F65E1508DF7D86E6290284B973BCF24A7F802C8BFF19554C0F8F9F
+Proposer: {'Binance Staking': 'https://atomscan.com/validators/cosmosvaloper156gqf9837u7d4c4678yt3rl4ls9c5vuursrrzf'}
+Transaction Hashes: {'BE62B6C0AB33B6CD251CCF6C76E433A813D858265F94506EFC57938B683030D3': 'https://atomscan.com/transactions/BE62B6C0AB33B6CD251CCF6C76E433A813D858265F94506EFC57938B683030D3'}
 
-Block #6
-URL: https://atomscan.com/blocks/6
-Time: 12/11/2019, 22:02:08
-Height: 6
+Block #93
+URL: https://atomscan.com/blocks/93
+Time: 12/11/2019, 22:13:58
+Height: 93
 Number of Transactions: 0
-Block Hash: 7350696B949191D06DAB0A59A6EB3D4C916F33D6FBFEB1996E2E1DEA6BF34E58
-Proposer: {'pe4x72': 'https://atomscan.com/validators/cosmosvaloper1rwh0cxa72d3yle3r4l8gd7vyphrmjy2kpe4x72'}
+Block Hash: E7B0061275D17E3F20E52CA91E8720F1A1748CE97ECC42440C19602A17DD2415
+Proposer: {'Delega Networks♾ ': 'https://atomscan.com/validators/cosmosvaloper1uutuwrwt3z2a5z8z3uasml3rftlpmu25aga5c6'}
 
-Block #7
-URL: https://atomscan.com/blocks/7
-Time: 12/11/2019, 22:02:15
-Height: 7
+Block #94
+URL: https://atomscan.com/blocks/94
+Time: 12/11/2019, 22:14:05
+Height: 94
 Number of Transactions: 0
-Block Hash: 2C657C709D1E4CAE2F58FBF8195CCEB39069AEB904D552820178686B785F7408
-Proposer: {'Certus One': 'https://atomscan.com/validators/cosmosvaloper1qwl879nx9t6kef4supyazayf7vjhennyh568ys'}
-
-Block #8
-URL: https://atomscan.com/blocks/8
-Time: 12/11/2019, 22:02:22
-Height: 8
-Number of Transactions: 0
-Block Hash: 2F5639C83603359B98C56FDC3F91680782EA5F96A2311E8616B432E45F314575
+Block Hash: 5DF4F14E019849388F897E4B499941168EC25615F6A2391A6DD5418F1C28E132
 Proposer: {'Cosmostation': 'https://atomscan.com/validators/cosmosvaloper1clpqr4nrk4khgkxj78fcwwh6dl3uw4epsluffn'}
 
-Block #9
-URL: https://atomscan.com/blocks/9
-Time: 12/11/2019, 22:02:29
-Height: 9
+Block #95
+URL: https://atomscan.com/blocks/95
+Time: 12/11/2019, 22:14:12
+Height: 95
 Number of Transactions: 0
-Block Hash: 1220E240A21438B6065C1A11D8F6E8756051AA9820F8438A25FC51DB5F0CA402
-Proposer: {'MultiChain Ventures': 'https://atomscan.com/validators/cosmosvaloper1vf44d85es37hwl9f4h9gv0e064m0lla60j9luj'}
+Block Hash: F1DAAFA745FA1FA9C3885F89F1ED4EB506068283590A1C58BC1B012A5B339D2D
+Proposer: {'Any Labs': 'https://atomscan.com/validators/cosmosvaloper1648ynlpdw7fqa2axt0w2yp3fk542junl7rsvq6'}
 
-Block #10
-URL: https://atomscan.com/blocks/10
-Time: 12/11/2019, 22:02:36
-Height: 10
+Block #96
+URL: https://atomscan.com/blocks/96
+Time: 12/11/2019, 22:14:24
+Height: 96
 Number of Transactions: 0
-Block Hash: F5E07D627608D0CFDD991FCB376416219CE2D5476B0887F20BD7D22555AF82AA
-Proposer: {'iqlusion': 'https://atomscan.com/validators/cosmosvaloper1grgelyng2v6v3t8z87wu3sxgt9m5s03xfytvz7'}
+Block Hash: 0367A26A8586CE0B1DF8D859E5EF9EAA64003397FC9808B4874DCB86BC680594
+Proposer: {'Any Labs': 'https://atomscan.com/validators/cosmosvaloper1648ynlpdw7fqa2axt0w2yp3fk542junl7rsvq6'}
 
-SUCCESS
+Block #97
+URL: https://atomscan.com/blocks/97
+Time: 12/11/2019, 22:14:31
+Height: 97
+Number of Transactions: 0
+Block Hash: 2389EECB75A1ECFCE9D8098C2D0F2DCE356BE7650C16908BD89E6ED4510AFC7E
+Proposer: {'Figment': 'https://atomscan.com/validators/cosmosvaloper1hjct6q7npsspsg3dgvzk3sdf89spmlpfdn6m9d'}
+
+Block #98
+URL: https://atomscan.com/blocks/98
+Time: 12/11/2019, 22:14:38
+Height: 98
+Number of Transactions: 1
+Block Hash: FD5AEADBE92082D11934FB12E5780F2A34E4ADF92D23270E390FBFAB81A40DB7
+Proposer: {'pe4x72': 'https://atomscan.com/validators/cosmosvaloper1rwh0cxa72d3yle3r4l8gd7vyphrmjy2kpe4x72'}
+Transaction Hashes: {'7DCB49D5B4FAE87A5532741816E68EE4222C1DBD66326FBADA55268FA7E760E6': 'https://atomscan.com/transactions/7DCB49D5B4FAE87A5532741816E68EE4222C1DBD66326FBADA55268FA7E760E6'}
+
+Block #99
+URL: https://atomscan.com/blocks/99
+Time: 12/11/2019, 22:14:50
+Height: 99
+Number of Transactions: 0
+Block Hash: 78D7217A265866B3907EE06378BF8DA94E30224AD5DF60C00DEAAB02B2310BC7
+Proposer: {'pe4x72': 'https://atomscan.com/validators/cosmosvaloper1rwh0cxa72d3yle3r4l8gd7vyphrmjy2kpe4x72'}
+
+Block #100
+URL: https://atomscan.com/blocks/100
+Time: 12/11/2019, 22:14:57
+Height: 100
+Number of Transactions: 0
+Block Hash: 1C5C701473CC4BD0DBE66559FF50A107C4028210ECAC21EAC02591FCB084C75C
+Proposer: {'Cephalopod Equipment': 'https://atomscan.com/validators/cosmosvaloper16k579jk6yt2cwmqx9dz5xvq9fug2tekvlu9qdv'}
+
+SUCCESS!
 
 Process finished with exit code 0

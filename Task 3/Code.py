@@ -20,9 +20,9 @@ from time import sleep
 
 WEBSITE = 'https://atomscan.com'
 EXCEL_FILE = 'Scraped Data.xlsx'
-COLUMN_NAMES = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer']
+COLUMN_NAMES = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer', 'Transaction Hashes', ]
 MAXIMIZE_CHROME = False
-START = 1  # range: [1, ~10M]
+START = 91  # range: [1, ~10M]
 
 
 # CONNECTING TO EXCEL SHEET:
@@ -85,6 +85,7 @@ else:
 
         driver.get(url=url)  # open the webpage
 
+        # 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer':
         for try_ in range(2):  # when 'Proposer' will not load correctly, will try one more time
 
             page_html_parsed = BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
@@ -99,7 +100,6 @@ else:
 
             # print(block_details_div.prettify()); break  # debugging
 
-            # 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer':
             values = []
             for row_div in block_details_div.find_all(name='div', class_='columns', recursive=False):
                 # print(row_div.prettify()); continue  # debugging
@@ -124,6 +124,15 @@ else:
         for column_index, value in enumerate(iterable=values, start=2):
             print(f'{COLUMN_NAMES[column_index]}: {value}')
             sheet.cell(row=row_num, column=column_index+1, value=str(value))
+
+        # 'Transaction Hashes':
+        if int(values[2]) > 0:  # if transaction(s) exist
+            hash_dict = {}
+            for transaction_row in page_html_parsed.tbody.find_all(name='tr'):
+                hash_ = transaction_row.td.next_sibling
+                hash_dict[hash_.div.text] = WEBSITE + hash_.a['href']
+            print('Transaction Hashes:', hash_dict)
+            sheet.cell(row=row_num, column=8, value=str(hash_dict))
 
         wb.save(EXCEL_FILE)  # (after every row insertion)
 
