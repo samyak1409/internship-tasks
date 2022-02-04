@@ -12,10 +12,12 @@ You need to read the json and keep adding to your dataframe and then write in a 
 # IMPORTS:
 
 from requests import get as get_request
+from requests.exceptions import RequestException
 from json import loads, dumps
 from pandas import DataFrame
 from os.path import exists
 from sys import stdout
+from time import sleep
 
 
 # ATTRIBUTES:
@@ -43,7 +45,13 @@ while height != START+blocks:
 
         url = f'{BASE_URL}/{height}'
 
-        data_dict = loads(s=get_request(url=url).text)
+        while True:  # should be fixed after some tries
+            try:
+                data_dict = loads(s=get_request(url=url).text)
+            except RequestException:  # some internet issue
+                sleep(1)
+            else:
+                break
 
         with open(file=JSON_TXT, mode='a') as f:
             print()  # spacing
