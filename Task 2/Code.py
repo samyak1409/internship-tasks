@@ -41,12 +41,14 @@ while height != START+blocks:
 
     if not exists(path=csv):  # if not already scraped
 
-        data_dict = loads(s=get_request(url=f'{BASE_URL}/{height}').text)
+        url = f'{BASE_URL}/{height}'
+
+        data_dict = loads(s=get_request(url=url).text)
 
         with open(file=JSON_TXT, mode='a') as f:
             print()  # spacing
             for obj in (stdout, f):
-                print(f'Block #{height}', file=obj)
+                print(url, file=obj)
             # print(dumps(obj=data_dict, indent=4))  # debugging
             del data_dict['block']['last_commit']['signatures']  # too lengthy
             f.write(dumps(obj=data_dict, indent=4) + '\n\n')
