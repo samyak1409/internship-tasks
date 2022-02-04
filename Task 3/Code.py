@@ -24,7 +24,6 @@ from time import sleep
 WEBSITE = 'https://atomscan.com'
 EXCEL_FILE = 'Scraped Data.xlsx'
 COLUMN_NAMES = ['#', 'URL', 'Time', 'Height', 'Number of Transactions', 'Block Hash', 'Proposer', 'Transaction Hashes', 'Transaction Details']
-MAXIMIZE_CHROME = False
 START = 1  # range: [1, ~10M]
 
 
@@ -81,8 +80,7 @@ try:
 except ValueError:
     raise SystemExit('\nERROR: EMPTY OR NON-NUMERIC INPUT')
 else:
-    if MAXIMIZE_CHROME:
-        driver.maximize_window()
+    driver.maximize_window()  # window must not be minimized, else page will load in greater time
 
     reached_max_height = False
 
