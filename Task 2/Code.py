@@ -13,41 +13,59 @@ You need to read the json and keep adding to your dataframe and then write in a 
 
 from requests import get as get_request
 from json import loads, dumps
-from itertools import count
 from pandas import DataFrame
 from os.path import exists
+from sys import stdout
+
+
+# ATTRIBUTES:
+
+START = 5200791
+CSV_DIR = 'Scraped Data (CSVs)'
+BASE_URL = 'https://api.cosmos.network/blocks'
+JSON_TXT = 'Scraped Data (JSON).txt'
 
 
 # MAIN:
 
-for height in count(start=5200791):  # infinite loop
+try:
+    blocks = int(input('\nHow many?: '))
+except ValueError:
+    raise SystemExit('\nERROR: EMPTY OR NON-NUMERIC INPUT')
 
-    csv = f'Scraped Data\\{height}.csv'
+height = START
+
+while height != START+blocks:
+
+    csv = f'{CSV_DIR}\\{height}.csv'
 
     if not exists(path=csv):  # if not already scraped
 
-        print(f'\n#{height}')
+        data_dict = loads(s=get_request(url=f'{BASE_URL}/{height}').text)
 
-        response = get_request(url=f'https://api.cosmos.network/blocks/{height}')
+        with open(file=JSON_TXT, mode='a') as f:
+            print()  # spacing
+            for obj in (stdout, f):
+                print(f'Block #{height}', file=obj)
+            # print(dumps(obj=data_dict, indent=4))  # debugging
+            del data_dict['block']['last_commit']['signatures']  # too lengthy
+            f.write(dumps(obj=data_dict, indent=4) + '\n\n')
 
-        if response.status_code == 200:  # everything's good
+        if data_dict.get('error', '') == 'requested block height is bigger then the chain length':  # {"error": "requested block height is bigger then the chain length"}
+            print('\nAll blocks scraped!')
+            break
 
-            data_dict = loads(s=response.text)
-            print(dumps(obj=data_dict, indent=4))
+        df = DataFrame(data=data_dict)
+        print(df)
 
-            df = DataFrame(data=data_dict)
-            # print(df)  # debugging
+        df.to_csv(path_or_buf=csv)  # saving data to csv file
 
-            df.to_csv(path_or_buf=csv)  # saving data to csv file
+        # input('\nPRESS ENTER TO CONTINUE: ')  # debugging
 
-            # input('\nPRESS ENTER TO CONTINUE: ')  # debugging
+    else:
+        START += 1
 
-        else:  # something went wrong
-
-            for key, value in response.__dict__.items():
-                print(f'{key}: {value}')  # debugging
-
-            exit()
+    height += 1
 
 
 print('\nSUCCESS')
