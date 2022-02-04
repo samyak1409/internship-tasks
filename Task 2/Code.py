@@ -31,7 +31,7 @@ JSON_TXT = 'Scraped Data (JSON).txt'
 # MAIN:
 
 try:
-    blocks = int(input('\nHow many?: '))
+    blocks = int(input('\nHOW MANY?: '))
 except ValueError:
     raise SystemExit('\nERROR: EMPTY OR NON-NUMERIC INPUT')
 
@@ -49,6 +49,7 @@ while height != START+blocks:
             try:
                 data_dict = loads(s=get_request(url=url).text)
             except RequestException:  # some internet issue
+                print('SLOW INTERNET: PLEASE WAIT...')
                 sleep(1)
             else:
                 break
@@ -62,7 +63,7 @@ while height != START+blocks:
             f.write(dumps(obj=data_dict, indent=4) + '\n\n')
 
         if data_dict.get('error', '') == 'requested block height is bigger then the chain length':  # {"error": "requested block height is bigger then the chain length"}
-            print('\nAll blocks scraped!')
+            print('\nALL BLOCKS SCRAPED!')
             break
 
         df = DataFrame(data=data_dict)

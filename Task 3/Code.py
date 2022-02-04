@@ -76,7 +76,7 @@ driver.minimize_window()  # to show the following info
 print('\nMAKE SURE YOU HAVE FAST INTERNET AND LAG-FREE SYSTEM!')
 
 try:
-    blocks = int(input('\nHow many?: '))
+    blocks = int(input('\nHOW MANY?: '))
 except ValueError:
     raise SystemExit('\nERROR: EMPTY OR NON-NUMERIC INPUT')
 else:
