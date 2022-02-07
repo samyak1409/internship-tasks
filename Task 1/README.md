@@ -1,4 +1,4 @@
 # Task 1
 
-This directory contains the code which extracts all the data of all the 
-miner models listed (>200) on [ASIC Miner Value](https://www.asicminervalue.com).
+This directory contains the code which extracts the profitability data of all the miner models (>200) from 
+[ASIC Miner Value](https://www.asicminervalue.com) (live income estimation of all known ASIC miners).
