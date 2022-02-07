@@ -1,0 +1,275 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/Task 4/Code.py"
+
+Namecoin
+Tweets Cnt: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_tweets_cnt&splice=5000
+Active Address: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_active_address&splice=5000
+New Address: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_new_address&splice=5000
+Block Cnt: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_block_cnt&splice=5000
+Avg Difficulty: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_difficulty&splice=5000
+Avg Hashrate: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_hashrate&splice=5000
+Fee: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_fee&splice=5000
+Fee Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_fee_usd&splice=5000
+Avg Block Fee: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_block_fee&splice=5000
+Median Block Fee: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_median_block_fee&splice=5000
+Avg Tx Fee: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_fee&splice=5000
+Avg Tx Fee Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_fee_usd&splice=5000
+Sent Value: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_sent_value&splice=5000
+Sent Value Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_sent_value_usd&splice=5000
+Median Block Sent Value: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_median_block_sent_value&splice=5000
+Avg Tx Value: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_value&splice=5000
+Tx Cnt: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_tx_cnt&splice=5000
+Reward: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_reward&splice=5000
+Reward Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_reward_usd&splice=5000
+Mining Profitability: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_mining_profitability&splice=5000
+Total Mined Coin: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_total_mined_coin&splice=5000
+Price: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_price&splice=5000
+Marketcap: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_marketcap&splice=5000
+Gas Used: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_gas_used&splice=5000
+Avg Gas Price: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_gas_price&splice=5000
+Avg Gas Limit: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_gas_limit&splice=5000
+Avg Tx Gas Used: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_gas_used&splice=5000
+Sent Value Gas: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_sent_value_gas&splice=5000
+Uncle Block Cnt: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_uncle_block_cnt&splice=5000
+Uncle Reward: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_uncle_reward&splice=5000
+Uncle Reward Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_uncle_reward_usd&splice=5000
+Uncle Total Mined Coin: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_uncle_total_mined_coin&splice=5000
+
+Emercoin
+Tweets Cnt: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_tweets_cnt&splice=5000
+Active Address: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_active_address&splice=5000
+New Address: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_new_address&splice=5000
+Block Cnt: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_block_cnt&splice=5000
+Avg Difficulty: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_difficulty&splice=5000
+Avg Hashrate: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_hashrate&splice=5000
+Fee: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_fee&splice=5000
+Fee Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_fee_usd&splice=5000
+Avg Block Fee: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_block_fee&splice=5000
+Median Block Fee: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_median_block_fee&splice=5000
+Avg Tx Fee: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_fee&splice=5000
+Avg Tx Fee Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_fee_usd&splice=5000
+Sent Value: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_sent_value&splice=5000
+Sent Value Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_sent_value_usd&splice=5000
+Median Block Sent Value: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_median_block_sent_value&splice=5000
+Avg Tx Value: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_value&splice=5000
+Tx Cnt: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_tx_cnt&splice=5000
+Reward: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_reward&splice=5000
+Reward Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_reward_usd&splice=5000
+Mining Profitability: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_mining_profitability&splice=5000
+Total Mined Coin: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_total_mined_coin&splice=5000
+Price: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_price&splice=5000
+Marketcap: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_marketcap&splice=5000
+Gas Used: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_gas_used&splice=5000
+Avg Gas Price: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_gas_price&splice=5000
+Avg Gas Limit: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_gas_limit&splice=5000
+Avg Tx Gas Used: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_gas_used&splice=5000
+Sent Value Gas: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_sent_value_gas&splice=5000
+Uncle Block Cnt: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_uncle_block_cnt&splice=5000
+Uncle Reward: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_uncle_reward&splice=5000
+Uncle Reward Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_uncle_reward_usd&splice=5000
+Uncle Total Mined Coin: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_uncle_total_mined_coin&splice=5000
+
+Siacoin
+Tweets Cnt: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_tweets_cnt&splice=5000
+Active Address: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_active_address&splice=5000
+New Address: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_new_address&splice=5000
+Block Cnt: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_block_cnt&splice=5000
+Avg Difficulty: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_difficulty&splice=5000
+Avg Hashrate: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_hashrate&splice=5000
+Fee: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_fee&splice=5000
+Fee Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_fee_usd&splice=5000
+Avg Block Fee: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_block_fee&splice=5000
+Median Block Fee: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_median_block_fee&splice=5000
+Avg Tx Fee: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_fee&splice=5000
+Avg Tx Fee Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_fee_usd&splice=5000
+Sent Value: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_sent_value&splice=5000
+Sent Value Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_sent_value_usd&splice=5000
+Median Block Sent Value: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_median_block_sent_value&splice=5000
+Avg Tx Value: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_value&splice=5000
+Tx Cnt: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_tx_cnt&splice=5000
+Reward: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_reward&splice=5000
+Reward Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_reward_usd&splice=5000
+Mining Profitability: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_mining_profitability&splice=5000
+Total Mined Coin: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_total_mined_coin&splice=5000
+Price: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_price&splice=5000
+Marketcap: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_marketcap&splice=5000
+Gas Used: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_gas_used&splice=5000
+Avg Gas Price: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_gas_price&splice=5000
+Avg Gas Limit: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_gas_limit&splice=5000
+Avg Tx Gas Used: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_gas_used&splice=5000
+Sent Value Gas: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_sent_value_gas&splice=5000
+Uncle Block Cnt: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_uncle_block_cnt&splice=5000
+Uncle Reward: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_uncle_reward&splice=5000
+Uncle Reward Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_uncle_reward_usd&splice=5000
+Uncle Total Mined Coin: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_uncle_total_mined_coin&splice=5000
+
+Gamecredits
+Tweets Cnt: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_tweets_cnt&splice=5000
+Active Address: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_active_address&splice=5000
+New Address: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_new_address&splice=5000
+Block Cnt: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_block_cnt&splice=5000
+Avg Difficulty: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_difficulty&splice=5000
+Avg Hashrate: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_hashrate&splice=5000
+Fee: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_fee&splice=5000
+Fee Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_fee_usd&splice=5000
+Avg Block Fee: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_block_fee&splice=5000
+Median Block Fee: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_median_block_fee&splice=5000
+Avg Tx Fee: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_fee&splice=5000
+Avg Tx Fee Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_fee_usd&splice=5000
+Sent Value: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_sent_value&splice=5000
+Sent Value Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_sent_value_usd&splice=5000
+Median Block Sent Value: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_median_block_sent_value&splice=5000
+Avg Tx Value: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_value&splice=5000
+Tx Cnt: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_tx_cnt&splice=5000
+Reward: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_reward&splice=5000
+Reward Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_reward_usd&splice=5000
+Mining Profitability: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_mining_profitability&splice=5000
+Total Mined Coin: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_total_mined_coin&splice=5000
+Price: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_price&splice=5000
+Marketcap: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_marketcap&splice=5000
+Gas Used: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_gas_used&splice=5000
+Avg Gas Price: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_gas_price&splice=5000
+Avg Gas Limit: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_gas_limit&splice=5000
+Avg Tx Gas Used: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_gas_used&splice=5000
+Sent Value Gas: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_sent_value_gas&splice=5000
+Uncle Block Cnt: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_uncle_block_cnt&splice=5000
+Uncle Reward: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_uncle_reward&splice=5000
+Uncle Reward Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_uncle_reward_usd&splice=5000
+Uncle Total Mined Coin: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_uncle_total_mined_coin&splice=5000
+
+Peercoin
+Tweets Cnt: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_tweets_cnt&splice=5000
+Active Address: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_active_address&splice=5000
+New Address: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_new_address&splice=5000
+Block Cnt: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_block_cnt&splice=5000
+Avg Difficulty: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_difficulty&splice=5000
+Avg Hashrate: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_hashrate&splice=5000
+Fee: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_fee&splice=5000
+Fee Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_fee_usd&splice=5000
+Avg Block Fee: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_block_fee&splice=5000
+Median Block Fee: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_median_block_fee&splice=5000
+Avg Tx Fee: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_fee&splice=5000
+Avg Tx Fee Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_fee_usd&splice=5000
+Sent Value: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_sent_value&splice=5000
+Sent Value Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_sent_value_usd&splice=5000
+Median Block Sent Value: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_median_block_sent_value&splice=5000
+Avg Tx Value: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_value&splice=5000
+Tx Cnt: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_tx_cnt&splice=5000
+Reward: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_reward&splice=5000
+Reward Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_reward_usd&splice=5000
+Mining Profitability: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_mining_profitability&splice=5000
+Total Mined Coin: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_total_mined_coin&splice=5000
+Price: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_price&splice=5000
+Marketcap: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_marketcap&splice=5000
+Gas Used: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_gas_used&splice=5000
+Avg Gas Price: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_gas_price&splice=5000
+Avg Gas Limit: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_gas_limit&splice=5000
+Avg Tx Gas Used: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_gas_used&splice=5000
+Sent Value Gas: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_sent_value_gas&splice=5000
+Uncle Block Cnt: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_uncle_block_cnt&splice=5000
+Uncle Reward: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_uncle_reward&splice=5000
+Uncle Reward Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_uncle_reward_usd&splice=5000
+Uncle Total Mined Coin: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_uncle_total_mined_coin&splice=5000
+
+Feathercoin
+Tweets Cnt: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_tweets_cnt&splice=5000
+Active Address: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_active_address&splice=5000
+New Address: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_new_address&splice=5000
+Block Cnt: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_block_cnt&splice=5000
+Avg Difficulty: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_difficulty&splice=5000
+Avg Hashrate: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_hashrate&splice=5000
+Fee: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_fee&splice=5000
+Fee Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_fee_usd&splice=5000
+Avg Block Fee: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_block_fee&splice=5000
+Median Block Fee: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_median_block_fee&splice=5000
+Avg Tx Fee: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_fee&splice=5000
+Avg Tx Fee Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_fee_usd&splice=5000
+Sent Value: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_sent_value&splice=5000
+Sent Value Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_sent_value_usd&splice=5000
+Median Block Sent Value: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_median_block_sent_value&splice=5000
+Avg Tx Value: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_value&splice=5000
+Tx Cnt: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_tx_cnt&splice=5000
+Reward: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_reward&splice=5000
+Reward Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_reward_usd&splice=5000
+Mining Profitability: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_mining_profitability&splice=5000
+Total Mined Coin: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_total_mined_coin&splice=5000
+Price: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_price&splice=5000
+Marketcap: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_marketcap&splice=5000
+Gas Used: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_gas_used&splice=5000
+Avg Gas Price: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_gas_price&splice=5000
+Avg Gas Limit: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_gas_limit&splice=5000
+Avg Tx Gas Used: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_gas_used&splice=5000
+Sent Value Gas: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_sent_value_gas&splice=5000
+Uncle Block Cnt: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_uncle_block_cnt&splice=5000
+Uncle Reward: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_uncle_reward&splice=5000
+Uncle Reward Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_uncle_reward_usd&splice=5000
+Uncle Total Mined Coin: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_uncle_total_mined_coin&splice=5000
+
+Stratis
+Tweets Cnt: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_tweets_cnt&splice=5000
+Active Address: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_active_address&splice=5000
+New Address: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_new_address&splice=5000
+Block Cnt: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_block_cnt&splice=5000
+Avg Difficulty: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_difficulty&splice=5000
+Avg Hashrate: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_hashrate&splice=5000
+Fee: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_fee&splice=5000
+Fee Usd: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_fee_usd&splice=5000
+Avg Block Fee: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_block_fee&splice=5000
+Median Block Fee: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_median_block_fee&splice=5000
+Avg Tx Fee: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_fee&splice=5000
+Avg Tx Fee Usd: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_fee_usd&splice=5000
+Sent Value: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_sent_value&splice=5000
+Sent Value Usd: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_sent_value_usd&splice=5000
+Median Block Sent Value: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_median_block_sent_value&splice=5000
+Avg Tx Value: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_value&splice=5000
+Tx Cnt: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_tx_cnt&splice=5000
+Reward: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_reward&splice=5000
+Reward Usd: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_reward_usd&splice=5000
+Mining Profitability: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_mining_profitability&splice=5000
+Total Mined Coin: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_total_mined_coin&splice=5000
+Price: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_price&splice=5000
+Marketcap: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_marketcap&splice=5000
+Gas Used: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_gas_used&splice=5000
+Avg Gas Price: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_gas_price&splice=5000
+Avg Gas Limit: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_gas_limit&splice=5000
+Avg Tx Gas Used: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_gas_used&splice=5000
+Sent Value Gas: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_sent_value_gas&splice=5000
+Uncle Block Cnt: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_uncle_block_cnt&splice=5000
+Uncle Reward: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_uncle_reward&splice=5000
+Uncle Reward Usd: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_uncle_reward_usd&splice=5000
+Uncle Total Mined Coin: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_uncle_total_mined_coin&splice=5000
+
+Cosmos
+Tweets Cnt: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_tweets_cnt&splice=5000
+Active Address: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_active_address&splice=5000
+New Address: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_new_address&splice=5000
+Block Cnt: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_block_cnt&splice=5000
+Avg Difficulty: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_difficulty&splice=5000
+Avg Hashrate: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_hashrate&splice=5000
+Fee: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_fee&splice=5000
+Fee Usd: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_fee_usd&splice=5000
+Avg Block Fee: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_block_fee&splice=5000
+Median Block Fee: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_median_block_fee&splice=5000
+Avg Tx Fee: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_fee&splice=5000
+Avg Tx Fee Usd: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_fee_usd&splice=5000
+Sent Value: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_sent_value&splice=5000
+Sent Value Usd: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_sent_value_usd&splice=5000
+Median Block Sent Value: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_median_block_sent_value&splice=5000
+Avg Tx Value: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_value&splice=5000
+Tx Cnt: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_tx_cnt&splice=5000
+Reward: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_reward&splice=5000
+Reward Usd: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_reward_usd&splice=5000
+Mining Profitability: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_mining_profitability&splice=5000
+Total Mined Coin: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_total_mined_coin&splice=5000
+Price: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_price&splice=5000
+Marketcap: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_marketcap&splice=5000
+Gas Used: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_gas_used&splice=5000
+Avg Gas Price: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_gas_price&splice=5000
+Avg Gas Limit: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_gas_limit&splice=5000
+Avg Tx Gas Used: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_gas_used&splice=5000
+Sent Value Gas: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_sent_value_gas&splice=5000
+Uncle Block Cnt: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_uncle_block_cnt&splice=5000
+Uncle Reward: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_uncle_reward&splice=5000
+Uncle Reward Usd: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_uncle_reward_usd&splice=5000
+Uncle Total Mined Coin: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_uncle_total_mined_coin&splice=5000
+
+Process finished with exit code 0
