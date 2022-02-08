@@ -1,374 +1,197 @@
 C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/Task 4/Code.py"
 
 Namecoin
-Tweets Cnt: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_tweets_cnt
-1860
-Active Address: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_active_address
-3949
-New Address: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_new_address
-3938
-Block Cnt: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_block_cnt
-3948
-Avg Difficulty: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_difficulty
-3948
-Avg Hashrate: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_hashrate
-3934
-Fee: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_fee
-3948
-Fee Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_fee_usd
-3193
-Avg Block Fee: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_block_fee
-3948
-Median Block Fee: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_median_block_fee
-3945
-Avg Tx Fee: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_fee
-3948
-Avg Tx Fee Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_fee_usd
-3193
-Sent Value: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_sent_value
-3948
-Sent Value Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_sent_value_usd
-3193
-Median Block Sent Value: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_median_block_sent_value
-3945
-Avg Tx Value: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_value
-3948
-Tx Cnt: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_tx_cnt
-3948
-Reward: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_reward
-3948
-Reward Usd: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_reward_usd
-3193
-Mining Profitability: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_mining_profitability
-2650
-Total Mined Coin: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_total_mined_coin
-3948
-Price: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_price
-3194
-Marketcap: https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_marketcap
-3194
+Tweets Cnt: 1860 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_tweets_cnt)
+Active Address: 3950 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_active_address)
+New Address: 3939 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_new_address)
+Block Cnt: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_block_cnt)
+Avg Difficulty: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_difficulty)
+Avg Hashrate: 3935 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_hashrate)
+Fee: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_fee)
+Fee Usd: 3194 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_fee_usd)
+Avg Block Fee: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_block_fee)
+Median Block Fee: 3946 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_median_block_fee)
+Avg Tx Fee: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_fee)
+Avg Tx Fee Usd: 3194 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_fee_usd)
+Sent Value: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_sent_value)
+Sent Value Usd: 3194 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_sent_value_usd)
+Median Block Sent Value: 3946 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_median_block_sent_value)
+Avg Tx Value: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_avg_tx_value)
+Tx Cnt: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_tx_cnt)
+Reward: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_reward)
+Reward Usd: 3194 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_reward_usd)
+Mining Profitability: 2650 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_mining_profitability)
+Total Mined Coin: 3949 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_total_mined_coin)
+Price: 3194 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_price)
+Marketcap: 3194 (https://nmc.tokenview.com/v2api/chart/?coin=nmc&type=daily_marketcap)
 
 Emercoin
-Tweets Cnt: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_tweets_cnt
-546
-Active Address: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_active_address
-2981
-New Address: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_new_address
-2870
-Block Cnt: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_block_cnt
-2981
-Avg Difficulty: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_difficulty
-2981
-Avg Hashrate: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_hashrate
-1107
-Fee: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_fee
-2981
-Fee Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_fee_usd
-2656
-Avg Block Fee: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_block_fee
-2981
-Median Block Fee: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_median_block_fee
-2901
-Avg Tx Fee: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_fee
-2981
-Avg Tx Fee Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_fee_usd
-2656
-Sent Value: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_sent_value
-2981
-Sent Value Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_sent_value_usd
-2656
-Median Block Sent Value: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_median_block_sent_value
-2901
-Avg Tx Value: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_value
-2981
-Tx Cnt: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_tx_cnt
-2981
-Reward: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_reward
-2981
-Reward Usd: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_reward_usd
-2656
-Total Mined Coin: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_total_mined_coin
-2981
-Price: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_price
-2657
-Marketcap: https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_marketcap
-2657
+Tweets Cnt: 546 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_tweets_cnt)
+Active Address: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_active_address)
+New Address: 2870 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_new_address)
+Block Cnt: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_block_cnt)
+Avg Difficulty: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_difficulty)
+Avg Hashrate: 1108 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_hashrate)
+Fee: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_fee)
+Fee Usd: 2657 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_fee_usd)
+Avg Block Fee: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_block_fee)
+Median Block Fee: 2901 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_median_block_fee)
+Avg Tx Fee: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_fee)
+Avg Tx Fee Usd: 2657 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_fee_usd)
+Sent Value: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_sent_value)
+Sent Value Usd: 2657 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_sent_value_usd)
+Median Block Sent Value: 2901 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_median_block_sent_value)
+Avg Tx Value: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_avg_tx_value)
+Tx Cnt: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_tx_cnt)
+Reward: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_reward)
+Reward Usd: 2657 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_reward_usd)
+Total Mined Coin: 2982 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_total_mined_coin)
+Price: 2657 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_price)
+Marketcap: 2657 (https://emc.tokenview.com/v2api/chart/?coin=emc&type=daily_marketcap)
 
 Siacoin
-Tweets Cnt: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_tweets_cnt
-2077
-Active Address: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_active_address
-1421
-New Address: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_new_address
-2333
-Block Cnt: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_block_cnt
-2333
-Avg Difficulty: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_difficulty
-2333
-Avg Hashrate: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_hashrate
-1069
-Fee Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_fee_usd
-2247
-Avg Block Fee: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_block_fee
-2333
-Median Block Fee: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_median_block_fee
-2316
-Avg Tx Fee: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_fee
-2333
-Avg Tx Fee Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_fee_usd
-2247
-Sent Value: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_sent_value
-2333
-Sent Value Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_sent_value_usd
-2247
-Avg Tx Value: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_value
-2333
-Tx Cnt: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_tx_cnt
-2333
-Reward: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_reward
-2333
-Reward Usd: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_reward_usd
-2247
-Mining Profitability: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_mining_profitability
-1069
-Total Mined Coin: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_total_mined_coin
-2333
-Price: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_price
-2354
-Marketcap: https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_marketcap
-2338
+Tweets Cnt: 2077 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_tweets_cnt)
+Active Address: 1421 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_active_address)
+New Address: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_new_address)
+Block Cnt: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_block_cnt)
+Avg Difficulty: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_difficulty)
+Avg Hashrate: 1069 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_hashrate)
+Fee Usd: 2247 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_fee_usd)
+Avg Block Fee: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_block_fee)
+Median Block Fee: 2316 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_median_block_fee)
+Avg Tx Fee: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_fee)
+Avg Tx Fee Usd: 2247 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_fee_usd)
+Sent Value: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_sent_value)
+Sent Value Usd: 2247 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_sent_value_usd)
+Avg Tx Value: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_avg_tx_value)
+Tx Cnt: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_tx_cnt)
+Reward: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_reward)
+Reward Usd: 2247 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_reward_usd)
+Mining Profitability: 1069 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_mining_profitability)
+Total Mined Coin: 2333 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_total_mined_coin)
+Price: 2354 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_price)
+Marketcap: 2338 (https://sc.tokenview.com/v2api/chart/?coin=sc&type=daily_marketcap)
 
 Gamecredits
-Tweets Cnt: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_tweets_cnt
-723
-Active Address: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_active_address
-2912
-New Address: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_new_address
-2775
-Block Cnt: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_block_cnt
-2822
-Avg Difficulty: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_difficulty
-2822
-Avg Hashrate: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_hashrate
-1166
-Fee: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_fee
-2822
-Fee Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_fee_usd
-2596
-Avg Block Fee: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_block_fee
-2822
-Median Block Fee: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_median_block_fee
-2763
-Avg Tx Fee: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_fee
-2822
-Avg Tx Fee Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_fee_usd
-2596
-Sent Value: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_sent_value
-2822
-Sent Value Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_sent_value_usd
-2596
-Median Block Sent Value: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_median_block_sent_value
-2775
-Avg Tx Value: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_value
-2822
-Tx Cnt: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_tx_cnt
-2822
-Reward: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_reward
-2822
-Reward Usd: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_reward_usd
-2596
-Mining Profitability: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_mining_profitability
-572
-Total Mined Coin: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_total_mined_coin
-2822
-Price: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_price
-2686
-Marketcap: https://game.tokenview.com/v2api/chart/?coin=game&type=daily_marketcap
-2686
+Tweets Cnt: 723 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_tweets_cnt)
+Active Address: 2913 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_active_address)
+New Address: 2775 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_new_address)
+Block Cnt: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_block_cnt)
+Avg Difficulty: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_difficulty)
+Avg Hashrate: 1167 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_hashrate)
+Fee: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_fee)
+Fee Usd: 2596 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_fee_usd)
+Avg Block Fee: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_block_fee)
+Median Block Fee: 2763 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_median_block_fee)
+Avg Tx Fee: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_fee)
+Avg Tx Fee Usd: 2596 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_fee_usd)
+Sent Value: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_sent_value)
+Sent Value Usd: 2596 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_sent_value_usd)
+Median Block Sent Value: 2775 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_median_block_sent_value)
+Avg Tx Value: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_avg_tx_value)
+Tx Cnt: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_tx_cnt)
+Reward: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_reward)
+Reward Usd: 2596 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_reward_usd)
+Mining Profitability: 572 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_mining_profitability)
+Total Mined Coin: 2822 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_total_mined_coin)
+Price: 2686 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_price)
+Marketcap: 2686 (https://game.tokenview.com/v2api/chart/?coin=game&type=daily_marketcap)
 
 Peercoin
-Tweets Cnt: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_tweets_cnt
-2080
-Active Address: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_active_address
-3460
-New Address: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_new_address
-3280
-Block Cnt: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_block_cnt
-3361
-Avg Difficulty: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_difficulty
-3361
-Avg Hashrate: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_hashrate
-3463
-Fee: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_fee
-3361
-Fee Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_fee_usd
-3084
-Avg Block Fee: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_block_fee
-3361
-Median Block Fee: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_median_block_fee
-3293
-Avg Tx Fee: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_fee
-3361
-Avg Tx Fee Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_fee_usd
-3084
-Sent Value: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_sent_value
-3361
-Sent Value Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_sent_value_usd
-3084
-Median Block Sent Value: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_median_block_sent_value
-3293
-Avg Tx Value: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_value
-3361
-Tx Cnt: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_tx_cnt
-3361
-Reward: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_reward
-3361
-Reward Usd: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_reward_usd
-3084
-Mining Profitability: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_mining_profitability
-2049
-Total Mined Coin: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_total_mined_coin
-3361
-Price: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_price
-3184
-Marketcap: https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_marketcap
-3184
+Tweets Cnt: 2080 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_tweets_cnt)
+Active Address: 3461 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_active_address)
+New Address: 3280 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_new_address)
+Block Cnt: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_block_cnt)
+Avg Difficulty: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_difficulty)
+Avg Hashrate: 3464 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_hashrate)
+Fee: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_fee)
+Fee Usd: 3084 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_fee_usd)
+Avg Block Fee: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_block_fee)
+Median Block Fee: 3293 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_median_block_fee)
+Avg Tx Fee: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_fee)
+Avg Tx Fee Usd: 3084 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_fee_usd)
+Sent Value: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_sent_value)
+Sent Value Usd: 3084 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_sent_value_usd)
+Median Block Sent Value: 3293 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_median_block_sent_value)
+Avg Tx Value: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_avg_tx_value)
+Tx Cnt: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_tx_cnt)
+Reward: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_reward)
+Reward Usd: 3084 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_reward_usd)
+Mining Profitability: 2049 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_mining_profitability)
+Total Mined Coin: 3361 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_total_mined_coin)
+Price: 3184 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_price)
+Marketcap: 3184 (https://ppc.tokenview.com/v2api/chart/?coin=ppc&type=daily_marketcap)
 
 Feathercoin
-Tweets Cnt: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_tweets_cnt
-2100
-Active Address: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_active_address
-3220
-New Address: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_new_address
-3209
-Block Cnt: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_block_cnt
-3220
-Avg Difficulty: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_difficulty
-3220
-Avg Hashrate: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_hashrate
-3777
-Fee: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_fee
-3220
-Fee Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_fee_usd
-3183
-Avg Block Fee: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_block_fee
-3220
-Median Block Fee: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_median_block_fee
-3216
-Avg Tx Fee: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_fee
-3220
-Avg Tx Fee Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_fee_usd
-3183
-Sent Value: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_sent_value
-3220
-Sent Value Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_sent_value_usd
-3183
-Median Block Sent Value: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_median_block_sent_value
-3217
-Avg Tx Value: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_value
-3220
-Tx Cnt: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_tx_cnt
-3220
-Reward: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_reward
-3220
-Reward Usd: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_reward_usd
-3183
-Mining Profitability: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_mining_profitability
-2452
-Total Mined Coin: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_total_mined_coin
-3220
-Price: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_price
-3184
-Marketcap: https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_marketcap
-3184
+Tweets Cnt: 2100 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_tweets_cnt)
+Active Address: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_active_address)
+New Address: 3210 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_new_address)
+Block Cnt: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_block_cnt)
+Avg Difficulty: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_difficulty)
+Avg Hashrate: 3778 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_hashrate)
+Fee: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_fee)
+Fee Usd: 3184 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_fee_usd)
+Avg Block Fee: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_block_fee)
+Median Block Fee: 3217 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_median_block_fee)
+Avg Tx Fee: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_fee)
+Avg Tx Fee Usd: 3184 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_fee_usd)
+Sent Value: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_sent_value)
+Sent Value Usd: 3184 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_sent_value_usd)
+Median Block Sent Value: 3218 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_median_block_sent_value)
+Avg Tx Value: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_avg_tx_value)
+Tx Cnt: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_tx_cnt)
+Reward: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_reward)
+Reward Usd: 3184 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_reward_usd)
+Mining Profitability: 2452 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_mining_profitability)
+Total Mined Coin: 3221 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_total_mined_coin)
+Price: 3184 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_price)
+Marketcap: 3184 (https://ftc.tokenview.com/v2api/chart/?coin=ftc&type=daily_marketcap)
 
 Stratis
-Tweets Cnt: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_tweets_cnt
-740
-Active Address: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_active_address
-941
-New Address: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_new_address
-1547
-Block Cnt: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_block_cnt
-1569
-Avg Difficulty: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_difficulty
-1569
-Fee: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_fee
-1569
-Fee Usd: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_fee_usd
-1564
-Avg Block Fee: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_block_fee
-1569
-Median Block Fee: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_median_block_fee
-1568
-Avg Tx Fee: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_fee
-1569
-Avg Tx Fee Usd: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_fee_usd
-1564
-Sent Value: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_sent_value
-1569
-Sent Value Usd: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_sent_value_usd
-1564
-Median Block Sent Value: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_median_block_sent_value
-1568
-Avg Tx Value: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_value
-1569
-Tx Cnt: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_tx_cnt
-1569
-Reward: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_reward
-1569
-Total Mined Coin: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_total_mined_coin
-1569
-Price: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_price
-2005
-Marketcap: https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_marketcap
-2005
+Tweets Cnt: 740 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_tweets_cnt)
+Active Address: 941 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_active_address)
+New Address: 1547 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_new_address)
+Block Cnt: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_block_cnt)
+Avg Difficulty: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_difficulty)
+Fee: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_fee)
+Fee Usd: 1564 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_fee_usd)
+Avg Block Fee: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_block_fee)
+Median Block Fee: 1568 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_median_block_fee)
+Avg Tx Fee: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_fee)
+Avg Tx Fee Usd: 1564 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_fee_usd)
+Sent Value: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_sent_value)
+Sent Value Usd: 1564 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_sent_value_usd)
+Median Block Sent Value: 1568 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_median_block_sent_value)
+Avg Tx Value: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_avg_tx_value)
+Tx Cnt: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_tx_cnt)
+Reward: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_reward)
+Total Mined Coin: 1569 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_total_mined_coin)
+Price: 2005 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_price)
+Marketcap: 2005 (https://strat.tokenview.com/v2api/chart/?coin=strat&type=daily_marketcap)
 
 Cosmos
-Tweets Cnt: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_tweets_cnt
-989
-Active Address: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_active_address
-790
-New Address: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_new_address
-775
-Block Cnt: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_block_cnt
-790
-Avg Difficulty: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_difficulty
-790
-Fee: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_fee
-790
-Fee Usd: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_fee_usd
-790
-Avg Block Fee: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_block_fee
-790
-Median Block Fee: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_median_block_fee
-790
-Avg Tx Fee: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_fee
-790
-Avg Tx Fee Usd: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_fee_usd
-790
-Sent Value: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_sent_value
-790
-Sent Value Usd: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_sent_value_usd
-790
-Median Block Sent Value: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_median_block_sent_value
-789
-Avg Tx Value: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_value
-790
-Tx Cnt: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_tx_cnt
-790
-Price: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_price
-1081
-Marketcap: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_marketcap
-1081
-Gas Used: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_gas_used
-790
-Avg Gas Price: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_gas_price
-790
-Avg Gas Limit: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_gas_limit
-790
-Avg Tx Gas Used: https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_gas_used
-790
+Tweets Cnt: 989 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_tweets_cnt)
+Active Address: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_active_address)
+New Address: 776 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_new_address)
+Block Cnt: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_block_cnt)
+Avg Difficulty: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_difficulty)
+Fee: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_fee)
+Fee Usd: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_fee_usd)
+Avg Block Fee: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_block_fee)
+Median Block Fee: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_median_block_fee)
+Avg Tx Fee: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_fee)
+Avg Tx Fee Usd: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_fee_usd)
+Sent Value: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_sent_value)
+Sent Value Usd: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_sent_value_usd)
+Median Block Sent Value: 790 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_median_block_sent_value)
+Avg Tx Value: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_value)
+Tx Cnt: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_tx_cnt)
+Price: 1081 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_price)
+Marketcap: 1081 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_marketcap)
+Gas Used: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_gas_used)
+Avg Gas Price: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_gas_price)
+Avg Gas Limit: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_gas_limit)
+Avg Tx Gas Used: 791 (https://atom.tokenview.com/v2api/chart/?coin=atom&type=daily_avg_tx_gas_used)
 
 SUCCESS!
 
