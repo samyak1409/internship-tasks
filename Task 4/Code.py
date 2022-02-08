@@ -2,7 +2,7 @@
 
 from requests import get as get_request
 from json import loads
-from datetime import datetime
+from datetime import datetime, date, timedelta
 from os.path import exists
 from openpyxl import Workbook, load_workbook
 from os import startfile
@@ -78,6 +78,10 @@ for coin_name, coin_code in COINS.items():
     wb.save(excel_file)
     # print(sheet); break  # debugging
 
+    # DATA COLLECTION:
+    data_dict_list = []
+    min_date, max_date = date(year=4006, month=11, day=1), date(year=1, month=1, day=1)  # (1 Nov 4006 -> TENTATIVE END OF WORLD xD)
+
     for column_num, (type_name, type_val) in enumerate(iterable=TYPES.items(), start=2):  # "start=2" coz column 1 is 'DATE'
 
         link = f'https://{coin_code}.tokenview.com/v2api/chart/?coin={coin_code}&type={type_val}'
@@ -90,19 +94,46 @@ for coin_name, coin_code in COINS.items():
             # print(type(data)); exit()  # debugging
             # https://stackoverflow.com/questions/1894269/how-to-convert-string-representation-of-list-to-a-list
             data = loads(s=data)  # type = list ✔
+            # print(data); exit()  # debugging
             # then you might think why it didn't happen before only, because https://stackoverflow.com/questions/1894269#comment99897185_35461204
 
             if data:  # (data can be = [])
 
-                print(f'{type_name}: {link}')
+                print(f'{type_name}: {len(data)} ({link})')
 
                 unit = json_dict['unit']
                 if unit:
                     sheet.cell(row=1, column=column_num).value += f' ({unit})'
                     # print(sheet.cell(row=1, column=column_num).value)  # debugging
 
-                # TODO
-                print(len(data))
+                start_date = date.fromisoformat(data[0].copy().popitem()[0])  # "popitem" remove and return a (key, value) pair as a 2-tuple
+                if start_date < min_date:
+                    min_date = start_date
+                try:
+                    last_date = date.fromisoformat(data[-1].copy().popitem()[0])  # date_str to date_obj
+                except ValueError:  # sometimes LAST date = 'lastdate'
+                    last_date = date.fromisoformat(data[-2].copy().popitem()[0])
+                if last_date > max_date:
+                    max_date = last_date
+                data_dict = {start_date: [mapping.popitem()[1] for mapping in data]}
+                # print(data_dict); exit()  # debugging
+                data_dict_list.append(data_dict)
+
+    # print(len(data_dict_list), min_date, max_date); break  # debugging
+    # DATA OUTPUT:
+    date_ = min_date
+    for row_num in range(3, (max_date-min_date).days+3+1):  # dates' insertion
+        sheet.cell(row=row_num, column=1, value=date_)
+        date_ += timedelta(days=1)  # 👌
+    for column_num, data_dict in enumerate(iterable=data_dict_list, start=2):
+        start_date, values = data_dict.popitem()
+        start_row = 0
+        for row_num in range(3, sheet.max_row+1):  # finding start date row number
+            if sheet.cell(row=row_num, column=1).value == start_date:
+                start_row = row_num
+                break
+        for row_num, value in enumerate(iterable=values, start=start_row):  # data insertion
+            sheet.cell(row=row_num, column=column_num, value=value)
 
     # SAVE & OPEN EXCEL:
     wb.save(excel_file)
