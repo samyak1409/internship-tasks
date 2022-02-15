@@ -14,7 +14,6 @@ level using this API (information https://node.gridcoin.network/API?q=tx&hash=[T
 from requests import get as get_request
 from json import loads, dumps
 from concurrent.futures import ThreadPoolExecutor
-from itertools import count
 
 
 # CONSTANTS:
@@ -40,25 +39,18 @@ def main(height: int) -> None:
 
     print(f'\n{height})')
 
-    block_data = get_data_from(url=f'https://node.gridcoin.network/API?q=blockbyheight&height={height}')
-
-    error = block_data.get('error')
-    if error:
-        globals()['stop'] = True
-        return
-
-    for txn_hash in block_data.get("tx"):  # list of txn hashes
+    for txn_hash in get_data_from(url=f'https://node.gridcoin.network/API?q=blockbyheight&height={height}').get("tx"):  # list of txn hashes
         get_data_from(url=f'https://node.gridcoin.network/API?q=tx&hash={txn_hash}')
 
 
 # THREADING:
 
-stop = False
-for i in count():  # infinite loop
-    start = THREADS*i + 1
+if DEBUG:
+    print()  # spacing
+for page_num in range(1, get_data_from(url='https://node.gridcoin.network/API')['height']+1, THREADS):  # start, stop, step
     with ThreadPoolExecutor() as Exec:
-        Exec.map(main, range(start, start+THREADS))
-    if stop or DEBUG:
+        Exec.map(main, range(page_num, page_num+THREADS))
+    if DEBUG:
         break
 
 
