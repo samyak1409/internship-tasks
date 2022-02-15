@@ -5,7 +5,7 @@ level using this API (information https://node.gridcoin.network/API?q=tx&hash=[T
 """
 
 
-# Requests: ~2.5M
+# Requests: ~2.5M * 2
 # API Doc: https://gridcoin.network/api.html
 
 
@@ -17,18 +17,20 @@ from concurrent.futures import ThreadPoolExecutor
 from itertools import count
 
 
-# ATTRIBUTES:
+# CONSTANTS:
 
-THREADS = 100  # number of concurrent threads to run at once
-stop = False
+DEBUG = True  # (default: False)
+THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 
 
 # FUNCTIONS:
 
 def get_data_from(url: str) -> dict:
-    # print(url)
+    if DEBUG:
+        print(url)
     data = loads(s=get_request(url=url).text)
-    # print(dumps(obj=data, indent=4))
+    if DEBUG:
+        print(dumps(obj=data, indent=4))
     return data
 
 
@@ -49,11 +51,14 @@ def main(height: int) -> None:
         get_data_from(url=f'https://node.gridcoin.network/API?q=tx&hash={txn_hash}')
 
 
+# THREADING:
+
+stop = False
 for i in count():  # infinite loop
     start = THREADS*i + 1
     with ThreadPoolExecutor() as Exec:
         Exec.map(main, range(start, start+THREADS))
-    if stop:
+    if stop or DEBUG:
         break
 
 
