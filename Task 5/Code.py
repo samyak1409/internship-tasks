@@ -6,7 +6,8 @@ https://public-api.solscan.io/block/transactions?block=120304941&offset=0&limit=
 
 
 # Requests: ~120M * 1
-# API Doc: https://public-api.solscan.io/docs/
+# API Doc: https://public-api.solscan.io/docs
+# Default Limit: 150 requests / 30 seconds, 100k requests / day
 
 
 # IMPORTS:
@@ -20,7 +21,7 @@ from requests_ip_rotator import ApiGateway
 # CONSTANTS:
 
 BASE_URL = 'https://public-api.solscan.io'
-DEBUG = True  # (default: False)
+DEBUG = False  # (default: False)
 THREADS = 1 if DEBUG else 15  # number of concurrent threads to run at once
 
 
@@ -48,17 +49,22 @@ def main(block_num: int) -> None:
 
 # THREADING WITH ROTATING IPs:
 
-with ApiGateway(BASE_URL) as g:  # https://github.com/Ge0rg3/requests-ip-rotator/
+print()  # spacing
+
+with ApiGateway(site=BASE_URL) as g:  # please go through: https://github.com/Ge0rg3/requests-ip-rotator
+
     session = Session()
-    session.mount(BASE_URL, g)
+    session.mount(prefix=BASE_URL, adapter=g)
 
     print('\nGETTING LAST BLOCK NUMBER')
 
-    for page_num in range(1, get_data_from(url=f'{BASE_URL}/block/last?limit=1')[0]['currentSlot']+1, THREADS):  # start, stop, step
+    for page_num in range(1, min(300, get_data_from(url=f'{BASE_URL}/block/last?limit=1')[0]['currentSlot'])+1, THREADS):  # start, stop, step
         with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
             Exec.map(main, range(page_num, page_num+THREADS))
         if DEBUG:
             break
+
+    print()  # spacing
 
 
 print('\nSUCCESS!')
