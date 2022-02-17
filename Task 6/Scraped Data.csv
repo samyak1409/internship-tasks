@@ -1,0 +1,3 @@
+height,entropybit,IsContract,tx,netstakeweight,modifier,flags,IsSuperBlock,querytime,fees_collected,mint,MoneySupply,claim->mining_id,difficulty,size,location,time,username,,locktime,netstakeweight,txid,contracts,vout->0->value,vout->0->scriptPubKey->addresses,vout->0->scriptPubKey->type,time
+1,1,False,['c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f'],206061660.0437089,0000000000000000,proof-of-work ,False,2,0,30,30,ca895b47aacffbdbf906201821af2f9f,0.0002441371325370145,391,"Bruges, Belgium",1413152875,unknown user,,0,206061660.0437089,c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f,[],30,['SGTcVAUpiYhC7MHy8CpcqxNh8krjjYAH4Y'],pubkeyhash,1413152870
+

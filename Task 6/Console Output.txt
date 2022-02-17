@@ -1,145 +1,40 @@
 C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/Task 6/Code.py"
 
+GETTING LATEST BLOCK NUMBER...
 https://node.gridcoin.network/API
-{
-    "entropybit": 1,
-    "IsContract": false,
-    "tx": [
-        "742e1b7a02fdf72de7415534fed2b129ed63c6bb1afb24111c79478d6894cec1",
-        "3dc50cbac7f6804d54787b0fed4ddc96450c69c4f7751ddd1aba23be9c3f85b4"
-    ],
-    "signature": "3045022100dd6774ad69fb3329bb70b605b27597e9cd78de11b7119ba60f5eeaa02388630d02206bf77c797b42e6337f4b4aa8f173c9910008c5d316439fcba15c5d7df8a5d535",
-    "netstakeweight": 256048177.7635981,
-    "modifier": "2fd537c8877d5e5c",
-    "flags": "proof-of-stake ",
-    "IsSuperBlock": false,
-    "querytime": 1,
-    "proofhash": "00001f1a9b6708307171131a0518866ce88d5fc89e2b574b32ae1f1e084ebc55",
-    "fees_collected": 0,
-    "mint": 10,
-    "MoneySupply": 456712820.7262957,
-    "claim": {
-        "quorum_hash": "",
-        "research_subsidy": 0,
-        "signature": "",
-        "quorum_address": "",
-        "organization": "",
-        "block_subsidy": 10,
-        "magnitude": 0,
-        "magnitude_unit": 0.25,
-        "client_version": "v5.3.2.0-gfe6ab878a",
-        "version": 3,
-        "mining_id": "INVESTOR"
-    },
-    "height": 2498449,
-    "previousblockhash": "57aac7713b92cd16ce564391dc918317bf7ac89068bd8d59dc8796ac28fd19e6",
-    "bits": "1c0990e8",
-    "confirmations": 1,
-    "version": 11,
-    "nonce": 0,
-    "queries": 64347788,
-    "difficulty": 26.76092643399477,
-    "connected": 230,
-    "node": "lorlea",
-    "size": 441,
-    "chaintrust": "73e0f0cf86557b2bb40f58d5b9d39693c2c893c4fe568da6a8adf612781f026",
-    "merkleroot": "757ac790d2a494656c70db7c59df7524f29868a516a7a78a18e66db619001ec9",
-    "location": "Bruges, Belgium",
-    "time": 1644890416,
-    "blocktrust": "1ac2e6d60b",
-    "hash": "3abd161be171b9eee0d471c9f8c02c05e85e789a41a1a7ba400ce8ec72cd5a35",
-    "username": "unknown user"
-}
+2500995
 
 1)
 https://node.gridcoin.network/API?q=blockbyheight&height=1
-{
-    "entropybit": 1,
-    "IsContract": false,
-    "tx": [
-        "c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f"
-    ],
-    "netstakeweight": 256048177.7635981,
-    "modifier": "0000000000000000",
-    "flags": "proof-of-work ",
-    "IsSuperBlock": false,
-    "querytime": 2,
-    "proofhash": "000003b082ab3c494b1cf529a6edbbf2d1acfe1cb189a7af799c377e0e5e8ed7",
-    "fees_collected": 0,
-    "mint": 30,
-    "MoneySupply": 30,
-    "claim": {
-        "quorum_hash": "",
-        "research_subsidy": 0,
-        "signature": "",
-        "quorum_address": "183",
-        "organization": "",
-        "block_subsidy": 0,
-        "magnitude": 0,
-        "magnitude_unit": 0,
-        "client_version": "v3.1.6.1-g-research",
-        "version": 1,
-        "mining_id": "ca895b47aacffbdbf906201821af2f9f"
-    },
-    "height": 1,
-    "previousblockhash": "000005a247b397eadfefa58e872bc967c2614797bdc8d4d0e6b09fea5c191599",
-    "bits": "1e0fffff",
-    "confirmations": 2498449,
-    "version": 6,
-    "nonce": 368642304,
-    "queries": 64347790,
-    "nextblockhash": "000007e0b20969bb53f6d11d9840f64d8098fe89c9b85b9ddd94e6049a1a39ad",
-    "difficulty": 0.0002441371325370145,
-    "connected": 230,
-    "node": "lorlea",
-    "size": 391,
-    "chaintrust": "200002",
-    "merkleroot": "c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f",
-    "location": "Bruges, Belgium",
-    "time": 1413152875,
-    "blocktrust": "100001",
-    "hash": "000003b082ab3c494b1cf529a6edbbf2d1acfe1cb189a7af799c377e0e5e8ed7",
-    "username": "unknown user"
-}
+height: 1
+entropybit: 1
+IsContract: False
+tx: ['c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f']
+netstakeweight: 206061660.0437089
+modifier: 0000000000000000
+flags: proof-of-work
+IsSuperBlock: False
+querytime: 2
+fees_collected: 0
+mint: 30
+MoneySupply: 30
+claim->mining_id: ca895b47aacffbdbf906201821af2f9f
+difficulty: 0.0002441371325370145
+size: 391
+location: Bruges, Belgium
+time: 1413152875
+username: unknown user
 https://node.gridcoin.network/API?q=tx&hash=c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f
-{
-    "locktime": 0,
-    "netstakeweight": 256048177.7635981,
-    "txid": "c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f",
-    "contracts": [],
-    "confirmations": 2498449,
-    "version": 1,
-    "queries": 64347791,
-    "querytime": 1,
-    "vout": [
-        {
-            "value": 30,
-            "scriptPubKey": {
-                "asm": "OP_DUP OP_HASH160 caf8b5c9a8f18317fa86dbdd549631cd1cd5d050 OP_EQUALVERIFY OP_CHECKSIG",
-                "hex": "76a914caf8b5c9a8f18317fa86dbdd549631cd1cd5d05088ac",
-                "addresses": [
-                    "SGTcVAUpiYhC7MHy8CpcqxNh8krjjYAH4Y"
-                ],
-                "type": "pubkeyhash",
-                "reqSigs": 1
-            },
-            "n": 0
-        }
-    ],
-    "connected": 230,
-    "node": "lorlea",
-    "blockhash": "000003b082ab3c494b1cf529a6edbbf2d1acfe1cb189a7af799c377e0e5e8ed7",
-    "size": 309,
-    "vin": [
-        {
-            "sequence": -1,
-            "coinbase": "510101"
-        }
-    ],
-    "location": "Bruges, Belgium",
-    "time": 1413152870,
-    "hashboinc": "ca895b47aacffbdbf906201821af2f9f<|>seti@home<|><|>183<|>0.00000<|>0<|>K3zTKTrALgB4TObhd7yOZ1cPL/xK1WhwryJorJlo5RuSbCAj/fQsgCmY7hc1/WhQGEa4wyQhr5PzQdqRDftrDQ==<|><|>0<|>0<|>v3.1.6.1-g-research<|><|>0<|>0<|>0<|>0<|>183"
-}
+locktime: 0
+netstakeweight: 206061660.0437089
+txid: c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f
+contracts: []
+vout->0->value: 30
+vout->0->scriptPubKey->addresses: ['SGTcVAUpiYhC7MHy8CpcqxNh8krjjYAH4Y']
+vout->0->scriptPubKey->type: pubkeyhash
+time: 1413152870
+
+FINAL DATA: [[[1, 1, False, ['c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f'], 206061660.0437089, '0000000000000000', 'proof-of-work ', False, 2, 0, 30, 30, 'ca895b47aacffbdbf906201821af2f9f', 0.0002441371325370145, 391, 'Bruges, Belgium', 1413152875, 'unknown user'], [0, 206061660.0437089, 'c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f', [], 30, ['SGTcVAUpiYhC7MHy8CpcqxNh8krjjYAH4Y'], 'pubkeyhash', 1413152870]]]
 
 SUCCESS!
 
