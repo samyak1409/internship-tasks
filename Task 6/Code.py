@@ -22,7 +22,7 @@ from os import startfile
 
 # CONSTANTS:
 
-DEBUG = True  # (default: False)
+DEBUG = False  # (default: False)
 START_HEIGHT = 1
 THREADS = 1 if DEBUG else 10  # number of concurrent threads to run at once
 X = '->'  # child symbol
@@ -59,11 +59,13 @@ CSV_FILE = 'Scraped Data.csv'
 
 def get_data_from(url: str) -> dict:
 
-    data = loads(s=get_request(url=url).text)
+    data = loads(s=get_request(url=url, stream=False).text)
 
     if DEBUG:
         print(url)
         # from json import dumps; print(dumps(obj=data, indent=4))  # debugging
+
+    # print('Len:', len(data))  # debugging
 
     return data
 
