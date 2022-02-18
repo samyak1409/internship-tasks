@@ -12,7 +12,7 @@ level using this API (information https://node.gridcoin.network/API?q=tx&hash=[T
 
 # IMPORTS:
 
-from requests import get as get_request
+from requests import get as get_request, RequestException
 from json import loads
 from concurrent.futures import ThreadPoolExecutor
 from csv import writer
@@ -22,9 +22,11 @@ from os import startfile
 
 # CONSTANTS:
 
-DEBUG = False  # (default: False)
-START_HEIGHT = 1
-THREADS = 1 if DEBUG else 10  # number of concurrent threads to run at once
+DEBUG = False  # default: False
+# Enter custom start and end if required:
+START_HEIGHT = 1  # default: 1
+END_HEIGHT = 1000  # default: float('inf') (which means scrape all blocks)
+THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 X = '->'  # child symbol
 BLOCK_COLUMNS = ('height',
                  'entropybit',
@@ -59,13 +61,21 @@ CSV_FILE = 'Scraped Data.csv'
 
 def get_data_from(url: str) -> dict:
 
-    data = loads(s=get_request(url=url, stream=False).text)
+    while True:  # sometimes https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_server_errors, which will be fixed after some tries!
+        try:
+            response = get_request(url=url, stream=False, timeout=1)  # stream and timeout parameters -> VERY IMPORTANT
+        except RequestException as e:
+            print(f'{type(e).__name__}: {e.__doc__} TRYING AGAIN...')
+            continue
+        break
+    # print(response.status_code)  # debugging
+
+    data = loads(s=response.text)
+    # print('Len:', len(data))  # debugging
 
     if DEBUG:
         print(url)
         # from json import dumps; print(dumps(obj=data, indent=4))  # debugging
-
-    # print('Len:', len(data))  # debugging
 
     return data
 
@@ -127,7 +137,7 @@ if not exists(CSV_FILE):
     # startfile(CSV_FILE); exit()  # debugging
 
 # Threading:
-for page_num in range(START_HEIGHT, max_height+1, THREADS):  # start, stop, step
+for page_num in range(START_HEIGHT, min(END_HEIGHT, max_height)+1, THREADS):  # start, stop, step
 
     scraped_data = [[] for _ in range(THREADS)]  # [] = x; x[0] = block_data; x[1:] = list_of_txn_data (coz 1 block can have multiple txn)
 
@@ -142,7 +152,7 @@ for page_num in range(START_HEIGHT, max_height+1, THREADS):  # start, stop, step
             w.writerow(data_[0] + [''] + data_[1])  # block_data, _space_, txn_data
             for txn_data in data_[2:]:  # if multiple txn_data
                 w.writerow(['' for _ in range(len(BLOCK_COLUMNS))] + [''] + txn_data)  # empty_block_data, _space_, txn_data
-            w.writerow([])
+            w.writerow([])  # line gap after a block data
 
     if DEBUG:
         print('\nFINAL DATA:', scraped_data)
