@@ -1,0 +1,41 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/Task 6/Code.py"
+
+GETTING LATEST BLOCK NUMBER...
+https://node.gridcoin.network/API
+2501848
+
+1)
+https://node.gridcoin.network/API?q=blockbyheight&height=1
+height: 1
+entropybit: 1
+IsContract: False
+tx: ['c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f']
+netstakeweight: 220081146.1695409
+modifier: 0000000000000000
+flags: proof-of-work
+IsSuperBlock: False
+querytime: 2
+fees_collected: 0
+mint: 30
+MoneySupply: 30
+claim->mining_id: ca895b47aacffbdbf906201821af2f9f
+difficulty: 0.0002441371325370145
+size: 391
+location: Bruges, Belgium
+time: 1413152875
+username: unknown user
+https://node.gridcoin.network/API?q=tx&hash=c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f
+locktime: 0
+netstakeweight: 220081146.1695409
+txid: c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f
+contracts: []
+vout->0->value: 30
+vout->0->scriptPubKey->addresses: ['SGTcVAUpiYhC7MHy8CpcqxNh8krjjYAH4Y']
+vout->0->scriptPubKey->type: pubkeyhash
+time: 1413152870
+
+FINAL DATA: [[[1, 1, False, ['c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f'], 220081146.1695409, '0000000000000000', 'proof-of-work ', False, 2, 0, 30, 30, 'ca895b47aacffbdbf906201821af2f9f', 0.0002441371325370145, 391, 'Bruges, Belgium', 1413152875, 'unknown user'], [0, 220081146.1695409, 'c93aa81dbdede0477f1aa8876029d1094642841361eaad0a1de02d8a8fe0376f', [], 30, ['SGTcVAUpiYhC7MHy8CpcqxNh8krjjYAH4Y'], 'pubkeyhash', 1413152870]]]
+
+SUCCESS!
+
+Process finished with exit code 0
