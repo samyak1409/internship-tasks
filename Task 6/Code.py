@@ -23,9 +23,9 @@ from os import startfile
 # CONSTANTS:
 
 DEBUG = False  # default: False
-# Enter custom start and end if required:
+# Enter custom start, end, and no. of threads if required:
 START_HEIGHT = 1  # default: 1
-END_HEIGHT = 1000  # default: float('inf') (which means scrape all blocks)
+END_HEIGHT = float('inf')  # default: float('inf') (which means scrape all blocks)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 X = '->'  # child symbol
 BLOCK_COLUMNS = ('height',
