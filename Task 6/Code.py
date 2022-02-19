@@ -137,7 +137,7 @@ if not exists(CSV_FILE):
     # startfile(CSV_FILE); exit()  # debugging
 
 # Threading:
-for page_num in range(START_HEIGHT, min(END_HEIGHT, max_height)+1, THREADS):  # start, stop, step
+for page_num in range(START_HEIGHT, int(min(END_HEIGHT, max_height))+1, THREADS):  # start, stop, step
 
     scraped_data = [[] for _ in range(THREADS)]  # [] = x; x[0] = block_data; x[1:] = list_of_txn_data (coz 1 block can have multiple txn)
 
