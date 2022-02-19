@@ -22,6 +22,7 @@ from os import startfile
 
 # CONSTANTS:
 
+BASE_URL = 'https://node.gridcoin.network/API'
 DEBUG = False  # default: False
 # Enter custom start, end, and no. of threads if required:
 START_HEIGHT = 1  # default: 1
@@ -117,17 +118,17 @@ def main(height: int) -> None:
     index = (height - START_HEIGHT) % THREADS  # index of this height's block's data to be inserted in the scraped_data
     # print(index)  # debugging
 
-    block_data = get_data_from(url=f'https://node.gridcoin.network/API?q=blockbyheight&height={height}')
+    block_data = get_data_from(url=f'{BASE_URL}?q=blockbyheight&height={height}')
     store_vals_from(data=block_data, columns=BLOCK_COLUMNS, index=index)
 
     for txn_hash in block_data.get('tx', []):  # list of txn hashes
-        store_vals_from(data=get_data_from(url=f'https://node.gridcoin.network/API?q=tx&hash={txn_hash}'), columns=TXN_COLUMNS, index=index)
+        store_vals_from(data=get_data_from(url=f'{BASE_URL}?q=tx&hash={txn_hash}'), columns=TXN_COLUMNS, index=index)
 
 
 # MAIN:
 
 print('\nGETTING LATEST BLOCK NUMBER...')
-max_height = get_data_from(url='https://node.gridcoin.network/API')['height']
+max_height = get_data_from(url=BASE_URL)['height']
 print(max_height)
 
 # Writing column names in CSV:
