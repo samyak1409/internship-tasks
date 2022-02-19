@@ -53,11 +53,23 @@ def get_data_from(url: str) -> dict:
 
 def main(page: int) -> None:
 
-    print(f'\n{page})')
+    print(f'\n{page})', end=' ')
 
     messages = get_data_from(url=f'{BASE_URL}?pageSize=100&page={page}')['messages']
-    print('LEN:', len(messages))  # debugging
-    from json import dumps; print(dumps(obj=messages, indent=4))  # debugging
+    # print('LEN:', len(messages))  # debugging
+    # from json import dumps; print(dumps(obj=messages, indent=4))  # debugging
+
+    for message_dict in messages:
+
+        if DEBUG:
+            print()  # spacing
+
+        for key in BLOCK_COLUMNS[1:]:  # skipping 'page'
+
+            val = message_dict.get(key, '')
+
+            if DEBUG:
+                print(f'{key}: {val}')
 
 
 # MAIN:
