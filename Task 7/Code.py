@@ -14,6 +14,9 @@ variable to get all the data from the json file
 from requests import get as get_request, RequestException
 from json import loads
 from concurrent.futures import ThreadPoolExecutor
+from csv import writer, DictWriter
+from os.path import exists
+from os import startfile
 
 
 # CONSTANTS:
@@ -22,8 +25,8 @@ BASE_URL = 'https://filfox.info/api/v1/message/list'
 DEBUG = True  # default: False
 # Enter custom start, end, and no. of threads if required:
 START_PAGE = 1  # default: 1
-END_PAGE = float('inf')  # default: float('inf') (which means scrape all blocks)
-THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
+END_PAGE = 50  # default: float('inf') (which means scrape all blocks)
+THREADS = 1 if DEBUG else 10  # number of concurrent threads to run at once
 BLOCK_COLUMNS = ('page', 'cid', 'height', 'timestamp', 'from', 'to', 'value', 'method', 'receipt')
 CSV_FILE = 'Scraped Data.csv'
 
@@ -59,17 +62,7 @@ def main(page: int) -> None:
     # print('LEN:', len(messages))  # debugging
     # from json import dumps; print(dumps(obj=messages, indent=4))  # debugging
 
-    for message_dict in messages:
-
-        if DEBUG:
-            print()  # spacing
-
-        for key in BLOCK_COLUMNS[1:]:  # skipping 'page'
-
-            val = message_dict.get(key, '')
-
-            if DEBUG:
-                print(f'{key}: {val}')
+    scraped_data[page] = messages
 
 
 # MAIN:
@@ -78,15 +71,32 @@ print('\nGETTING LATEST BLOCK NUMBER...')
 total_count = get_data_from(url=BASE_URL)['totalCount']
 print(total_count)
 
+# Writing column names in CSV:
+if not exists(CSV_FILE):
+    with open(file=CSV_FILE, mode='w') as f:
+        writer(f).writerow(BLOCK_COLUMNS)
+    # startfile(CSV_FILE); exit()  # debugging
+
 # Threading:
 for page_num in range(START_PAGE, int(min(END_PAGE, total_count))+1, THREADS):  # start, stop, step
+
+    scraped_data = {page: None for page in range(page_num, page_num+THREADS)}  # {page_number: message_dict_list}
 
     # Executing {THREADS} no. of threads at once:
     with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
         Exec.map(main, range(page_num, page_num+THREADS))
 
+    # Writing the scraped data from {THREADS} no. of threads to the CSV at once:
+    with open(file=CSV_FILE, mode='a', newline='') as f:
+        for page, message_dict_list in scraped_data.items():
+            DictWriter(f=f, fieldnames=BLOCK_COLUMNS, restval=page).writerows(rowdicts=message_dict_list)  # https://docs.python.org/3/library/csv.html#csv.DictWriter
+            writer(f).writerow([])  # line gap after a block data
+
     if DEBUG:
+        from pprint import pprint
+        pprint(scraped_data)
         break
 
 
+startfile(CSV_FILE)  # automatically open CSV when process completes
 print('\nSUCCESS!')
