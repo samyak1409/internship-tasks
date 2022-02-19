@@ -22,7 +22,7 @@ from os import startfile
 # CONSTANTS:
 
 BASE_URL = 'https://filfox.info/api/v1/message/list'
-DEBUG = True  # default: False
+DEBUG = False  # default: False
 # Enter custom start, end, and no. of threads if required:
 START_PAGE = 1  # default: 1
 END_PAGE = 50  # default: float('inf') (which means scrape all blocks)
