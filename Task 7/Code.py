@@ -25,7 +25,7 @@ BASE_URL = 'https://filfox.info/api/v1/message/list'
 DEBUG = False  # default: False
 # Enter custom start, end, and no. of threads if required:
 START_PAGE = 1  # default: 1
-END_PAGE = 50  # default: float('inf') (which means scrape all blocks)
+END_PAGE = 100  # default: float('inf') (which means scrape all blocks)
 THREADS = 1 if DEBUG else 10  # number of concurrent threads to run at once
 BLOCK_COLUMNS = ('page', 'cid', 'height', 'timestamp', 'from', 'to', 'value', 'method', 'receipt')
 CSV_FILE = 'Scraped Data.csv'
@@ -43,9 +43,15 @@ def get_data_from(url: str) -> dict:
             response = get_request(url=url, stream=False, timeout=1)  # stream and timeout parameters -> VERY IMPORTANT
         except RequestException as e:
             print(f'{type(e).__name__}: {e.__doc__} TRYING AGAIN...')
-            continue
-        break
-    # print(response.status_code)  # debugging
+        else:
+            if response.status_code == 200:
+                break
+            else:
+                print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
+            """
+            if response.status_code == 429:
+                print(response.headers)  # 'x-ratelimit-limit': '60', 'x-ratelimit-remaining': '0', 'x-ratelimit-reset': '54', 'retry-after': '60000'
+            """
 
     data = loads(s=response.text)
     # print('LEN:', len(data))  # debugging
@@ -56,7 +62,7 @@ def get_data_from(url: str) -> dict:
 
 def main(page: int) -> None:
 
-    print(f'\n{page})', end=' ')
+    print(f'\n{page})')
 
     messages = get_data_from(url=f'{BASE_URL}?pageSize=100&page={page}')['messages']
     # print('LEN:', len(messages))  # debugging
