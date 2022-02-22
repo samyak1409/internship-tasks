@@ -18,6 +18,7 @@ from concurrent.futures import ThreadPoolExecutor
 from csv import writer
 from os.path import exists
 from os import startfile
+from psutil import Process; from gc import collect#
 
 
 # CONSTANTS:
@@ -26,7 +27,7 @@ BASE_URL = 'https://node.gridcoin.network/API'
 DEBUG = False  # default: False
 # Enter custom start, end, and no. of threads if required:
 START_HEIGHT = 1  # default: 1
-END_HEIGHT = float('inf')  # default: float('inf') (which means scrape all blocks)
+END_HEIGHT = 1000#float('inf')  # default: float('inf') (which means scrape all blocks)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 X = '->'  # child symbol
 BLOCK_COLUMNS = ('height',
@@ -55,7 +56,7 @@ TXN_COLUMNS = ('locktime',
                f'vout{X}0{X}scriptPubKey{X}addresses',  # vout->0->scriptPubKey->addresses
                f'vout{X}0{X}scriptPubKey{X}type',  # vout->0->scriptPubKey->type
                'time')
-CSV_FILE = 'Scraped Data.csv'
+CSV_FILE = 'Scraped Data_.csv'#
 
 
 # FUNCTIONS:
@@ -67,9 +68,11 @@ def get_data_from(url: str) -> dict:
             response = get_request(url=url, stream=False, timeout=1)  # stream and timeout parameters -> VERY IMPORTANT
         except RequestException as e:
             print(f'{type(e).__name__}: {e.__doc__} TRYING AGAIN...')
-            continue
-        break
-    # print(response.status_code)  # debugging
+        else:
+            if response.status_code == 200:
+                break
+            else:
+                print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
 
     data = loads(s=response.text)
     # print('Len:', len(data))  # debugging
@@ -113,7 +116,7 @@ def store_vals_from(data: dict, columns: tuple, index: int) -> None:
 
 def main(height: int) -> None:
 
-    print(f'\n{height})')
+    #print(f'\n{height})')
 
     index = (height - START_HEIGHT) % THREADS  # index of this height's block's data to be inserted in the scraped_data
     # print(index)  # debugging
@@ -140,6 +143,8 @@ if not exists(CSV_FILE):
 # Threading:
 for page_num in range(START_HEIGHT, int(min(END_HEIGHT, max_height))+1, THREADS):  # start, stop, step
 
+    z = Process().memory_info(); print(); print(z.rss // 1024, z.vms // 1024)#
+
     scraped_data = [[] for _ in range(THREADS)]  # [] = x; x[0] = block_data; x[1:] = list_of_txn_data (coz 1 block can have multiple txn)
 
     # Executing {THREADS} no. of threads at once:
@@ -159,6 +164,8 @@ for page_num in range(START_HEIGHT, int(min(END_HEIGHT, max_height))+1, THREADS)
         print('\nFINAL DATA:', scraped_data)
         break
 
+    del scraped_data, w; collect()#
 
-startfile(CSV_FILE)  # automatically open CSV when process completes
+
+#startfile(CSV_FILE)  # automatically open CSV when process completes
 print('\nSUCCESS!')
