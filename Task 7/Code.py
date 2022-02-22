@@ -42,16 +42,12 @@ def get_data_from(url: str) -> dict:
         try:
             response = get_request(url=url, stream=False, timeout=1)  # stream and timeout parameters -> VERY IMPORTANT
         except RequestException as e:
-            print(f'{type(e).__name__}: {e.__doc__} TRYING AGAIN...')
+            print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
         else:
             if response.status_code == 200:
                 break
             else:
                 print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
-            """
-            if response.status_code == 429:
-                print(response.headers)  # 'x-ratelimit-limit': '60', 'x-ratelimit-remaining': '0', 'x-ratelimit-reset': '54', 'retry-after': '60000'
-            """
 
     data = loads(s=response.text)
     # print('LEN:', len(data))  # debugging
