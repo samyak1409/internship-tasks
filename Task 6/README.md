@@ -11,6 +11,6 @@ This directory contains the code which extracts all the blocks' details (~2.5M) 
 
 *BUT, as we're using [threading](https://docs.python.org/3/library/threading.html) here,*
 
-= 87 days / 100 ([no. of threads](https://github.com/samyak1409/internship-tasks/blob/2d03bb156146826f030d4f819e9f83b8fca04de1/Task%206/Code.py#L30))
+= 87 days / 100 ([no. of threads](https://github.com/samyak1409/internship-tasks/blob/main/Task%206/Code.py#L30))
 
 = **21 h** (assuming 100 threads successfully execute in a second)
