@@ -1,11 +1,10 @@
 # IMPORTS:
 
-from requests import get as get_request
-from json import loads
-from datetime import datetime, date, timedelta
+from requests import get as get_request, RequestException
+from ast import literal_eval
+from datetime import datetime, date, timedelta, MINYEAR, MAXYEAR
 from os.path import exists
 from openpyxl import Workbook, load_workbook
-from os import startfile
 
 
 # ATTRIBUTES:
@@ -62,7 +61,7 @@ for coin_name, coin_code in COINS.items():
     print()  # spacing
     print(coin_name)
 
-    # EXCEL:
+    # EXCEL INIT:
     excel_file = f'{OUTPUT_DIR}\\{coin_name}.xlsx'
     sheet_title = str(datetime.now()).replace(':', ';')  # ':' not allowed as an Excel sheet name
     if not exists(excel_file):
@@ -80,29 +79,40 @@ for coin_name, coin_code in COINS.items():
 
     # DATA COLLECTION:
     data_dict_list = []
-    min_date, max_date = date(year=4006, month=11, day=1), date(year=1, month=1, day=1)  # (1 Nov 4006 -> TENTATIVE END OF WORLD xD)
+    min_date, max_date = date(year=MAXYEAR, month=12, day=31), date(year=MINYEAR, month=1, day=1)  # bounds
 
     for column_num, (type_name, type_val) in enumerate(iterable=TYPES.items(), start=2):  # "start=2" coz column 1 is 'DATE'
 
         link = f'https://{coin_code}.tokenview.com/v2api/chart/?coin={coin_code}&type={type_val}'
 
-        json_dict = loads(s=get_request(url=link).text)
+        # Getting Request's Response:
+        while True:
+            try:
+                response = get_request(url=link, stream=False, timeout=1)  # stream and timeout parameter -> important
+            except RequestException as e:
+                print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
+            else:
+                if response.status_code == 200:
+                    break
+                else:  # bad response
+                    print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
 
-        if json_dict['code'] == 200:  # OK
+        json_dict = response.json()  # (no need of "json" package)
+
+        if json_dict['code'] == 200:  # if data of this particular type of quantity of this coin is there
 
             data = json_dict['data']  # type = str
             # print(type(data)); exit()  # debugging
             # https://stackoverflow.com/questions/1894269/how-to-convert-string-representation-of-list-to-a-list
-            data = loads(s=data)  # type = list ✔
-            # print(data); exit()  # debugging
-            # then you might think why it didn't happen before only, because https://stackoverflow.com/questions/1894269#comment99897185_35461204
+            data = literal_eval(node_or_string=data)  # type = list ✔
+            # print(type(data)); exit()  # debugging
 
-            if data:  # (data can be = [])
+            if data:  # (data can be empty)
 
                 print(f'{type_name}: {len(data)} ({link})')
 
                 unit = json_dict['unit']
-                if unit:
+                if unit:  # some data can have a unit
                     sheet.cell(row=1, column=column_num).value += f' ({unit})'
                     # print(sheet.cell(row=1, column=column_num).value)  # debugging
 
@@ -120,6 +130,7 @@ for coin_name, coin_code in COINS.items():
                 data_dict_list.append(data_dict)
 
     # print(len(data_dict_list), min_date, max_date); break  # debugging
+
     # DATA OUTPUT:
     date_ = min_date
     for row_num in range(3, (max_date-min_date).days+3+1):  # dates' insertion
@@ -135,8 +146,7 @@ for coin_name, coin_code in COINS.items():
         for row_num, value in enumerate(iterable=values, start=start_row):  # data insertion
             sheet.cell(row=row_num, column=column_num, value=value)
 
-    # SAVE & OPEN EXCEL:
+    # SAVE EXCEL:
     wb.save(excel_file)
-    startfile(excel_file)
 
 print('\nSUCCESS!')
