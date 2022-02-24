@@ -187,7 +187,7 @@ for coin_code, coin_name in COINS.items():
         # Getting Request's Response:
         while True:
             try:
-                response = get_request(url=link, stream=False, timeout=1)  # stream and timeout parameter -> important
+                response = get_request(url=link, stream=False, timeout=2)  # stream and timeout parameter -> important
             except RequestException as e:
                 if DEBUG:
                     print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
