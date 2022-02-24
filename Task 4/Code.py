@@ -1,7 +1,7 @@
 # IMPORTS:
 
 from requests import get as get_request, RequestException
-from ast import literal_eval
+from json import loads
 from datetime import datetime, date, timedelta, MINYEAR, MAXYEAR
 from os.path import exists
 from openpyxl import Workbook, load_workbook
@@ -9,14 +9,112 @@ from openpyxl import Workbook, load_workbook
 
 # ATTRIBUTES:
 
-COINS = {'Namecoin': 'nmc',
-         'Emercoin': 'emc',
-         'Siacoin': 'sc',
-         'Gamecredits': 'game',
-         'Peercoin': 'ppc',
-         'Feathercoin': 'ftc',
-         'Stratis': 'strat',
-         'Cosmos': 'atom'}
+DEBUG = False  # if True, TRYING AGAIN messages will be displayed
+
+COINS = {'ADA': 'Cardano',
+         'ATOM': 'Cosmos',
+         'AXE': 'Axe',
+         'BAY': 'BitBay',
+         'BCA': 'Bitcoin Atom',
+         'BCC': 'BitcoinCash Classic',
+         'BCD': 'Bitcoin Diamond',
+         'BCH': 'Bitcoin Cash',
+         'BCI': 'Bitcoin Interest',
+         'BEAM': 'Beam',
+         'BHD': 'BitcoinHD',
+         'BLK': 'BlackCoin',
+         'BLOCK': 'Blocknet',
+         'BSV': 'Bitcoin SV',
+         'BTC': 'Bitcoin',
+         'BTC2': 'Bitcoin 2',
+         'BTCP': 'Bitcoin Private',
+         'BTG': 'Bitcoin Gold',
+         'BTM': 'Bytom',
+         'BTX': 'Bitcore',
+         'CANN': 'CannabisCoin',
+         'CKB': 'Nervos',
+         'CLAM': 'Clams',
+         'CNX': 'Cryptonex',
+         'COLX': 'ColossusCoinXT',
+         'CRW': 'Crown',
+         'DASH': 'Dash',
+         'DCR': 'Decred',
+         'DGB': 'DigiByte',
+         'DMD': 'Diamond',
+         'DOGE': 'Dogecoin',
+         'EIF': 'Eifcoin',
+         'EM': 'eminer',
+         'EMC': 'Emercoin',
+         'EMC2': 'Einsteinium',
+         'ETC': 'Ethereum Classic',
+         'ETH': 'Ethereum',
+         'FIC': 'Filecash',
+         'FLO': 'FLO',
+         'FTC': 'Feathercoin',
+         'GAME': 'GameCredits',
+         'GIN': 'GINcoin',
+         'GLC': 'GoldCoin',
+         'GRIN': 'Grin',
+         'GRS': 'Groestlcoin',
+         'HC': 'HyperCash',
+         'HECO': 'Huobi ECO Chain',
+         'IOST': 'Internet of Services',
+         'IPC': 'IPChain',
+         'KMD': 'Komodo',
+         'LCC': 'Litecoin Cash',
+         'LTC': 'Litecoin',
+         'LUX': 'LUXCoin',
+         'MAX': 'Rocket Protocol',
+         'MBC': 'MicroBitcoin',
+         'MLM': 'MktCoin',
+         'MNX': 'Minexcoin',
+         'MONA': 'MonaCoin',
+         'MOON': 'Mooncoin',
+         'NAS': 'Nebulas',
+         'NAV': 'NavCoin',
+         'NEBL': 'Neblio',
+         'NEO': 'Neo',
+         'NIX': 'NIX',
+         'NLG': 'Gulden',
+         'NMC': 'NameCoin',
+         'NRG': 'Energi',
+         'NVC': 'Novacoin',
+         'ONION': 'DeepOnion',
+         'ONT': 'Ontology',
+         'PART': 'Particl',
+         'PHR': 'Phore',
+         'PI': 'PCHAIN',
+         'PIVX': 'PIVX',
+         'PPC': 'Peercoin',
+         'RDD': 'ReddCoin',
+         'RVN': 'Ravencoin',
+         'SC': 'Siacoin',
+         'SCC': 'SiaClassic',
+         'SLS': 'SaluS',
+         'SMART': 'SmartCash',
+         'STRAT': 'Stratis',
+         'SYS': 'Syscoin',
+         'TMC': 'Timicoin',
+         'TRX': 'Tron',
+         'UGAS': 'Ultrain-Main Chain',
+         'UNO': 'Unobtanium',
+         'USDT': 'Tether',
+         'UT': 'Ulord',
+         'VIA': 'Viacoin',
+         'VITAE': 'Vitae',
+         'VTC': 'Vertcoin',
+         'WAN': 'Wanchain',
+         'WGR': 'Wagerr',
+         'XMR': 'Monero',
+         'XMY': 'Myriad',
+         'XRC': 'Bitcoin Rhodium',
+         'XSN': 'Stakenet',
+         'XVG': 'Verge',
+         'XWC': 'WhiteCoin',
+         'XZC': 'Zcoin',
+         'ZCASH': 'Zcash',
+         'ZCL': 'ZClassic',
+         'ZEN': 'Horizen'}
 
 TYPES = {'Tweets Cnt': 'daily_tweets_cnt',
          'Active Address': 'daily_active_address',
@@ -56,7 +154,7 @@ OUTPUT_DIR = 'Scraped Data'
 
 # MAIN:
 
-for coin_name, coin_code in COINS.items():
+for coin_code, coin_name in COINS.items():
 
     print()  # spacing
     print(coin_name)
@@ -84,32 +182,37 @@ for coin_name, coin_code in COINS.items():
     for column_num, (type_name, type_val) in enumerate(iterable=TYPES.items(), start=2):  # "start=2" coz column 1 is 'DATE'
 
         link = f'https://{coin_code}.tokenview.com/v2api/chart/?coin={coin_code}&type={type_val}'
+        print(link, f'{type_name}:', end='\n' if DEBUG else ' ')
 
         # Getting Request's Response:
         while True:
             try:
                 response = get_request(url=link, stream=False, timeout=1)  # stream and timeout parameter -> important
             except RequestException as e:
-                print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
+                if DEBUG:
+                    print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
             else:
                 if response.status_code == 200:
                     break
                 else:  # bad response
-                    print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
+                    if DEBUG:
+                        print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
 
-        json_dict = response.json()  # (no need of "json" package)
+        json_dict = response.json()  # (no need of "json.loads(s=response.text)")
+        # print(json_dict)  # debugging
+
+        data = []
 
         if json_dict['code'] == 200:  # if data of this particular type of quantity of this coin is there
 
             data = json_dict['data']  # type = str
             # print(type(data)); exit()  # debugging
             # https://stackoverflow.com/questions/1894269/how-to-convert-string-representation-of-list-to-a-list
-            data = literal_eval(node_or_string=data)  # type = list ✔
+            # (tried "ast.literal_eval" but was giving an error sometimes)
+            data = loads(s=data)  # type = list ✔
             # print(type(data)); exit()  # debugging
 
             if data:  # (data can be empty)
-
-                print(f'{type_name}: {len(data)} ({link})')
 
                 unit = json_dict['unit']
                 if unit:  # some data can have a unit
@@ -128,6 +231,8 @@ for coin_name, coin_code in COINS.items():
                 data_dict = {start_date: [mapping.popitem()[1] for mapping in data]}
                 # print(data_dict); exit()  # debugging
                 data_dict_list.append(data_dict)
+
+        print(len(data))
 
     # print(len(data_dict_list), min_date, max_date); break  # debugging
 
