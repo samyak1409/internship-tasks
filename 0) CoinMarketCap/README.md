@@ -7,4 +7,4 @@ website for cryptoassets).
 
 ## Time required to pull the data
 
-10K (cryptocurrencies) * 2 (requests/cryptocurrency) * 2s (avg. time/request) = **~12 h**
+10K (Cryptocurrencies) * 2 (Requests/Cryptocurrency) * 2s (Avg. Time/Request) = **~12 hours**

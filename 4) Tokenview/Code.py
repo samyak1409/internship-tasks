@@ -7,7 +7,7 @@ from os.path import exists
 from openpyxl import Workbook, load_workbook
 
 
-# ATTRIBUTES:
+# CONSTANTS:
 
 DEBUG = False  # if True, TRYING AGAIN messages will be displayed
 

@@ -19,7 +19,7 @@ from os import startfile
 from time import sleep
 
 
-# ATTRIBUTES:
+# CONSTANTS:
 
 WEBSITE = 'https://atomscan.com'
 EXCEL_FILE = 'Scraped Data.xlsx'
@@ -30,7 +30,7 @@ START = 1  # range: [1, ~10M]
 # FUNCTIONS:
 
 def get_parsed_page_html():
-    return BeautifulSoup(markup=driver.page_source, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+    return BeautifulSoup(markup=driver.page_source, features='html.parser')
 
 
 def wait_to_load():

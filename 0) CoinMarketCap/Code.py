@@ -10,22 +10,22 @@ from datetime import datetime
 from os import startfile
 
 
-# ATTRIBUTES:
+# CONSTANTS:
 
-website = 'https://coinmarketcap.com'
-excel_file = 'Scraped Data.xlsx'
+WEBSITE = 'https://coinmarketcap.com'
+EXCEL_FILE = 'Scraped Data.xlsx'
 
 
 # CONNECTING TO EXCEL SHEET:
 
 sheet_title = str(datetime.now()).replace(':', ';')  # ':' not allowed as an Excel sheet name
 
-if not exists(excel_file):
+if not exists(EXCEL_FILE):
     wb = Workbook()
     sheet = wb.active
     sheet.title = sheet_title
 else:
-    wb = load_workbook(excel_file)
+    wb = load_workbook(EXCEL_FILE)
     sheet = wb.create_sheet(title=sheet_title)
     wb.active = sheet
 
@@ -35,7 +35,7 @@ for i, column in enumerate(iterable=['#', 'Currency', 'Website', 'Technical Docu
 
 row_num, sr_num = 3, 1
 
-wb.save(excel_file)
+wb.save(EXCEL_FILE)
 
 # print(sheet); exit()  # debugging
 
@@ -44,7 +44,7 @@ wb.save(excel_file)
 
 for page_num in count(start=1):  # infinite loop
 
-    webpage = f'{website}/?page={page_num}'
+    webpage = f'{WEBSITE}/?page={page_num}'
     print()  # spacing
     print('=>', webpage, '\n')
 
@@ -55,7 +55,7 @@ for page_num in count(start=1):  # infinite loop
 
         # SCRAPING PART 1:
 
-        soup = BeautifulSoup(markup=response.text, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers
+        soup = BeautifulSoup(markup=response.text, features='html.parser')  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers; https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser
         # print(soup.prettify()); input()  # debugging
 
         currency_divs = soup.find(name='tbody').find_all(class_=['sc-16r8icm-0 escjiH', 'sc-1rqmhtg-0 jUUSMS'])
@@ -68,7 +68,7 @@ for page_num in count(start=1):  # infinite loop
             currency_sub_url = currency_div.a['href']
             # print(f'{num}) {currency_sub_url}'); input()  # debugging
 
-            currency_site = website + currency_sub_url
+            currency_site = WEBSITE + currency_sub_url
             print(f'{num}) {currency_site} \n')
 
             # SCRAPING PART 2:
@@ -79,11 +79,10 @@ for page_num in count(start=1):  # infinite loop
 
                 try:
                     json_str = soup.find(name='script', id='__NEXT_DATA__').text  # all thanks to "View page source"!
+                    # print(json_str); input()  # debugging
+                    break
                 except AttributeError:
-                    continue  # try again
-
-                # print(json_str); input()  # debugging
-                break
+                    pass  # try again
 
             json_dict = loads(s=json_str)  # parse
             # from json import dumps; print(dumps(obj=json_dict, indent=8)); input()  # debugging
@@ -105,7 +104,7 @@ for page_num in count(start=1):  # infinite loop
 
             print()  # spacing
 
-            wb.save(excel_file)  # (after every insertion)
+            wb.save(EXCEL_FILE)  # (after every insertion)
 
             row_num += 1
             sr_num += 1
@@ -120,6 +119,6 @@ for page_num in count(start=1):  # infinite loop
         exit(response.reason)
 
 
-startfile(excel_file)  # automatically open Excel Sheet when process completes
+startfile(EXCEL_FILE)  # automatically open Excel Sheet when process completes
 
 print('SUCCESS')

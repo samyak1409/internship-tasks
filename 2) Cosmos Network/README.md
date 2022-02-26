@@ -7,6 +7,6 @@ blockchains) [API](https://api.cosmos.network).
 
 ## Time required to pull the data
 
-5M (blocks) * 1 (request/block) * 1s (avg. time/request) = **~2 months** (yes, you read it right 💀)
+5M (Blocks) * 1 (Request/Block) * 1s (Avg. Time/Request) = **~2 months** (yes, you read it right 💀)
 
 P.S. [Script](Task%202/Code.py) will ask for the number of requests to proceed with.

@@ -20,7 +20,7 @@ from sys import stdout
 from time import sleep
 
 
-# ATTRIBUTES:
+# CONSTANTS:
 
 START = 5200791
 CSV_DIR = 'Scraped Data (CSVs)'

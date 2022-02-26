@@ -6,4 +6,4 @@ This directory contains the code which extracts all the daily data (32 quantitie
 
 ## Time required to pull the data
 
-100 (coins) * 32 (requests/coin) * 1s (avg. time/request) = **~1 h**
+100 (Coins) * 32 (Requests/Coin) * 1s (Avg. Time/Request) = **~1 hour**

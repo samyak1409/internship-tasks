@@ -6,4 +6,4 @@ This directory contains the code which extracts the profitability data of all th
 
 ## Time required to pull the data
 
-250 (models) * 1 (request/model) * 2s (avg. time/request) = **~8 min**
+250 (Models) * 1 (Request/Model) * 2s (Avg. Time/Request) = **~8 minutes**

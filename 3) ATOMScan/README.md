@@ -6,6 +6,6 @@ This directory contains the code which extracts the block details & transaction 
 
 ## Time required to pull the data
 
-10M (blocks) * 2 (request/block) * 2s (avg. time/request) = **~1 year** (yes, you read it right 💀)
+10M (Blocks) * 2 (Request/Block) * 2s (Avg. Time/Request) = **~1 year** (yes, you read it right 💀)
 
 P.S. [Script](Task%203/Code.py) will ask for the number of requests to proceed with.
