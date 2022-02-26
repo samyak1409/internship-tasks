@@ -1,6 +1,6 @@
 # Internship Tasks
 
-This repository contains codes of Web Scraping tasks of my Internship.
+This repository contains the codes of Web Scraping tasks of my Internship.
 
 
 ## Installing the Dependencies

@@ -1,8 +1,8 @@
 # Task 6
 
 This directory contains the code which extracts all the blocks' details (~2.5M) & their transaction details (~5M) of 
-[Gridcoin](https://en.wikipedia.org/wiki/Gridcoin) from [Ǥridcoin.Network](https://gridcoin.network) 
-(an independent Gridcoin block explorer).
+[Gridcoin](https://en.wikipedia.org/wiki/Gridcoin) from [Gridcoin.Network](https://gridcoin.network) 
+(an independent Gridcoin block explorer) [API](https://gridcoin.network/api.html).
 
 
 ## Time required to pull the data

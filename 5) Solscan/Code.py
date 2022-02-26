@@ -28,7 +28,7 @@ THREADS = 1 if DEBUG else 15  # number of concurrent threads to run at once
 # FUNCTIONS:
 
 def get_data_from(url: str) -> dict:
-    data = loads(s=session.get(url=url).text)
+    data = loads(s=session.get(url=url, stream=False, timeout=1).text)
     if DEBUG:
         print(url)
         print(dumps(obj=data, indent=4))
@@ -57,8 +57,10 @@ with ApiGateway(site=BASE_URL) as g:  # please go through: https://github.com/Ge
     session.mount(prefix=BASE_URL, adapter=g)
 
     print('\nGETTING LAST BLOCK NUMBER')
+    max_block = get_data_from(url=f'{BASE_URL}/block/last?limit=1')[0]['currentSlot']
+    print(max_block)
 
-    for page_num in range(1, min(300, get_data_from(url=f'{BASE_URL}/block/last?limit=1')[0]['currentSlot'])+1, THREADS):  # start, stop, step
+    for page_num in range(1, min(300, max_block)+1, THREADS):  # start, stop, step
         with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
             Exec.map(main, range(page_num, page_num+THREADS))
         if DEBUG:
@@ -68,3 +70,6 @@ with ApiGateway(site=BASE_URL) as g:  # please go through: https://github.com/Ge
 
 
 print('\nSUCCESS!')
+
+
+# OPEN IN INCOGNITO https://www.google.com/search?q=free+proxy+list

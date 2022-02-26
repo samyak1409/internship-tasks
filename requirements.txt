@@ -3,3 +3,4 @@ beautifulsoup4
 openpyxl
 pandas
 selenium
+requests_ip_rotator
