@@ -6,4 +6,4 @@ This directory contains the code which extracts all the block data from all the 
 
 ## Time required to pull the data
 
-108 (Pages) * 1 (Request/Page) * 1s (Avg. Time/Request) = **~108 seconds**
+108 (Pages) * 1 (Request/Page) * 2s (Avg. Time/Request) = **~4 minutes**

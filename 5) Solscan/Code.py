@@ -70,6 +70,3 @@ with ApiGateway(site=BASE_URL) as g:  # please go through: https://github.com/Ge
 
 
 print('\nSUCCESS!')
-
-
-# OPEN IN INCOGNITO https://www.google.com/search?q=free+proxy+list
