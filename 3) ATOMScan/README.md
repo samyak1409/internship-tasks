@@ -8,4 +8,4 @@ This directory contains the code which extracts the block details & transaction 
 
 10M (Blocks) * 2 (Request/Block) * 2s (Avg. Time/Request) = **~1 year** (yes, you read it right 💀)
 
-P.S. [Script](Task%203/Code.py) will ask for the number of requests to proceed with.
+P.S. [Script](Code.py) will ask for the number of requests to proceed with.

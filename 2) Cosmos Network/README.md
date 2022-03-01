@@ -9,4 +9,4 @@ blockchains) [API](https://api.cosmos.network).
 
 5M (Blocks) * 1 (Request/Block) * 1s (Avg. Time/Request) = **~2 months** (yes, you read it right 💀)
 
-P.S. [Script](Task%202/Code.py) will ask for the number of requests to proceed with.
+P.S. [Script](Code.py) will ask for the number of requests to proceed with.

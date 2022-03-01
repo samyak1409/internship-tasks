@@ -9,8 +9,8 @@ This directory contains the code which extracts the details of all the blocks (~
 
 [2.5M (Blocks) + 5M (Transactions)] * 1 (Request/Block_or_Transaction) * 1s (Avg. Time/Request) = ~3 months
 
-*BUT, as we're using [threading](https://docs.python.org/3/library/threading.html) here,*
+*BUT, as we're using [`threading`](https://docs.python.org/3/library/threading.html) here,*
 
-= 3 months / 100 ([no. of threads](https://github.com/samyak1409/internship-tasks/blob/main/Task%206/Code.py#L30))
+= 3 months / 100 ([no. of threads](Code.py#L30))
 
 = **~21 hours** (assuming 100 threads successfully execute in a second)
