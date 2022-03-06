@@ -21,7 +21,10 @@ pip install -r requirements.txt
 ## Some Helper Notes & Resources:
 
 
-#### 1) [Official `Requests` Doc](https://docs.python-requests.org)
+#### 0) [Web Scraping Tips for Beginners](https://youtu.be/QEANQsoEmHI)
+
+
+#### 1) [Official `Requests` Doc](https://docs.python-requests.org/en/latest)
 
 
 #### 2) Want to Try Something / Play with Requests & Responses?
@@ -32,9 +35,10 @@ pip install -r requirements.txt
 
 #### 3) Sending Multiple Requests to Same Host?
 
-#### Use [Session](https://docs.python-requests.org/en/latest/user/advanced/#session-objects)
+**Use [Session](https://docs.python-requests.org/en/latest/user/advanced/#session-objects)**
 
 - [Advantages](https://en.wikipedia.org/wiki/HTTP_persistent_connection#Advantages)
+- [Want Faster HTTP Requests? Use A Session with Python!](https://youtu.be/IDhuUpeF1n0)
 
 ```py
 from requests import Session
@@ -50,9 +54,16 @@ with Session() as session:  # requests session init
 
 #### 4) Complete HTML is not Loading using `Requests` because it's a Dynamic Website?
 
-#### Use [Selenium](https://pypi.org/project/selenium)
+**Preferred) Use [Requests-HTML](https://docs.python-requests.org/projects/requests-html/en/latest)**
+
+- [How I Scrape JAVASCRIPT websites with Python](https://youtu.be/0hiGp3lF6ig) | [Scrape Amazon NEW METHOD with Python 2020](https://youtu.be/WcPNlnsNZyY)
+- [Render Dynamic Pages - Web Scraping Product Links with Python](https://youtu.be/MeBU-4Xs2RU) | [Rendering Dynamic Pages 2! - Web Scraping ALL products with Python](https://youtu.be/B14mtXA7Tyw)
+- [Python Tutorial: Web Scraping with Requests-HTML](https://youtu.be/a6fIbtFB46g)
+
+**Alternative) Use [Selenium](https://www.selenium.dev/documentation)**
 
 - [Scrape content from dynamic websites](https://www.geeksforgeeks.org/scrape-content-from-dynamic-websites)
+- [How I use SELENIUM to AUTOMATE the Web with PYTHON. Pt1](https://youtu.be/pUUhvJvs-R4) | [How to SCRAPE DYNAMIC websites with Selenium](https://youtu.be/lTypMlVBFM4)
 
 ```py
 from selenium.webdriver import Chrome
@@ -92,9 +103,10 @@ driver.quit()
 
 #### 5) HUGE Number of Requests to Send?
 
-#### Use [Threading](https://docs.python.org/3/library/threading.html)
+**Use [Threading](https://docs.python.org/3/library/threading.html)**
 
 - [Python Threading Tutorial: Run Code Concurrently Using the Threading Module](https://youtu.be/IEEhzQoKtQU)
+- [PARALLEL and CONCURRENCY in Python for FAST Web Scraping](https://youtu.be/aA6-ezS5dyY)
 
 ```py
 from concurrent.futures import ThreadPoolExecutor
@@ -112,7 +124,7 @@ with ThreadPoolExecutor() as Exec:
 
 #### 6) Website have Rate Limit?
 
-#### Use [Proxies](https://en.wikipedia.org/wiki/Proxy_server)
+**Use [Proxies](https://en.wikipedia.org/wiki/Proxy_server)**
 
 - [Creating a Reliable, Random Web Proxy Request Application using Python](https://youtu.be/n3uSyqoBgQI)
 
@@ -141,7 +153,27 @@ while True:
 ```
 
 
-#### 7) [Official `Beautiful Soup` Doc](https://www.crummy.com/software/BeautifulSoup/bs4/doc)
+#### 7) Sending custom user agent? (to tell the website that I'm not a script)
+
+**Use [Custom Headers](https://docs.python-requests.org/en/latest/user/quickstart/#custom-headers)**
+
+- [User Agent Switching - Python Web Scraping](https://youtu.be/90t9WkQbQ2E)
+
+
+#### 8) Data to get is table data?
+
+**Please use [`pandas.read_html`](https://pandasguide.readthedocs.io/en/latest)!!**
+
+- [Scrape HTML tables easily with Pandas and Python](https://youtu.be/ODNMNwgtehk)
+
+
+#### 9) [Always Check for the Hidden API when Web Scraping](https://youtu.be/DqtlR0y0suo) (Inspect -> Network -> XHR -> Name -> some GET request -> Response)
+
+
+#### 10) [Official `Beautiful Soup` Doc](https://www.crummy.com/software/BeautifulSoup/bs4/doc)
+
+
+#### 11) [Best Web Scraping Tutorials](https://www.youtube.com/c/JohnWatsonRooney/videos?sort=p)
 
 
 
