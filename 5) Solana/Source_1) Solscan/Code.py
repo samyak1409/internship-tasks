@@ -28,7 +28,7 @@ THREADS = 1 if DEBUG else 15  # number of concurrent threads to run at once
 # FUNCTIONS:
 
 def get_data_from(url: str) -> dict:
-    data = loads(s=session.get(url=url, stream=False, timeout=1).text)
+    data = loads(s=session.get(url=url, stream=False, timeout=1).text)  # possible response codes: 200, 400, 429, 500 (https://public-api.solscan.io/docs/#/Block/get_block_transactions)
     if DEBUG:
         print(url)
         print(dumps(obj=data, indent=4))
@@ -41,10 +41,11 @@ def main(block_num: int) -> None:
 
     print(f"\n{block_num})")
 
-    x = get_data_from(url=f'{BASE_URL}/block/transactions?block={block_num}')
+    data = get_data_from(url=f'{BASE_URL}/block/transactions?block={block_num}&limit=100000')
+    # https://public-api.solscan.io/docs/#/Block/get_block_transactions
 
     if block_num % 75 == 0:
-        print(dumps(obj=x, indent=4))
+        print(dumps(obj=data, indent=4))
 
 
 # THREADING WITH ROTATING IPs:
