@@ -1,16 +1,22 @@
+"""
+Using https://github.com/samyak1409/internship-tasks#9-always-check-for-the-hidden-api-when-web-scraping-inspect---network---xhr---name---some-get-request---response
+"""
+
+
 # IMPORTS:
 
-from requests import Session
+from requests import Session, RequestException
 from json import loads, dumps
 from concurrent.futures import ThreadPoolExecutor
 from pandas import DataFrame
+from os.path import exists
 from os import startfile
 
 
 # CONSTANTS:
 
 BASE_URL = 'https://explorer-api.mainnet-beta.solana.com'
-DEBUG = False  # (default: False)
+DEBUG = True  # (default: False)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 HEADERS = {
     "authority": "explorer-api.mainnet-beta.solana.com",
@@ -27,27 +33,47 @@ HEADERS = {
     "referer": "https://explorer.solana.com",
     "accept-language": "en-US,en;q=0.9"
 }
+START = 1
+TOTAL = 1_000_000  # 1M blocks to scrape
+while True:
+    STOP = START + TOTAL  # 1_000_001
+    EXCEL = f'Scraped Data\\{START}-{STOP-1}.xlsx'
+    if not exists(EXCEL):
+        break
+    START += TOTAL
 
 
 # MAIN:
 
 def main(block: int) -> None:
 
+    # Getting Request's Response:
     payload = {
         "method": "getConfirmedBlock",
         "jsonrpc": "2.0",
         "params": [block, {"commitment": "confirmed"}],
         "id": ""
     }
+    while True:
+        try:
+            response = session.post(url=BASE_URL, json=payload)
+        except RequestException as e:
+            if DEBUG:
+                print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
+        else:
+            if response.status_code == 200:
+                break
+            else:  # bad response
+                if DEBUG:
+                    print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
 
-    data = loads(s=session.post(url=BASE_URL, json=payload).text)['result']
-    print(f"\n{block}) Items: {len(data)}")
+    data = loads(s=response.text)['result']
+    print(f"\n{block}) Data Items: {len(data)}; Transactions: {len(data['transactions'])}")
 
-    data['blockHeight'] = block
+    data['blockHeight'] = block  # block height was empty for some reason
 
     if DEBUG:
         print(dumps(obj=data, indent=4))
-        print('Transactions:', len(data['transactions']))
 
     data_list.append(data)
 
@@ -62,15 +88,14 @@ with Session() as session:
     data_list = []
 
     # THREADING:
-    for page_num in range(1, 100_000, THREADS):  # start, stop, step
+    for page_num in range(START, STOP, THREADS):  # start, stop, step
         with ThreadPoolExecutor() as Exec:
             Exec.map(main, range(page_num, page_num+THREADS))
         if DEBUG:
             break
 
-    df = DataFrame(data=data_list)
-    df.to_excel('Scraped Data.xlsx', index=False)
+    DataFrame(data=data_list).to_excel(EXCEL, index=False)  # saving data to excel
 
 
-startfile('Scraped Data.xlsx')
+startfile(EXCEL)
 print('\nSUCCESS!')

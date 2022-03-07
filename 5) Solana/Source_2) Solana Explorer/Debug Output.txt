@@ -1,8 +1,8 @@
 C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/5) Solana/Source_2) Solana Explorer/Code.py"
 
-1) Items: 7
+1) Data Items: 7; Transactions: 4
 {
-    "blockHeight": null,
+    "blockHeight": 1,
     "blockTime": null,
     "blockhash": "AcknnkY4ok5BZuk69WijDETKVRUPZoMtniZHMe4ZaK1e",
     "parentSlot": 0,
@@ -151,7 +151,6 @@ C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Sam
         }
     ]
 }
-Transactions: 4
 
 SUCCESS!
 
