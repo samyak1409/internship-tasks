@@ -79,7 +79,7 @@ if not exists(CSV_FILE):
         writer(f).writerow(BLOCK_COLUMNS)
     # startfile(CSV_FILE); exit()  # debugging
 
-# Threading:
+# THREADING:
 for page_num in range(START_PAGE, int(min(END_PAGE, total_count))+1, THREADS):  # start, stop, step
 
     scraped_data = {page: None for page in range(page_num, page_num+THREADS)}  # {page_number: message_dict_list}
@@ -88,7 +88,7 @@ for page_num in range(START_PAGE, int(min(END_PAGE, total_count))+1, THREADS):  
     with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
         Exec.map(main, range(page_num, page_num+THREADS))
 
-    # Writing the scraped data from {THREADS} no. of threads to the CSV at once:
+    # Writing the data scraped from {THREADS} no. of threads to the CSV:
     with open(file=CSV_FILE, mode='a', newline='') as f:
         for page, message_dict_list in scraped_data.items():
             DictWriter(f=f, fieldnames=BLOCK_COLUMNS, restval=page).writerows(rowdicts=message_dict_list)  # https://docs.python.org/3/library/csv.html#csv.DictWriter

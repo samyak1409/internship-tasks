@@ -1,5 +1,7 @@
 """
 Using https://github.com/samyak1409/internship-tasks#9-always-check-for-the-hidden-api-when-web-scraping-inspect---network---xhr---name---some-get-request---response
+
+Total Blocks: ~120M
 """
 
 
@@ -8,7 +10,7 @@ Using https://github.com/samyak1409/internship-tasks#9-always-check-for-the-hidd
 from requests import Session, RequestException
 from json import loads, dumps
 from concurrent.futures import ThreadPoolExecutor
-from pandas import DataFrame
+from csv import writer
 from os.path import exists
 from os import startfile
 
@@ -16,7 +18,7 @@ from os import startfile
 # CONSTANTS:
 
 BASE_URL = 'https://explorer-api.mainnet-beta.solana.com'
-DEBUG = True  # (default: False)
+DEBUG = False  # (default: False)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 HEADERS = {
     "authority": "explorer-api.mainnet-beta.solana.com",
@@ -33,17 +35,18 @@ HEADERS = {
     "referer": "https://explorer.solana.com",
     "accept-language": "en-US,en;q=0.9"
 }
+COLUMNS = ('blockHeight', 'blockTime', 'blockhash', 'parentSlot', 'previousBlockhash', 'rewards', 'transactions')
 START = 1
-TOTAL = 1_000_000  # 1M blocks to scrape
+TOTAL = 1_000_000  # 1M blocks in 1 CSV (=> ~120 CSVs to be)
 while True:
-    STOP = START + TOTAL  # 1_000_001
-    EXCEL = f'Scraped Data\\{START}-{STOP-1}.xlsx'
-    if not exists(EXCEL):
+    STOP = START + TOTAL
+    CSV = f'Scraped Data\\{START}-{STOP-1}.csv'
+    if not exists(CSV):
         break
     START += TOTAL
 
 
-# MAIN:
+# MAIN FUNCTION:
 
 def main(block: int) -> None:
 
@@ -75,7 +78,7 @@ def main(block: int) -> None:
     if DEBUG:
         print(dumps(obj=data, indent=4))
 
-    data_list.append(data)
+    data_dict[block] = data.values()
 
 
 # SESSION INIT:
@@ -85,17 +88,28 @@ with Session() as session:
     session.headers = HEADERS
     session.stream = False  # stream off for all the requests of this session
 
-    data_list = []
+    # Writing column names in CSV:
+    with open(file=CSV, mode='w', newline='') as f:
+        writer(f).writerow(COLUMNS)
+    # startfile(CSV); exit()  # debugging
 
     # THREADING:
-    for page_num in range(START, STOP, THREADS):  # start, stop, step
+    for block_num in range(START, STOP, THREADS):  # start, stop, step
+
+        # Using dict so that the data is kept sorted:
+        data_dict = {num: None for num in range(block_num, block_num+THREADS)}  # {block_number: block_transactions_data}
+
+        # Executing {THREADS} no. of threads at once:
         with ThreadPoolExecutor() as Exec:
-            Exec.map(main, range(page_num, page_num+THREADS))
+            Exec.map(main, range(block_num, block_num+THREADS))
+
+        # Writing the data scraped from {THREADS} no. of threads to the CSV:
+        with open(file=CSV, mode='a', newline='') as f:
+            writer(f).writerows(data_dict.values())
+
         if DEBUG:
             break
 
-    DataFrame(data=data_list).to_excel(EXCEL, index=False)  # saving data to excel
 
-
-startfile(EXCEL)
+startfile(CSV)
 print('\nSUCCESS!')
