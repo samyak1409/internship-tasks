@@ -121,6 +121,11 @@ with ThreadPoolExecutor() as Exec:
     Exec.map(main, range(1, THREADS+1))
 ```
 
+**Want even more SPEED?**
+
+- [How to Make 2500 HTTP Requests in 2 Seconds with Async & Await](https://youtu.be/Ii7x4mpIhIs)
+- [multiprocessing vs multithreading vs asyncio in Python 3](https://stackoverflow.com/questions/27435284)
+
 
 #### 6) Website have Rate Limit?
 
