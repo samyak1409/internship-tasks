@@ -13,6 +13,10 @@ from concurrent.futures import ThreadPoolExecutor
 from csv import writer
 from os.path import exists
 from os import startfile
+from time import perf_counter
+
+
+start_time = perf_counter()
 
 
 # CONSTANTS:
@@ -71,7 +75,7 @@ def main(block: int) -> None:
                     print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
 
     data = loads(s=response.text)['result']
-    print(f"\n{block}) Data Items: {len(data)}; Transactions: {len(data['transactions'])}")
+    print('\n' + f"{block}) Data Items: {len(data)}; Transactions: {len(data['transactions'])}")
 
     data['blockHeight'] = block  # block height was empty for some reason
 
@@ -112,4 +116,4 @@ with Session() as session:
 
 
 startfile(CSV)
-print('\nSUCCESS!')
+print('\n' + f'Successfully finished in {int(perf_counter()-start_time)}s.')

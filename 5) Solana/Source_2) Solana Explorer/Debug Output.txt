@@ -152,6 +152,6 @@ C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Sam
     ]
 }
 
-SUCCESS!
+Successfully finished in 0s.
 
 Process finished with exit code 0
