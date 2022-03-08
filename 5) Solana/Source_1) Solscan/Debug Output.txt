@@ -1,0 +1,70 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/5) Solana/Source_1) Solscan/Code.py"
+
+GETTING LAST BLOCK NUMBER
+124054801
+
+1) 200
+https://api.solscan.io
+{
+    "total": 3,
+    "transactions": [
+        {
+            "blockTime": null,
+            "slot": 1,
+            "txHash": "39V8tR2Q8Ar3WwMBfVTRPFr7AakLHy5wp7skJNBL7ET6ARoikqc1TaMiuXEtHiNPLQKoeiVr5XnKH8QtjdonN4yM",
+            "fee": null,
+            "status": "Success",
+            "lamport": 0,
+            "signer": [
+                "GdnSyH3YtwcxFvQrVVJMm1JhTS4QVX7MFsX56uJLUfiZ"
+            ],
+            "parsedInstruction": [
+                {
+                    "programId": "Vote111111111111111111111111111111111111111",
+                    "program": "vote",
+                    "type": "vote"
+                }
+            ]
+        },
+        {
+            "blockTime": null,
+            "slot": 1,
+            "txHash": "4hPVA21e1KLQsEQkpSHk1UfkBBUfotajpkqESuV4tgqEdtEyDufaczAdZzSLexLhjytczDdSUFgwCTancgUWFzym",
+            "fee": null,
+            "status": "Success",
+            "lamport": 0,
+            "signer": [
+                "CakcnaRDHka2gXyfbEd2d3xsvkJkqsLw2akB3zsN1D2S"
+            ],
+            "parsedInstruction": [
+                {
+                    "programId": "Vote111111111111111111111111111111111111111",
+                    "program": "vote",
+                    "type": "vote"
+                }
+            ]
+        },
+        {
+            "blockTime": null,
+            "slot": 1,
+            "txHash": "FAWA66fudpiwdRDDQ4DRxdJsRvawvauwg4vQkm98ZHFpXmW5N7xzRiTRpt8QiZ19s1aVbzKgXW6kEZanwHeDFNS",
+            "fee": null,
+            "status": "Success",
+            "lamport": 0,
+            "signer": [
+                "DE1bawNcRJB9rVm3buyMVfr8mBEoyyu73NBovf2oXJsJ"
+            ],
+            "parsedInstruction": [
+                {
+                    "programId": "Vote111111111111111111111111111111111111111",
+                    "program": "vote",
+                    "type": "vote"
+                }
+            ]
+        }
+    ]
+}
+
+SUCCESS!
+
+Process finished with exit code 0

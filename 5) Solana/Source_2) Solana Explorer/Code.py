@@ -99,6 +99,3 @@ with Session() as session:
 
 startfile(EXCEL)
 print('\nSUCCESS!')
-
-
-# Problem: Block Time N/A

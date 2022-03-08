@@ -1,13 +1,4 @@
-"""
-Solana: It is quite straight forward, keep parsing through the link
-https://public-api.solscan.io/block/transactions?block=1&offset=0&limit=100000 until
-https://public-api.solscan.io/block/transactions?block=120304941&offset=0&limit=100000
-"""
-
-
-# Requests: ~120M * 1
-# API Doc: https://public-api.solscan.io/docs
-# Default Limit: 150 requests / 30 seconds, 100k requests / day
+# 120M
 
 
 # IMPORTS:
@@ -15,65 +6,44 @@ https://public-api.solscan.io/block/transactions?block=120304941&offset=0&limit=
 from requests import Session
 from json import loads, dumps
 from concurrent.futures import ThreadPoolExecutor
-from requests_ip_rotator import ApiGateway
 
 
 # CONSTANTS:
 
-BASE_URL = 'https://public-api.solscan.io'
+BASE_URL = 'https://api.solscan.io'  # source: BG API from https://solscan.io/block/120000000; https://api.solscan.io/docs
 DEBUG = False  # (default: False)
-THREADS = 1 if DEBUG else 15  # number of concurrent threads to run at once
-
-
-# FUNCTIONS:
-
-def get_data_from(url: str) -> dict:
-    data = loads(s=session.get(url=url).text)  # possible response codes: 200, 400, 429, 500 (https://public-api.solscan.io/docs/#/Block/get_block_transactions)
-    if DEBUG:
-        print(url)
-        print(dumps(obj=data, indent=4))
-    return data
+THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 
 
 # MAIN:
 
 def main(block_num: int) -> None:
 
-    print(f"\n{block_num})")
+    response = session.get(url=f'{BASE_URL}/block/txs?block={block_num}&offset=0&size=100000')
+    print(f"\n{block_num}) {response.status_code}")
 
-    data = get_data_from(url=f'{BASE_URL}/block/transactions?block={block_num}&limit=100000')
-    # https://public-api.solscan.io/docs/#/Block/get_block_transactions
+    data = loads(response.text)
 
-    if block_num % 75 == 0:
+    if DEBUG:
+        print(BASE_URL)
         print(dumps(obj=data, indent=4))
 
 
-# THREADING WITH ROTATING IPs:
+# THREADING:
 
-print()  # spacing
+with Session() as session:
 
-with ApiGateway(site=BASE_URL) as g:  # please go through: https://github.com/Ge0rg3/requests-ip-rotator
+    session.stream = False
 
-    with Session() as session:
+    print('\nGETTING LAST BLOCK NUMBER')
+    max_block = loads(session.get(url=f'https://public-api.solscan.io/block/last?limit=1').text)[0]['currentSlot']  # https://public-api.solscan.io/docs
+    print(max_block)
 
-        session.stream = False
-
-        session.mount(prefix=BASE_URL, adapter=g)
-
-        print('\nGETTING LAST BLOCK NUMBER')
-        max_block = get_data_from(url=f'{BASE_URL}/block/last?limit=1')[0]['currentSlot']
-        print(max_block)
-
-        for page_num in range(1, min(300, max_block)+1, THREADS):  # start, stop, step
-            with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
-                Exec.map(main, range(page_num, page_num+THREADS))
-            if DEBUG:
-                break
-
-        print()  # spacing
+    for page_num in range(1, max_block, THREADS):  # start, stop, step
+        with ThreadPoolExecutor() as Exec:
+            Exec.map(main, range(page_num, page_num+THREADS))
+        if DEBUG:
+            break
 
 
 print('\nSUCCESS!')
-
-
-# Problem: Rate Limit -> Limited Proxies
