@@ -8,12 +8,12 @@ Total Blocks: ~120M
 # IMPORTS:
 
 from requests import Session, RequestException
-from json import dumps
+from json import dumps, JSONDecodeError
 from concurrent.futures import ThreadPoolExecutor
-from csv import writer, Error
+from csv import writer
 from os import stat, chdir
 from glob import iglob
-from time import perf_counter
+from time import perf_counter, sleep
 
 
 start_time = perf_counter()
@@ -22,8 +22,6 @@ start_time = perf_counter()
 # CONSTANTS:
 
 URL = 'https://explorer-api.mainnet-beta.solana.com'
-DEBUG = False  # (default: False)
-THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 HEADERS = {
     "authority": "explorer-api.mainnet-beta.solana.com",
     "sec-ch-ua": '"(Not(A:Brand";v="8", "Chromium";v="98", "Google Chrome";v="98"',
@@ -40,7 +38,9 @@ HEADERS = {
     "accept-language": "en-US,en;q=0.9"
 }
 COLUMNS = ('blockHeight', 'blockTime', 'blockhash', 'parentSlot', 'previousBlockhash', 'rewards', 'transactions')
-DATA_DIR = 'Scraped Data'
+DEBUG = False  # (default: False)
+THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
+DATA_DIR = 'Scraped Data'  # path to data dir
 MAX_SIZE = 32  # of CSV you want to be (in MB)
 
 
@@ -59,17 +59,30 @@ def main(block: int) -> None:
         try:
             response = session.post(url=URL, json=payload)
         except RequestException as e:
-            if DEBUG:
-                print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
+            print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
+            sleep(1)  # take a breath
         else:
             if response.status_code == 200:
-                break
+                try:
+                    data = response.json()
+                except JSONDecodeError as e:  # sometimes json is not being loaded completely (IDK why)
+                    print(e, 'TRYING AGAIN...')
+                    sleep(1)  # take a breath
+                else:
+                    break
             else:  # bad response
-                if DEBUG:
-                    print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
+                print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
+                sleep(1)  # take a breath
 
-    data = response.json()['result']
-    print('\n' + f"{block}) Data Items: {len(data)}; Transactions: {len(data['transactions'])}")
+    error = data.get('error')  # "error": {"code": -32009, "message": "Slot 86804 was skipped, or missing in long-term storage"}
+    if error:
+        print('\n' + f'{block}) ERROR: {error}')
+        del data_dict[block]  # or data_dict.pop(block); deleting placeholder of the block
+        return
+
+    data = data['result']
+
+    print('\n' + f'{block}) Data Items: {len(data)}; Transactions: {len(data["transactions"])}')
 
     data['blockHeight'] = block  # block height was empty for some reason
 
@@ -108,21 +121,16 @@ with Session() as session:
                 writer(f).writerow(COLUMNS)
             # startfile(CSV); exit()  # debugging
 
-        while True:  # writing to CSV give error sometimes, should be fixed on retry
-            # Using dict so that the data is kept sorted:
-            data_dict = {num: None for num in range(block_num, block_num+THREADS)}  # {block_number: block_transactions_data}
+        # Using dict so that the data is kept sorted:
+        data_dict = {num: None for num in range(block_num, block_num+THREADS)}  # {block_number: block_transactions_data}
 
-            # Executing {THREADS} no. of threads at once:
-            with ThreadPoolExecutor() as Exec:
-                Exec.map(main, range(block_num, block_num+THREADS))
+        # Executing {THREADS} no. of threads at once:
+        with ThreadPoolExecutor() as Exec:
+            Exec.map(main, range(block_num, block_num+THREADS))
 
-            # Writing the data scraped from {THREADS} no. of threads to the CSV:
-            with open(file=csv, mode='a', newline='') as f:
-                try:
-                    writer(f).writerows(data_dict.values())
-                except Error:  # "_csv.Error: iterable expected, not NoneType" for some reason
-                    continue  # try again
-                break
+        # Writing the data scraped from {THREADS} no. of threads to the CSV:
+        with open(file=csv, mode='a', newline='') as f:
+            writer(f).writerows(data_dict.values())
 
         if DEBUG:
             break
