@@ -39,7 +39,7 @@ with Session() as session:
     max_block = loads(session.get(url=f'https://public-api.solscan.io/block/last?limit=1').text)[0]['currentSlot']  # https://public-api.solscan.io/docs
     print(max_block)
 
-    for page_num in range(1, max_block, THREADS):  # start, stop, step
+    for page_num in range(1, max_block+1, THREADS):  # start, stop, step
         with ThreadPoolExecutor() as Exec:
             Exec.map(main, range(page_num, page_num+THREADS))
         if DEBUG:
