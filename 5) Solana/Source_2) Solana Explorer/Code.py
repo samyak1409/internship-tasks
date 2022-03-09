@@ -130,7 +130,7 @@ with Session() as session:
 
         # Writing the data scraped from {THREADS} no. of threads to the CSV:
         with open(file=csv, mode='a', newline='') as f:
-            writer(f).writerows(data_dict.values())
+            writer(f).writerows(filter(None, data_dict.values()))  # filter -> consider only non-empty values
 
         if DEBUG:
             break
