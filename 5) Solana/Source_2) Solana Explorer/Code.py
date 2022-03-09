@@ -8,11 +8,11 @@ Total Blocks: ~120M
 # IMPORTS:
 
 from requests import Session, RequestException
-from json import loads, dumps
+from json import dumps
 from concurrent.futures import ThreadPoolExecutor
-from csv import writer
-from os.path import exists
-from os import startfile
+from csv import writer, Error
+from os import stat, chdir
+from glob import iglob
 from time import perf_counter
 
 
@@ -21,7 +21,7 @@ start_time = perf_counter()
 
 # CONSTANTS:
 
-BASE_URL = 'https://explorer-api.mainnet-beta.solana.com'
+URL = 'https://explorer-api.mainnet-beta.solana.com'
 DEBUG = False  # (default: False)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 HEADERS = {
@@ -40,14 +40,8 @@ HEADERS = {
     "accept-language": "en-US,en;q=0.9"
 }
 COLUMNS = ('blockHeight', 'blockTime', 'blockhash', 'parentSlot', 'previousBlockhash', 'rewards', 'transactions')
-START = 1
-TOTAL = 1_000_000  # 1M blocks in 1 CSV (=> ~120 CSVs to be)
-while True:
-    STOP = START + TOTAL
-    CSV = f'Scraped Data\\{START}-{STOP-1}.csv'
-    if not exists(CSV):
-        break
-    START += TOTAL
+DATA_DIR = 'Scraped Data'
+MAX_SIZE = 32  # of CSV you want to be (in MB)
 
 
 # MAIN FUNCTION:
@@ -63,7 +57,7 @@ def main(block: int) -> None:
     }
     while True:
         try:
-            response = session.post(url=BASE_URL, json=payload)
+            response = session.post(url=URL, json=payload)
         except RequestException as e:
             if DEBUG:
                 print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
@@ -74,7 +68,7 @@ def main(block: int) -> None:
                 if DEBUG:
                     print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
 
-    data = loads(s=response.text)['result']
+    data = response.json()['result']
     print('\n' + f"{block}) Data Items: {len(data)}; Transactions: {len(data['transactions'])}")
 
     data['blockHeight'] = block  # block height was empty for some reason
@@ -92,28 +86,46 @@ with Session() as session:
     session.headers = HEADERS
     session.stream = False  # stream off for all the requests of this session
 
-    # Writing column names in CSV:
-    with open(file=CSV, mode='w', newline='') as f:
-        writer(f).writerow(COLUMNS)
-    # startfile(CSV); exit()  # debugging
+    chdir(DATA_DIR)
+
+    print('\nGetting start and last block number...')
+    try:
+        start = max(map(lambda name: int(name.split('.csv')[0]), iglob(pathname='*.csv')))
+    except ValueError:
+        start = 1
+    max_block = session.post(url=URL, json={"method": "getEpochInfo", "jsonrpc": "2.0", "params": [], "id": ""}).json()['result']['absoluteSlot']
+    print(start, max_block)
+
+    csv = None
 
     # THREADING:
-    for block_num in range(START, STOP, THREADS):  # start, stop, step
+    for block_num in range(start, max_block+1, THREADS):  # start, stop, step
 
-        # Using dict so that the data is kept sorted:
-        data_dict = {num: None for num in range(block_num, block_num+THREADS)}  # {block_number: block_transactions_data}
+        if not csv or stat(csv).st_size >= 1_048_576 * MAX_SIZE:  # at most {MAX_SIZE} MB of data in one CSV
+            csv = f'{block_num}.csv'  # new CSV
+            # Writing column names in CSV:
+            with open(file=csv, mode='w', newline='') as f:
+                writer(f).writerow(COLUMNS)
+            # startfile(CSV); exit()  # debugging
 
-        # Executing {THREADS} no. of threads at once:
-        with ThreadPoolExecutor() as Exec:
-            Exec.map(main, range(block_num, block_num+THREADS))
+        while True:  # writing to CSV give error sometimes, should be fixed on retry
+            # Using dict so that the data is kept sorted:
+            data_dict = {num: None for num in range(block_num, block_num+THREADS)}  # {block_number: block_transactions_data}
 
-        # Writing the data scraped from {THREADS} no. of threads to the CSV:
-        with open(file=CSV, mode='a', newline='') as f:
-            writer(f).writerows(data_dict.values())
+            # Executing {THREADS} no. of threads at once:
+            with ThreadPoolExecutor() as Exec:
+                Exec.map(main, range(block_num, block_num+THREADS))
+
+            # Writing the data scraped from {THREADS} no. of threads to the CSV:
+            with open(file=csv, mode='a', newline='') as f:
+                try:
+                    writer(f).writerows(data_dict.values())
+                except Error:  # "_csv.Error: iterable expected, not NoneType" for some reason
+                    continue  # try again
+                break
 
         if DEBUG:
             break
 
 
-startfile(CSV)
 print('\n' + f'Successfully finished in {int(perf_counter()-start_time)}s.')
