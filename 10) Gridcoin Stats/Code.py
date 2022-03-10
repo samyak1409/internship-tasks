@@ -34,8 +34,7 @@ else:
     sheet = wb.create_sheet(title=sheet_title)
     wb.active = sheet
 
-for column_num, column_name in enumerate(iterable=COLUMNS, start=1):
-    sheet.cell(row=1, column=column_num, value=column_name)  # INSERTING COLUMN NAMES
+sheet.append(COLUMNS)  # INSERTING COLUMN NAMES
 
 wb.save(EXCEL)
 # startfile(EXCEL); print(sheet); exit()  # debugging
