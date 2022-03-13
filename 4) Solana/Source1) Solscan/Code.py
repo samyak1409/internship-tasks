@@ -1,4 +1,4 @@
-# 120M
+# 125M
 
 
 # IMPORTS:
@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 # CONSTANTS:
 
-BASE_URL = 'https://api.solscan.io'  # source: BG API from https://solscan.io/block/120000000; https://api.solscan.io/docs
+BASE_URL = 'https://api.solscan.io'  # source: BG API from https://solscan.io/block/125000000; https://api.solscan.io/docs
 DEBUG = False  # (default: False)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 

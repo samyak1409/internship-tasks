@@ -1,7 +1,9 @@
 """
+Source: BG API from https://explorer.solana.com/block/125000000
+
 Using https://github.com/samyak1409/internship-tasks#9-always-check-for-the-hidden-api-when-web-scraping-inspect---network---xhr---name---some-get-request---response
 
-Total Blocks: ~120M
+Total Blocks: ~125M
 """
 
 

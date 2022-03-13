@@ -1,4 +1,4 @@
-# Task 3
+# Task 2.2
 
 This directory contains the code which extracts the block details & transaction details of all the blocks (~10M) from 
 [ATOMScan](https://atomscan.com) (a blockchain explorer for Cosmos (ATOM)).

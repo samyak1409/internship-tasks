@@ -1,4 +1,4 @@
-# Task 8
+# Task 7
 
 [Jelurida](https://www.jelurida.com) (a Swiss blockchain software development company) [API](https://nxt.jelurida.com/nxt)
 

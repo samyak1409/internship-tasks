@@ -1,4 +1,4 @@
-# Task 10
+# Task 5.2
 
 This directory contains the code which extracts all the block data from all the pages (~108) from 
 [Gridcoin Stats](https://www.gridcoinstats.eu) (a Block Explorer for the Gridcoin Network crypto-currency chain).
