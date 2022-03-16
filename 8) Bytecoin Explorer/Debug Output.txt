@@ -1,0 +1,22 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/8) Bytecoin Explorer/Code.py"
+
+Getting start and stop block number...
+1 2533521
+
+1) Transactions: 1
+{
+    "Height": 1,
+    "Version": 1.0,
+    "Timestamp": "2012-07-04 05:00:00 UTC",
+    "Base Reward": 703684.75,
+    "Transactions Fee": 0.0,
+    "Transactions Size": 344,
+    "Already Generated Transactions": 2,
+    "Already Generated Key Outputs": 9,
+    "Transaction Count": 1,
+    "Transaction Hashes": "9afeb29a9f3bd0d84c3d0081c47138c3a1cadd932215b59b146444ba6914e551"
+}
+
+Successfully finished in 1s.
+
+Process finished with exit code 0

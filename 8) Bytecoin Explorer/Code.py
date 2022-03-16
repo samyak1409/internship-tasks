@@ -8,6 +8,7 @@ number of transactions (https://explorer.bytecoin.org/block?height=2033923)
 
 from requests import Session, RequestException
 from bs4 import BeautifulSoup
+from json import dumps
 from concurrent.futures import ThreadPoolExecutor
 from openpyxl import Workbook
 from os import stat, chdir, startfile
@@ -22,7 +23,7 @@ start_time = perf_counter()
 
 BASE_URL = 'https://explorer.bytecoin.org'
 HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'}
-COLUMNS = ('Height', 'Timestamp', 'Transactions')
+COLUMNS = ('Height', 'Version', 'Timestamp', 'Base Reward', 'Transactions Fee', 'Transactions Size', 'Already Generated Transactions', 'Already Generated Key Outputs', 'Transaction Count', 'Transaction Hashes')
 DEBUG = True  # (default: False)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 DATA_DIR = 'Scraped Data'  # path to data dir
@@ -50,17 +51,45 @@ def main(block_height: int) -> None:
     soup = BeautifulSoup(markup=response.text, features='html.parser')
     # print(soup.prettify())  # debugging
 
-    timestamp_data = soup.find(name='span', id='block_timestamp').parent
-    # print(timestamp_data.prettify())  # debugging
-    timestamp_str = list(timestamp_data.stripped_strings)[1]
+    block_table, txns_table = soup.find_all(name='table', class_='border_table')
+    # print(block_table)  # debugging
+    # print(block_table)  # debugging
 
-    txn_heading = soup.find_all(name='p', class_='bigbold')[1]
-    # print(txn_heading.prettify())  # debugging
-    txn_count = int(txn_heading.text.split('-')[1].strip())
+    data = {'Height': block_height, 'Version': None, 'Timestamp': None, 'Base Reward': None, 'Transactions Fee': None, 'Transactions Size': None, 'Already Generated Transactions': None, 'Already Generated Key Outputs': None, 'Transaction Count': None, 'Transaction Hashes': None}
 
-    print('\n' + f'{block_height}) Timestamp: {timestamp_str}; Transactions: {txn_count}')
+    for tr in block_table.find_all(name='tr'):
+        key, value = map(lambda td: td.string if td.string else list(td.stripped_strings), tr.find_all(name='td'))
+        # print(tr); print(key, value)  # debugging
+        # 'Version', 'Timestamp', 'Base Reward', 'Transactions Fee', 'Transactions Size', 'Already Generated Transactions', 'Already Generated Key Outputs':
+        match key:
+            case 'Version':
+                data[key] = float(value[0])
+            case 'Timestamp':
+                data[key] = value[1]
+            case 'Base Reward':
+                data[key] = float(value[0])
+            case 'Transactions Fee':
+                data[key] = float(value[0])
+            case 'Transactions Size':
+                data[key] = int(value.split(' • ')[0])
+            case 'Already Generated Transactions':
+                data[key] = int(value)
+            case 'Already Generated Key Outputs':
+                data[key] = int(value)
 
-    data_dict[block_height] = (block_height, timestamp_str, txn_count)
+    txn_hashes = []
+    for tr in txns_table.find_all(name='tr')[1:]:  # skipping the column names row
+        txn_hash = next(tr.find(name='td', class_='fixedfont').stripped_strings)
+        # print(txn_hash)  # debugging
+        txn_hashes.append(txn_hash)
+    data['Transaction Count'], data['Transaction Hashes'] = len(txn_hashes), ', '.join(txn_hashes)
+
+    print('\n' + f'{block_height})', 'Transactions:', data['Transaction Count'])
+
+    if DEBUG:
+        print(dumps(data, indent=4))
+
+    data_dict[block_height] = list(data.values())
 
 
 # SESSION INIT:
@@ -72,7 +101,7 @@ with Session() as session:
 
     chdir(DATA_DIR)
 
-    print('\nGetting start and stop block number...')
+    print('\n' + 'Getting start and stop block number...')
     try:
         start = max(map(lambda name: int(name.split('.xlsx')[0]), iglob('*.xlsx')))
     except ValueError:  # no files were there in the dir
