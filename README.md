@@ -158,7 +158,7 @@ while True:
 ```
 
 
-#### 7) Sending custom user agent? (to tell the website that I'm not a script)
+#### 7) Always send custom user agent (to tell the website that I'm not a script)
 
 **Use [Custom Headers](https://docs.python-requests.org/en/latest/user/quickstart/#custom-headers)**
 
@@ -172,7 +172,7 @@ while True:
 - [Scrape HTML tables easily with Pandas and Python](https://youtu.be/ODNMNwgtehk)
 
 
-#### 9) [Always Check for the Hidden API when Web Scraping](https://youtu.be/DqtlR0y0suo) (Inspect -> Network -> XHR -> Name -> some GET request -> Response)
+#### 9) [Always Check for the Hidden API when Web Scraping](https://youtu.be/DqtlR0y0suo) ([On Incognito] Inspect -> Network -> XHR -> Name -> some GET request -> Response)
 
 
 #### 10) [Official `Beautiful Soup` Doc](https://www.crummy.com/software/BeautifulSoup/bs4/doc)
