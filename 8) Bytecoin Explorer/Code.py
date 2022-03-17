@@ -10,8 +10,9 @@ from requests import Session, RequestException
 from bs4 import BeautifulSoup
 from json import dumps
 from concurrent.futures import ThreadPoolExecutor
-from openpyxl import Workbook
-from os import stat, chdir, startfile
+from openpyxl import Workbook, load_workbook
+from os import stat, chdir, startfile, rename
+from os.path import exists
 from glob import iglob
 from time import perf_counter, sleep
 
@@ -24,7 +25,7 @@ start_time = perf_counter()
 BASE_URL = 'https://explorer.bytecoin.org'
 HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'}
 COLUMNS = ('Height', 'Version', 'Timestamp', 'Base Reward', 'Transactions Fee', 'Transactions Size', 'Already Generated Transactions', 'Already Generated Key Outputs', 'Transaction Count', 'Transaction Hashes')
-DEBUG = True  # (default: False)
+DEBUG = False  # (default: False)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 DATA_DIR = 'Scraped Data'  # path to data dir
 MAX_SIZE = 32  # of Excel, you want to be (in MB)
@@ -117,10 +118,14 @@ with Session() as session:
 
         if not excel or stat(excel).st_size >= 1_048_576 * MAX_SIZE:  # at most {MAX_SIZE} MB of data in one Excel
             excel = f'{height}.xlsx'  # new Excel
-            wb = Workbook()
-            sheet = wb.active
-            sheet.append(COLUMNS)  # writing column names in Excel; https://openpyxl.readthedocs.io/en/stable/#:~:text=Sample%20code
-            wb.save(excel)
+            if not exists(excel):
+                wb = Workbook()
+                sheet = wb.active
+                sheet.append(COLUMNS)  # writing column names in Excel; https://openpyxl.readthedocs.io/en/stable
+                wb.save(excel)
+            else:
+                wb = load_workbook(excel)
+                sheet = wb.active
             # startfile(excel); print(sheet); exit()  # debugging
 
         # Using dict so that the data is kept sorted:
@@ -135,12 +140,12 @@ with Session() as session:
             sheet.append(row)
         wb.save(excel)
 
+        excel_, excel = excel, f'{height+THREADS}.xlsx'
+        rename(src=excel_, dst=excel)  # so that if the process stops anytime, will be resumed from there only in future
+
         if DEBUG:
             startfile(excel)
             break
 
 
 print('\n' + f'Successfully finished in {int(perf_counter()-start_time)}s.')
-
-
-# TODO: resume functionality
