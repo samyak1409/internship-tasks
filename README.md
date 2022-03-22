@@ -2,6 +2,10 @@
 
 This repository contains the codes of Web Scraping tasks of my Internship.
 
+## [Certificate](https://internshala.com/student/certificate/92235473/2F7EE0CB-D280-ABE0-E799-47450F9910C0)
+
+<img src="https://internshala.com/uploads/student_certificates/61faf9b3cc7901643837875.png">
+
 
 ## Installing the Dependencies
 
