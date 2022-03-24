@@ -12,7 +12,7 @@ level using this API (information https://node.gridcoin.network/API?q=tx&hash=[T
 
 # IMPORTS:
 
-from requests import get as get_request, RequestException
+from requests import Session, RequestException
 from json import loads
 from concurrent.futures import ThreadPoolExecutor
 from csv import writer
@@ -23,6 +23,7 @@ from os import startfile
 # CONSTANTS:
 
 BASE_URL = 'https://node.gridcoin.network/API'
+HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'}
 DEBUG = False  # default: False
 # Enter custom start, end, and no. of threads if required:
 START_HEIGHT = 1  # default: 1
@@ -64,7 +65,7 @@ def get_data_from(url: str) -> dict:
 
     while True:  # sometimes https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_server_errors, which will be fixed after some tries!
         try:
-            response = get_request(url=url, stream=False, timeout=1)  # stream and timeout parameters -> VERY IMPORTANT
+            response = session.get(url=url)
         except RequestException as e:
             print(f'{type(e).__name__}: {e.__doc__} TRYING AGAIN...')
         else:
@@ -139,27 +140,33 @@ if not exists(CSV_FILE):
         writer(f).writerow(BLOCK_COLUMNS + ('',) + TXN_COLUMNS)
     # startfile(CSV_FILE); exit()  # debugging
 
-# Threading:
-for page_num in range(START_HEIGHT, int(min(END_HEIGHT, max_height))+1, THREADS):  # start, stop, step
+# Session Init:
+with Session() as session:
 
-    scraped_data = [[] for _ in range(THREADS)]  # [] = x; x[0] = block_data; x[1:] = list_of_txn_data (coz 1 block can have multiple txn)
+    session.headers = HEADERS
+    session.stream = False  # stream off for all the requests of this session
 
-    # Executing {THREADS} no. of threads at once:
-    with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
-        Exec.map(main, range(page_num, page_num+THREADS))
+    # Threading:
+    for page_num in range(START_HEIGHT, int(min(END_HEIGHT, max_height))+1, THREADS):  # start, stop, step
 
-    # Writing the scraped data from {THREADS} no. of threads to the CSV at once:
-    with open(file=CSV_FILE, mode='a', newline='') as f:
-        w = writer(f)
-        for data_ in scraped_data:
-            w.writerow(data_[0] + [''] + data_[1])  # block_data, _space_, txn_data
-            for txn_data in data_[2:]:  # if multiple txn_data
-                w.writerow(['' for _ in range(len(BLOCK_COLUMNS))] + [''] + txn_data)  # empty_block_data, _space_, txn_data
-            w.writerow([])  # line gap after a block data
+        scraped_data = [[] for _ in range(THREADS)]  # [] = x; x[0] = block_data; x[1:] = list_of_txn_data (coz 1 block can have multiple txn)
 
-    if DEBUG:
-        print('\nFINAL DATA:', scraped_data)
-        break
+        # Executing {THREADS} no. of threads at once:
+        with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
+            Exec.map(main, range(page_num, page_num+THREADS))
+
+        # Writing the scraped data from {THREADS} no. of threads to the CSV at once:
+        with open(file=CSV_FILE, mode='a', newline='') as f:
+            w = writer(f)
+            for data_ in scraped_data:
+                w.writerow(data_[0] + [''] + data_[1])  # block_data, _space_, txn_data
+                for txn_data in data_[2:]:  # if multiple txn_data
+                    w.writerow(['' for _ in range(len(BLOCK_COLUMNS))] + [''] + txn_data)  # empty_block_data, _space_, txn_data
+                w.writerow([])  # line gap after a block data
+
+        if DEBUG:
+            print('\nFINAL DATA:', scraped_data)
+            break
 
 
 startfile(CSV_FILE)  # automatically open CSV when process completes
