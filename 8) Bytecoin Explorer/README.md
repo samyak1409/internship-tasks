@@ -1,7 +1,7 @@
 # Task 8
 
-This directory contains the code which extracts some data 
-of all the blocks (~3M) from [Bytecoin Explorer](https://explorer.bytecoin.org) 
+This directory contains the code which extracts some data of all the blocks (~3M) from 
+[Bytecoin Explorer](https://explorer.bytecoin.org) 
 (Official BCN explorer to track transactions and other Bytecoin network data).
 
 
