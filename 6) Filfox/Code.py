@@ -4,24 +4,21 @@ variable to get all the data from the json file
 """
 
 
-# Requests: ~7M
-# API Doc: https://filfox.info/api/v1/?
-# LIMIT?
-
-
 # IMPORTS:
 
-from requests import get as get_request, RequestException
+from requests import Session, RequestException
 from json import loads
 from concurrent.futures import ThreadPoolExecutor
 from csv import writer, DictWriter
 from os.path import exists
 from os import startfile
+from time import sleep
 
 
 # CONSTANTS:
 
 BASE_URL = 'https://filfox.info/api/v1/message/list'
+HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'}
 DEBUG = False  # default: False
 # Enter custom start, end, and no. of threads if required:
 START_PAGE = 1  # default: 1
@@ -40,14 +37,16 @@ def get_data_from(url: str) -> dict:
 
     while True:  # sometimes https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#5xx_server_errors, which will be fixed after some tries!
         try:
-            response = get_request(url=url, stream=False, timeout=1)  # stream and timeout parameters -> VERY IMPORTANT
+            response = session.get(url=url)
         except RequestException as e:
             print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
+            sleep(1)  # take a breath
         else:
             if response.status_code == 200:
                 break
             else:
                 print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
+                sleep(1)  # take a breath
 
     data = loads(s=response.text)
     # print('LEN:', len(data))  # debugging
@@ -69,35 +68,41 @@ def main(page: int) -> None:
 
 # MAIN:
 
-print('\nGETTING LATEST BLOCK NUMBER...')
-total_count = get_data_from(url=BASE_URL)['totalCount']
-print(total_count)
-
 # Writing column names in CSV:
 if not exists(CSV_FILE):
     with open(file=CSV_FILE, mode='w') as f:
         writer(f).writerow(BLOCK_COLUMNS)
     # startfile(CSV_FILE); exit()  # debugging
 
-# THREADING:
-for page_num in range(START_PAGE, int(min(END_PAGE, total_count))+1, THREADS):  # start, stop, step
+# SESSION INIT:
+with Session() as session:
 
-    scraped_data = {page: None for page in range(page_num, page_num+THREADS)}  # {page_number: message_dict_list}
+    session.headers = HEADERS
+    session.stream = False  # stream off for all the requests of this session
 
-    # Executing {THREADS} no. of threads at once:
-    with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
-        Exec.map(main, range(page_num, page_num+THREADS))
+    print('\nGETTING LATEST BLOCK NUMBER...')
+    total_count = get_data_from(url=BASE_URL)['totalCount'] // 100
+    print(total_count)
 
-    # Writing the data scraped from {THREADS} no. of threads to the CSV:
-    with open(file=CSV_FILE, mode='a', newline='') as f:
-        for page, message_dict_list in scraped_data.items():
-            DictWriter(f=f, fieldnames=BLOCK_COLUMNS, restval=page).writerows(rowdicts=message_dict_list)  # https://docs.python.org/3/library/csv.html#csv.DictWriter
-            writer(f).writerow([])  # line gap after a block data
+    # Threading:
+    for page_num in range(START_PAGE, int(min(END_PAGE, total_count))+1, THREADS):  # start, stop, step
 
-    if DEBUG:
-        from pprint import pprint
-        pprint(scraped_data)
-        break
+        scraped_data = {page: None for page in range(page_num, page_num+THREADS)}  # {page_number: message_dict_list}
+
+        # Executing {THREADS} no. of threads at once:
+        with ThreadPoolExecutor() as Exec:  # https://youtu.be/IEEhzQoKtQU
+            Exec.map(main, range(page_num, page_num+THREADS))
+
+        # Writing the data scraped from {THREADS} no. of threads to the CSV:
+        with open(file=CSV_FILE, mode='a', newline='') as f:
+            for page, message_dict_list in scraped_data.items():
+                DictWriter(f=f, fieldnames=BLOCK_COLUMNS, restval=page).writerows(rowdicts=message_dict_list)  # https://docs.python.org/3/library/csv.html#csv.DictWriter
+                writer(f).writerow([])  # line gap after a block data
+
+        if DEBUG:
+            from pprint import pprint
+            pprint(scraped_data)
+            break
 
 
 startfile(CSV_FILE)  # automatically open CSV when process completes
