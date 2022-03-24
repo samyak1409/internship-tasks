@@ -2,9 +2,12 @@
 
 This repository contains the codes of Web Scraping tasks of my Internship.
 
+
+
 ## [Certificate](https://internshala.com/student/certificate/92235473/2F7EE0CB-D280-ABE0-E799-47450F9910C0)
 
 <img src="https://internshala.com/uploads/student_certificates/61faf9b3cc7901643837875.png">
+
 
 
 ## Installing the Dependencies
@@ -13,6 +16,7 @@ After downloading this project to your PC, open the project folder, there, open 
 ```
 pip install -r requirements.txt
 ```
+
 
 
 ## Coding Standards
@@ -162,11 +166,25 @@ while True:
 ```
 
 
-#### 7) Always send custom user agent (to tell the website that I'm not a script)
+#### 7) Always send custom user agent (to tell the website that it's not a bot)
 
 **Use [Custom Headers](https://docs.python-requests.org/en/latest/user/quickstart/#custom-headers)**
 
 - [User Agent Switching - Python Web Scraping](https://youtu.be/90t9WkQbQ2E)
+- Get your user agent from: [Google](https://www.google.com/search?q=my+user+agent) or [httpbin.org](https://httpbin.org/user-agent)
+
+```py
+from requests import get as get_request
+
+URL = 'https://httpbin.org/user-agent'
+
+print('Without:', get_request(url=URL).json())
+# Without: {'user-agent': 'python-requests/2.27.1'}
+
+HEADER = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36'}
+print('With:', get_request(url=URL, headers=HEADER).json())
+# With: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36'}
+```
 
 
 #### 8) Data to get is table data?
