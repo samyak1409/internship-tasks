@@ -107,3 +107,6 @@ with Session() as session:
 
 startfile(CSV_FILE)  # automatically open CSV when process completes
 print('\nSUCCESS!')
+
+
+# Problem: Rate Limit

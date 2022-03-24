@@ -1,6 +1,3 @@
-# 125M
-
-
 # IMPORTS:
 
 from requests import Session
@@ -47,3 +44,6 @@ with Session() as session:
 
 
 print('\nSUCCESS!')
+
+
+# Problem: NP, but better source found
