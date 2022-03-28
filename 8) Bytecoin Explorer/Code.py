@@ -108,6 +108,7 @@ with Session() as session:
     except ValueError:  # no files were there in the dir
         start = 1
     stop = int(next(filter(lambda num: num.isnumeric(), list(BeautifulSoup(session.get(f'{BASE_URL}/block?height=0').text, 'html.parser').a.parent.stripped_strings)[1].split())))
+    stop -= stop % 100  # 2541960 -> 2541900
     print(start, stop)
 
     # THREADING:
