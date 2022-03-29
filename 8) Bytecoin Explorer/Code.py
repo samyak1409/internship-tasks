@@ -52,7 +52,7 @@ def main(block_height: int) -> None:
     soup = BeautifulSoup(markup=response.text, features='html.parser')
     # print(soup.prettify())  # debugging
 
-    block_table, txns_table = soup.find_all(name='table', class_='border_table')
+    block_table, txns_table = soup.find_all(name='table', class_='border_table')[:2]
     # print(block_table)  # debugging
     # print(block_table)  # debugging
 
