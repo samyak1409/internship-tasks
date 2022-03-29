@@ -1,0 +1,222 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/6) Filecoin/Source2) Bitquery/Code.py"
+
+{
+    "data": {
+        "filecoin": {
+            "blocks": [
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:59:30"
+                    },
+                    "height": 1512239,
+                    "count": 8,
+                    "messageCount": 2173,
+                    "reward": 178.3397037533383,
+                    "minerTips": 0.00288579994266716
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:59:00"
+                    },
+                    "height": 1512238,
+                    "count": 4,
+                    "messageCount": 892,
+                    "reward": 89.17079688822577,
+                    "minerTips": 0.002373120434633413
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:58:30"
+                    },
+                    "height": 1512237,
+                    "count": 5,
+                    "messageCount": 1199,
+                    "reward": 111.46224953668995,
+                    "minerTips": 0.00170133807744018
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:58:00"
+                    },
+                    "height": 1512236,
+                    "count": 7,
+                    "messageCount": 1519,
+                    "reward": 156.0468250970766,
+                    "minerTips": 0.002031734586297245
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:57:30"
+                    },
+                    "height": 1512235,
+                    "count": 5,
+                    "messageCount": 1188,
+                    "reward": 111.46331786141847,
+                    "minerTips": 0.002732685037849042
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:57:00"
+                    },
+                    "height": 1512234,
+                    "count": 3,
+                    "messageCount": 734,
+                    "reward": 66.8784722105249,
+                    "minerTips": 0.002110011359829397
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:56:30"
+                    },
+                    "height": 1512233,
+                    "count": 3,
+                    "messageCount": 691,
+                    "reward": 66.8783206541919,
+                    "minerTips": 0.001947019078260189
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:56:00"
+                    },
+                    "height": 1512232,
+                    "count": 3,
+                    "messageCount": 695,
+                    "reward": 66.87747266993591,
+                    "minerTips": 0.001085124663873858
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:55:30"
+                    },
+                    "height": 1512231,
+                    "count": 5,
+                    "messageCount": 1428,
+                    "reward": 111.46261793580885,
+                    "minerTips": 0.001953538101934953
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:55:00"
+                    },
+                    "height": 1512230,
+                    "count": 10,
+                    "messageCount": 2514,
+                    "reward": 245.2155696143908,
+                    "minerTips": 0.002067263795800495
+                }
+            ]
+        }
+    }
+}
+{
+    "data": {
+        "filecoin": {
+            "blocks": [
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:54:30"
+                    },
+                    "height": 1512229,
+                    "count": 6,
+                    "messageCount": 1428,
+                    "reward": 133.75498153265315,
+                    "minerTips": 0.002139881971301956
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:54:00"
+                    },
+                    "height": 1512228,
+                    "count": 7,
+                    "messageCount": 1619,
+                    "reward": 156.04740905478621,
+                    "minerTips": 0.002401244473233066
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:53:30"
+                    },
+                    "height": 1512227,
+                    "count": 6,
+                    "messageCount": 1496,
+                    "reward": 133.75506654599633,
+                    "minerTips": 0.002180521847510036
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:53:00"
+                    },
+                    "height": 1512226,
+                    "count": 3,
+                    "messageCount": 738,
+                    "reward": 66.87825932096986,
+                    "minerTips": 0.00180521552242388
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:52:30"
+                    },
+                    "height": 1512225,
+                    "count": 7,
+                    "messageCount": 1601,
+                    "reward": 156.04689151577145,
+                    "minerTips": 0.001806051847313994
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:52:00"
+                    },
+                    "height": 1512224,
+                    "count": 7,
+                    "messageCount": 1822,
+                    "reward": 156.04818310129966,
+                    "minerTips": 0.003071752818942788
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:51:30"
+                    },
+                    "height": 1512223,
+                    "count": 3,
+                    "messageCount": 702,
+                    "reward": 66.87837955587167,
+                    "minerTips": 0.001889020148703865
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:51:00"
+                    },
+                    "height": 1512222,
+                    "count": 4,
+                    "messageCount": 911,
+                    "reward": 89.17103266330118,
+                    "minerTips": 0.002363812061893619
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:50:30"
+                    },
+                    "height": 1512221,
+                    "count": 4,
+                    "messageCount": 1040,
+                    "reward": 89.17087226271558,
+                    "minerTips": 0.002188620280581034
+                },
+                {
+                    "timestamp": {
+                        "time": "2022-01-31 23:50:00"
+                    },
+                    "height": 1512220,
+                    "count": 7,
+                    "messageCount": 1700,
+                    "reward": 156.04786312509918,
+                    "minerTips": 0.002640866235694479
+                }
+            ]
+        }
+    }
+}
+
+SUCCESS!
+
+Process finished with exit code 0
