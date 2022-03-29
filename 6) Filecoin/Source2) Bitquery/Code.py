@@ -2,7 +2,8 @@
 from requests import post
 from json import dumps
 from pandas import DataFrame
-from os import startfile
+from itertools import count
+from time import perf_counter
 
 
 # CONSTANTS:
@@ -23,17 +24,18 @@ HEADERS = {
 }
 DEBUG = False  # (default: False)
 MAX_LIMIT = 10 if DEBUG else 25_000
-EXCEL = 'Data.xlsx'
+DATA_DIR = 'Data'
 
 
 # MAIN:
 
+start = perf_counter()
+
 skip = 0
-block_list = []
 
-print()  # spacing
+for i in count(start=1):  # infinite loop
 
-while True:
+    print('\n' + f'{i}.')
 
     payload = {"operationName": None, "variables": {"limit": MAX_LIMIT, "offset": skip, "network": "filecoin", "from": None, "till": "2022-01-31T23:59:59", "dateFormat": "%Y-%m"}, "query": "query ($network: FilecoinNetwork!, $limit: Int!, $offset: Int!, $from: ISO8601DateTime, $till: ISO8601DateTime) {\n filecoin(network: $network) {\n blocks(options: {desc: \"height\", limit: $limit, offset: $offset}, date: {since: $from, till: $till}) {\n timestamp {\n time(format: \"%Y-%m-%d %H:%M:%S\")\n }\n height\n count\n messageCount\n reward\n minerTips\n }\n }\n}\n"}
     response = post('https://explorer.bitquery.io/proxy_graphql', headers=HEADERS, json=payload).json()
@@ -44,14 +46,12 @@ while True:
         break  # all data scraped
     for block in blocks:
         block['timestamp'] = block['timestamp']['time']  # cleaning timestamp ({"time": "2022-01-31 23:50:30"} -> "2022-01-31 23:50:30")
-        block_list.append(block)  # storing the block data to the list
+
+    DataFrame(data=blocks).to_excel(f'{DATA_DIR}\\{i}.xlsx', index=False)  # writing the stored data to excel
 
     if DEBUG and skip == MAX_LIMIT:
         break
 
     skip += MAX_LIMIT
 
-DataFrame(data=block_list).to_excel(EXCEL, index=False)  # writing the stored data to excel
-startfile(EXCEL)
-
-print('\n' + 'SUCCESS!')
+print('\n' + f'Successfully finished in {int(perf_counter()-start)}s.')

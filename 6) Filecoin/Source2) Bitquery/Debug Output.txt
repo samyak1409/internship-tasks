@@ -1,5 +1,6 @@
 C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/6) Filecoin/Source2) Bitquery/Code.py"
 
+1.
 {
     "data": {
         "filecoin": {
@@ -108,6 +109,8 @@ C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Sam
         }
     }
 }
+
+2.
 {
     "data": {
         "filecoin": {
@@ -217,6 +220,6 @@ C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Sam
     }
 }
 
-SUCCESS!
+Successfully finished in 3s.
 
 Process finished with exit code 0
