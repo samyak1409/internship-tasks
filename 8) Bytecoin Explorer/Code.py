@@ -11,7 +11,8 @@ from bs4 import BeautifulSoup
 from json import dumps
 from concurrent.futures import ThreadPoolExecutor
 from openpyxl import Workbook, load_workbook
-from os import stat, chdir, startfile, rename
+from os import stat, chdir, startfile, rename, remove
+from shutil import copyfile
 from os.path import exists
 from glob import iglob
 from time import perf_counter, sleep
@@ -124,8 +125,14 @@ with Session() as session:
                 sheet = wb.active
                 sheet.append(COLUMNS)  # writing column names in Excel; https://openpyxl.readthedocs.io/en/stable
                 wb.save(excel)
+                copyfile(src=excel, dst=f'{excel}.copy')  # if primary Excel file crashes (due to stopping of the program while execution of the .save() function), all the data will be safe in this!
             else:
-                wb = load_workbook(excel)
+                try:
+                    wb = load_workbook(excel)
+                except Exception as e:  # time to use the copied Excel!
+                    print('\n' + f'Excel was crashed ({e}), restoring...')
+                    copyfile(src=f'{excel}.copy', dst=excel)  # restoring Excel
+                    wb = load_workbook(excel)
                 sheet = wb.active
             # startfile(excel); print(sheet); exit()  # debugging
 
@@ -143,6 +150,8 @@ with Session() as session:
 
         excel_, excel = excel, f'{height+THREADS}.xlsx'
         rename(src=excel_, dst=excel)  # so that if the process stops anytime, will be resumed from there only in future
+        remove(path=f'{excel_}.copy')  # deleting the last copied Excel file
+        copyfile(src=excel, dst=f'{excel}.copy')  # if primary Excel file crashes (due to stopping of the program while execution of the .save() function), all the data will be safe in this!
 
         if DEBUG:
             startfile(excel)
