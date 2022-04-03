@@ -11,8 +11,7 @@ from bs4 import BeautifulSoup
 from json import dumps
 from concurrent.futures import ThreadPoolExecutor
 from openpyxl import Workbook, load_workbook
-from os import stat, chdir, startfile, rename, remove
-from shutil import copyfile
+from os import stat, chdir, startfile, rename
 from os.path import exists
 from glob import iglob
 from time import perf_counter, sleep
@@ -29,7 +28,7 @@ COLUMNS = ('Height', 'Version', 'Timestamp', 'Base Reward', 'Transactions Fee', 
 DEBUG = False  # (default: False)
 THREADS = 1 if DEBUG else 100  # number of concurrent threads to run at once
 DATA_DIR = 'Scraped Data'  # path to data dir
-MAX_SIZE = 32  # of Excel, you want to be (in MB)
+MAX_SIZE = 1  # of Excel, you want to be (in MB)
 
 
 # MAIN FUNCTION:
@@ -112,29 +111,28 @@ with Session() as session:
     stop -= stop % 100  # 2541960 -> 2541900
     print(start, stop)
 
+    # Excel Init:
+    excel = f'{start}.xlsx'
+    if not exists(excel):
+        wb = Workbook()
+        sheet = wb.active
+        sheet.append(COLUMNS)  # writing column names in Excel; https://openpyxl.readthedocs.io/en/stable
+        wb.save(excel)
+    else:
+        wb = load_workbook(excel)
+        sheet = wb.active
+
     # THREADING:
 
-    excel = None
+    new = False
 
     for height in range(start, stop, THREADS):  # start, stop, step
 
-        if not excel or stat(excel).st_size >= 1_048_576 * MAX_SIZE:  # at most {MAX_SIZE} MB of data in one Excel
-            excel = f'{height}.xlsx'  # new Excel
-            if not exists(excel):
-                wb = Workbook()
-                sheet = wb.active
-                sheet.append(COLUMNS)  # writing column names in Excel; https://openpyxl.readthedocs.io/en/stable
-                wb.save(excel)
-                copyfile(src=excel, dst=f'{excel}.copy')  # if primary Excel file crashes (due to stopping of the program while execution of the .save() function), all the data will be safe in this!
-            else:
-                try:
-                    wb = load_workbook(excel)
-                except Exception as e:  # time to use the copied Excel!
-                    print('\n' + f'Excel was crashed ({e}), restoring...')
-                    copyfile(src=f'{excel}.copy', dst=excel)  # restoring Excel
-                    wb = load_workbook(excel)
-                sheet = wb.active
-            # startfile(excel); print(sheet); exit()  # debugging
+        if stat(excel).st_size >= MAX_SIZE * 1024**2:  # at most {MAX_SIZE} MB of data in one Excel
+            wb = Workbook()
+            sheet = wb.active
+            sheet.append(COLUMNS)  # writing column names in Excel; https://openpyxl.readthedocs.io/en/stable
+            new = True
 
         # Using dict so that the data is kept sorted:
         data_dict = {num: None for num in range(height, height+THREADS)}  # {block_height: block_data}
@@ -146,12 +144,15 @@ with Session() as session:
         # Writing the data scraped from {THREADS} no. of threads to the Excel:
         for row in filter(None, data_dict.values()):  # filter -> consider only non-empty values
             sheet.append(row)
-        wb.save(excel)
-
-        excel_, excel = excel, f'{height+THREADS}.xlsx'
-        rename(src=excel_, dst=excel)  # so that if the process stops anytime, will be resumed from there only in future
-        remove(path=f'{excel_}.copy')  # deleting the last copied Excel file
-        copyfile(src=excel, dst=f'{excel}.copy')  # if primary Excel file crashes (due to stopping of the program while execution of the .save() function), all the data will be safe in this!
+        # Saving:
+        if not new:
+            wb.save(excel)  # same excel
+            excel_, excel = excel, f'{height+THREADS}.xlsx'
+            rename(src=excel_, dst=excel)  # so that if the process stops anytime, will be resumed from there only in future
+        else:
+            excel = f'{height+THREADS}.xlsx'
+            wb.save(excel)  # new excel created
+            new = False  # reset
 
         if DEBUG:
             startfile(excel)
