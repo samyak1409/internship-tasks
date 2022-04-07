@@ -1,0 +1,38 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/9) Finance.Yahoo/Code.py"
+
+1) ATOM
+Saved to: Scraped Data\ATOM-USD.csv
+
+2) SOL
+Saved to: Scraped Data\SOL-USD.csv
+
+3) QTUM
+Saved to: Scraped Data\QTUM-USD.csv
+
+4) BCN
+Saved to: Scraped Data\BCN-USD.csv
+
+5) GRC
+Saved to: Scraped Data\GRC-USD.csv
+
+6) STRAX
+Saved to: Scraped Data\STRAX-USD.csv
+
+7) SC
+Saved to: Scraped Data\SC-USD.csv
+
+8) NXT
+Saved to: Scraped Data\NXT-USD.csv
+
+9) FCT
+Saved to: Scraped Data\FCT-USD.csv
+
+10) STEEM
+Saved to: Scraped Data\STEEM-USD.csv
+
+11) XNO
+Saved to: Scraped Data\XNO-USD.csv
+
+Successfully finished in 2s.
+
+Process finished with exit code 0
