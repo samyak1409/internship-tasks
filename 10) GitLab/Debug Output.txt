@@ -1,0 +1,267 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/10) GitLab/Code.py"
+
+Group 1) tezos
+
+Project Count: 13
+
+Project 1) tezos/docker-images/ci-docker
+Loading Commits.
+Commit Count: 14
+[
+    {
+        "id": "855836b8f06088e516cf7a1bf3e16699c439ec31",
+        "short_id": "855836b8",
+        "created_at": "2022-04-11T19:01:28.000+02:00",
+        "parent_ids": [
+            "2412e46ddbeb06b11b16e7cd23198c74d9f77e18"
+        ],
+        "title": "Fix: on first build there is no multi-arch manifest yet",
+        "message": "Fix: on first build there is no multi-arch manifest yet\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-11T19:01:28.000+02:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-11T19:01:28.000+02:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/855836b8f06088e516cf7a1bf3e16699c439ec31"
+    },
+    {
+        "id": "2412e46ddbeb06b11b16e7cd23198c74d9f77e18",
+        "short_id": "2412e46d",
+        "created_at": "2022-04-11T16:56:33.000+00:00",
+        "parent_ids": [
+            "88d13630a2d683337ea49c2df5fc7573edabce83",
+            "7344dc08c0803e05b917c124d65f0e56043efe0a"
+        ],
+        "title": "Merge branch 'staging-merge' into 'main'",
+        "message": "Merge branch 'staging-merge' into 'main'\n\nCI: multi-arch docker image (single tag)\n\nSee merge request tezos/docker-images/ci-docker!2",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-11T16:56:33.000+00:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-11T16:56:33.000+00:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/2412e46ddbeb06b11b16e7cd23198c74d9f77e18"
+    },
+    {
+        "id": "7344dc08c0803e05b917c124d65f0e56043efe0a",
+        "short_id": "7344dc08",
+        "created_at": "2022-04-11T16:56:33.000+00:00",
+        "parent_ids": [
+            "88d13630a2d683337ea49c2df5fc7573edabce83"
+        ],
+        "title": "CI: multi-arch docker image (single tag)",
+        "message": "CI: multi-arch docker image (single tag)\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-11T16:56:33.000+00:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-11T16:56:33.000+00:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/7344dc08c0803e05b917c124d65f0e56043efe0a"
+    },
+    {
+        "id": "88d13630a2d683337ea49c2df5fc7573edabce83",
+        "short_id": "88d13630",
+        "created_at": "2022-04-08T13:58:48.000+00:00",
+        "parent_ids": [
+            "bd1dbcebf57a8753c4d20c8242207fc5d4dbff66",
+            "7ce76d5921d1da412e97ce04ad3a563a5ab14773"
+        ],
+        "title": "Merge branch 'staging-test' into 'main'",
+        "message": "Merge branch 'staging-test' into 'main'\n\nCI: docker image for each architecture (amd64/arm64)\n\nSee merge request tezos/docker-images/ci-docker!1",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-08T13:58:48.000+00:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-08T13:58:48.000+00:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/88d13630a2d683337ea49c2df5fc7573edabce83"
+    },
+    {
+        "id": "7ce76d5921d1da412e97ce04ad3a563a5ab14773",
+        "short_id": "7ce76d59",
+        "created_at": "2022-04-08T13:58:48.000+00:00",
+        "parent_ids": [
+            "bd1dbcebf57a8753c4d20c8242207fc5d4dbff66"
+        ],
+        "title": "CI: docker image for each architecture (amd64/arm64)",
+        "message": "CI: docker image for each architecture (amd64/arm64)\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-08T13:58:48.000+00:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-08T13:58:48.000+00:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/7ce76d5921d1da412e97ce04ad3a563a5ab14773"
+    },
+    {
+        "id": "bd1dbcebf57a8753c4d20c8242207fc5d4dbff66",
+        "short_id": "bd1dbceb",
+        "created_at": "2022-04-08T11:41:47.000+02:00",
+        "parent_ids": [
+            "1a22fe28b6d4ac591d3eb28f16f6b693ce5d037a"
+        ],
+        "title": "Revert \"Squash image (smaller)\" (wins only 2 Kio)",
+        "message": "Revert \"Squash image (smaller)\" (wins only 2 Kio)\n\nThis reverts commit 1a22fe28b6d4ac591d3eb28f16f6b693ce5d037a.\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-08T11:41:47.000+02:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-08T11:41:47.000+02:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/bd1dbcebf57a8753c4d20c8242207fc5d4dbff66"
+    },
+    {
+        "id": "1a22fe28b6d4ac591d3eb28f16f6b693ce5d037a",
+        "short_id": "1a22fe28",
+        "created_at": "2022-04-08T11:39:25.000+02:00",
+        "parent_ids": [
+            "954f2390de891aa17d0ac1999bdad021f0eafdb1"
+        ],
+        "title": "Squash image (smaller)",
+        "message": "Squash image (smaller)\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-08T11:39:25.000+02:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-08T11:39:25.000+02:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/1a22fe28b6d4ac591d3eb28f16f6b693ce5d037a"
+    },
+    {
+        "id": "954f2390de891aa17d0ac1999bdad021f0eafdb1",
+        "short_id": "954f2390",
+        "created_at": "2022-04-08T11:35:40.000+02:00",
+        "parent_ids": [
+            "4b80b156d0a720ae31a96de4aa95acdf18f29b66"
+        ],
+        "title": "Bump kaniko to 1.8.1",
+        "message": "Bump kaniko to 1.8.1\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-08T11:35:40.000+02:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-08T11:35:40.000+02:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/954f2390de891aa17d0ac1999bdad021f0eafdb1"
+    },
+    {
+        "id": "4b80b156d0a720ae31a96de4aa95acdf18f29b66",
+        "short_id": "4b80b156",
+        "created_at": "2022-04-08T11:30:45.000+02:00",
+        "parent_ids": [
+            "e3335bbdbd42b49285cd73fda14104657047bd1a"
+        ],
+        "title": "Bump buildx to 0.8.2; Add hadolint 2.9.3",
+        "message": "Bump buildx to 0.8.2; Add hadolint 2.9.3\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-04-08T11:30:45.000+02:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-04-08T11:30:45.000+02:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/4b80b156d0a720ae31a96de4aa95acdf18f29b66"
+    },
+    {
+        "id": "e3335bbdbd42b49285cd73fda14104657047bd1a",
+        "short_id": "e3335bbd",
+        "created_at": "2022-03-25T15:46:55.000+01:00",
+        "parent_ids": [
+            "41c497ff739f5b8b3279d361be9305eaf4fdef22"
+        ],
+        "title": "Add hadolint",
+        "message": "Add hadolint\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-03-25T15:46:55.000+01:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-03-25T15:46:55.000+01:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/e3335bbdbd42b49285cd73fda14104657047bd1a"
+    },
+    {
+        "id": "41c497ff739f5b8b3279d361be9305eaf4fdef22",
+        "short_id": "41c497ff",
+        "created_at": "2022-03-25T15:39:17.000+01:00",
+        "parent_ids": [
+            "c3e3fe7f8b2c94ef2bd47def6f1543e5d938a18f"
+        ],
+        "title": "Refresh image; Add git",
+        "message": "Refresh image; Add git\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-03-25T15:39:17.000+01:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-03-25T15:39:17.000+01:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/41c497ff739f5b8b3279d361be9305eaf4fdef22"
+    },
+    {
+        "id": "c3e3fe7f8b2c94ef2bd47def6f1543e5d938a18f",
+        "short_id": "c3e3fe7f",
+        "created_at": "2022-03-21T20:41:51.000+01:00",
+        "parent_ids": [
+            "f60d1383dffd1de92a604bde092a35ed8d4e25c9"
+        ],
+        "title": "Explicit log in to GitLab container registry",
+        "message": "Explicit log in to GitLab container registry\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-03-21T20:41:51.000+01:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-03-21T20:41:51.000+01:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/c3e3fe7f8b2c94ef2bd47def6f1543e5d938a18f"
+    },
+    {
+        "id": "f60d1383dffd1de92a604bde092a35ed8d4e25c9",
+        "short_id": "f60d1383",
+        "created_at": "2022-03-21T20:16:24.000+01:00",
+        "parent_ids": [
+            "d437623670d4288984832464f4cbd93d3af39034"
+        ],
+        "title": "Happy hadolint",
+        "message": "Happy hadolint\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-03-21T20:16:24.000+01:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-03-21T20:16:24.000+01:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/f60d1383dffd1de92a604bde092a35ed8d4e25c9"
+    },
+    {
+        "id": "d437623670d4288984832464f4cbd93d3af39034",
+        "short_id": "d4376236",
+        "created_at": "2022-03-21T19:28:10.000+01:00",
+        "parent_ids": [],
+        "title": "First draft",
+        "message": "First draft\n",
+        "author_name": "David Dumas",
+        "author_email": "david.dumas@tweag.io",
+        "authored_date": "2022-03-21T19:28:10.000+01:00",
+        "committer_name": "David Dumas",
+        "committer_email": "david.dumas@tweag.io",
+        "committed_date": "2022-03-21T19:28:10.000+01:00",
+        "trailers": {},
+        "web_url": "https://gitlab.com/tezos/docker-images/ci-docker/-/commit/d437623670d4288984832464f4cbd93d3af39034"
+    }
+]
+
+Successfully finished in 1s.
+
+Process finished with exit code 0
