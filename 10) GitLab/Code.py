@@ -32,11 +32,12 @@ start_time = perf_counter()
 # ATTRIBUTES:
 
 HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'}
-GROUP_IDS = ('tezos', 'bitcoin-cash-node', 'NebulousLabs')[2:]#  # The ID or URL-encoded path of the group owned by the authenticated user
+GROUP_IDS = ('tezos', 'bitcoin-cash-node', 'NebulousLabs')  # The ID or URL-encoded path of the group owned by the authenticated user
 BASE_URL = 'https://gitlab.com/api/v4'
 WITH_SHARED = False  # Include projects shared to this group. Default is true
 INCLUDE_SUBGROUPS = True  # Include projects in subgroups of this group. Default is false
 MAX_ITEMS_PER_PAGE = 100  # Number of items to list per page (default: 20, max: 100).
+DEBUG = False  # default: False
 
 
 # MAIN:
@@ -78,7 +79,7 @@ with Session() as session:
             # print(response.headers)  # debugging
             if project_count is None:
                 project_count = response.headers['X-Total']
-                print('Project Count:', project_count)
+                print('\n' + 'Project Count:', project_count)
             if response.headers['X-Next-Page'] == '':
                 break  # stop when no more pages left
 
@@ -86,37 +87,50 @@ with Session() as session:
 
         for project_num, project_id in enumerate(map(lambda project: project['path_with_namespace'], projects), start=1):
 
-            project_id = 'NebulousLabs/analyze'# have 28 commits
-
-            print(f'Project {project_num}) {project_id}')
+            print('\n' + f'Project {project_num}) {project_id}')
 
             project_id = project_id.replace('/', '%2F')  # https://docs.gitlab.com/ee/api/index.html#namespaced-path-encoding
 
             # Step 2) List repository commits: https://docs.gitlab.com/ee/api/commits.html#list-repository-commits
 
-            # Getting Request's Response:
-            while True:
-                try:
-                    response = session.get(url=f'{BASE_URL}/projects/{project_id}/repository/commits?all=true')# parameter "all" is not working; should return all the commits acc. to https://docs.gitlab.com/ee/api/commits.html#:~:text=Retrieve%20every%20commit%20from%20the%20repository
-                    # so -> 28; but only returning 20
-                except RequestException as e:
-                    print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
-                    sleep(1)  # take a breath
-                else:
-                    if response.status_code == 200:
-                        break
-                    else:  # bad response
-                        print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
+            # Pagination: https://docs.gitlab.com/ee/api/index.html#pagination
+            print('Loading Commits', end='')
+            commits = []
+            for page in count(start=1):
+
+                print('.', end='')
+
+                # Getting Request's Response:
+                while True:
+                    try:
+                        response = session.get(url=f'{BASE_URL}/projects/{project_id}/repository/commits?pagination=keyset&page={page}&per_page={MAX_ITEMS_PER_PAGE}')  # parameter "all=true" is not working; should return all the commits acc. to https://docs.gitlab.com/ee/api/commits.html; so using pagination
+                    except RequestException as e:
+                        print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
                         sleep(1)  # take a breath
+                    else:
+                        if response.status_code == 200:
+                            break
+                        else:  # bad response
+                            print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
+                            sleep(1)  # take a breath
 
-            print(response.headers)
+                commits.extend(response.json())  # save this page's data
 
-            commits = response.json()
-            print(dumps(commits, indent=4))  # debugging
+                # https://docs.gitlab.com/ee/api/index.html#other-pagination-headers:
+                # print(response.headers)  # debugging
+                if response.headers['X-Next-Page'] == '':
+                    break  # stop when no more pages left
 
-            break#
+            print('\n' + 'Commit Count:', len(commits))
 
-        break#
+            if DEBUG:
+                print(dumps(commits, indent=4))
+                break  # project traversal
+
+        if DEBUG:
+            break  # group traversal
+
+        print('\n' + '-' * 120)  # sep line
 
 
 print('\n' + f'Successfully finished in {int(perf_counter()-start_time)}s.')
