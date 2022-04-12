@@ -1,0 +1,383 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/10) GitLab/Code.py"
+
+Group 1) tezos
+
+Project Count: 13
+
+Project 1) tezos/docker-images/ci-docker
+Loading Commits.
+Commit Count: 14
+Saved to: Scraped Data\tezos%2Fdocker-images%2Fci-docker.csv
+
+Project 2) tezos/docker-images/ci-release
+Loading Commits.
+Commit Count: 7
+Saved to: Scraped Data\tezos%2Fdocker-images%2Fci-release.csv
+
+Project 3) tezos/tezos-codec-compiler
+Loading Commits..
+Commit Count: 106
+Saved to: Scraped Data\tezos%2Ftezos-codec-compiler.csv
+
+Project 4) tezos/tezos-sapling-parameters
+Loading Commits.
+Commit Count: 5
+Saved to: Scraped Data\tezos%2Ftezos-sapling-parameters.csv
+
+Project 5) tezos/tezos-rust-libs
+Loading Commits.
+Commit Count: 21
+Saved to: Scraped Data\tezos%2Ftezos-rust-libs.csv
+
+Project 6) tezos/tzt-reference-test-suite
+Loading Commits.
+Commit Count: 2
+Saved to: Scraped Data\tezos%2Ftzt-reference-test-suite.csv
+
+Project 7) tezos/michelson-reference
+Loading Commits...
+Commit Count: 280
+Saved to: Scraped Data\tezos%2Fmichelson-reference.csv
+
+Project 8) tezos/flextesa
+Loading Commits.....
+Commit Count: 481
+Saved to: Scraped Data\tezos%2Fflextesa.csv
+
+Project 9) tezos/tzip
+Loading Commits.........
+Commit Count: 846
+Saved to: Scraped Data\tezos%2Ftzip.csv
+
+Project 10) tezos/tezos.gitlab.io
+Loading Commits...................................
+Commit Count: 3459
+Saved to: Scraped Data\tezos%2Ftezos.gitlab.io.csv
+
+Project 11) tezos/opam-repository
+Loading Commits...
+Commit Count: 215
+Saved to: Scraped Data\tezos%2Fopam-repository.csv
+
+Project 12) tezos/tezos-faucet
+Loading Commits.
+Commit Count: 12
+Saved to: Scraped Data\tezos%2Ftezos-faucet.csv
+
+Project 13) tezos/tezos
+Loading Commits.....................................................................................................................................................
+Commit Count: 14837
+Saved to: Scraped Data\tezos%2Ftezos.csv
+
+------------------------------------------------------------------------------------------------------------------------
+
+Group 2) bitcoin-cash-node
+
+Project Count: 9
+
+Project 1) bitcoin-cash-node/bchn-sw/bchnode-web
+Loading Commits.........
+Commit Count: 891
+Saved to: Scraped Data\bitcoin-cash-node%2Fbchn-sw%2Fbchnode-web.csv
+
+Project 2) bitcoin-cash-node/bchn-sw/packaging
+Loading Commits............
+Commit Count: 1114
+Saved to: Scraped Data\bitcoin-cash-node%2Fbchn-sw%2Fpackaging.csv
+
+Project 3) bitcoin-cash-node/bchn-sw/corgi
+Loading Commits.
+Commit Count: 81
+Saved to: Scraped Data\bitcoin-cash-node%2Fbchn-sw%2Fcorgi.csv
+
+Project 4) bitcoin-cash-node/bchn-sw/qa-assets
+Loading Commits.
+Commit Count: 42
+Saved to: Scraped Data\bitcoin-cash-node%2Fbchn-sw%2Fqa-assets.csv
+
+Project 5) bitcoin-cash-node/bchn-sw/bitcoincash-upgrade-specifications
+Loading Commits..........
+Commit Count: 941
+Saved to: Scraped Data\bitcoin-cash-node%2Fbchn-sw%2Fbitcoincash-upgrade-specifications.csv
+
+Project 6) bitcoin-cash-node/bchn-project-management/bchn-pm-public
+Loading Commits...
+Commit Count: 267
+Saved to: Scraped Data\bitcoin-cash-node%2Fbchn-project-management%2Fbchn-pm-public.csv
+
+Project 7) bitcoin-cash-node/bchn-public-consultation-system
+Loading Commits.
+Commit Count: 54
+Saved to: Scraped Data\bitcoin-cash-node%2Fbchn-public-consultation-system.csv
+
+Project 8) bitcoin-cash-node/announcements
+Loading Commits..
+Commit Count: 124
+Saved to: Scraped Data\bitcoin-cash-node%2Fannouncements.csv
+
+Project 9) bitcoin-cash-node/bitcoin-cash-node
+Loading Commits.................................................................................................................................................................................................................
+Commit Count: 20846
+Saved to: Scraped Data\bitcoin-cash-node%2Fbitcoin-cash-node.csv
+
+------------------------------------------------------------------------------------------------------------------------
+
+Group 3) NebulousLabs
+
+Project Count: 50
+
+Project 1) NebulousLabs/sia-discord-bot
+Loading Commits.
+Commit Count: 10
+Saved to: Scraped Data\NebulousLabs%2Fsia-discord-bot.csv
+
+Project 2) NebulousLabs/dotfiles
+Loading Commits.
+Commit Count: 10
+Saved to: Scraped Data\NebulousLabs%2Fdotfiles.csv
+
+Project 3) NebulousLabs/persist
+Loading Commits.
+Commit Count: 5
+Saved to: Scraped Data\NebulousLabs%2Fpersist.csv
+
+Project 4) NebulousLabs/encoding
+Loading Commits.
+Commit Count: 7
+Saved to: Scraped Data\NebulousLabs%2Fencoding.csv
+
+Project 5) NebulousLabs/analyze
+Loading Commits.
+Commit Count: 28
+Saved to: Scraped Data\NebulousLabs%2Fanalyze.csv
+
+Project 6) NebulousLabs/changelog-generator
+Loading Commits.
+Commit Count: 13
+Saved to: Scraped Data\NebulousLabs%2Fchangelog-generator.csv
+
+Project 7) NebulousLabs/log
+Loading Commits.
+Commit Count: 67
+Saved to: Scraped Data\NebulousLabs%2Flog.csv
+
+Project 8) NebulousLabs/siamux
+Loading Commits.....
+Commit Count: 465
+Saved to: Scraped Data\NebulousLabs%2Fsiamux.csv
+
+Project 9) NebulousLabs/monitor
+Loading Commits.
+Commit Count: 5
+Saved to: Scraped Data\NebulousLabs%2Fmonitor.csv
+
+Project 10) NebulousLabs/siastream.tech
+Loading Commits.
+Commit Count: 99
+Saved to: Scraped Data\NebulousLabs%2Fsiastream.tech.csv
+
+Project 11) NebulousLabs/sia-coldstorage
+Loading Commits.
+Commit Count: 37
+Saved to: Scraped Data\NebulousLabs%2Fsia-coldstorage.csv
+
+Project 12) NebulousLabs/siastream
+Loading Commits..........
+Commit Count: 924
+Saved to: Scraped Data\NebulousLabs%2Fsiastream.csv
+
+Project 13) NebulousLabs/obelisk-hardware
+Loading Commits.
+Commit Count: 17
+Saved to: Scraped Data\NebulousLabs%2Fobelisk-hardware.csv
+
+Project 14) NebulousLabs/siasnap
+Loading Commits.
+Commit Count: 18
+Saved to: Scraped Data\NebulousLabs%2Fsiasnap.csv
+
+Project 15) NebulousLabs/nebulous.tech
+Loading Commits.
+Commit Count: 17
+Saved to: Scraped Data\NebulousLabs%2Fnebulous.tech.csv
+
+Project 16) NebulousLabs/sia-opus-connector
+Loading Commits.
+Commit Count: 21
+Saved to: Scraped Data\NebulousLabs%2Fsia-opus-connector.csv
+
+Project 17) NebulousLabs/sia-typescript
+Loading Commits..
+Commit Count: 111
+Saved to: Scraped Data\NebulousLabs%2Fsia-typescript.csv
+
+Project 18) NebulousLabs/sia.tech
+Loading Commits....
+Commit Count: 373
+Saved to: Scraped Data\NebulousLabs%2Fsia.tech.csv
+
+Project 19) NebulousLabs/obelisk-ob2
+Loading Commits.
+Commit Count: 22
+Saved to: Scraped Data\NebulousLabs%2Fobelisk-ob2.csv
+
+Project 20) NebulousLabs/hdkey
+Loading Commits.
+Commit Count: 10
+Saved to: Scraped Data\NebulousLabs%2Fhdkey.csv
+
+Project 21) NebulousLabs/glyphcheck
+Loading Commits.
+Commit Count: 5
+Saved to: Scraped Data\NebulousLabs%2Fglyphcheck.csv
+
+Project 22) NebulousLabs/ed25519
+Loading Commits.
+Commit Count: 22
+Saved to: Scraped Data\NebulousLabs%2Fed25519.csv
+
+Project 23) NebulousLabs/demotemutex
+Loading Commits.
+Commit Count: 5
+Saved to: Scraped Data\NebulousLabs%2Fdemotemutex.csv
+
+Project 24) NebulousLabs/Sia-Leaderboard
+Loading Commits.
+Commit Count: 35
+Saved to: Scraped Data\NebulousLabs%2FSia-Leaderboard.csv
+
+Project 25) NebulousLabs/Sia-Nextcloud
+Loading Commits.
+Commit Count: 23
+Saved to: Scraped Data\NebulousLabs%2FSia-Nextcloud.csv
+
+Project 26) NebulousLabs/threadgroup
+Loading Commits.
+Commit Count: 41
+Saved to: Scraped Data\NebulousLabs%2Fthreadgroup.csv
+
+Project 27) NebulousLabs/obelisk.tech
+Loading Commits.....
+Commit Count: 462
+Saved to: Scraped Data\NebulousLabs%2Fobelisk.tech.csv
+
+Project 28) NebulousLabs/nanos-app-sia
+Loading Commits.
+Commit Count: 58
+Saved to: Scraped Data\NebulousLabs%2Fnanos-app-sia.csv
+
+Project 29) NebulousLabs/muxado
+Loading Commits.
+Commit Count: 23
+Saved to: Scraped Data\NebulousLabs%2Fmuxado.csv
+
+Project 30) NebulousLabs/merkletree
+Loading Commits..
+Commit Count: 150
+Saved to: Scraped Data\NebulousLabs%2Fmerkletree.csv
+
+Project 31) NebulousLabs/go-upnp
+Loading Commits.
+Commit Count: 45
+Saved to: Scraped Data\NebulousLabs%2Fgo-upnp.csv
+
+Project 32) NebulousLabs/errors
+Loading Commits.
+Commit Count: 7
+Saved to: Scraped Data\NebulousLabs%2Ferrors.csv
+
+Project 33) NebulousLabs/entropy-mnemonics
+Loading Commits.
+Commit Count: 32
+Saved to: Scraped Data\NebulousLabs%2Fentropy-mnemonics.csv
+
+Project 34) NebulousLabs/bolt
+Loading Commits..........
+Commit Count: 984
+Saved to: Scraped Data\NebulousLabs%2Fbolt.csv
+
+Project 35) NebulousLabs/fastrand
+Loading Commits.
+Commit Count: 40
+Saved to: Scraped Data\NebulousLabs%2Ffastrand.csv
+
+Project 36) NebulousLabs/Sunfish
+Loading Commits.
+Commit Count: 69
+Saved to: Scraped Data\NebulousLabs%2FSunfish.csv
+
+Project 37) NebulousLabs/sia.tech-old
+Loading Commits...
+Commit Count: 284
+Saved to: Scraped Data\NebulousLabs%2Fsia.tech-old.csv
+
+Project 38) NebulousLabs/Sia-UI
+Loading Commits...
+Commit Count: 254
+Saved to: Scraped Data\NebulousLabs%2FSia-UI.csv
+
+Project 39) NebulousLabs/sia-tech-old
+Loading Commits.
+Commit Count: 62
+Saved to: Scraped Data\NebulousLabs%2Fsia-tech-old.csv
+
+Project 40) NebulousLabs/Sia-GPU-Miner
+Loading Commits..
+Commit Count: 124
+Saved to: Scraped Data\NebulousLabs%2FSia-GPU-Miner.csv
+
+Project 41) NebulousLabs/Sia-Explorer
+Loading Commits.
+Commit Count: 8
+Saved to: Scraped Data\NebulousLabs%2FSia-Explorer.csv
+
+Project 42) NebulousLabs/Sia-Ant-Farm
+Loading Commits.......
+Commit Count: 640
+Saved to: Scraped Data\NebulousLabs%2FSia-Ant-Farm.csv
+
+Project 43) NebulousLabs/old-siacoin.com
+Loading Commits..
+Commit Count: 111
+Saved to: Scraped Data\NebulousLabs%2Fold-siacoin.com.csv
+
+Project 44) NebulousLabs/ratelimit
+Loading Commits.
+Commit Count: 26
+Saved to: Scraped Data\NebulousLabs%2Fratelimit.csv
+
+Project 45) NebulousLabs/pages
+Loading Commits.
+Commit Count: 26
+Saved to: Scraped Data\NebulousLabs%2Fpages.csv
+
+Project 46) NebulousLabs/Nodejs-Sia
+Loading Commits..
+Commit Count: 163
+Saved to: Scraped Data\NebulousLabs%2FNodejs-Sia.csv
+
+Project 47) NebulousLabs/Discord-Bot
+Loading Commits..
+Commit Count: 134
+Saved to: Scraped Data\NebulousLabs%2FDiscord-Bot.csv
+
+Project 48) NebulousLabs/Sia
+Loading Commits................................................................................................................................................................................................................
+Commit Count: 20784
+Saved to: Scraped Data\NebulousLabs%2FSia.csv
+
+Project 49) NebulousLabs/obelisk-ob1
+Loading Commits.......
+Commit Count: 662
+Saved to: Scraped Data\NebulousLabs%2Fobelisk-ob1.csv
+
+Project 50) NebulousLabs/writeaheadlog
+Loading Commits....
+Commit Count: 318
+Saved to: Scraped Data\NebulousLabs%2Fwriteaheadlog.csv
+
+------------------------------------------------------------------------------------------------------------------------
+
+Successfully finished in 644s.
+
+Process finished with exit code 0
