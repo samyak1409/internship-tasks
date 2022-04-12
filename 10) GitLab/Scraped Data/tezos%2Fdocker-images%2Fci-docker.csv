@@ -1,0 +1,38 @@
+id,short_id,created_at,parent_ids,title,message,author_name,author_email,authored_date,committer_name,committer_email,committed_date,trailers,web_url
+
+855836b8f06088e516cf7a1bf3e16699c439ec31,855836b8,2022-04-11T19:01:28.000+02:00,['2412e46ddbeb06b11b16e7cd23198c74d9f77e18'],Fix: on first build there is no multi-arch manifest yet,"Fix: on first build there is no multi-arch manifest yet
+",David Dumas,david.dumas@tweag.io,2022-04-11T19:01:28.000+02:00,David Dumas,david.dumas@tweag.io,2022-04-11T19:01:28.000+02:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/855836b8f06088e516cf7a1bf3e16699c439ec31
+2412e46ddbeb06b11b16e7cd23198c74d9f77e18,2412e46d,2022-04-11T16:56:33.000+00:00,"['88d13630a2d683337ea49c2df5fc7573edabce83', '7344dc08c0803e05b917c124d65f0e56043efe0a']",Merge branch 'staging-merge' into 'main',"Merge branch 'staging-merge' into 'main'
+
+CI: multi-arch docker image (single tag)
+
+See merge request tezos/docker-images/ci-docker!2",David Dumas,david.dumas@tweag.io,2022-04-11T16:56:33.000+00:00,David Dumas,david.dumas@tweag.io,2022-04-11T16:56:33.000+00:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/2412e46ddbeb06b11b16e7cd23198c74d9f77e18
+7344dc08c0803e05b917c124d65f0e56043efe0a,7344dc08,2022-04-11T16:56:33.000+00:00,['88d13630a2d683337ea49c2df5fc7573edabce83'],CI: multi-arch docker image (single tag),"CI: multi-arch docker image (single tag)
+",David Dumas,david.dumas@tweag.io,2022-04-11T16:56:33.000+00:00,David Dumas,david.dumas@tweag.io,2022-04-11T16:56:33.000+00:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/7344dc08c0803e05b917c124d65f0e56043efe0a
+88d13630a2d683337ea49c2df5fc7573edabce83,88d13630,2022-04-08T13:58:48.000+00:00,"['bd1dbcebf57a8753c4d20c8242207fc5d4dbff66', '7ce76d5921d1da412e97ce04ad3a563a5ab14773']",Merge branch 'staging-test' into 'main',"Merge branch 'staging-test' into 'main'
+
+CI: docker image for each architecture (amd64/arm64)
+
+See merge request tezos/docker-images/ci-docker!1",David Dumas,david.dumas@tweag.io,2022-04-08T13:58:48.000+00:00,David Dumas,david.dumas@tweag.io,2022-04-08T13:58:48.000+00:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/88d13630a2d683337ea49c2df5fc7573edabce83
+7ce76d5921d1da412e97ce04ad3a563a5ab14773,7ce76d59,2022-04-08T13:58:48.000+00:00,['bd1dbcebf57a8753c4d20c8242207fc5d4dbff66'],CI: docker image for each architecture (amd64/arm64),"CI: docker image for each architecture (amd64/arm64)
+",David Dumas,david.dumas@tweag.io,2022-04-08T13:58:48.000+00:00,David Dumas,david.dumas@tweag.io,2022-04-08T13:58:48.000+00:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/7ce76d5921d1da412e97ce04ad3a563a5ab14773
+bd1dbcebf57a8753c4d20c8242207fc5d4dbff66,bd1dbceb,2022-04-08T11:41:47.000+02:00,['1a22fe28b6d4ac591d3eb28f16f6b693ce5d037a'],"Revert ""Squash image (smaller)"" (wins only 2 Kio)","Revert ""Squash image (smaller)"" (wins only 2 Kio)
+
+This reverts commit 1a22fe28b6d4ac591d3eb28f16f6b693ce5d037a.
+",David Dumas,david.dumas@tweag.io,2022-04-08T11:41:47.000+02:00,David Dumas,david.dumas@tweag.io,2022-04-08T11:41:47.000+02:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/bd1dbcebf57a8753c4d20c8242207fc5d4dbff66
+1a22fe28b6d4ac591d3eb28f16f6b693ce5d037a,1a22fe28,2022-04-08T11:39:25.000+02:00,['954f2390de891aa17d0ac1999bdad021f0eafdb1'],Squash image (smaller),"Squash image (smaller)
+",David Dumas,david.dumas@tweag.io,2022-04-08T11:39:25.000+02:00,David Dumas,david.dumas@tweag.io,2022-04-08T11:39:25.000+02:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/1a22fe28b6d4ac591d3eb28f16f6b693ce5d037a
+954f2390de891aa17d0ac1999bdad021f0eafdb1,954f2390,2022-04-08T11:35:40.000+02:00,['4b80b156d0a720ae31a96de4aa95acdf18f29b66'],Bump kaniko to 1.8.1,"Bump kaniko to 1.8.1
+",David Dumas,david.dumas@tweag.io,2022-04-08T11:35:40.000+02:00,David Dumas,david.dumas@tweag.io,2022-04-08T11:35:40.000+02:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/954f2390de891aa17d0ac1999bdad021f0eafdb1
+4b80b156d0a720ae31a96de4aa95acdf18f29b66,4b80b156,2022-04-08T11:30:45.000+02:00,['e3335bbdbd42b49285cd73fda14104657047bd1a'],Bump buildx to 0.8.2; Add hadolint 2.9.3,"Bump buildx to 0.8.2; Add hadolint 2.9.3
+",David Dumas,david.dumas@tweag.io,2022-04-08T11:30:45.000+02:00,David Dumas,david.dumas@tweag.io,2022-04-08T11:30:45.000+02:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/4b80b156d0a720ae31a96de4aa95acdf18f29b66
+e3335bbdbd42b49285cd73fda14104657047bd1a,e3335bbd,2022-03-25T15:46:55.000+01:00,['41c497ff739f5b8b3279d361be9305eaf4fdef22'],Add hadolint,"Add hadolint
+",David Dumas,david.dumas@tweag.io,2022-03-25T15:46:55.000+01:00,David Dumas,david.dumas@tweag.io,2022-03-25T15:46:55.000+01:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/e3335bbdbd42b49285cd73fda14104657047bd1a
+41c497ff739f5b8b3279d361be9305eaf4fdef22,41c497ff,2022-03-25T15:39:17.000+01:00,['c3e3fe7f8b2c94ef2bd47def6f1543e5d938a18f'],Refresh image; Add git,"Refresh image; Add git
+",David Dumas,david.dumas@tweag.io,2022-03-25T15:39:17.000+01:00,David Dumas,david.dumas@tweag.io,2022-03-25T15:39:17.000+01:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/41c497ff739f5b8b3279d361be9305eaf4fdef22
+c3e3fe7f8b2c94ef2bd47def6f1543e5d938a18f,c3e3fe7f,2022-03-21T20:41:51.000+01:00,['f60d1383dffd1de92a604bde092a35ed8d4e25c9'],Explicit log in to GitLab container registry,"Explicit log in to GitLab container registry
+",David Dumas,david.dumas@tweag.io,2022-03-21T20:41:51.000+01:00,David Dumas,david.dumas@tweag.io,2022-03-21T20:41:51.000+01:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/c3e3fe7f8b2c94ef2bd47def6f1543e5d938a18f
+f60d1383dffd1de92a604bde092a35ed8d4e25c9,f60d1383,2022-03-21T20:16:24.000+01:00,['d437623670d4288984832464f4cbd93d3af39034'],Happy hadolint,"Happy hadolint
+",David Dumas,david.dumas@tweag.io,2022-03-21T20:16:24.000+01:00,David Dumas,david.dumas@tweag.io,2022-03-21T20:16:24.000+01:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/f60d1383dffd1de92a604bde092a35ed8d4e25c9
+d437623670d4288984832464f4cbd93d3af39034,d4376236,2022-03-21T19:28:10.000+01:00,[],First draft,"First draft
+",David Dumas,david.dumas@tweag.io,2022-03-21T19:28:10.000+01:00,David Dumas,david.dumas@tweag.io,2022-03-21T19:28:10.000+01:00,{},https://gitlab.com/tezos/docker-images/ci-docker/-/commit/d437623670d4288984832464f4cbd93d3af39034
