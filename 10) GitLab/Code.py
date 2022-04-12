@@ -40,7 +40,7 @@ BASE_URL = 'https://gitlab.com/api/v4'
 WITH_SHARED = False  # Include projects shared to this group. Default is true
 INCLUDE_SUBGROUPS = True  # Include projects in subgroups of this group. Default is false
 MAX_ITEMS_PER_PAGE = 100  # Number of items to list per page (default: 20, max: 100).
-DEBUG = True  # default: False
+DEBUG = False  # default: False
 DATA_DIR = 'Scraped Data'
 
 
@@ -135,7 +135,7 @@ with Session() as session:
 
             # Writing to CSV:
             csv_file = f'{DATA_DIR}\\{project_path}.csv'
-            with open(file=csv_file, mode='w', newline='') as f:
+            with open(file=csv_file, mode='w', encoding='utf-8', newline='') as f:  # https://stackoverflow.com/questions/27092833/unicodeencodeerror-charmap-codec-cant-encode-characters
                 w = writer(f)
                 w.writerow(commits[0].keys())  # column names
                 w.writerow([])  # line gap
