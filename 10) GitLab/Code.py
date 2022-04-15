@@ -20,7 +20,7 @@ Vasundhara
 
 # IMPORTS:
 
-from requests import Session, RequestException
+from requests import Session, RequestException, Response
 from time import perf_counter, sleep
 from itertools import count
 from json import dumps
@@ -42,6 +42,24 @@ INCLUDE_SUBGROUPS = True  # Include projects in subgroups of this group. Default
 MAX_ITEMS_PER_PAGE = 100  # Number of items to list per page (default: 20, max: 100).
 DEBUG = False  # default: False
 DATA_DIR = 'Scraped Data'
+
+
+# FUNCTIONS:
+
+def get_response(url: str) -> Response:
+    """Gets Request's Response"""
+    while True:
+        try:
+            response_ = session.get(url=url)
+        except RequestException as e:
+            print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
+            sleep(1)  # take a breath
+        else:
+            if response_.status_code == 200:
+                return response_
+            else:  # bad response
+                print(f'{response_.status_code}: {response_.reason} TRYING AGAIN...')
+                sleep(1)  # take a breath
 
 
 # MAIN:
@@ -66,20 +84,7 @@ with Session() as session:
         projects = []
         for page in count(start=1):
 
-            # Getting Request's Response:
-            while True:
-                try:
-                    response = session.get(url=f'{BASE_URL}/groups/{group_path}/projects?simple=true&with_shared={WITH_SHARED}&include_subgroups={INCLUDE_SUBGROUPS}&pagination=keyset&page={page}&per_page={MAX_ITEMS_PER_PAGE}')
-                except RequestException as e:
-                    print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
-                    sleep(1)  # take a breath
-                else:
-                    if response.status_code == 200:
-                        break
-                    else:  # bad response
-                        print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
-                        sleep(1)  # take a breath
-
+            response = get_response(url=f'{BASE_URL}/groups/{group_path}/projects?simple=true&with_shared={WITH_SHARED}&include_subgroups={INCLUDE_SUBGROUPS}&pagination=keyset&page={page}&per_page={MAX_ITEMS_PER_PAGE}')
             projects.extend(response.json())  # save this page's data
 
             # https://docs.gitlab.com/ee/api/index.html#other-pagination-headers:
@@ -107,20 +112,7 @@ with Session() as session:
 
                 print('.', end='')
 
-                # Getting Request's Response:
-                while True:
-                    try:
-                        response = session.get(url=f'{BASE_URL}/projects/{project_path}/repository/commits?pagination=keyset&page={page}&per_page={MAX_ITEMS_PER_PAGE}')  # parameter "all=true" is not working; should return all the commits acc. to https://docs.gitlab.com/ee/api/commits.html; so using pagination
-                    except RequestException as e:
-                        print(f'{type(e).__name__}:', e.__doc__.split('\n')[0], 'TRYING AGAIN...')
-                        sleep(1)  # take a breath
-                    else:
-                        if response.status_code == 200:
-                            break
-                        else:  # bad response
-                            print(f'{response.status_code}: {response.reason} TRYING AGAIN...')
-                            sleep(1)  # take a breath
-
+                response = get_response(url=f'{BASE_URL}/projects/{project_path}/repository/commits?pagination=keyset&page={page}&per_page={MAX_ITEMS_PER_PAGE}')  # parameter "all=true" is not working; should return all the commits acc. to https://docs.gitlab.com/ee/api/commits.html; so using pagination
                 commits.extend(response.json())  # save this page's data
 
                 # https://docs.gitlab.com/ee/api/index.html#other-pagination-headers:
