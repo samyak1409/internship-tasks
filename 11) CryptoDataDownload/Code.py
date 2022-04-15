@@ -20,7 +20,7 @@ start_time = perf_counter()
 
 HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'}
 BASE_URL = 'https://api.cryptodatadownload.com'
-DEBUG = True  # default: False
+DEBUG = False  # default: False
 DATA_DIR = 'Scraped Data'
 
 

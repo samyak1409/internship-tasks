@@ -536,847 +536,1662 @@ Getting Exchanges...
 
 4) Bittrex: https://api.cryptodatadownload.com/v1/data/ohlc/bittrex/available?format=json
 4.1) 1ECO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_1ECOBTC_d.csv
+The requested resource was not found on this server.
 4.2) 1ECO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_1ECOUSDT_d.csv
+The requested resource was not found on this server.
 4.3) 1INCH/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_1INCHBTC_d.csv
+The requested resource was not found on this server.
 4.4) 1INCH/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_1INCHETH_d.csv
+The requested resource was not found on this server.
 4.5) 1INCH/USD: https://www.cryptodatadownload.com/cdd/Bittrex_1INCHUSD_d.csv
+The requested resource was not found on this server.
 4.6) 1INCH/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_1INCHUSDT_d.csv
+The requested resource was not found on this server.
 4.7) 1PECO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_1PECOBTC_d.csv
+The requested resource was not found on this server.
 4.8) 1PECO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_1PECOUSDT_d.csv
+The requested resource was not found on this server.
 4.9) 4ART/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_4ARTBTC_d.csv
+The requested resource was not found on this server.
 4.10) 4ART/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_4ARTUSDT_d.csv
+The requested resource was not found on this server.
 4.11) AAVE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AAVEBTC_d.csv
+The requested resource was not found on this server.
 4.12) AAVE/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_AAVEETH_d.csv
+The requested resource was not found on this server.
 4.13) AAVE/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_AAVEEUR_d.csv
+The requested resource was not found on this server.
 4.14) AAVE/USD: https://www.cryptodatadownload.com/cdd/Bittrex_AAVEUSD_d.csv
+The requested resource was not found on this server.
 4.15) AAVE/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AAVEUSDT_d.csv
+The requested resource was not found on this server.
 4.16) ABBC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ABBCBTC_d.csv
+The requested resource was not found on this server.
 4.17) ABYSS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ABYSSBTC_d.csv
+The requested resource was not found on this server.
 4.18) ACXT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ACXTUSDT_d.csv
+The requested resource was not found on this server.
 4.19) ADA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ADABTC_d.csv
 4.20) ADA/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ADAETH_d.csv
 4.21) ADA/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_ADAEUR_d.csv
+The requested resource was not found on this server.
 4.22) ADA/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ADAUSD_d.csv
+The requested resource was not found on this server.
 4.23) ADA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ADAUSDT_d.csv
+The requested resource was not found on this server.
 4.24) ADABEAR/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ADABEARUSD_d.csv
+The requested resource was not found on this server.
 4.25) ADABEAR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ADABEARUSDT_d.csv
+The requested resource was not found on this server.
 4.26) ADABULL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ADABULLUSD_d.csv
+The requested resource was not found on this server.
 4.27) ADABULL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ADABULLUSDT_d.csv
+The requested resource was not found on this server.
 4.28) ADK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ADKBTC_d.csv
+The requested resource was not found on this server.
 4.29) ADT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ADTBTC_d.csv
+The requested resource was not found on this server.
 4.30) ADX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ADXBTC_d.csv
+The requested resource was not found on this server.
 4.31) ADX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ADXETH_d.csv
+The requested resource was not found on this server.
 4.32) AEON/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AEONBTC_d.csv
+The requested resource was not found on this server.
 4.33) AGRS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AGRSBTC_d.csv
+The requested resource was not found on this server.
 4.34) AGRS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AGRSUSDT_d.csv
+The requested resource was not found on this server.
 4.35) AGV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AGVUSDT_d.csv
+The requested resource was not found on this server.
 4.36) AID/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AIDBTC_d.csv
+The requested resource was not found on this server.
 4.37) AKN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AKNBTC_d.csv
+The requested resource was not found on this server.
 4.38) AKN/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AKNUSDT_d.csv
+The requested resource was not found on this server.
 4.39) AKRO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AKROBTC_d.csv
+The requested resource was not found on this server.
 4.40) AKT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AKTBTC_d.csv
+The requested resource was not found on this server.
 4.41) AKT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AKTUSDT_d.csv
+The requested resource was not found on this server.
 4.42) AKTIO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AKTIOUSDT_d.csv
+The requested resource was not found on this server.
 4.43) ALGO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ALGOBTC_d.csv
+The requested resource was not found on this server.
 4.44) ALGO/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ALGOUSD_d.csv
+The requested resource was not found on this server.
 4.45) ALGO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ALGOUSDT_d.csv
+The requested resource was not found on this server.
 4.46) ALTA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ALTAUSDT_d.csv
+The requested resource was not found on this server.
 4.47) AMP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AMPBTC_d.csv
+The requested resource was not found on this server.
 4.48) AMP/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_AMPETH_d.csv
+The requested resource was not found on this server.
 4.49) AMP/USD: https://www.cryptodatadownload.com/cdd/Bittrex_AMPUSD_d.csv
+The requested resource was not found on this server.
 4.50) AMP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AMPUSDT_d.csv
+The requested resource was not found on this server.
 4.51) ANKR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ANKRBTC_d.csv
+The requested resource was not found on this server.
 4.52) ANKR/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ANKRETH_d.csv
+The requested resource was not found on this server.
 4.53) ANKR/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ANKRUSD_d.csv
+The requested resource was not found on this server.
 4.54) ANT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ANTBTC_d.csv
+The requested resource was not found on this server.
 4.55) ANT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ANTETH_d.csv
+The requested resource was not found on this server.
 4.56) ANT/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ANTUSD_d.csv
+The requested resource was not found on this server.
 4.57) APE/USD: https://www.cryptodatadownload.com/cdd/Bittrex_APEUSD_d.csv
+The requested resource was not found on this server.
 4.58) APE/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_APEUSDT_d.csv
+The requested resource was not found on this server.
 4.59) API3/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_API3USDT_d.csv
+The requested resource was not found on this server.
 4.60) APM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_APMBTC_d.csv
+The requested resource was not found on this server.
 4.61) APM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_APMUSDT_d.csv
+The requested resource was not found on this server.
 4.62) APXP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_APXPUSDT_d.csv
+The requested resource was not found on this server.
 4.63) AR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ARBTC_d.csv
+The requested resource was not found on this server.
 4.64) AR/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ARUSD_d.csv
+The requested resource was not found on this server.
 4.65) ARDR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ARDRBTC_d.csv
+The requested resource was not found on this server.
 4.66) ARDX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ARDXBTC_d.csv
+The requested resource was not found on this server.
 4.67) ARDX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ARDXETH_d.csv
+The requested resource was not found on this server.
 4.68) ARDX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ARDXUSDT_d.csv
+The requested resource was not found on this server.
 4.69) ARIA20/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ARIA20BTC_d.csv
+The requested resource was not found on this server.
 4.70) ARIA20/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ARIA20USD_d.csv
+The requested resource was not found on this server.
 4.71) ARK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ARKBTC_d.csv
+The requested resource was not found on this server.
 4.72) ARTII/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ARTIIBTC_d.csv
+The requested resource was not found on this server.
 4.73) ARV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ARVUSDT_d.csv
+The requested resource was not found on this server.
 4.74) ARW/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ARWUSDT_d.csv
+The requested resource was not found on this server.
 4.75) ASM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ASMUSDT_d.csv
+The requested resource was not found on this server.
 4.76) ATOM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ATOMBTC_d.csv
+The requested resource was not found on this server.
 4.77) ATOM/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ATOMETH_d.csv
+The requested resource was not found on this server.
 4.78) ATOM/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ATOMUSD_d.csv
+The requested resource was not found on this server.
 4.79) ATOM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ATOMUSDT_d.csv
+The requested resource was not found on this server.
 4.80) ATOMBULL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ATOMBULLUSD_d.csv
+The requested resource was not found on this server.
 4.81) ATOMBULL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ATOMBULLUSDT_d.csv
+The requested resource was not found on this server.
 4.82) ATRI/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ATRIUSDT_d.csv
+The requested resource was not found on this server.
 4.83) ATTR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ATTRUSDT_d.csv
+The requested resource was not found on this server.
 4.84) AUDT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AUDTUSDT_d.csv
+The requested resource was not found on this server.
 4.85) AVAX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_AVAXBTC_d.csv
+The requested resource was not found on this server.
 4.86) AVAX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_AVAXETH_d.csv
+The requested resource was not found on this server.
 4.87) AVAX/USD: https://www.cryptodatadownload.com/cdd/Bittrex_AVAXUSD_d.csv
+The requested resource was not found on this server.
 4.88) AVAX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AVAXUSDT_d.csv
+The requested resource was not found on this server.
 4.89) AVT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_AVTETH_d.csv
+The requested resource was not found on this server.
 4.90) AVT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_AVTUSDT_d.csv
+The requested resource was not found on this server.
 4.91) B2M/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_B2MUSDT_d.csv
+The requested resource was not found on this server.
 4.92) BAAS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BAASBTC_d.csv
+The requested resource was not found on this server.
 4.93) BAAS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BAASUSDT_d.csv
+The requested resource was not found on this server.
 4.94) BADGER/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BADGERUSD_d.csv
+The requested resource was not found on this server.
 4.95) BAL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BALBTC_d.csv
+The requested resource was not found on this server.
 4.96) BAL/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BALETH_d.csv
+The requested resource was not found on this server.
 4.97) BAL/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_BALEUR_d.csv
+The requested resource was not found on this server.
 4.98) BAL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BALUSD_d.csv
+The requested resource was not found on this server.
 4.99) BAL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BALUSDT_d.csv
+The requested resource was not found on this server.
 4.100) BAND/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BANDBTC_d.csv
+The requested resource was not found on this server.
 4.101) BAND/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BANDETH_d.csv
+The requested resource was not found on this server.
 4.102) BAND/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_BANDEUR_d.csv
+The requested resource was not found on this server.
 4.103) BAND/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BANDUSD_d.csv
+The requested resource was not found on this server.
 4.104) BAND/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BANDUSDT_d.csv
+The requested resource was not found on this server.
 4.105) BAT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BATBTC_d.csv
+The requested resource was not found on this server.
 4.106) BAT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BATETH_d.csv
+The requested resource was not found on this server.
 4.107) BAT/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BATUSD_d.csv
+The requested resource was not found on this server.
 4.108) BAT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BATUSDT_d.csv
+The requested resource was not found on this server.
 4.109) BAX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BAXETH_d.csv
+The requested resource was not found on this server.
 4.110) BAX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BAXUSDT_d.csv
+The requested resource was not found on this server.
 4.111) BBC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BBCBTC_d.csv
+The requested resource was not found on this server.
 4.112) BBC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BBCUSDT_d.csv
+The requested resource was not found on this server.
 4.113) BBF/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BBFUSDT_d.csv
+The requested resource was not found on this server.
 4.114) BCH/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BCHBTC_d.csv
+The requested resource was not found on this server.
 4.115) BCH/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BCHETH_d.csv
+The requested resource was not found on this server.
 4.116) BCH/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_BCHEUR_d.csv
+The requested resource was not found on this server.
 4.117) BCH/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BCHUSD_d.csv
+The requested resource was not found on this server.
 4.118) BCH/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BCHUSDT_d.csv
+The requested resource was not found on this server.
 4.119) BCHBULL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BCHBULLUSD_d.csv
+The requested resource was not found on this server.
 4.120) BCHBULL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BCHBULLUSDT_d.csv
+The requested resource was not found on this server.
 4.121) BEAR/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BEARUSD_d.csv
+The requested resource was not found on this server.
 4.122) BEAR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BEARUSDT_d.csv
+The requested resource was not found on this server.
 4.123) BERRY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BERRYUSDT_d.csv
+The requested resource was not found on this server.
 4.124) BEST/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BESTUSDT_d.csv
+The requested resource was not found on this server.
 4.125) BFC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BFCBTC_d.csv
+The requested resource was not found on this server.
 4.126) BFT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BFTBTC_d.csv
+The requested resource was not found on this server.
 4.127) BIFI/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BIFIBTC_d.csv
+The requested resource was not found on this server.
 4.128) BIOT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BIOTUSDT_d.csv
+The requested resource was not found on this server.
 4.129) BIST/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BISTUSDT_d.csv
+The requested resource was not found on this server.
 4.130) BITCI/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BITCIUSDT_d.csv
+The requested resource was not found on this server.
 4.131) BLK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BLKBTC_d.csv
+The requested resource was not found on this server.
 4.132) BLOCK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BLOCKBTC_d.csv
+The requested resource was not found on this server.
 4.133) BLOCK/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BLOCKUSDT_d.csv
+The requested resource was not found on this server.
 4.134) BMP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BMPBTC_d.csv
+The requested resource was not found on this server.
 4.135) BMP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BMPUSDT_d.csv
+The requested resource was not found on this server.
 4.136) BNA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BNAUSDT_d.csv
+The requested resource was not found on this server.
 4.137) BNS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BNSBTC_d.csv
+The requested resource was not found on this server.
 4.138) BNS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BNSUSDT_d.csv
+The requested resource was not found on this server.
 4.139) BNT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BNTBTC_d.csv
+The requested resource was not found on this server.
 4.140) BNT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BNTETH_d.csv
+The requested resource was not found on this server.
 4.141) BNT/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BNTUSD_d.csv
+The requested resource was not found on this server.
 4.142) BOA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BOABTC_d.csv
+The requested resource was not found on this server.
 4.143) BOA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BOAUSDT_d.csv
+The requested resource was not found on this server.
 4.144) BOND/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BONDETH_d.csv
+The requested resource was not found on this server.
 4.145) BOND/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BONDUSDT_d.csv
+The requested resource was not found on this server.
 4.146) BONDLY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BONDLYBTC_d.csv
+The requested resource was not found on this server.
 4.147) BONDLY/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BONDLYETH_d.csv
+The requested resource was not found on this server.
 4.148) BONDLY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BONDLYUSDT_d.csv
+The requested resource was not found on this server.
 4.149) BORA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BORABTC_d.csv
+The requested resource was not found on this server.
 4.150) BOSON/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BOSONBTC_d.csv
+The requested resource was not found on this server.
 4.151) BOSON/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BOSONUSDT_d.csv
+The requested resource was not found on this server.
 4.152) BRZ/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BRZBTC_d.csv
+The requested resource was not found on this server.
 4.153) BRZ/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BRZUSDT_d.csv
+The requested resource was not found on this server.
 4.154) BST/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BSTBTC_d.csv
+The requested resource was not found on this server.
 4.155) BST/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BSTUSDT_d.csv
+The requested resource was not found on this server.
 4.156) BSV/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BSVBTC_d.csv
+The requested resource was not found on this server.
 4.157) BSV/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_BSVETH_d.csv
+The requested resource was not found on this server.
 4.158) BSV/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_BSVEUR_d.csv
+The requested resource was not found on this server.
 4.159) BSV/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BSVUSD_d.csv
+The requested resource was not found on this server.
 4.160) BSV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BSVUSDT_d.csv
+The requested resource was not found on this server.
 4.161) BTBS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BTBSUSDT_d.csv
+The requested resource was not found on this server.
 4.162) BTC/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_BTCEUR_d.csv
+The requested resource was not found on this server.
 4.163) BTC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BTCUSD_d.csv
 4.164) BTC/USDC: https://www.cryptodatadownload.com/cdd/Bittrex_BTCUSDC_d.csv
+The requested resource was not found on this server.
 4.165) BTC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BTCUSDT_d.csv
+The requested resource was not found on this server.
 4.166) BTCV/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BTCVBTC_d.csv
+The requested resource was not found on this server.
 4.167) BTCV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BTCVUSDT_d.csv
+The requested resource was not found on this server.
 4.168) BTD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BTDUSDT_d.csv
+The requested resource was not found on this server.
 4.169) BTE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BTEBTC_d.csv
+The requested resource was not found on this server.
 4.170) BTE/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BTEUSDT_d.csv
+The requested resource was not found on this server.
 4.171) BTM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BTMBTC_d.csv
+The requested resource was not found on this server.
 4.172) BTR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BTRBTC_d.csv
+The requested resource was not found on this server.
 4.173) BTS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BTSBTC_d.csv
+The requested resource was not found on this server.
 4.174) BTT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BTTBTC_d.csv
+The requested resource was not found on this server.
 4.175) BTT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BTTUSDT_d.csv
+The requested resource was not found on this server.
 4.176) BTTOLD/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BTTOLDBTC_d.csv
+The requested resource was not found on this server.
 4.177) BTTOLD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BTTOLDUSDT_d.csv
+The requested resource was not found on this server.
 4.178) BTU/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BTUBTC_d.csv
+The requested resource was not found on this server.
 4.179) BULL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_BULLUSD_d.csv
+The requested resource was not found on this server.
 4.180) BULL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BULLUSDT_d.csv
+The requested resource was not found on this server.
 4.181) BURST/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BURSTBTC_d.csv
+The requested resource was not found on this server.
 4.182) BWF/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BWFBTC_d.csv
+The requested resource was not found on this server.
 4.183) BWF/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BWFUSDT_d.csv
+The requested resource was not found on this server.
 4.184) BWX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_BWXBTC_d.csv
+The requested resource was not found on this server.
 4.185) BWX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_BWXUSDT_d.csv
+The requested resource was not found on this server.
 4.186) CAMP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CAMPBTC_d.csv
+The requested resource was not found on this server.
 4.187) CAMP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CAMPUSDT_d.csv
+The requested resource was not found on this server.
 4.188) CBC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CBCBTC_d.csv
+The requested resource was not found on this server.
 4.189) CBC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_CBCETH_d.csv
+The requested resource was not found on this server.
 4.190) CBC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CBCUSDT_d.csv
+The requested resource was not found on this server.
 4.191) CEL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CELBTC_d.csv
+The requested resource was not found on this server.
 4.192) CEL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CELUSDT_d.csv
+The requested resource was not found on this server.
 4.193) CELO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CELOBTC_d.csv
+The requested resource was not found on this server.
 4.194) CELO/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_CELOETH_d.csv
+The requested resource was not found on this server.
 4.195) CELO/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_CELOEUR_d.csv
+The requested resource was not found on this server.
 4.196) CELO/USD: https://www.cryptodatadownload.com/cdd/Bittrex_CELOUSD_d.csv
+The requested resource was not found on this server.
 4.197) CELO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CELOUSDT_d.csv
+The requested resource was not found on this server.
 4.198) CGT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CGTBTC_d.csv
+The requested resource was not found on this server.
 4.199) CGT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CGTUSDT_d.csv
+The requested resource was not found on this server.
 4.200) CHR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CHRBTC_d.csv
+The requested resource was not found on this server.
 4.201) CKB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CKBBTC_d.csv
+The requested resource was not found on this server.
 4.202) CKB/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CKBUSDT_d.csv
+The requested resource was not found on this server.
 4.203) CLT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CLTBTC_d.csv
+The requested resource was not found on this server.
 4.204) CLT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CLTUSDT_d.csv
+The requested resource was not found on this server.
 4.205) CND/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CNDBTC_d.csv
+The requested resource was not found on this server.
 4.206) CNS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CNSBTC_d.csv
+The requested resource was not found on this server.
 4.207) CNS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CNSUSDT_d.csv
+The requested resource was not found on this server.
 4.208) CNTM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CNTMBTC_d.csv
+The requested resource was not found on this server.
 4.209) CNTM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CNTMUSDT_d.csv
+The requested resource was not found on this server.
 4.210) COMP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_COMPBTC_d.csv
+The requested resource was not found on this server.
 4.211) COMP/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_COMPETH_d.csv
+The requested resource was not found on this server.
 4.212) COMP/USD: https://www.cryptodatadownload.com/cdd/Bittrex_COMPUSD_d.csv
+The requested resource was not found on this server.
 4.213) COMP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_COMPUSDT_d.csv
+The requested resource was not found on this server.
 4.214) COSM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_COSMBTC_d.csv
+The requested resource was not found on this server.
 4.215) CPC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CPCBTC_d.csv
+The requested resource was not found on this server.
 4.216) CRO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CROBTC_d.csv
+The requested resource was not found on this server.
 4.217) CRO/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_CROETH_d.csv
+The requested resource was not found on this server.
 4.218) CRO/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_CROEUR_d.csv
+The requested resource was not found on this server.
 4.219) CRO/USD: https://www.cryptodatadownload.com/cdd/Bittrex_CROUSD_d.csv
+The requested resource was not found on this server.
 4.220) CRO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CROUSDT_d.csv
+The requested resource was not found on this server.
 4.221) CRV/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CRVBTC_d.csv
+The requested resource was not found on this server.
 4.222) CRV/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_CRVETH_d.csv
+The requested resource was not found on this server.
 4.223) CRV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CRVUSDT_d.csv
+The requested resource was not found on this server.
 4.224) CRW/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CRWBTC_d.csv
+The requested resource was not found on this server.
 4.225) CTC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CTCBTC_d.csv
+The requested resource was not found on this server.
 4.226) CTXC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CTXCBTC_d.csv
+The requested resource was not found on this server.
 4.227) CURE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CUREBTC_d.csv
+The requested resource was not found on this server.
 4.228) CUSD/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CUSDBTC_d.csv
+The requested resource was not found on this server.
 4.229) CUSD/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_CUSDETH_d.csv
+The requested resource was not found on this server.
 4.230) CUSD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CUSDUSDT_d.csv
+The requested resource was not found on this server.
 4.231) CUT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CUTBTC_d.csv
+The requested resource was not found on this server.
 4.232) CUT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_CUTUSDT_d.csv
+The requested resource was not found on this server.
 4.233) CVC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CVCBTC_d.csv
+The requested resource was not found on this server.
 4.234) CVC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_CVCETH_d.csv
+The requested resource was not found on this server.
 4.235) CVT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_CVTBTC_d.csv
+The requested resource was not found on this server.
 4.236) DAF/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DAFUSDT_d.csv
+The requested resource was not found on this server.
 4.237) DAI/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DAIBTC_d.csv
+The requested resource was not found on this server.
 4.238) DAI/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_DAIETH_d.csv
+The requested resource was not found on this server.
 4.239) DAI/USD: https://www.cryptodatadownload.com/cdd/Bittrex_DAIUSD_d.csv
+The requested resource was not found on this server.
 4.240) DAI/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DAIUSDT_d.csv
+The requested resource was not found on this server.
 4.241) DAWN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DAWNBTC_d.csv
+The requested resource was not found on this server.
 4.242) DCR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DCRBTC_d.csv
+The requested resource was not found on this server.
 4.243) DCR/USD: https://www.cryptodatadownload.com/cdd/Bittrex_DCRUSD_d.csv
+The requested resource was not found on this server.
 4.244) DCR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DCRUSDT_d.csv
+The requested resource was not found on this server.
 4.245) DEP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DEPBTC_d.csv
+The requested resource was not found on this server.
 4.246) DEP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DEPUSDT_d.csv
+The requested resource was not found on this server.
 4.247) DFI/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DFIBTC_d.csv
+The requested resource was not found on this server.
 4.248) DFI/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_DFIEUR_d.csv
+The requested resource was not found on this server.
 4.249) DFI/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DFIUSDT_d.csv
+The requested resource was not found on this server.
 4.250) DGB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DGBBTC_d.csv
+The requested resource was not found on this server.
 4.251) DGB/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_DGBETH_d.csv
+The requested resource was not found on this server.
 4.252) DGB/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_DGBEUR_d.csv
+The requested resource was not found on this server.
 4.253) DGB/USD: https://www.cryptodatadownload.com/cdd/Bittrex_DGBUSD_d.csv
+The requested resource was not found on this server.
 4.254) DGB/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DGBUSDT_d.csv
+The requested resource was not found on this server.
 4.255) DMT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DMTBTC_d.csv
+The requested resource was not found on this server.
 4.256) DMT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_DMTETH_d.csv
+The requested resource was not found on this server.
 4.257) DNA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DNABTC_d.csv
+The requested resource was not found on this server.
 4.258) DNA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DNAUSDT_d.csv
+The requested resource was not found on this server.
 4.259) DNT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DNTBTC_d.csv
+The requested resource was not found on this server.
 4.260) DOGE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DOGEBTC_d.csv
+The requested resource was not found on this server.
 4.261) DOGE/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_DOGEETH_d.csv
+The requested resource was not found on this server.
 4.262) DOGE/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_DOGEEUR_d.csv
+The requested resource was not found on this server.
 4.263) DOGE/USD: https://www.cryptodatadownload.com/cdd/Bittrex_DOGEUSD_d.csv
+The requested resource was not found on this server.
 4.264) DOGE/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DOGEUSDT_d.csv
+The requested resource was not found on this server.
 4.265) DOGEBULL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_DOGEBULLUSD_d.csv
+The requested resource was not found on this server.
 4.266) DOGEBULL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DOGEBULLUSDT_d.csv
+The requested resource was not found on this server.
 4.267) DOT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DOTBTC_d.csv
+The requested resource was not found on this server.
 4.268) DOT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_DOTETH_d.csv
+The requested resource was not found on this server.
 4.269) DOT/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_DOTEUR_d.csv
+The requested resource was not found on this server.
 4.270) DOT/USD: https://www.cryptodatadownload.com/cdd/Bittrex_DOTUSD_d.csv
+The requested resource was not found on this server.
 4.271) DOT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_DOTUSDT_d.csv
+The requested resource was not found on this server.
 4.272) DRGN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DRGNBTC_d.csv
+The requested resource was not found on this server.
 4.273) DTA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DTABTC_d.csv
+The requested resource was not found on this server.
 4.274) DUCATO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DUCATOBTC_d.csv
+The requested resource was not found on this server.
 4.275) DUSK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_DUSKBTC_d.csv
+The requested resource was not found on this server.
 4.276) ECELL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ECELLBTC_d.csv
+The requested resource was not found on this server.
 4.277) ECELL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ECELLUSDT_d.csv
+The requested resource was not found on this server.
 4.278) ECOC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ECOCBTC_d.csv
+The requested resource was not found on this server.
 4.279) ECOC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ECOCUSDT_d.csv
+The requested resource was not found on this server.
 4.280) EDG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_EDGBTC_d.csv
+The requested resource was not found on this server.
 4.281) EDG/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_EDGUSDT_d.csv
+The requested resource was not found on this server.
 4.282) EDR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_EDRBTC_d.csv
+The requested resource was not found on this server.
 4.283) ELA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ELABTC_d.csv
+The requested resource was not found on this server.
 4.284) ELA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ELAUSDT_d.csv
+The requested resource was not found on this server.
 4.285) ELAMA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ELAMABTC_d.csv
+The requested resource was not found on this server.
 4.286) EMC2/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_EMC2BTC_d.csv
+The requested resource was not found on this server.
 4.287) ENG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ENGBTC_d.csv
+The requested resource was not found on this server.
 4.288) ENG/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ENGETH_d.csv
+The requested resource was not found on this server.
 4.289) ENJ/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ENJBTC_d.csv
+The requested resource was not found on this server.
 4.290) ENJ/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ENJETH_d.csv
+The requested resource was not found on this server.
 4.291) ENJ/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ENJUSD_d.csv
+The requested resource was not found on this server.
 4.292) ENJ/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ENJUSDT_d.csv
+The requested resource was not found on this server.
 4.293) EOS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_EOSBTC_d.csv
+The requested resource was not found on this server.
 4.294) EOS/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_EOSETH_d.csv
+The requested resource was not found on this server.
 4.295) EOS/USD: https://www.cryptodatadownload.com/cdd/Bittrex_EOSUSD_d.csv
+The requested resource was not found on this server.
 4.296) EOS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_EOSUSDT_d.csv
+The requested resource was not found on this server.
 4.297) ETC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ETCBTC_d.csv
 4.298) ETC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ETCETH_d.csv
 4.299) ETC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ETCUSD_d.csv
 4.300) ETC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ETCUSDT_d.csv
+The requested resource was not found on this server.
 4.301) ETH/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ETHBTC_d.csv
 4.302) ETH/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_ETHEUR_d.csv
+The requested resource was not found on this server.
 4.303) ETH/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ETHUSD_d.csv
 4.304) ETH/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ETHUSDT_d.csv
+The requested resource was not found on this server.
 4.305) ETHBEAR/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ETHBEARUSD_d.csv
+The requested resource was not found on this server.
 4.306) ETHBEAR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ETHBEARUSDT_d.csv
+The requested resource was not found on this server.
 4.307) ETHBULL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ETHBULLUSD_d.csv
+The requested resource was not found on this server.
 4.308) ETHBULL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ETHBULLUSDT_d.csv
+The requested resource was not found on this server.
 4.309) EXCL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_EXCLBTC_d.csv
+The requested resource was not found on this server.
 4.310) EXE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_EXEBTC_d.csv
+The requested resource was not found on this server.
 4.311) EXE/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_EXEUSDT_d.csv
+The requested resource was not found on this server.
 4.312) EXP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_EXPBTC_d.csv
+The requested resource was not found on this server.
 4.313) FCT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FCTBTC_d.csv
+The requested resource was not found on this server.
 4.314) FCT2/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FCT2BTC_d.csv
+The requested resource was not found on this server.
 4.315) FIL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FILBTC_d.csv
+The requested resource was not found on this server.
 4.316) FIL/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_FILETH_d.csv
+The requested resource was not found on this server.
 4.317) FIL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_FILUSD_d.csv
+The requested resource was not found on this server.
 4.318) FIL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_FILUSDT_d.csv
+The requested resource was not found on this server.
 4.319) FIRO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FIROBTC_d.csv
+The requested resource was not found on this server.
 4.320) FIT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FITBTC_d.csv
+The requested resource was not found on this server.
 4.321) FLETA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FLETABTC_d.csv
+The requested resource was not found on this server.
 4.322) FLO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FLOBTC_d.csv
+The requested resource was not found on this server.
 4.323) FME/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FMEBTC_d.csv
+The requested resource was not found on this server.
 4.324) FME/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_FMEUSDT_d.csv
+The requested resource was not found on this server.
 4.325) FNB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FNBBTC_d.csv
+The requested resource was not found on this server.
 4.326) FOL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FOLBTC_d.csv
+The requested resource was not found on this server.
 4.327) FOL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_FOLUSDT_d.csv
+The requested resource was not found on this server.
 4.328) FOR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FORBTC_d.csv
+The requested resource was not found on this server.
 4.329) FRSP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FRSPBTC_d.csv
+The requested resource was not found on this server.
 4.330) FSN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FSNBTC_d.csv
+The requested resource was not found on this server.
 4.331) FTC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FTCBTC_d.csv
+The requested resource was not found on this server.
 4.332) FX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_FXBTC_d.csv
+The requested resource was not found on this server.
 4.333) FX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_FXETH_d.csv
+The requested resource was not found on this server.
 4.334) GAME/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GAMEBTC_d.csv
+The requested resource was not found on this server.
 4.335) GAME/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GAMEUSDT_d.csv
+The requested resource was not found on this server.
 4.336) GBYTE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GBYTEBTC_d.csv
+The requested resource was not found on this server.
 4.337) GEO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GEOBTC_d.csv
+The requested resource was not found on this server.
 4.338) GET/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GETBTC_d.csv
+The requested resource was not found on this server.
 4.339) GET/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GETUSDT_d.csv
+The requested resource was not found on this server.
 4.340) GLEEC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GLEECBTC_d.csv
+The requested resource was not found on this server.
 4.341) GLEEC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GLEECUSDT_d.csv
+The requested resource was not found on this server.
 4.342) GLM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GLMBTC_d.csv
+The requested resource was not found on this server.
 4.343) GLM/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_GLMETH_d.csv
+The requested resource was not found on this server.
 4.344) GNC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GNCBTC_d.csv
+The requested resource was not found on this server.
 4.345) GNC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GNCUSDT_d.csv
+The requested resource was not found on this server.
 4.346) GNO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GNOBTC_d.csv
+The requested resource was not found on this server.
 4.347) GNO/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_GNOETH_d.csv
+The requested resource was not found on this server.
 4.348) GNY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GNYBTC_d.csv
+The requested resource was not found on this server.
 4.349) GO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GOBTC_d.csv
+The requested resource was not found on this server.
 4.350) GOLD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GOLDUSDT_d.csv
+The requested resource was not found on this server.
 4.351) GRIN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GRINBTC_d.csv
+The requested resource was not found on this server.
 4.352) GRIN/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GRINUSDT_d.csv
+The requested resource was not found on this server.
 4.353) GRS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GRSBTC_d.csv
+The requested resource was not found on this server.
 4.354) GRT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GRTBTC_d.csv
+The requested resource was not found on this server.
 4.355) GRT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_GRTETH_d.csv
+The requested resource was not found on this server.
 4.356) GRT/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_GRTEUR_d.csv
+The requested resource was not found on this server.
 4.357) GRT/USD: https://www.cryptodatadownload.com/cdd/Bittrex_GRTUSD_d.csv
+The requested resource was not found on this server.
 4.358) GRT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GRTUSDT_d.csv
+The requested resource was not found on this server.
 4.359) GST/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GSTBTC_d.csv
+The requested resource was not found on this server.
 4.360) GST/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GSTUSDT_d.csv
+The requested resource was not found on this server.
 4.361) GTO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GTOBTC_d.csv
+The requested resource was not found on this server.
 4.362) GXC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_GXCBTC_d.csv
+The requested resource was not found on this server.
 4.363) GXC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_GXCUSDT_d.csv
+The requested resource was not found on this server.
 4.364) HBAR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HBARBTC_d.csv
+The requested resource was not found on this server.
 4.365) HBAR/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_HBARETH_d.csv
+The requested resource was not found on this server.
 4.366) HBAR/USD: https://www.cryptodatadownload.com/cdd/Bittrex_HBARUSD_d.csv
+The requested resource was not found on this server.
 4.367) HBAR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_HBARUSDT_d.csv
+The requested resource was not found on this server.
 4.368) HBD/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HBDBTC_d.csv
+The requested resource was not found on this server.
 4.369) HDAC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HDACBTC_d.csv
+The requested resource was not found on this server.
 4.370) HDAO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HDAOBTC_d.csv
+The requested resource was not found on this server.
 4.371) HDAO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_HDAOUSDT_d.csv
+The requested resource was not found on this server.
 4.372) HEDG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HEDGBTC_d.csv
+The requested resource was not found on this server.
 4.373) HIVE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HIVEBTC_d.csv
+The requested resource was not found on this server.
 4.374) HIVE/USD: https://www.cryptodatadownload.com/cdd/Bittrex_HIVEUSD_d.csv
+The requested resource was not found on this server.
 4.375) HIVE/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_HIVEUSDT_d.csv
+The requested resource was not found on this server.
 4.376) HMQ/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HMQBTC_d.csv
+The requested resource was not found on this server.
 4.377) HNS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HNSBTC_d.csv
+The requested resource was not found on this server.
 4.378) HNS/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_HNSETH_d.csv
+The requested resource was not found on this server.
 4.379) HNS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_HNSUSDT_d.csv
+The requested resource was not found on this server.
 4.380) HXRO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HXROBTC_d.csv
+The requested resource was not found on this server.
 4.381) HXRO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_HXROUSDT_d.csv
+The requested resource was not found on this server.
 4.382) HYDRO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_HYDROBTC_d.csv
+The requested resource was not found on this server.
 4.383) ICX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ICXBTC_d.csv
+The requested resource was not found on this server.
 4.384) IGNIS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_IGNISBTC_d.csv
+The requested resource was not found on this server.
 4.385) IGNIS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_IGNISUSDT_d.csv
+The requested resource was not found on this server.
 4.386) INSTAR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_INSTARBTC_d.csv
+The requested resource was not found on this server.
 4.387) INX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_INXBTC_d.csv
+The requested resource was not found on this server.
 4.388) INX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_INXUSDT_d.csv
+The requested resource was not found on this server.
 4.389) INXT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_INXTBTC_d.csv
+The requested resource was not found on this server.
 4.390) INXT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_INXTUSDT_d.csv
+The requested resource was not found on this server.
 4.391) IOC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_IOCBTC_d.csv
+The requested resource was not found on this server.
 4.392) IOST/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_IOSTBTC_d.csv
+The requested resource was not found on this server.
 4.393) IOTA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_IOTABTC_d.csv
+The requested resource was not found on this server.
 4.394) IOTA/USD: https://www.cryptodatadownload.com/cdd/Bittrex_IOTAUSD_d.csv
+The requested resource was not found on this server.
 4.395) IOTA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_IOTAUSDT_d.csv
+The requested resource was not found on this server.
 4.396) IOTX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_IOTXBTC_d.csv
+The requested resource was not found on this server.
 4.397) IQQ/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_IQQBTC_d.csv
+The requested resource was not found on this server.
 4.398) IQQ/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_IQQUSDT_d.csv
+The requested resource was not found on this server.
 4.399) IRIS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_IRISBTC_d.csv
+The requested resource was not found on this server.
 4.400) IRIS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_IRISUSDT_d.csv
+The requested resource was not found on this server.
 4.401) JASMY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_JASMYUSDT_d.csv
+The requested resource was not found on this server.
 4.402) JOB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_JOBBTC_d.csv
+The requested resource was not found on this server.
 4.403) JOB/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_JOBUSDT_d.csv
+The requested resource was not found on this server.
 4.404) KAI/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KAIBTC_d.csv
+The requested resource was not found on this server.
 4.405) KAI/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KAIUSDT_d.csv
+The requested resource was not found on this server.
 4.406) KDA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KDABTC_d.csv
+The requested resource was not found on this server.
 4.407) KDA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KDAUSDT_d.csv
+The requested resource was not found on this server.
 4.408) KDAG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KDAGBTC_d.csv
+The requested resource was not found on this server.
 4.409) KDAG/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KDAGUSDT_d.csv
+The requested resource was not found on this server.
 4.410) KLAY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KLAYBTC_d.csv
+The requested resource was not found on this server.
 4.411) KLAY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KLAYUSDT_d.csv
+The requested resource was not found on this server.
 4.412) KLV/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KLVBTC_d.csv
+The requested resource was not found on this server.
 4.413) KLV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KLVUSDT_d.csv
+The requested resource was not found on this server.
 4.414) KMD/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KMDBTC_d.csv
+The requested resource was not found on this server.
 4.415) KMD/USD: https://www.cryptodatadownload.com/cdd/Bittrex_KMDUSD_d.csv
+The requested resource was not found on this server.
 4.416) KMD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KMDUSDT_d.csv
+The requested resource was not found on this server.
 4.417) KNC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KNCBTC_d.csv
+The requested resource was not found on this server.
 4.418) KNC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_KNCETH_d.csv
+The requested resource was not found on this server.
 4.419) KNC/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_KNCEUR_d.csv
+The requested resource was not found on this server.
 4.420) KNC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_KNCUSD_d.csv
+The requested resource was not found on this server.
 4.421) KNC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KNCUSDT_d.csv
+The requested resource was not found on this server.
 4.422) KOK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KOKBTC_d.csv
+The requested resource was not found on this server.
 4.423) KOK/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KOKUSDT_d.csv
+The requested resource was not found on this server.
 4.424) KRT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KRTBTC_d.csv
+The requested resource was not found on this server.
 4.425) KRT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KRTUSDT_d.csv
+The requested resource was not found on this server.
 4.426) KSM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_KSMBTC_d.csv
+The requested resource was not found on this server.
 4.427) KSM/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_KSMETH_d.csv
+The requested resource was not found on this server.
 4.428) KSM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_KSMUSDT_d.csv
+The requested resource was not found on this server.
 4.429) LAMB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LAMBBTC_d.csv
+The requested resource was not found on this server.
 4.430) LBC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LBCBTC_d.csv
+The requested resource was not found on this server.
 4.431) LBC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_LBCETH_d.csv
+The requested resource was not found on this server.
 4.432) LBC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_LBCUSD_d.csv
+The requested resource was not found on this server.
 4.433) LBC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LBCUSDT_d.csv
+The requested resource was not found on this server.
 4.434) LCS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LCSUSDT_d.csv
+The requested resource was not found on this server.
 4.435) LINK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LINKBTC_d.csv
+The requested resource was not found on this server.
 4.436) LINK/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_LINKETH_d.csv
+The requested resource was not found on this server.
 4.437) LINK/USD: https://www.cryptodatadownload.com/cdd/Bittrex_LINKUSD_d.csv
+The requested resource was not found on this server.
 4.438) LINK/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LINKUSDT_d.csv
+The requested resource was not found on this server.
 4.439) LMCH/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LMCHBTC_d.csv
+The requested resource was not found on this server.
 4.440) LMCH/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LMCHUSDT_d.csv
+The requested resource was not found on this server.
 4.441) LOOM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LOOMBTC_d.csv
+The requested resource was not found on this server.
 4.442) LOON/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LOONBTC_d.csv
+The requested resource was not found on this server.
 4.443) LOON/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LOONUSDT_d.csv
+The requested resource was not found on this server.
 4.444) LRC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LRCBTC_d.csv
+The requested resource was not found on this server.
 4.445) LRC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_LRCUSD_d.csv
+The requested resource was not found on this server.
 4.446) LSK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LSKBTC_d.csv
+The requested resource was not found on this server.
 4.447) LSK/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LSKUSDT_d.csv
+The requested resource was not found on this server.
 4.448) LTC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LTCBTC_d.csv
 4.449) LTC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_LTCETH_d.csv
 4.450) LTC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_LTCUSD_d.csv
 4.451) LTC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LTCUSDT_d.csv
+The requested resource was not found on this server.
 4.452) LUCY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LUCYBTC_d.csv
+The requested resource was not found on this server.
 4.453) LUCY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LUCYUSDT_d.csv
+The requested resource was not found on this server.
 4.454) LUNA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_LUNABTC_d.csv
+The requested resource was not found on this server.
 4.455) LUNA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_LUNAUSDT_d.csv
+The requested resource was not found on this server.
 4.456) MAID/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MAIDBTC_d.csv
+The requested resource was not found on this server.
 4.457) MANA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MANABTC_d.csv
 4.458) MANA/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_MANAETH_d.csv
+The requested resource was not found on this server.
 4.459) MANA/USD: https://www.cryptodatadownload.com/cdd/Bittrex_MANAUSD_d.csv
+The requested resource was not found on this server.
 4.460) MARO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MAROBTC_d.csv
+The requested resource was not found on this server.
 4.461) MATIC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MATICBTC_d.csv
+The requested resource was not found on this server.
 4.462) MATIC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_MATICETH_d.csv
+The requested resource was not found on this server.
 4.463) MATIC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_MATICUSD_d.csv
+The requested resource was not found on this server.
 4.464) MATIC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MATICUSDT_d.csv
+The requested resource was not found on this server.
 4.465) MCH/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MCHUSDT_d.csv
+The requested resource was not found on this server.
 4.466) MDT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MDTBTC_d.csv
+The requested resource was not found on this server.
 4.467) MDT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MDTUSDT_d.csv
+The requested resource was not found on this server.
 4.468) ME/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MEBTC_d.csv
+The requested resource was not found on this server.
 4.469) MED/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MEDBTC_d.csv
+The requested resource was not found on this server.
 4.470) MEME/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MEMEBTC_d.csv
+The requested resource was not found on this server.
 4.471) MER/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MERBTC_d.csv
+The requested resource was not found on this server.
 4.472) MET/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_METBTC_d.csv
+The requested resource was not found on this server.
 4.473) MET/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_METETH_d.csv
+The requested resource was not found on this server.
 4.474) META/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_METABTC_d.csv
+The requested resource was not found on this server.
 4.475) MFA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MFABTC_d.csv
+The requested resource was not found on this server.
 4.476) MFA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MFAUSDT_d.csv
+The requested resource was not found on this server.
 4.477) MFT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MFTBTC_d.csv
+The requested resource was not found on this server.
 4.478) MKR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MKRBTC_d.csv
+The requested resource was not found on this server.
 4.479) MKR/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_MKRETH_d.csv
+The requested resource was not found on this server.
 4.480) MKR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MKRUSDT_d.csv
+The requested resource was not found on this server.
 4.481) MMAON/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MMAONUSDT_d.csv
+The requested resource was not found on this server.
 4.482) MOC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MOCBTC_d.csv
+The requested resource was not found on this server.
 4.483) MOF/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MOFBTC_d.csv
+The requested resource was not found on this server.
 4.484) MOF/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MOFUSDT_d.csv
+The requested resource was not found on this server.
 4.485) MOGX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MOGXUSDT_d.csv
+The requested resource was not found on this server.
 4.486) MONA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MONABTC_d.csv
+The requested resource was not found on this server.
 4.487) MONA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MONAUSDT_d.csv
+The requested resource was not found on this server.
 4.488) MORE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MOREBTC_d.csv
+The requested resource was not found on this server.
 4.489) MRPH/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MRPHBTC_d.csv
+The requested resource was not found on this server.
 4.490) MRPH/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_MRPHETH_d.csv
+The requested resource was not found on this server.
 4.491) MRPH/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MRPHUSDT_d.csv
+The requested resource was not found on this server.
 4.492) MTC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MTCBTC_d.csv
+The requested resource was not found on this server.
 4.493) MTL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MTLBTC_d.csv
+The requested resource was not found on this server.
 4.494) MUE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MUEBTC_d.csv
+The requested resource was not found on this server.
 4.495) MYID/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MYIDUSDT_d.csv
+The requested resource was not found on this server.
 4.496) MYST/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_MYSTBTC_d.csv
+The requested resource was not found on this server.
 4.497) MYST/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_MYSTUSDT_d.csv
+The requested resource was not found on this server.
 4.498) NAV/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NAVBTC_d.csv
+The requested resource was not found on this server.
 4.499) NDAU/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_NDAUUSDT_d.csv
+The requested resource was not found on this server.
 4.500) NEO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NEOBTC_d.csv
 4.501) NEO/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_NEOETH_d.csv
 4.502) NEO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_NEOUSDT_d.csv
+The requested resource was not found on this server.
 4.503) NGC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NGCBTC_d.csv
+The requested resource was not found on this server.
 4.504) NKN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NKNBTC_d.csv
+The requested resource was not found on this server.
 4.505) NLG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NLGBTC_d.csv
+The requested resource was not found on this server.
 4.506) NMR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NMRBTC_d.csv
+The requested resource was not found on this server.
 4.507) NMR/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_NMRETH_d.csv
+The requested resource was not found on this server.
 4.508) NMR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_NMRUSDT_d.csv
+The requested resource was not found on this server.
 4.509) NPXS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NPXSBTC_d.csv
+The requested resource was not found on this server.
 4.510) NPXS/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_NPXSETH_d.csv
+The requested resource was not found on this server.
 4.511) NPXS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_NPXSUSDT_d.csv
+The requested resource was not found on this server.
 4.512) NVT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NVTBTC_d.csv
+The requested resource was not found on this server.
 4.513) NVT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_NVTUSDT_d.csv
+The requested resource was not found on this server.
 4.514) NXS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NXSBTC_d.csv
+The requested resource was not found on this server.
 4.515) NXT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_NXTBTC_d.csv
 4.516) OCEAN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_OCEANBTC_d.csv
+The requested resource was not found on this server.
 4.517) OCEAN/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_OCEANUSDT_d.csv
+The requested resource was not found on this server.
 4.518) OGN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_OGNBTC_d.csv
+The requested resource was not found on this server.
 4.519) OGN/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_OGNETH_d.csv
+The requested resource was not found on this server.
 4.520) OGT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_OGTBTC_d.csv
+The requested resource was not found on this server.
 4.521) OGT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_OGTUSDT_d.csv
+The requested resource was not found on this server.
 4.522) OK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_OKBTC_d.csv
+The requested resource was not found on this server.
 4.523) OMG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_OMGBTC_d.csv
 4.524) OMG/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_OMGETH_d.csv
 4.525) OMG/USD: https://www.cryptodatadownload.com/cdd/Bittrex_OMGUSD_d.csv
 4.526) OMG/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_OMGUSDT_d.csv
+The requested resource was not found on this server.
 4.527) ONG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ONGBTC_d.csv
+The requested resource was not found on this server.
 4.528) ONT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ONTBTC_d.csv
+The requested resource was not found on this server.
 4.529) ONT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ONTUSDT_d.csv
+The requested resource was not found on this server.
 4.530) ORBS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ORBSBTC_d.csv
+The requested resource was not found on this server.
 4.531) OXEN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_OXENBTC_d.csv
+The requested resource was not found on this server.
 4.532) OXEN/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_OXENUSDT_d.csv
+The requested resource was not found on this server.
 4.533) OXT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_OXTBTC_d.csv
+The requested resource was not found on this server.
 4.534) OXT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_OXTUSDT_d.csv
+The requested resource was not found on this server.
 4.535) PANDO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PANDOUSDT_d.csv
+The requested resource was not found on this server.
 4.536) PART/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PARTBTC_d.csv
+The requested resource was not found on this server.
 4.537) PAX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PAXBTC_d.csv
+The requested resource was not found on this server.
 4.538) PAX/USD: https://www.cryptodatadownload.com/cdd/Bittrex_PAXUSD_d.csv
+The requested resource was not found on this server.
 4.539) PAY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PAYBTC_d.csv
+The requested resource was not found on this server.
 4.540) PAY/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_PAYETH_d.csv
 4.541) PHNX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PHNXBTC_d.csv
+The requested resource was not found on this server.
 4.542) PHNX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PHNXUSDT_d.csv
+The requested resource was not found on this server.
 4.543) PI/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PIBTC_d.csv
+The requested resource was not found on this server.
 4.544) PINK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PINKBTC_d.csv
+The requested resource was not found on this server.
 4.545) PIST/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PISTBTC_d.csv
+The requested resource was not found on this server.
 4.546) PIST/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PISTUSDT_d.csv
+The requested resource was not found on this server.
 4.547) PIVX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PIVXBTC_d.csv
+The requested resource was not found on this server.
 4.548) PLA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PLABTC_d.csv
+The requested resource was not found on this server.
 4.549) PMA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PMABTC_d.csv
+The requested resource was not found on this server.
 4.550) PMA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PMAUSDT_d.csv
+The requested resource was not found on this server.
 4.551) POLC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_POLCETH_d.csv
+The requested resource was not found on this server.
 4.552) POLC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_POLCUSDT_d.csv
+The requested resource was not found on this server.
 4.553) POT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_POTBTC_d.csv
+The requested resource was not found on this server.
 4.554) POWR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_POWRBTC_d.csv
 4.555) POWR/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_POWRETH_d.csv
+The requested resource was not found on this server.
 4.556) PPAY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PPAYBTC_d.csv
+The requested resource was not found on this server.
 4.557) PPAY/USD: https://www.cryptodatadownload.com/cdd/Bittrex_PPAYUSD_d.csv
+The requested resource was not found on this server.
 4.558) PPAY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PPAYUSDT_d.csv
+The requested resource was not found on this server.
 4.559) PPC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PPCBTC_d.csv
+The requested resource was not found on this server.
 4.560) PROM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PROMBTC_d.csv
+The requested resource was not found on this server.
 4.561) PROS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PROSUSDT_d.csv
+The requested resource was not found on this server.
 4.562) PRT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PRTUSDT_d.csv
+The requested resource was not found on this server.
 4.563) PTON/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PTONBTC_d.csv
+The requested resource was not found on this server.
 4.564) PTOY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PTOYBTC_d.csv
+The requested resource was not found on this server.
 4.565) PTOY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PTOYUSDT_d.csv
+The requested resource was not found on this server.
 4.566) PUNDIX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PUNDIXBTC_d.csv
+The requested resource was not found on this server.
 4.567) PUNDIX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_PUNDIXETH_d.csv
+The requested resource was not found on this server.
 4.568) PUNDIX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_PUNDIXUSDT_d.csv
+The requested resource was not found on this server.
 4.569) PXL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_PXLBTC_d.csv
+The requested resource was not found on this server.
 4.570) QLC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_QLCBTC_d.csv
+The requested resource was not found on this server.
 4.571) QLC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_QLCUSDT_d.csv
+The requested resource was not found on this server.
 4.572) QNT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_QNTBTC_d.csv
+The requested resource was not found on this server.
 4.573) QRL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_QRLBTC_d.csv
+The requested resource was not found on this server.
 4.574) QTUM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_QTUMBTC_d.csv
+The requested resource was not found on this server.
 4.575) QTUM/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_QTUMETH_d.csv
+The requested resource was not found on this server.
 4.576) QTUM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_QTUMUSDT_d.csv
+The requested resource was not found on this server.
 4.577) RAMP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RAMPBTC_d.csv
+The requested resource was not found on this server.
 4.578) RAMP/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_RAMPETH_d.csv
+The requested resource was not found on this server.
 4.579) RAMP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RAMPUSDT_d.csv
+The requested resource was not found on this server.
 4.580) RCN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RCNBTC_d.csv
+The requested resource was not found on this server.
 4.581) RDD/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RDDBTC_d.csv
+The requested resource was not found on this server.
 4.582) RDD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RDDUSDT_d.csv
+The requested resource was not found on this server.
 4.583) REN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RENBTC_d.csv
+The requested resource was not found on this server.
 4.584) REN/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_RENETH_d.csv
+The requested resource was not found on this server.
 4.585) REN/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_RENEUR_d.csv
+The requested resource was not found on this server.
 4.586) REN/USD: https://www.cryptodatadownload.com/cdd/Bittrex_RENUSD_d.csv
+The requested resource was not found on this server.
 4.587) REN/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RENUSDT_d.csv
+The requested resource was not found on this server.
 4.588) RENBTC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RENBTCBTC_d.csv
+The requested resource was not found on this server.
 4.589) RENBTC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_RENBTCETH_d.csv
+The requested resource was not found on this server.
 4.590) RENBTC/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_RENBTCEUR_d.csv
+The requested resource was not found on this server.
 4.591) RENBTC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_RENBTCUSD_d.csv
+The requested resource was not found on this server.
 4.592) RENBTC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RENBTCUSDT_d.csv
+The requested resource was not found on this server.
 4.593) REPV2/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_REPV2BTC_d.csv
+The requested resource was not found on this server.
 4.594) REPV2/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_REPV2ETH_d.csv
+The requested resource was not found on this server.
 4.595) REV/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_REVBTC_d.csv
+The requested resource was not found on this server.
 4.596) REV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_REVUSDT_d.csv
+The requested resource was not found on this server.
 4.597) REVV/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_REVVBTC_d.csv
+The requested resource was not found on this server.
 4.598) REVV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_REVVUSDT_d.csv
+The requested resource was not found on this server.
 4.599) RFOX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RFOXBTC_d.csv
+The requested resource was not found on this server.
 4.600) RFOX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RFOXUSDT_d.csv
+The requested resource was not found on this server.
 4.601) RLC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RLCBTC_d.csv
+The requested resource was not found on this server.
 4.602) ROC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ROCUSDT_d.csv
+The requested resource was not found on this server.
 4.603) ROOM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ROOMBTC_d.csv
+The requested resource was not found on this server.
 4.604) ROOM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ROOMUSDT_d.csv
+The requested resource was not found on this server.
 4.605) RSR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RSRBTC_d.csv
+The requested resource was not found on this server.
 4.606) RSR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RSRUSDT_d.csv
+The requested resource was not found on this server.
 4.607) RSV/USD: https://www.cryptodatadownload.com/cdd/Bittrex_RSVUSD_d.csv
+The requested resource was not found on this server.
 4.608) RSV/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RSVUSDT_d.csv
+The requested resource was not found on this server.
 4.609) RVC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RVCBTC_d.csv
+The requested resource was not found on this server.
 4.610) RVC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RVCUSDT_d.csv
+The requested resource was not found on this server.
 4.611) RVN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_RVNBTC_d.csv
+The requested resource was not found on this server.
 4.612) RVN/USD: https://www.cryptodatadownload.com/cdd/Bittrex_RVNUSD_d.csv
+The requested resource was not found on this server.
 4.613) RVN/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_RVNUSDT_d.csv
+The requested resource was not found on this server.
 4.614) SAND/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SANDUSDT_d.csv
+The requested resource was not found on this server.
 4.615) SBD/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SBDBTC_d.csv
+The requested resource was not found on this server.
 4.616) SBT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SBTUSDT_d.csv
+The requested resource was not found on this server.
 4.617) SC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SCBTC_d.csv
+The requested resource was not found on this server.
 4.618) SC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_SCETH_d.csv
+The requested resource was not found on this server.
 4.619) SC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_SCUSD_d.csv
+The requested resource was not found on this server.
 4.620) SC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SCUSDT_d.csv
+The requested resource was not found on this server.
 4.621) SDT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SDTBTC_d.csv
+The requested resource was not found on this server.
 4.622) SDT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SDTUSDT_d.csv
+The requested resource was not found on this server.
 4.623) SENSO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SENSOBTC_d.csv
+The requested resource was not found on this server.
 4.624) SENSO/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_SENSOETH_d.csv
+The requested resource was not found on this server.
 4.625) SG/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SGUSDT_d.csv
+The requested resource was not found on this server.
 4.626) SHR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SHRBTC_d.csv
+The requested resource was not found on this server.
 4.627) SHR/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SHRUSDT_d.csv
+The requested resource was not found on this server.
 4.628) SIB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SIBBTC_d.csv
+The requested resource was not found on this server.
 4.629) SIG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SIGBTC_d.csv
+The requested resource was not found on this server.
 4.630) SIG/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_SIGETH_d.csv
+The requested resource was not found on this server.
 4.631) SIG/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SIGUSDT_d.csv
+The requested resource was not found on this server.
 4.632) SIX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SIXBTC_d.csv
+The requested resource was not found on this server.
 4.633) SKM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SKMBTC_d.csv
+The requested resource was not found on this server.
 4.634) SKM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SKMUSDT_d.csv
+The requested resource was not found on this server.
 4.635) SLICE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SLICEBTC_d.csv
+The requested resource was not found on this server.
 4.636) SLICE/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SLICEUSDT_d.csv
+The requested resource was not found on this server.
 4.637) SLS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SLSBTC_d.csv
+The requested resource was not found on this server.
 4.638) SMARTCREDIT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SMARTCREDITUSDT_d.csv
+The requested resource was not found on this server.
 4.639) SMBSWAP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SMBSWAPBTC_d.csv
+The requested resource was not found on this server.
 4.640) SMBSWAP/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_SMBSWAPETH_d.csv
+The requested resource was not found on this server.
 4.641) SMBSWAP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SMBSWAPUSDT_d.csv
+The requested resource was not found on this server.
 4.642) SNT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SNTBTC_d.csv
+The requested resource was not found on this server.
 4.643) SNT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_SNTETH_d.csv
+The requested resource was not found on this server.
 4.644) SNX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SNXBTC_d.csv
+The requested resource was not found on this server.
 4.645) SNX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_SNXETH_d.csv
+The requested resource was not found on this server.
 4.646) SNX/USD: https://www.cryptodatadownload.com/cdd/Bittrex_SNXUSD_d.csv
+The requested resource was not found on this server.
 4.647) SNX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SNXUSDT_d.csv
+The requested resource was not found on this server.
 4.648) SOLVE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SOLVEBTC_d.csv
+The requested resource was not found on this server.
 4.649) SOLVE/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_SOLVEETH_d.csv
+The requested resource was not found on this server.
 4.650) SOLVE/USD: https://www.cryptodatadownload.com/cdd/Bittrex_SOLVEUSD_d.csv
+The requested resource was not found on this server.
 4.651) SOLVE/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SOLVEUSDT_d.csv
+The requested resource was not found on this server.
 4.652) SPC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SPCBTC_d.csv
+The requested resource was not found on this server.
 4.653) SPHR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SPHRBTC_d.csv
+The requested resource was not found on this server.
 4.654) SPI/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SPIBTC_d.csv
+The requested resource was not found on this server.
 4.655) SPI/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SPIUSDT_d.csv
+The requested resource was not found on this server.
 4.656) SPIN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SPINBTC_d.csv
+The requested resource was not found on this server.
 4.657) SRN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SRNBTC_d.csv
+The requested resource was not found on this server.
 4.658) SRN/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_SRNETH_d.csv
+The requested resource was not found on this server.
 4.659) STC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_STCBTC_d.csv
+The requested resource was not found on this server.
 4.660) STEEM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_STEEMBTC_d.csv
+The requested resource was not found on this server.
 4.661) STEEM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_STEEMUSDT_d.csv
+The requested resource was not found on this server.
 4.662) STMX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_STMXBTC_d.csv
+The requested resource was not found on this server.
 4.663) STMX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_STMXETH_d.csv
+The requested resource was not found on this server.
 4.664) STORJ/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_STORJBTC_d.csv
+The requested resource was not found on this server.
 4.665) STPT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_STPTBTC_d.csv
+The requested resource was not found on this server.
 4.666) STRAX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_STRAXBTC_d.csv
+The requested resource was not found on this server.
 4.667) STRAX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_STRAXETH_d.csv
+The requested resource was not found on this server.
 4.668) STRK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_STRKBTC_d.csv
+The requested resource was not found on this server.
 4.669) STRK/USD: https://www.cryptodatadownload.com/cdd/Bittrex_STRKUSD_d.csv
+The requested resource was not found on this server.
 4.670) STRK/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_STRKUSDT_d.csv
+The requested resource was not found on this server.
 4.671) SUKU/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SUKUBTC_d.csv
+The requested resource was not found on this server.
 4.672) SUKU/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SUKUUSDT_d.csv
+The requested resource was not found on this server.
 4.673) SUTER/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SUTERBTC_d.csv
+The requested resource was not found on this server.
 4.674) SUTER/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SUTERUSDT_d.csv
+The requested resource was not found on this server.
 4.675) SXP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SXPBTC_d.csv
+The requested resource was not found on this server.
 4.676) SYLO/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_SYLOUSDT_d.csv
+The requested resource was not found on this server.
 4.677) SYS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_SYSBTC_d.csv
+The requested resource was not found on this server.
 4.678) TEA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TEABTC_d.csv
+The requested resource was not found on this server.
 4.679) TEA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_TEAUSDT_d.csv
+The requested resource was not found on this server.
 4.680) TEMCO/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TEMCOBTC_d.csv
+The requested resource was not found on this server.
 4.681) TFC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TFCBTC_d.csv
+The requested resource was not found on this server.
 4.682) TFC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_TFCUSDT_d.csv
+The requested resource was not found on this server.
 4.683) THC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_THCBTC_d.csv
+The requested resource was not found on this server.
 4.684) TNC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TNCBTC_d.csv
+The requested resource was not found on this server.
 4.685) TRAC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TRACBTC_d.csv
+The requested resource was not found on this server.
 4.686) TRAC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_TRACETH_d.csv
+The requested resource was not found on this server.
 4.687) TRAC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_TRACUSDT_d.csv
+The requested resource was not found on this server.
 4.688) TRX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TRXBTC_d.csv
+The requested resource was not found on this server.
 4.689) TRX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_TRXETH_d.csv
+The requested resource was not found on this server.
 4.690) TRX/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_TRXEUR_d.csv
+The requested resource was not found on this server.
 4.691) TRX/USD: https://www.cryptodatadownload.com/cdd/Bittrex_TRXUSD_d.csv
+The requested resource was not found on this server.
 4.692) TRX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_TRXUSDT_d.csv
+The requested resource was not found on this server.
 4.693) TRYB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TRYBBTC_d.csv
+The requested resource was not found on this server.
 4.694) TRYB/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_TRYBUSDT_d.csv
+The requested resource was not found on this server.
 4.695) TSHP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TSHPBTC_d.csv
+The requested resource was not found on this server.
 4.696) TUBE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TUBEBTC_d.csv
+The requested resource was not found on this server.
 4.697) TUDA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TUDABTC_d.csv
+The requested resource was not found on this server.
 4.698) TUSD/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_TUSDBTC_d.csv
+The requested resource was not found on this server.
 4.699) TUSD/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_TUSDETH_d.csv
+The requested resource was not found on this server.
 4.700) TUSD/USD: https://www.cryptodatadownload.com/cdd/Bittrex_TUSDUSD_d.csv
+The requested resource was not found on this server.
 4.701) TUSD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_TUSDUSDT_d.csv
+The requested resource was not found on this server.
 4.702) UBQ/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UBQBTC_d.csv
+The requested resource was not found on this server.
 4.703) UBQ/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_UBQUSDT_d.csv
+The requested resource was not found on this server.
 4.704) UBT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UBTBTC_d.csv
+The requested resource was not found on this server.
 4.705) UBT/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_UBTETH_d.csv
+The requested resource was not found on this server.
 4.706) UBT/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_UBTEUR_d.csv
+The requested resource was not found on this server.
 4.707) UCT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UCTBTC_d.csv
+The requested resource was not found on this server.
 4.708) UCT/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_UCTUSDT_d.csv
+The requested resource was not found on this server.
 4.709) UMA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UMABTC_d.csv
+The requested resource was not found on this server.
 4.710) UMA/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_UMAETH_d.csv
+The requested resource was not found on this server.
 4.711) UMA/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_UMAEUR_d.csv
+The requested resource was not found on this server.
 4.712) UMA/USD: https://www.cryptodatadownload.com/cdd/Bittrex_UMAUSD_d.csv
+The requested resource was not found on this server.
 4.713) UMA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_UMAUSDT_d.csv
+The requested resource was not found on this server.
 4.714) UNI/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UNIBTC_d.csv
+The requested resource was not found on this server.
 4.715) UNI/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_UNIETH_d.csv
+The requested resource was not found on this server.
 4.716) UNI/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_UNIEUR_d.csv
+The requested resource was not found on this server.
 4.717) UNI/USD: https://www.cryptodatadownload.com/cdd/Bittrex_UNIUSD_d.csv
+The requested resource was not found on this server.
 4.718) UNI/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_UNIUSDT_d.csv
+The requested resource was not found on this server.
 4.719) UPCO2/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UPCO2BTC_d.csv
+The requested resource was not found on this server.
 4.720) UPCO2/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_UPCO2USDT_d.csv
+The requested resource was not found on this server.
 4.721) UPEUR/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UPEURBTC_d.csv
+The requested resource was not found on this server.
 4.722) UPP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UPPBTC_d.csv
+The requested resource was not found on this server.
 4.723) UPT/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UPTBTC_d.csv
+The requested resource was not found on this server.
 4.724) UPUSD/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UPUSDBTC_d.csv
+The requested resource was not found on this server.
 4.725) UPUSD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_UPUSDUSDT_d.csv
+The requested resource was not found on this server.
 4.726) UPXAU/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UPXAUBTC_d.csv
+The requested resource was not found on this server.
 4.727) UPXAU/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_UPXAUUSDT_d.csv
+The requested resource was not found on this server.
 4.728) UQC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UQCBTC_d.csv
+The requested resource was not found on this server.
 4.729) UQC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_UQCUSDT_d.csv
+The requested resource was not found on this server.
 4.730) URAC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_URACBTC_d.csv
+The requested resource was not found on this server.
 4.731) URQA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_URQABTC_d.csv
+The requested resource was not found on this server.
 4.732) URQA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_URQAUSDT_d.csv
+The requested resource was not found on this server.
 4.733) USD/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_USDEUR_d.csv
+The requested resource was not found on this server.
 4.734) USDC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_USDCBTC_d.csv
+The requested resource was not found on this server.
 4.735) USDC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_USDCETH_d.csv
+The requested resource was not found on this server.
 4.736) USDC/USD: https://www.cryptodatadownload.com/cdd/Bittrex_USDCUSD_d.csv
+The requested resource was not found on this server.
 4.737) USDC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_USDCUSDT_d.csv
+The requested resource was not found on this server.
 4.738) USDN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_USDNBTC_d.csv
+The requested resource was not found on this server.
 4.739) USDN/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_USDNUSDT_d.csv
+The requested resource was not found on this server.
 4.740) USDS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_USDSBTC_d.csv
+The requested resource was not found on this server.
 4.741) USDS/USD: https://www.cryptodatadownload.com/cdd/Bittrex_USDSUSD_d.csv
+The requested resource was not found on this server.
 4.742) USDT/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_USDTEUR_d.csv
+The requested resource was not found on this server.
 4.743) USDT/USD: https://www.cryptodatadownload.com/cdd/Bittrex_USDTUSD_d.csv
+The requested resource was not found on this server.
 4.744) UST/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_USTBTC_d.csv
+The requested resource was not found on this server.
 4.745) UST/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_USTUSDT_d.csv
+The requested resource was not found on this server.
 4.746) UTI/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UTIBTC_d.csv
+The requested resource was not found on this server.
 4.747) UTK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_UTKBTC_d.csv
+The requested resource was not found on this server.
 4.748) VAL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VALBTC_d.csv
+The requested resource was not found on this server.
 4.749) VAL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_VALUSDT_d.csv
+The requested resource was not found on this server.
 4.750) VANY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VANYBTC_d.csv
+The requested resource was not found on this server.
 4.751) VANY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_VANYUSDT_d.csv
+The requested resource was not found on this server.
 4.752) VBK/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VBKBTC_d.csv
+The requested resource was not found on this server.
 4.753) VDX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VDXBTC_d.csv
+The requested resource was not found on this server.
 4.754) VDX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_VDXETH_d.csv
+The requested resource was not found on this server.
 4.755) VDX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_VDXUSDT_d.csv
+The requested resource was not found on this server.
 4.756) VEE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VEEBTC_d.csv
+The requested resource was not found on this server.
 4.757) VET/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VETBTC_d.csv
+The requested resource was not found on this server.
 4.758) VET/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_VETUSDT_d.csv
+The requested resource was not found on this server.
 4.759) VIA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VIABTC_d.csv
+The requested resource was not found on this server.
 4.760) VIB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VIBBTC_d.csv
+The requested resource was not found on this server.
 4.761) VIB/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_VIBETH_d.csv
+The requested resource was not found on this server.
 4.762) VID/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VIDBTC_d.csv
+The requested resource was not found on this server.
 4.763) VIL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VILBTC_d.csv
+The requested resource was not found on this server.
 4.764) VITE/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VITEBTC_d.csv
+The requested resource was not found on this server.
 4.765) VLX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VLXBTC_d.csv
+The requested resource was not found on this server.
 4.766) VLX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_VLXUSDT_d.csv
+The requested resource was not found on this server.
 4.767) VRA/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VRABTC_d.csv
+The requested resource was not found on this server.
 4.768) VRA/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_VRAUSDT_d.csv
+The requested resource was not found on this server.
 4.769) VRC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VRCBTC_d.csv
+The requested resource was not found on this server.
 4.770) VTC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_VTCBTC_d.csv
+The requested resource was not found on this server.
 4.771) WAVES/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_WAVESBTC_d.csv
 4.772) WAVES/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_WAVESETH_d.csv
+The requested resource was not found on this server.
 4.773) WAVES/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_WAVESUSDT_d.csv
+The requested resource was not found on this server.
 4.774) WAXP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_WAXPBTC_d.csv
+The requested resource was not found on this server.
 4.775) WAXP/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_WAXPETH_d.csv
+The requested resource was not found on this server.
 4.776) WAXP/USD: https://www.cryptodatadownload.com/cdd/Bittrex_WAXPUSD_d.csv
+The requested resource was not found on this server.
 4.777) WAXP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_WAXPUSDT_d.csv
+The requested resource was not found on this server.
 4.778) WBTC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_WBTCBTC_d.csv
+The requested resource was not found on this server.
 4.779) WBTC/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_WBTCETH_d.csv
+The requested resource was not found on this server.
 4.780) WBTC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_WBTCUSDT_d.csv
+The requested resource was not found on this server.
 4.781) WGP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_WGPBTC_d.csv
+The requested resource was not found on this server.
 4.782) WICC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_WICCBTC_d.csv
+The requested resource was not found on this server.
 4.783) WICC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_WICCUSDT_d.csv
+The requested resource was not found on this server.
 4.784) WINGS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_WINGSBTC_d.csv
+The requested resource was not found on this server.
 4.785) WXBTC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_WXBTCBTC_d.csv
+The requested resource was not found on this server.
 4.786) WXBTC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_WXBTCUSDT_d.csv
+The requested resource was not found on this server.
 4.787) XDB/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XDBBTC_d.csv
+The requested resource was not found on this server.
 4.788) XDB/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XDBUSDT_d.csv
+The requested resource was not found on this server.
 4.789) XDN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XDNBTC_d.csv
+The requested resource was not found on this server.
 4.790) XDN/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XDNUSDT_d.csv
+The requested resource was not found on this server.
 4.791) XELS/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XELSBTC_d.csv
+The requested resource was not found on this server.
 4.792) XELS/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XELSUSDT_d.csv
+The requested resource was not found on this server.
 4.793) XEM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XEMBTC_d.csv
+The requested resource was not found on this server.
 4.794) XEM/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_XEMETH_d.csv
+The requested resource was not found on this server.
 4.795) XEM/USD: https://www.cryptodatadownload.com/cdd/Bittrex_XEMUSD_d.csv
+The requested resource was not found on this server.
 4.796) XEM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XEMUSDT_d.csv
+The requested resource was not found on this server.
 4.797) XEP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XEPUSDT_d.csv
+The requested resource was not found on this server.
 4.798) XHV/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XHVBTC_d.csv
+The requested resource was not found on this server.
 4.799) XLM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XLMBTC_d.csv
 4.800) XLM/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_XLMETH_d.csv
 4.801) XLM/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_XLMEUR_d.csv
+The requested resource was not found on this server.
 4.802) XLM/USD: https://www.cryptodatadownload.com/cdd/Bittrex_XLMUSD_d.csv
+The requested resource was not found on this server.
 4.803) XLM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XLMUSDT_d.csv
+The requested resource was not found on this server.
 4.804) XMY/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XMYBTC_d.csv
+The requested resource was not found on this server.
 4.805) XMY/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XMYUSDT_d.csv
+The requested resource was not found on this server.
 4.806) XRP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XRPBTC_d.csv
 4.807) XRP/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_XRPETH_d.csv
 4.808) XRP/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_XRPEUR_d.csv
+The requested resource was not found on this server.
 4.809) XRP/USD: https://www.cryptodatadownload.com/cdd/Bittrex_XRPUSD_d.csv
 4.810) XRP/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XRPUSDT_d.csv
+The requested resource was not found on this server.
 4.811) XST/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XSTBTC_d.csv
+The requested resource was not found on this server.
 4.812) XTP/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XTPBTC_d.csv
+The requested resource was not found on this server.
 4.813) XTZ/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XTZBTC_d.csv
+The requested resource was not found on this server.
 4.814) XTZ/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_XTZETH_d.csv
+The requested resource was not found on this server.
 4.815) XTZ/USD: https://www.cryptodatadownload.com/cdd/Bittrex_XTZUSD_d.csv
+The requested resource was not found on this server.
 4.816) XTZ/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XTZUSDT_d.csv
+The requested resource was not found on this server.
 4.817) XUC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XUCBTC_d.csv
+The requested resource was not found on this server.
 4.818) XUC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XUCUSDT_d.csv
+The requested resource was not found on this server.
 4.819) XVG/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XVGBTC_d.csv
 4.820) XVG/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XVGUSDT_d.csv
+The requested resource was not found on this server.
 4.821) XWC/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XWCBTC_d.csv
+The requested resource was not found on this server.
 4.822) XWC/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XWCUSDT_d.csv
+The requested resource was not found on this server.
 4.823) XYM/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_XYMBTC_d.csv
+The requested resource was not found on this server.
 4.824) XYM/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_XYMETH_d.csv
+The requested resource was not found on this server.
 4.825) XYM/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_XYMUSDT_d.csv
+The requested resource was not found on this server.
 4.826) YFL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_YFLBTC_d.csv
+The requested resource was not found on this server.
 4.827) YFL/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_YFLETH_d.csv
+The requested resource was not found on this server.
 4.828) YFL/EUR: https://www.cryptodatadownload.com/cdd/Bittrex_YFLEUR_d.csv
+The requested resource was not found on this server.
 4.829) YFL/USD: https://www.cryptodatadownload.com/cdd/Bittrex_YFLUSD_d.csv
+The requested resource was not found on this server.
 4.830) YFL/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_YFLUSDT_d.csv
+The requested resource was not found on this server.
 4.831) YOU/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_YOUBTC_d.csv
+The requested resource was not found on this server.
 4.832) ZEN/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ZENBTC_d.csv
+The requested resource was not found on this server.
 4.833) ZEN/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ZENUSD_d.csv
+The requested resource was not found on this server.
 4.834) ZIL/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ZILBTC_d.csv
+The requested resource was not found on this server.
 4.835) ZILD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ZILDUSDT_d.csv
+The requested resource was not found on this server.
 4.836) ZRX/BTC: https://www.cryptodatadownload.com/cdd/Bittrex_ZRXBTC_d.csv
+The requested resource was not found on this server.
 4.837) ZRX/ETH: https://www.cryptodatadownload.com/cdd/Bittrex_ZRXETH_d.csv
+The requested resource was not found on this server.
 4.838) ZRX/USD: https://www.cryptodatadownload.com/cdd/Bittrex_ZRXUSD_d.csv
+The requested resource was not found on this server.
 4.839) ZRX/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ZRXUSDT_d.csv
+The requested resource was not found on this server.
 4.840) ZUSD/USDT: https://www.cryptodatadownload.com/cdd/Bittrex_ZUSDUSDT_d.csv
+The requested resource was not found on this server.
 4.841) _MOF/BTC: https://www.cryptodatadownload.com/cdd/Bittrex__MOFBTC_d.csv
+The requested resource was not found on this server.
 4.842) _MOF/USDT: https://www.cryptodatadownload.com/cdd/Bittrex__MOFUSDT_d.csv
+The requested resource was not found on this server.
 
 5) Exmo: https://api.cryptodatadownload.com/v1/data/ohlc/exmo/available?format=json
 5.1) ADA/BTC: https://www.cryptodatadownload.com/cdd/Exmo_ADABTC_d.csv
@@ -1426,6 +2241,7 @@ Getting Exchanges...
 5.45) DOGE/EUR: https://www.cryptodatadownload.com/cdd/Exmo_DOGEEUR_d.csv
 5.46) DOGE/GBP: https://www.cryptodatadownload.com/cdd/Exmo_DOGEGBP_d.csv
 5.47) DOGE/RUB: https://www.cryptodatadownload.com/cdd/Exmo_DOGERUB_d.csv
+The requested resource was not found on this server.
 5.48) DOGE/USD: https://www.cryptodatadownload.com/cdd/Exmo_DOGEUSD_d.csv
 5.49) DOT/BTC: https://www.cryptodatadownload.com/cdd/Exmo_DOTBTC_d.csv
 5.50) DOT/USD: https://www.cryptodatadownload.com/cdd/Exmo_DOTUSD_d.csv
@@ -1458,6 +2274,7 @@ Getting Exchanges...
 5.77) GMT/BTC: https://www.cryptodatadownload.com/cdd/Exmo_GMTBTC_d.csv
 5.78) GMT/USDT: https://www.cryptodatadownload.com/cdd/Exmo_GMTUSDT_d.csv
 5.79) GNT/BTC: https://www.cryptodatadownload.com/cdd/Exmo_GNTBTC_d.csv
+The requested resource was not found on this server.
 5.80) GNY/BTC: https://www.cryptodatadownload.com/cdd/Exmo_GNYBTC_d.csv
 5.81) GUSD/BTC: https://www.cryptodatadownload.com/cdd/Exmo_GUSDBTC_d.csv
 5.82) GUSD/RUB: https://www.cryptodatadownload.com/cdd/Exmo_GUSDRUB_d.csv
@@ -2154,6 +2971,7 @@ Getting Exchanges...
 7.93) YFI/USD: https://www.cryptodatadownload.com/cdd/Gemini_YFIUSD_d.csv
 7.94) ZEC/BTC: https://www.cryptodatadownload.com/cdd/Gemini_ZECBTC_d.csv
 7.95) ZEC/ETH: https://www.cryptodatadownload.com/cdd/Gemini_ZECETH_d.csv
+The requested resource was not found on this server.
 7.96) ZEC/USD: https://www.cryptodatadownload.com/cdd/Gemini_ZECUSD_d.csv
 7.97) ZRX/USD: https://www.cryptodatadownload.com/cdd/Gemini_ZRXUSD_d.csv
 
@@ -3148,27 +3966,40 @@ Getting Exchanges...
 
 9) Poloniex: https://api.cryptodatadownload.com/v1/data/ohlc/poloniex/available?format=json
 9.1) ABY/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_ABYBTC_d.csv
+The requested resource was not found on this server.
 9.2) ACH/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_ACHBTC_d.csv
+The requested resource was not found on this server.
 9.3) ADN/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_ADNBTC_d.csv
+The requested resource was not found on this server.
 9.4) BAT/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_BATBTC_d.csv
 9.5) BAT/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_BATUSDT_d.csv
 9.6) BCN/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_BCNBTC_d.csv
+The requested resource was not found on this server.
 9.7) BCY/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_BCYBTC_d.csv
+The requested resource was not found on this server.
 9.8) BLK/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_BLKBTC_d.csv
+The requested resource was not found on this server.
 9.9) BTC/USD: https://www.cryptodatadownload.com/cdd/Poloniex_BTCUSD_d.csv
 9.10) BTC/USDC: https://www.cryptodatadownload.com/cdd/Poloniex_BTCUSDC_d.csv
 9.11) BTC/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_BTCUSDT_d.csv
 9.12) CGA/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_CGABTC_d.csv
+The requested resource was not found on this server.
 9.13) CHA/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_CHABTC_d.csv
+The requested resource was not found on this server.
 9.14) CLAM/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_CLAMBTC_d.csv
+The requested resource was not found on this server.
 9.15) CVC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_CVCBTC_d.csv
+The requested resource was not found on this server.
 9.16) CYC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_CYCBTC_d.csv
+The requested resource was not found on this server.
 9.17) DAO/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_DAOBTC_d.csv
+The requested resource was not found on this server.
 9.18) DASH/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_DASHBTC_d.csv
 9.19) DASH/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_DASHUSDT_d.csv
 9.20) DGB/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_DGBBTC_d.csv
 9.21) DOGE/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_DOGEBTC_d.csv
 9.22) DOGE/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_DOGEUSDT_d.csv
+The requested resource was not found on this server.
 9.23) EOS/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_EOSBTC_d.csv
 9.24) EOS/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_EOSUSDT_d.csv
 9.25) ETC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_ETCBTC_d.csv
@@ -3176,83 +4007,136 @@ Getting Exchanges...
 9.27) ETH/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_ETHBTC_d.csv
 9.28) ETH/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_ETHUSDT_d.csv
 9.29) EXE/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_EXEBTC_d.csv
+The requested resource was not found on this server.
 9.30) EXP/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_EXPBTC_d.csv
+The requested resource was not found on this server.
 9.31) FLO/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_FLOBTC_d.csv
+The requested resource was not found on this server.
 9.32) FLT/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_FLTBTC_d.csv
+The requested resource was not found on this server.
 9.33) GAME/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_GAMEBTC_d.csv
+The requested resource was not found on this server.
 9.34) GAS/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_GASBTC_d.csv
 9.35) GEO/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_GEOBTC_d.csv
+The requested resource was not found on this server.
 9.36) GMC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_GMCBTC_d.csv
+The requested resource was not found on this server.
 9.37) GML/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_GMLBTC_d.csv
+The requested resource was not found on this server.
 9.38) HUGE/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_HUGEBTC_d.csv
+The requested resource was not found on this server.
 9.39) HZ/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_HZBTC_d.csv
+The requested resource was not found on this server.
 9.40) JLH/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_JLHBTC_d.csv
+The requested resource was not found on this server.
 9.41) LBC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_LBCBTC_d.csv
+The requested resource was not found on this server.
 9.42) LOOM/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_LOOMBTC_d.csv
+The requested resource was not found on this server.
 9.43) LSK/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_LSKBTC_d.csv
 9.44) LSK/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_LSKUSDT_d.csv
 9.45) LTC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_LTCBTC_d.csv
 9.46) LTC/USD: https://www.cryptodatadownload.com/cdd/Poloniex_LTCUSD_d.csv
 9.47) LTC/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_LTCUSDT_d.csv
 9.48) MAID/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_MAIDBTC_d.csv
+The requested resource was not found on this server.
 9.49) MMC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_MMCBTC_d.csv
+The requested resource was not found on this server.
 9.50) NAV/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_NAVBTC_d.csv
+The requested resource was not found on this server.
 9.51) NBT/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_NBTBTC_d.csv
+The requested resource was not found on this server.
 9.52) NMC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_NMCBTC_d.csv
+The requested resource was not found on this server.
 9.53) NMR/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_NMRBTC_d.csv
 9.54) NOTE/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_NOTEBTC_d.csv
+The requested resource was not found on this server.
 9.55) NSR/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_NSRBTC_d.csv
+The requested resource was not found on this server.
 9.56) NXT/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_NXTBTC_d.csv
 9.57) NXT/USD: https://www.cryptodatadownload.com/cdd/Poloniex_NXTUSD_d.csv
 9.58) OMG/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_OMGBTC_d.csv
 9.59) OPAL/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_OPALBTC_d.csv
+The requested resource was not found on this server.
 9.60) POLY/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_POLYBTC_d.csv
+The requested resource was not found on this server.
 9.61) POT/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_POTBTC_d.csv
 9.62) PPC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_PPCBTC_d.csv
+The requested resource was not found on this server.
 9.63) PRC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_PRCBTC_d.csv
+The requested resource was not found on this server.
 9.64) QTL/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_QTLBTC_d.csv
+The requested resource was not found on this server.
 9.65) QTUM/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_QTUMBTC_d.csv
 9.66) RADS/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_RADSBTC_d.csv
+The requested resource was not found on this server.
 9.67) RBY/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_RBYBTC_d.csv
+The requested resource was not found on this server.
 9.68) RDD/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_RDDBTC_d.csv
+The requested resource was not found on this server.
 9.69) REP/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_REPBTC_d.csv
+The requested resource was not found on this server.
 9.70) REP/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_REPUSDT_d.csv
 9.71) RIC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_RICBTC_d.csv
+The requested resource was not found on this server.
 9.72) SC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_SCBTC_d.csv
 9.73) SC/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_SCUSDT_d.csv
+The requested resource was not found on this server.
 9.74) SDC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_SDCBTC_d.csv
+The requested resource was not found on this server.
 9.75) SILK/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_SILKBTC_d.csv
+The requested resource was not found on this server.
 9.76) SNT/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_SNTBTC_d.csv
+The requested resource was not found on this server.
 9.77) STRAT/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_STRATBTC_d.csv
 9.78) SWARM/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_SWARMBTC_d.csv
+The requested resource was not found on this server.
 9.79) SYS/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_SYSBTC_d.csv
+The requested resource was not found on this server.
 9.80) TAC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_TACBTC_d.csv
+The requested resource was not found on this server.
 9.81) VNL/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_VNLBTC_d.csv
+The requested resource was not found on this server.
 9.82) VOX/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_VOXBTC_d.csv
+The requested resource was not found on this server.
 9.83) VRC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_VRCBTC_d.csv
+The requested resource was not found on this server.
 9.84) XAP/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XAPBTC_d.csv
+The requested resource was not found on this server.
 9.85) XBC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XBCBTC_d.csv
+The requested resource was not found on this server.
 9.86) XC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XCBTC_d.csv
+The requested resource was not found on this server.
 9.87) XCR/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XCRBTC_d.csv
+The requested resource was not found on this server.
 9.88) XDN/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XDNBTC_d.csv
+The requested resource was not found on this server.
 9.89) XEM/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XEMBTC_d.csv
 9.90) XLM/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XLMBTC_d.csv
+The requested resource was not found on this server.
 9.91) XLM/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_XLMUSDT_d.csv
+The requested resource was not found on this server.
 9.92) XMR/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XMRBTC_d.csv
 9.93) XMR/USD: https://www.cryptodatadownload.com/cdd/Poloniex_XMRUSD_d.csv
 9.94) XMY/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XMYBTC_d.csv
+The requested resource was not found on this server.
 9.95) XPB/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XPBBTC_d.csv
+The requested resource was not found on this server.
 9.96) XPM/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XPMBTC_d.csv
+The requested resource was not found on this server.
 9.97) XRP/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XRPBTC_d.csv
 9.98) XRP/USD: https://www.cryptodatadownload.com/cdd/Poloniex_XRPUSD_d.csv
+The requested resource was not found on this server.
 9.99) XRP/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_XRPUSDT_d.csv
 9.100) XST/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XSTBTC_d.csv
+The requested resource was not found on this server.
 9.101) XVC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_XVCBTC_d.csv
+The requested resource was not found on this server.
 9.102) ZEC/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_ZECBTC_d.csv
 9.103) ZEC/USD: https://www.cryptodatadownload.com/cdd/Poloniex_ZECUSD_d.csv
 9.104) ZRX/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_ZRXBTC_d.csv
 9.105) ZRX/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_ZRXUSDT_d.csv
 
-Successfully finished in 67s.
+Successfully finished in 3409s.
 
 Process finished with exit code 0
