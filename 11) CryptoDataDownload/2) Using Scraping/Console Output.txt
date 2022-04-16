@@ -4,40 +4,193 @@ Getting Exchanges...
 ['Gemini', 'Coinbase', 'Kraken', 'Bitstamp', 'Bitfinex', 'Cexio', 'Poloniex', 'Bittrex', 'HitBTC', 'Exmo', 'Bitbay', 'Yobit', 'Liqui', 'Abucoins', 'Binance', 'FTX', 'Kucoin', 'Bithumb', 'OKCoin', 'Okex', 'Zaif', 'Bitso', 'BTCXIndia', 'Unocoin', 'Bit2C']
 
 Getting Exchanges already downloaded using API (https://api.cryptodatadownload.com)...
-['Binance', 'Bitfinex', 'Bitstamp', 'Bittrex', 'Exmo', 'FTX', 'Gemini', 'Kucoin', 'Poloniex']
+['Binance', 'Bitfinex', 'Bitstamp', 'Bittrex', 'Exmo', 'FTX', 'Gemini', 'Kucoin', 'Poloniex', 'Cexio']
 
 1) Coinbase: https://www.cryptodatadownload.com/data/coinbase
 
 2) Kraken: https://www.cryptodatadownload.com/data/kraken
 
-3) Cexio: https://www.cryptodatadownload.com/data/cexio
+3) HitBTC: https://www.cryptodatadownload.com/data/hitbtc
+3.1) BTC/USD: https://www.cryptodatadownload.com/cdd/HitBTC_BTCUSD_d.csv
+3.2) ETH/USD: https://www.cryptodatadownload.com/cdd/HitBTC_ETHUSD_d.csv
+3.3) BCH/USD: https://www.cryptodatadownload.com/cdd/HitBTC_BCHUSD_d.csv
+3.4) LTC/USD: https://www.cryptodatadownload.com/cdd/HitBTC_LTCUSD_d.csv
+3.5) DASH/USD: https://www.cryptodatadownload.com/cdd/HitBTC_DASHUSD_d.csv
+3.6) XMR/USD: https://www.cryptodatadownload.com/cdd/HitBTC_XMRUSD_d.csv
+3.7) EOS/USD: https://www.cryptodatadownload.com/cdd/HitBTC_EOSUSD_d.csv
+3.8) ZEC/USD: https://www.cryptodatadownload.com/cdd/HitBTC_ZECUSD_d.csv
+3.9) BTG/USD: https://www.cryptodatadownload.com/cdd/HitBTC_BTGUSD_d.csv
+3.10) NEO/USD: https://www.cryptodatadownload.com/cdd/HitBTC_NEOUSD_d.csv
+3.11) XRP/USD: https://www.cryptodatadownload.com/cdd/HitBTC_XRPUSD_d.csv
+3.12) NXT/USD: https://www.cryptodatadownload.com/cdd/HitBTC_NXTUSD_d.csv
+3.13) DOGE/USD: https://www.cryptodatadownload.com/cdd/HitBTC_DOGEUSD_d.csv
+3.14) XVG/USD: https://www.cryptodatadownload.com/cdd/HitBTC_XVGUSD_d.csv
+3.15) MAID/USD: https://www.cryptodatadownload.com/cdd/HitBTC_MAIDUSD_d.csv
+3.16) STX/USD: https://www.cryptodatadownload.com/cdd/HitBTC_STXUSD_d.csv
+3.17) STRAT/USD: https://www.cryptodatadownload.com/cdd/HitBTC_STRATUSD_d.csv
+3.18) DIM/USD: https://www.cryptodatadownload.com/cdd/HitBTC_DIMUSD_d.csv
+3.19) XTZ/USD: https://www.cryptodatadownload.com/cdd/HitBTC_XTZUSD_d.csv
+3.20) XEM/USD: https://www.cryptodatadownload.com/cdd/HitBTC_XEMUSD_d.csv
+3.21) BCH/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_BCHBTC_d.csv
+3.22) ETH/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_ETHBTC_d.csv
+3.23) DASH/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_DASHBTC_d.csv
+3.24) XMR/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_XMRBTC_d.csv
+3.25) ZEC/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_ZECBTC_d.csv
+3.26) XRP/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_XRPBTC_d.csv
+3.27) NXT/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_NXTBTC_d.csv
+3.28) BTG/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_BTGBTC_d.csv
+3.29) BTG/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_BTGBTC_d.csv
+3.30) BTG/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_BTGBTC_d.csv
+3.31) XDN/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_XDNBTC_d.csv
+3.32) LTC/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_LTCBTC_d.csv
+3.33) XVG/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_XVGBTC_d.csv
+3.34) ETC/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_ETCBTC_d.csv
+3.35) LSK/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_LSKBTC_d.csv
+3.36) DOGE/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_DOGEBTC_d.csv
+3.37) MAID/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_MAIDBTC_d.csv
+3.38) TRX/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_TRXBTC_d.csv
+3.39) EOS/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_EOSBTC_d.csv
+3.40) HVN/BTC: https://www.cryptodatadownload.com/cdd/HitBTC_HVNBTC_d.csv
 
-4) HitBTC: https://www.cryptodatadownload.com/data/hitbtc
+4) Bitbay: https://www.cryptodatadownload.com/data/bitbay
+4.1) BTC/USD: https://www.cryptodatadownload.com/cdd/Bitbay_BTCUSD_d.csv
+4.2) LTC/USD: https://www.cryptodatadownload.com/cdd/Bitbay_LTCUSD_d.csv
+4.3) ETH/USD: https://www.cryptodatadownload.com/cdd/Bitbay_ETHUSD_d.csv
+4.4) BCH/USD: https://www.cryptodatadownload.com/cdd/Bitbay_BCHUSD_d.csv
+4.5) LSK/USD: https://www.cryptodatadownload.com/cdd/Bitbay_LSKUSD_d.csv
+4.6) BTC/EUR: https://www.cryptodatadownload.com/cdd/Bitbay_BTCEUR_d.csv
+4.7) LTC/EUR: https://www.cryptodatadownload.com/cdd/Bitbay_LTCEUR_d.csv
+4.8) ETH/EUR: https://www.cryptodatadownload.com/cdd/Bitbay_ETHEUR_d.csv
+4.9) BCH/EUR: https://www.cryptodatadownload.com/cdd/Bitbay_BCHEUR_d.csv
+4.10) LSK/EUR: https://www.cryptodatadownload.com/cdd/Bitbay_LSKEUR_d.csv
+4.11) LTC/BTC: https://www.cryptodatadownload.com/cdd/Bitbay_LTCBTC_d.csv
+4.12) ETH/BTC: https://www.cryptodatadownload.com/cdd/Bitbay_ETHBTC_d.csv
+4.13) BCH/BTC: https://www.cryptodatadownload.com/cdd/Bitbay_BCHBTC_d.csv
+4.14) LSK/BTC: https://www.cryptodatadownload.com/cdd/Bitbay_LSKBTC_d.csv
 
-5) Bitbay: https://www.cryptodatadownload.com/data/bitbay
+5) Yobit: https://www.cryptodatadownload.com/data/yobit
+5.1) ETH/RUR: https://www.cryptodatadownload.com/cdd/Yobit_ETHRUR_d.csv
+5.2) LTC/RUR: https://www.cryptodatadownload.com/cdd/Yobit_LTCRUR_d.csv
+5.3) ZEC/RUR: https://www.cryptodatadownload.com/cdd/Yobit_ZECRUR_d.csv
+5.4) XEM/RUR: https://www.cryptodatadownload.com/cdd/Yobit_XEMRUR_d.csv
+5.5) DOGE/RUR: https://www.cryptodatadownload.com/cdd/Yobit_DOGERUR_d.csv
+5.6) WAVES/RUR: https://www.cryptodatadownload.com/cdd/Yobit_WAVESRUR_d.csv
+5.7) XVG/RUR: https://www.cryptodatadownload.com/cdd/Yobit_XVGRUR_d.csv
+5.8) DASH/RUR: https://www.cryptodatadownload.com/cdd/Yobit_DASHRUR_d.csv
+5.9) ETC/RUR: https://www.cryptodatadownload.com/cdd/Yobit_ETCRUR_d.csv
+5.10) BCH/RUR: https://www.cryptodatadownload.com/cdd/Yobit_BCHRUR_d.csv
+5.11) BTC/USD: https://www.cryptodatadownload.com/cdd/Yobit_BTCUSD_d.csv
+5.12) ETH/USD: https://www.cryptodatadownload.com/cdd/Yobit_ETHUSD_d.csv
+5.13) LTC/USD: https://www.cryptodatadownload.com/cdd/Yobit_LTCUSD_d.csv
+5.14) XVG/USD: https://www.cryptodatadownload.com/cdd/Yobit_XVGUSD_d.csv
+5.15) BCH/USD: https://www.cryptodatadownload.com/cdd/Yobit_BCHUSD_d.csv
+5.16) TRX/USD: https://www.cryptodatadownload.com/cdd/Yobit_TRXUSD_d.csv
+5.17) DASH/USD: https://www.cryptodatadownload.com/cdd/Yobit_DASHUSD_d.csv
+5.18) DOGE/USD: https://www.cryptodatadownload.com/cdd/Yobit_DOGEUSD_d.csv
+5.19) XEM/USD: https://www.cryptodatadownload.com/cdd/Yobit_XEMUSD_d.csv
+5.20) WAVES/USD: https://www.cryptodatadownload.com/cdd/Yobit_WAVESUSD_d.csv
+5.21) ZEC/USD: https://www.cryptodatadownload.com/cdd/Yobit_ZECUSD_d.csv
+5.22) BTG/USD: https://www.cryptodatadownload.com/cdd/Yobit_BTGUSD_d.csv
+5.23) ETC/USD: https://www.cryptodatadownload.com/cdd/Yobit_ETCUSD_d.csv
+5.24) EOS/USD: https://www.cryptodatadownload.com/cdd/Yobit_EOSUSD_d.csv
+5.25) DASH/BTC: https://www.cryptodatadownload.com/cdd/Yobit_DASHBTC_d.csv
+5.26) ETH/BTC: https://www.cryptodatadownload.com/cdd/Yobit_ETHBTC_d.csv
+5.27) LTC/BTC: https://www.cryptodatadownload.com/cdd/Yobit_LTCBTC_d.csv
+5.28) WAVES/BTC: https://www.cryptodatadownload.com/cdd/Yobit_WAVESBTC_d.csv
+5.29) LSK/BTC: https://www.cryptodatadownload.com/cdd/Yobit_LSKBTC_d.csv
+5.30) ZEC/BTC: https://www.cryptodatadownload.com/cdd/Yobit_ZECBTC_d.csv
+5.31) BCH/BTC: https://www.cryptodatadownload.com/cdd/Yobit_BCHBTC_d.csv
+5.32) BTG/BTC: https://www.cryptodatadownload.com/cdd/Yobit_BTGBTC_d.csv
+5.33) DOGE/BTC: https://www.cryptodatadownload.com/cdd/Yobit_DOGEBTC_d.csv
+5.34) XEM/BTC: https://www.cryptodatadownload.com/cdd/Yobit_XEMBTC_d.csv
+5.35) XVG/BTC: https://www.cryptodatadownload.com/cdd/Yobit_XVGBTC_d.csv
+5.36) ETC/BTC: https://www.cryptodatadownload.com/cdd/Yobit_ETCBTC_d.csv
+5.37) EOS/BTC: https://www.cryptodatadownload.com/cdd/Yobit_EOSBTC_d.csv
+5.38) DGB/BTC: https://www.cryptodatadownload.com/cdd/Yobit_DGBBTC_d.csv
 
-6) Yobit: https://www.cryptodatadownload.com/data/yobit
+6) Liqui: https://www.cryptodatadownload.com/data/liqui
 
-7) Liqui: https://www.cryptodatadownload.com/data/liqui
+7) Abucoins: https://www.cryptodatadownload.com/data/abucoins
+7.1) BTC/USD: https://www.cryptodatadownload.com/cdd/Abucoins_BTCUSD_d.csv
+7.2) BTC/PLN: https://www.cryptodatadownload.com/cdd/Abucoins_BTCPLN_d.csv
+7.3) ETH/PLN: https://www.cryptodatadownload.com/cdd/Abucoins_ETHPLN_d.csv
+7.4) BCH/PLN: https://www.cryptodatadownload.com/cdd/Abucoins_BCHPLN_d.csv
+7.5) XRP/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_XRPBTC_d.csv
+7.6) LTC/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_LTCBTC_d.csv
+7.7) ETH/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_ETHBTC_d.csv
+7.8) BCH/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_BCHBTC_d.csv
+7.9) SC/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_SCBTC_d.csv
+7.10) DASH/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_DASHBTC_d.csv
+7.11) ZEC/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_ZECBTC_d.csv
+7.12) XMR/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_XMRBTC_d.csv
+7.13) REP/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_REPBTC_d.csv
+7.14) STRAT/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_STRATBTC_d.csv
+7.15) XEM/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_XEMBTC_d.csv
+7.16) BTG/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_BTGBTC_d.csv
+7.17) ETC/BTC: https://www.cryptodatadownload.com/cdd/Abucoins_ETCBTC_d.csv
 
-8) Abucoins: https://www.cryptodatadownload.com/data/abucoins
+8) Bithumb: https://www.cryptodatadownload.com/data/bithumb
+8.1) BTC/KRW: https://www.cryptodatadownload.com/cdd/Bithumb_BTCKRW_d.csv
+8.2) ETH/KRW: https://www.cryptodatadownload.com/cdd/Bithumb_ETHKRW_d.csv
+8.3) LTC/KRW: https://www.cryptodatadownload.com/cdd/Bithumb_LTCKRW_d.csv
+8.4) ETC/KRW: https://www.cryptodatadownload.com/cdd/Bithumb_ETCKRW_d.csv
+8.5) XRP/KRW: https://www.cryptodatadownload.com/cdd/Bithumb_XRPKRW_d.csv
+8.6) XMR/KRW: https://www.cryptodatadownload.com/cdd/Bithumb_XMRKRW_d.csv
+8.7) ZEC/KRW: https://www.cryptodatadownload.com/cdd/Bithumb_ZECKRW_d.csv
+8.8) BTG/KRW: https://www.cryptodatadownload.com/cdd/Bithumb_BTGKRW_d.csv
 
-9) Bithumb: https://www.cryptodatadownload.com/data/bithumb
+9) OKCoin: https://www.cryptodatadownload.com/data/okcoin
+9.1) BTC/USD: https://www.cryptodatadownload.com/cdd/Okcoin_BTCUSD_d.csv
+9.2) ETH/USD: https://www.cryptodatadownload.com/cdd/Okcoin_ETHUSD_d.csv
+9.3) LTC/USD: https://www.cryptodatadownload.com/cdd/Okcoin_LTCUSD_d.csv
+9.4) XRP/USD: https://www.cryptodatadownload.com/cdd/Okcoin_XRPUSD_d.csv
+The requested resource was not found on this server.
 
-10) OKCoin: https://www.cryptodatadownload.com/data/okcoin
+10) Okex: https://www.cryptodatadownload.com/data/okex
+10.1) ETH/BTC: https://www.cryptodatadownload.com/cdd/Okex_ETHBTC_d.csv
+10.2) ETC/BTC: https://www.cryptodatadownload.com/cdd/Okex_ETCBTC_d.csv
+10.3) LTC/BTC: https://www.cryptodatadownload.com/cdd/Okex_LTCBTC_d.csv
+10.4) BCH/BTC: https://www.cryptodatadownload.com/cdd/Okex_BCHBTC_d.csv
+10.5) DASH/BTC: https://www.cryptodatadownload.com/cdd/Okex_DASHBTC_d.csv
+10.6) ZEC/BTC: https://www.cryptodatadownload.com/cdd/Okex_ZECBTC_d.csv
+10.7) NEO/BTC: https://www.cryptodatadownload.com/cdd/Okex_NEOBTC_d.csv
+10.8) QTUM/BTC: https://www.cryptodatadownload.com/cdd/Okex_QTUMBTC_d.csv
+10.9) EOS/BTC: https://www.cryptodatadownload.com/cdd/Okex_EOSBTC_d.csv
+10.10) OMG/BTC: https://www.cryptodatadownload.com/cdd/Okex_OMGBTC_d.csv
+10.11) EOS/ETH: https://www.cryptodatadownload.com/cdd/Okex_EOSETH_d.csv
+10.12) DASH/ETH: https://www.cryptodatadownload.com/cdd/Okex_DASHETH_d.csv
+10.13) OMG/ETH: https://www.cryptodatadownload.com/cdd/Okex_OMGETH_d.csv
+10.14) NEO/ETH: https://www.cryptodatadownload.com/cdd/Okex_NEOETH_d.csv
+10.15) QTUM/ETH: https://www.cryptodatadownload.com/cdd/Okex_QTUMETH_d.csv
+10.16) ETC/ETH: https://www.cryptodatadownload.com/cdd/Okex_ETCETH_d.csv
 
-11) Okex: https://www.cryptodatadownload.com/data/okex
+11) Zaif: https://www.cryptodatadownload.com/data/zaif
+11.1) BTC/JPY: https://www.cryptodatadownload.com/cdd/Zaif_BTCJPY_d.csv
+11.2) XEM/JPY: https://www.cryptodatadownload.com/cdd/Zaif_XEMJPY_d.csv
+11.3) BCH/JPY: https://www.cryptodatadownload.com/cdd/Zaif_BCHJPY_d.csv
+11.4) ETH/JPY: https://www.cryptodatadownload.com/cdd/Zaif_ETHJPY_d.csv
+11.5) MONA/JPY: https://www.cryptodatadownload.com/cdd/Zaif_MONAJPY_d.csv
+11.6) ZAIF/JPY: https://www.cryptodatadownload.com/cdd/Zaif_ZAIFJPY_d.csv
+11.7) XEM/BTC: https://www.cryptodatadownload.com/cdd/Zaif_XEMBTC_d.csv
+11.8) ETH/BTC: https://www.cryptodatadownload.com/cdd/Zaif_ETHBTC_d.csv
+11.9) BCH/BTC: https://www.cryptodatadownload.com/cdd/Zaif_BCHBTC_d.csv
+11.10) MONA/BTC: https://www.cryptodatadownload.com/cdd/Zaif_MONABTC_d.csv
 
-12) Zaif: https://www.cryptodatadownload.com/data/zaif
+12) Bitso: https://www.cryptodatadownload.com/data/bitso
+12.1) BTC/MXN: https://www.cryptodatadownload.com/cdd/Bitso_BTCMXN_d.csv
+12.2) ETH/MXN: https://www.cryptodatadownload.com/cdd/Bitso_ETHMXN_d.csv
 
-13) Bitso: https://www.cryptodatadownload.com/data/bitso
+13) BTCXIndia: https://www.cryptodatadownload.com/data/btcxindia
+13.1) XRP/INR: https://www.cryptodatadownload.com/cdd/BtcxIndia_XRPINR_d.csv
+The requested resource was not found on this server.
 
-14) BTCXIndia: https://www.cryptodatadownload.com/data/btcxindia
+14) Unocoin: https://www.cryptodatadownload.com/data/unocoin
+14.1) BTC/INR: https://www.cryptodatadownload.com/cdd/Unocoin_BTCINR_d.csv
 
-15) Unocoin: https://www.cryptodatadownload.com/data/unocoin
+15) Bit2C: https://www.cryptodatadownload.com/data/bit2c
+15.1) BTC/ILS: https://www.cryptodatadownload.com/cdd/Bit2c_BTCILS_d.csv
+15.2) LTC/ILS: https://www.cryptodatadownload.com/cdd/Bit2c_LTCILS_d.csv
 
-16) Bit2C: https://www.cryptodatadownload.com/data/bit2c
-
-Successfully finished in 3s.
+Successfully finished in 74s.
 
 Process finished with exit code 0

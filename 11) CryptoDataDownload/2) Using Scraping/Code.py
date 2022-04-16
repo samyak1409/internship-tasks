@@ -74,6 +74,7 @@ with Session() as session:
 
     print(f'Getting Exchanges already downloaded using API ({API})...')
     exchanges_from_api = list(get_response(url=f'{API}/?format=openapi').json()['definitions'].keys())
+    exchanges_from_api.append('Cexio')  # not listed on API page, but data available on API!
     print(exchanges_from_api)
 
     for exchange_num, exchange in enumerate(filter(lambda xchange: xchange not in exchanges_from_api, exchanges), start=1):
@@ -83,9 +84,30 @@ with Session() as session:
         except FileExistsError:
             pass
 
-        # Step 2) Getting direct download links of all the symbols of an exchange:
+        # Step 2) Getting direct download links of all the symbols of an exchange & Downloading:
         data_url = f'{BASE_URL}/{exchange.lower()}'
         print('\n' + f'{exchange_num}) {exchange}: {data_url}')
+
+        soup = BeautifulSoup(markup=get_response(url=data_url).text, features='html.parser')
+        # print(soup.prettify())  # debugging
+
+        for symbol_num, direct_download_link in enumerate(filter(lambda lnk: lnk.endswith('_d.csv'), map(lambda a: a['href'], soup.find_all(name='a'))), start=1):
+
+            direct_download_link = 'https://www.cryptodatadownload.com/cdd/' + direct_download_link.rsplit('/', maxsplit=1)[-1]
+            # doing this to avoid getting a bad formatted link which can cause error, E.g. https://www.cryptodatadownload.comcdd/HitBTC_ETCBTC_d.csv
+
+            symbol = direct_download_link.split('_')[-2]
+            symbol = symbol[:-3] + '/' + symbol[-3:]
+
+            print(f'{exchange_num}.{symbol_num}) {symbol}: {direct_download_link}')
+
+            if not DEBUG:
+                try:
+                    data = get_response(url=direct_download_link).content
+                except AttributeError:  # when get_response returns None
+                    print('The requested resource was not found on this server.')
+                else:
+                    open(f'{exchange}\\{symbol.replace("/", " ")}.csv', 'wb').write(data)
 
 
 print('\n' + f'Successfully finished in {int(perf_counter()-start_time)}s.')
