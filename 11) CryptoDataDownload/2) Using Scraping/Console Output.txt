@@ -1,40 +1,40 @@
 C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/11) CryptoDataDownload/2) Using Scraping/Code.py"
 
 Getting Exchanges...
-{'Kraken', 'FTX', 'Bithumb', 'Yobit', 'Zaif', 'Bittrex', 'Abucoins', 'Bitstamp', 'Unocoin', 'Liqui', 'Poloniex', 'Gemini', 'Exmo', 'Bitso', 'Cexio', 'Binance', 'Bitbay', 'Coinbase', 'Kucoin', 'Okex', 'OKCoin', 'Bitfinex', 'BTCXIndia', 'HitBTC', 'Bit2C'}
+['Gemini', 'Coinbase', 'Kraken', 'Bitstamp', 'Bitfinex', 'Cexio', 'Poloniex', 'Bittrex', 'HitBTC', 'Exmo', 'Bitbay', 'Yobit', 'Liqui', 'Abucoins', 'Binance', 'FTX', 'Kucoin', 'Bithumb', 'OKCoin', 'Okex', 'Zaif', 'Bitso', 'BTCXIndia', 'Unocoin', 'Bit2C']
 
 Getting Exchanges already downloaded using API (https://api.cryptodatadownload.com)...
-{'Bittrex', 'Bitstamp', 'Kucoin', 'Poloniex', 'Bitfinex', 'FTX', 'Exmo', 'Gemini', 'Binance'}
+['Binance', 'Bitfinex', 'Bitstamp', 'Bittrex', 'Exmo', 'FTX', 'Gemini', 'Kucoin', 'Poloniex']
 
-1) Kraken: https://www.cryptodatadownload.com/data/kraken
+1) Coinbase: https://www.cryptodatadownload.com/data/coinbase
 
-2) Bithumb: https://www.cryptodatadownload.com/data/bithumb
+2) Kraken: https://www.cryptodatadownload.com/data/kraken
 
-3) Yobit: https://www.cryptodatadownload.com/data/yobit
+3) Cexio: https://www.cryptodatadownload.com/data/cexio
 
-4) Zaif: https://www.cryptodatadownload.com/data/zaif
+4) HitBTC: https://www.cryptodatadownload.com/data/hitbtc
 
-5) Abucoins: https://www.cryptodatadownload.com/data/abucoins
+5) Bitbay: https://www.cryptodatadownload.com/data/bitbay
 
-6) Unocoin: https://www.cryptodatadownload.com/data/unocoin
+6) Yobit: https://www.cryptodatadownload.com/data/yobit
 
 7) Liqui: https://www.cryptodatadownload.com/data/liqui
 
-8) Bitso: https://www.cryptodatadownload.com/data/bitso
+8) Abucoins: https://www.cryptodatadownload.com/data/abucoins
 
-9) Cexio: https://www.cryptodatadownload.com/data/cexio
+9) Bithumb: https://www.cryptodatadownload.com/data/bithumb
 
-10) Bitbay: https://www.cryptodatadownload.com/data/bitbay
+10) OKCoin: https://www.cryptodatadownload.com/data/okcoin
 
-11) Coinbase: https://www.cryptodatadownload.com/data/coinbase
+11) Okex: https://www.cryptodatadownload.com/data/okex
 
-12) Okex: https://www.cryptodatadownload.com/data/okex
+12) Zaif: https://www.cryptodatadownload.com/data/zaif
 
-13) OKCoin: https://www.cryptodatadownload.com/data/okcoin
+13) Bitso: https://www.cryptodatadownload.com/data/bitso
 
 14) BTCXIndia: https://www.cryptodatadownload.com/data/btcxindia
 
-15) HitBTC: https://www.cryptodatadownload.com/data/hitbtc
+15) Unocoin: https://www.cryptodatadownload.com/data/unocoin
 
 16) Bit2C: https://www.cryptodatadownload.com/data/bit2c
 

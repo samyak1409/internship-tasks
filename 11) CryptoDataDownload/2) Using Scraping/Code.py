@@ -63,17 +63,17 @@ with Session() as session:
     print('\n' + 'Getting Exchanges...')  # spacing
     soup = BeautifulSoup(markup=get_response(url=BASE_URL).text, features='html.parser')
     # print(soup.prettify())  # debugging
-    exchanges = set()
+    exchanges = list()
     for regions in soup.find(name='ul', class_='rd-navbar-dropdown').find_all(name='li', recursive=False):
         exchanges_region_wise = regions.find(name='ul', class_='rd-navbar-dropdown')
         if exchanges_region_wise is not None:
             for exchange in exchanges_region_wise.find_all(name='li', recursive=False):
                 # print(exchange.prettify())  # debugging
-                exchanges.add(exchange.text)
+                exchanges.append(exchange.text)
     print(exchanges, '\n')
 
     print(f'Getting Exchanges already downloaded using API ({API})...')
-    exchanges_from_api = set(get_response(url=f'{API}/?format=openapi').json()['definitions'].keys())
+    exchanges_from_api = list(get_response(url=f'{API}/?format=openapi').json()['definitions'].keys())
     print(exchanges_from_api)
 
     for exchange_num, exchange in enumerate(filter(lambda xchange: xchange not in exchanges_from_api, exchanges), start=1):

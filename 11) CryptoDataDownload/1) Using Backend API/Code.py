@@ -62,7 +62,7 @@ with Session() as session:
     print('\n' + 'Getting Exchanges...')  # spacing
     json_data = get_response(url=f'{BASE_URL}/?format=openapi').json()
     # print(dumps(obj=json_data, indent=4))  # debugging
-    exchanges = set(json_data['definitions'].keys())
+    exchanges = list(json_data['definitions'].keys())
     print(exchanges)
 
     for exchange_num, exchange in enumerate(exchanges, start=1):
