@@ -37,11 +37,11 @@ def get_response(url: str) -> Response:
         else:
             if response.status_code == 200:
                 return response
-            elif response.status_code == 404:  # not found
-                break
-            else:  # bad response
-                print(f'{response.status_code}: {response.reason}; TRYING AGAIN...')
-                sleep(1)  # take a breath
+            if response.status_code == 404:  # not found
+                break  # returns None
+            # else: bad response
+            print(f'{response.status_code}: {response.reason}; TRYING AGAIN...')
+            sleep(1)  # take a breath
 
 
 # MAIN:
@@ -52,35 +52,34 @@ with Session() as session:
     session.headers = HEADERS
     session.stream = False  # stream off for all the requests of this session
 
-    print('\n' + 'Getting Exchanges...')  # spacing
-
     try:
         mkdir(DATA_DIR)
     except FileExistsError:
         pass
     chdir(DATA_DIR)
 
+    # Step 1:
+    print('\n' + 'Getting Exchanges...')  # spacing
     json_data = get_response(url=f'{BASE_URL}/?format=openapi').json()
     # print(dumps(obj=json_data, indent=4))  # debugging
-
-    exchanges = list(json_data['definitions'].keys())
+    exchanges = set(json_data['definitions'].keys())
     print(exchanges)
 
     for exchange_num, exchange in enumerate(exchanges, start=1):
-
-        data_url = f'{BASE_URL}/v1/data/ohlc/{exchange.lower()}/available?format=json'
-        print('\n' + f'{exchange_num}) {exchange}: {data_url}')
 
         try:
             mkdir(exchange)
         except FileExistsError:
             pass
 
+        # Step 2) Getting direct download links of all the symbols of an exchange:
+        data_url = f'{BASE_URL}/v1/data/ohlc/{exchange.lower()}/available?format=json'
+        print('\n' + f'{exchange_num}) {exchange}: {data_url}')
+
         json_data = get_response(url=data_url).json()
         # print(dumps(obj=json_data, indent=4))  # debugging
 
         direct_download_links = {}  # symbol: direct_download_link
-
         try:
             for data_dict in json_data['data']:  # https://api.cryptodatadownload.com/v1/data/ohlc/bitstamp/available?format=json
                 # print(data_dict)  # debugging
@@ -91,6 +90,7 @@ with Session() as session:
                 # print(symbol)  # debugging
                 direct_download_links[symbol] = f'https://www.cryptodatadownload.com/cdd/{exchange}_{symbol.replace("/", "")}_d.csv'
 
+        # Step 3) Downloading:
         for symbol_num, (symbol, direct_download_link) in enumerate(direct_download_links.items(), start=1):
 
             print(f'{exchange_num}.{symbol_num}) {symbol}: {direct_download_link}')
@@ -98,9 +98,11 @@ with Session() as session:
             path = f'{exchange}\\{symbol.replace("/", " ")}.csv'
             if not DEBUG:
                 try:
-                    open(path, 'wb').write(get_response(url=direct_download_link).content)
+                    data = get_response(url=direct_download_link).content
                 except AttributeError:  # when get_response returns None
                     print('The requested resource was not found on this server.')
+                else:
+                    open(path, 'wb').write(data)
 
 
 print('\n' + f'Successfully finished in {int(perf_counter()-start_time)}s.')
