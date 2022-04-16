@@ -1,0 +1,43 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/11) CryptoDataDownload/2) Using Scraping/Code.py"
+
+Getting Exchanges...
+{'Kraken', 'FTX', 'Bithumb', 'Yobit', 'Zaif', 'Bittrex', 'Abucoins', 'Bitstamp', 'Unocoin', 'Liqui', 'Poloniex', 'Gemini', 'Exmo', 'Bitso', 'Cexio', 'Binance', 'Bitbay', 'Coinbase', 'Kucoin', 'Okex', 'OKCoin', 'Bitfinex', 'BTCXIndia', 'HitBTC', 'Bit2C'}
+
+Getting Exchanges already downloaded using API (https://api.cryptodatadownload.com)...
+{'Bittrex', 'Bitstamp', 'Kucoin', 'Poloniex', 'Bitfinex', 'FTX', 'Exmo', 'Gemini', 'Binance'}
+
+1) Kraken: https://www.cryptodatadownload.com/data/kraken
+
+2) Bithumb: https://www.cryptodatadownload.com/data/bithumb
+
+3) Yobit: https://www.cryptodatadownload.com/data/yobit
+
+4) Zaif: https://www.cryptodatadownload.com/data/zaif
+
+5) Abucoins: https://www.cryptodatadownload.com/data/abucoins
+
+6) Unocoin: https://www.cryptodatadownload.com/data/unocoin
+
+7) Liqui: https://www.cryptodatadownload.com/data/liqui
+
+8) Bitso: https://www.cryptodatadownload.com/data/bitso
+
+9) Cexio: https://www.cryptodatadownload.com/data/cexio
+
+10) Bitbay: https://www.cryptodatadownload.com/data/bitbay
+
+11) Coinbase: https://www.cryptodatadownload.com/data/coinbase
+
+12) Okex: https://www.cryptodatadownload.com/data/okex
+
+13) OKCoin: https://www.cryptodatadownload.com/data/okcoin
+
+14) BTCXIndia: https://www.cryptodatadownload.com/data/btcxindia
+
+15) HitBTC: https://www.cryptodatadownload.com/data/hitbtc
+
+16) Bit2C: https://www.cryptodatadownload.com/data/bit2c
+
+Successfully finished in 3s.
+
+Process finished with exit code 0
