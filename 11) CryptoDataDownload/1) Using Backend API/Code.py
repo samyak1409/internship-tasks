@@ -63,6 +63,7 @@ with Session() as session:
     json_data = get_response(url=f'{BASE_URL}/?format=openapi').json()
     # print(dumps(obj=json_data, indent=4))  # debugging
     exchanges = list(json_data['definitions'].keys())
+    exchanges.append('Cex')  # not listed on API page, but data available on API!
     print(exchanges)
 
     for exchange_num, exchange in enumerate(exchanges, start=1):
@@ -95,14 +96,13 @@ with Session() as session:
 
             print(f'{exchange_num}.{symbol_num}) {symbol}: {direct_download_link}')
 
-            path = f'{exchange}\\{symbol.replace("/", " ")}.csv'
             if not DEBUG:
                 try:
                     data = get_response(url=direct_download_link).content
                 except AttributeError:  # when get_response returns None
                     print('The requested resource was not found on this server.')
                 else:
-                    open(path, 'wb').write(data)
+                    open(f'{exchange}\\{symbol.replace("/", " ")}.csv', 'wb').write(data)
 
 
 print('\n' + f'Successfully finished in {int(perf_counter()-start_time)}s.')

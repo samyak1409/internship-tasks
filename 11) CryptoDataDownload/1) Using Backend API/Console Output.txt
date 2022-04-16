@@ -1,7 +1,7 @@
 C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/11) CryptoDataDownload/Code.py"
 
 Getting Exchanges...
-['Binance', 'Bitfinex', 'Bitstamp', 'Bittrex', 'Exmo', 'FTX', 'Gemini', 'Kucoin', 'Poloniex']
+['Binance', 'Bitfinex', 'Bitstamp', 'Bittrex', 'Exmo', 'FTX', 'Gemini', 'Kucoin', 'Poloniex', 'Cex']
 
 1) Binance: https://api.cryptodatadownload.com/v1/data/ohlc/binance/available?format=json
 1.1) BTC/RUB: https://www.cryptodatadownload.com/cdd/Binance_BTCRUB_d.csv
@@ -4137,6 +4137,118 @@ The requested resource was not found on this server.
 9.104) ZRX/BTC: https://www.cryptodatadownload.com/cdd/Poloniex_ZRXBTC_d.csv
 9.105) ZRX/USDT: https://www.cryptodatadownload.com/cdd/Poloniex_ZRXUSDT_d.csv
 
-Successfully finished in 3409s.
+10) Cex: https://api.cryptodatadownload.com/v1/data/ohlc/cex/available?format=json
+10.1) 1INCH/USD: https://www.cryptodatadownload.com/cdd/CEX_1INCHUSD_d.csv
+10.2) AAVE/USD: https://www.cryptodatadownload.com/cdd/CEX_AAVEUSD_d.csv
+10.3) ADA/USD: https://www.cryptodatadownload.com/cdd/CEX_ADAUSD_d.csv
+10.4) AKRO/USD: https://www.cryptodatadownload.com/cdd/CEX_AKROUSD_d.csv
+10.5) ANT/USD: https://www.cryptodatadownload.com/cdd/CEX_ANTUSD_d.csv
+10.6) APE/USD: https://www.cryptodatadownload.com/cdd/CEX_APEUSD_d.csv
+10.7) API3/USD: https://www.cryptodatadownload.com/cdd/CEX_API3USD_d.csv
+10.8) ARPA/USD: https://www.cryptodatadownload.com/cdd/CEX_ARPAUSD_d.csv
+10.9) ATOM/USD: https://www.cryptodatadownload.com/cdd/CEX_ATOMUSD_d.csv
+10.10) AVAX/USD: https://www.cryptodatadownload.com/cdd/CEX_AVAXUSD_d.csv
+10.11) AWG/USD: https://www.cryptodatadownload.com/cdd/CEX_AWGUSD_d.csv
+10.12) AWS/USD: https://www.cryptodatadownload.com/cdd/CEX_AWSUSD_d.csv
+10.13) AWX/USD: https://www.cryptodatadownload.com/cdd/CEX_AWXUSD_d.csv
+10.14) AXS/USD: https://www.cryptodatadownload.com/cdd/CEX_AXSUSD_d.csv
+10.15) BAL/USD: https://www.cryptodatadownload.com/cdd/CEX_BALUSD_d.csv
+10.16) BAND/USD: https://www.cryptodatadownload.com/cdd/CEX_BANDUSD_d.csv
+10.17) BAT/USD: https://www.cryptodatadownload.com/cdd/CEX_BATUSD_d.csv
+10.18) BCH/USD: https://www.cryptodatadownload.com/cdd/CEX_BCHUSD_d.csv
+10.19) BEL/USD: https://www.cryptodatadownload.com/cdd/CEX_BELUSD_d.csv
+10.20) BNB/USD: https://www.cryptodatadownload.com/cdd/CEX_BNBUSD_d.csv
+10.21) BNT/USD: https://www.cryptodatadownload.com/cdd/CEX_BNTUSD_d.csv
+10.22) BTC/USD: https://www.cryptodatadownload.com/cdd/CEX_BTCUSD_d.csv
+10.23) BTT/USD: https://www.cryptodatadownload.com/cdd/CEX_BTTUSD_d.csv
+10.24) BUSD/USD: https://www.cryptodatadownload.com/cdd/CEX_BUSDUSD_d.csv
+10.25) CAKE/USD: https://www.cryptodatadownload.com/cdd/CEX_CAKEUSD_d.csv
+10.26) COMP/USD: https://www.cryptodatadownload.com/cdd/CEX_COMPUSD_d.csv
+10.27) COTI/USD: https://www.cryptodatadownload.com/cdd/CEX_COTIUSD_d.csv
+10.28) CREAM/USD: https://www.cryptodatadownload.com/cdd/CEX_CREAMUSD_d.csv
+10.29) CRO/USD: https://www.cryptodatadownload.com/cdd/CEX_CROUSD_d.csv
+10.30) CRV/USD: https://www.cryptodatadownload.com/cdd/CEX_CRVUSD_d.csv
+10.31) CVC/USD: https://www.cryptodatadownload.com/cdd/CEX_CVCUSD_d.csv
+10.32) DAI/USD: https://www.cryptodatadownload.com/cdd/CEX_DAIUSD_d.csv
+10.33) DASH/USD: https://www.cryptodatadownload.com/cdd/CEX_DASHUSD_d.csv
+10.34) DNT/USD: https://www.cryptodatadownload.com/cdd/CEX_DNTUSD_d.csv
+10.35) DOGE/USD: https://www.cryptodatadownload.com/cdd/CEX_DOGEUSD_d.csv
+10.36) DOT/USD: https://www.cryptodatadownload.com/cdd/CEX_DOTUSD_d.csv
+10.37) DYDX/USD: https://www.cryptodatadownload.com/cdd/CEX_DYDXUSD_d.csv
+10.38) EDGT/USD: https://www.cryptodatadownload.com/cdd/CEX_EDGTUSD_d.csv
+10.39) ETH/USD: https://www.cryptodatadownload.com/cdd/CEX_ETHUSD_d.csv
+10.40) EVER/USD: https://www.cryptodatadownload.com/cdd/CEX_EVERUSD_d.csv
+10.41) FARM/USD: https://www.cryptodatadownload.com/cdd/CEX_FARMUSD_d.csv
+10.42) FTM/USD: https://www.cryptodatadownload.com/cdd/CEX_FTMUSD_d.csv
+10.43) FUN/USD: https://www.cryptodatadownload.com/cdd/CEX_FUNUSD_d.csv
+10.44) GAS/USD: https://www.cryptodatadownload.com/cdd/CEX_GASUSD_d.csv
+10.45) GLM/USD: https://www.cryptodatadownload.com/cdd/CEX_GLMUSD_d.csv
+10.46) GRT/USD: https://www.cryptodatadownload.com/cdd/CEX_GRTUSD_d.csv
+10.47) GUSD/USD: https://www.cryptodatadownload.com/cdd/CEX_GUSDUSD_d.csv
+10.48) GZIL/USD: https://www.cryptodatadownload.com/cdd/CEX_GZILUSD_d.csv
+10.49) HAPI/USD: https://www.cryptodatadownload.com/cdd/CEX_HAPIUSD_d.csv
+10.50) HOT/USD: https://www.cryptodatadownload.com/cdd/CEX_HOTUSD_d.csv
+10.51) ICP/USD: https://www.cryptodatadownload.com/cdd/CEX_ICPUSD_d.csv
+10.52) INJ/USD: https://www.cryptodatadownload.com/cdd/CEX_INJUSD_d.csv
+10.53) JASMY/USD: https://www.cryptodatadownload.com/cdd/CEX_JASMYUSD_d.csv
+10.54) KAVA/USD: https://www.cryptodatadownload.com/cdd/CEX_KAVAUSD_d.csv
+10.55) KNC/USD: https://www.cryptodatadownload.com/cdd/CEX_KNCUSD_d.csv
+10.56) KP3R/USD: https://www.cryptodatadownload.com/cdd/CEX_KP3RUSD_d.csv
+10.57) KSM/USD: https://www.cryptodatadownload.com/cdd/CEX_KSMUSD_d.csv
+10.58) LAMB/USD: https://www.cryptodatadownload.com/cdd/CEX_LAMBUSD_d.csv
+10.59) LINK/USD: https://www.cryptodatadownload.com/cdd/CEX_LINKUSD_d.csv
+10.60) LRC/USD: https://www.cryptodatadownload.com/cdd/CEX_LRCUSD_d.csv
+10.61) LTC/USD: https://www.cryptodatadownload.com/cdd/CEX_LTCUSD_d.csv
+10.62) LUNA/USD: https://www.cryptodatadownload.com/cdd/CEX_LUNAUSD_d.csv
+10.63) MANA/USD: https://www.cryptodatadownload.com/cdd/CEX_MANAUSD_d.csv
+10.64) MATIC/USD: https://www.cryptodatadownload.com/cdd/CEX_MATICUSD_d.csv
+10.65) MHC/USD: https://www.cryptodatadownload.com/cdd/CEX_MHCUSD_d.csv
+10.66) MINA/USD: https://www.cryptodatadownload.com/cdd/CEX_MINAUSD_d.csv
+10.67) MKR/USD: https://www.cryptodatadownload.com/cdd/CEX_MKRUSD_d.csv
+10.68) MTA/USD: https://www.cryptodatadownload.com/cdd/CEX_MTAUSD_d.csv
+10.69) NEO/USD: https://www.cryptodatadownload.com/cdd/CEX_NEOUSD_d.csv
+10.70) OCEAN/USD: https://www.cryptodatadownload.com/cdd/CEX_OCEANUSD_d.csv
+10.71) OMG/USD: https://www.cryptodatadownload.com/cdd/CEX_OMGUSD_d.csv
+10.72) ONG/USD: https://www.cryptodatadownload.com/cdd/CEX_ONGUSD_d.csv
+10.73) ONT/USD: https://www.cryptodatadownload.com/cdd/CEX_ONTUSD_d.csv
+10.74) QNT/USD: https://www.cryptodatadownload.com/cdd/CEX_QNTUSD_d.csv
+10.75) QRDO/USD: https://www.cryptodatadownload.com/cdd/CEX_QRDOUSD_d.csv
+10.76) RARI/USD: https://www.cryptodatadownload.com/cdd/CEX_RARIUSD_d.csv
+10.77) REN/USD: https://www.cryptodatadownload.com/cdd/CEX_RENUSD_d.csv
+10.78) RENBTC/USD: https://www.cryptodatadownload.com/cdd/CEX_RENBTCUSD_d.csv
+10.79) RSR/USD: https://www.cryptodatadownload.com/cdd/CEX_RSRUSD_d.csv
+10.80) SAND/USD: https://www.cryptodatadownload.com/cdd/CEX_SANDUSD_d.csv
+10.81) SGB/USD: https://www.cryptodatadownload.com/cdd/CEX_SGBUSD_d.csv
+10.82) SHIB/USD: https://www.cryptodatadownload.com/cdd/CEX_SHIBUSD_d.csv
+10.83) SNX/USD: https://www.cryptodatadownload.com/cdd/CEX_SNXUSD_d.csv
+10.84) SOL/USD: https://www.cryptodatadownload.com/cdd/CEX_SOLUSD_d.csv
+10.85) SRM/USD: https://www.cryptodatadownload.com/cdd/CEX_SRMUSD_d.csv
+10.86) STORJ/USD: https://www.cryptodatadownload.com/cdd/CEX_STORJUSD_d.csv
+10.87) SUSHI/USD: https://www.cryptodatadownload.com/cdd/CEX_SUSHIUSD_d.csv
+10.88) TRB/USD: https://www.cryptodatadownload.com/cdd/CEX_TRBUSD_d.csv
+10.89) TRX/USD: https://www.cryptodatadownload.com/cdd/CEX_TRXUSD_d.csv
+10.90) TUSD/USD: https://www.cryptodatadownload.com/cdd/CEX_TUSDUSD_d.csv
+10.91) TWT/USD: https://www.cryptodatadownload.com/cdd/CEX_TWTUSD_d.csv
+10.92) UMA/USD: https://www.cryptodatadownload.com/cdd/CEX_UMAUSD_d.csv
+10.93) UNI/USD: https://www.cryptodatadownload.com/cdd/CEX_UNIUSD_d.csv
+10.94) USDC/USD: https://www.cryptodatadownload.com/cdd/CEX_USDCUSD_d.csv
+10.95) USDT/USD: https://www.cryptodatadownload.com/cdd/CEX_USDTUSD_d.csv
+10.96) UTK/USD: https://www.cryptodatadownload.com/cdd/CEX_UTKUSD_d.csv
+10.97) WABI/USD: https://www.cryptodatadownload.com/cdd/CEX_WABIUSD_d.csv
+10.98) WBTC/USD: https://www.cryptodatadownload.com/cdd/CEX_WBTCUSD_d.csv
+10.99) WNXM/USD: https://www.cryptodatadownload.com/cdd/CEX_WNXMUSD_d.csv
+10.100) XLM/USD: https://www.cryptodatadownload.com/cdd/CEX_XLMUSD_d.csv
+10.101) XRP/USD: https://www.cryptodatadownload.com/cdd/CEX_XRPUSD_d.csv
+10.102) XSGD/USD: https://www.cryptodatadownload.com/cdd/CEX_XSGDUSD_d.csv
+10.103) XTZ/USD: https://www.cryptodatadownload.com/cdd/CEX_XTZUSD_d.csv
+10.104) XVS/USD: https://www.cryptodatadownload.com/cdd/CEX_XVSUSD_d.csv
+10.105) YFI/USD: https://www.cryptodatadownload.com/cdd/CEX_YFIUSD_d.csv
+10.106) YFII/USD: https://www.cryptodatadownload.com/cdd/CEX_YFIIUSD_d.csv
+10.107) ZAP/USD: https://www.cryptodatadownload.com/cdd/CEX_ZAPUSD_d.csv
+10.108) ZIL/USD: https://www.cryptodatadownload.com/cdd/CEX_ZILUSD_d.csv
+10.109) ZRX/USD: https://www.cryptodatadownload.com/cdd/CEX_ZRXUSD_d.csv
+10.110) ZWAP/USD: https://www.cryptodatadownload.com/cdd/CEX_ZWAPUSD_d.csv
+
+Successfully finished in 3450s.
 
 Process finished with exit code 0
