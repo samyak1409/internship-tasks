@@ -1,4 +1,4 @@
-# Task 11
+# Task 11.1
 
 This directory contains the code which downloads the daily trading data of all the available symbols (across all the 
 exchanges) (~3600) from [CryptoDataDownload](https://www.cryptodatadownload.com) (free market data for cryptocurrency 
