@@ -202,6 +202,10 @@ print('With:', get_request(url=URL, headers=HEADER).json())
 
 #### 11) [Best Web Scraping Tutorials](https://www.youtube.com/c/JohnWatsonRooney/videos?sort=p)
 
+#### 12) Data Storage Note: 
+
+1. **Saving to large Excel files takes forever.** Never use Excel files to save large data, if required, partition it across multiple Excel files. *OR* Use CSV files instead!
+2. **Excel = zipped(CSV).** If the data has to be saved across a large number of (small) files, use Excel files to end up taking very less storage in comparison with CSV files!
 
 
 ## Ciao!👋
