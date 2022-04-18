@@ -1,0 +1,28 @@
+C:\Users\Samyak\AppData\Local\Programs\Python\Python310\python.exe "C:/Users/Samyak/PycharmProjects/GitHub Repos/First Internship/11) CryptoDataDownload/Data Cleaning/Code.py"
+
+Abucoins: 17
+Binance: 78
+Bit2C: 2
+Bitbay: 14
+Bitfinex: 290
+Bithumb: 8
+Bitso: 2
+Bitstamp: 157
+Bittrex: 27
+Cex: 110
+Exmo: 185
+FTX: 489
+Gemini: 96
+HitBTC: 38
+Kucoin: 987
+OKCoin: 3
+Okex: 16
+Poloniex: 39
+Unocoin: 1
+Yobit: 38
+Zaif: 10
+
+Total Rows: 1042425
+Time Taken: 15.955607999996573s
+
+Process finished with exit code 0
