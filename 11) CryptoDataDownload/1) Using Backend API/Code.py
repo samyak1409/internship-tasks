@@ -10,7 +10,7 @@ I need data from all of these exchanges for all currency pair. The data will be 
 from time import perf_counter, sleep
 from requests import Session, RequestException, Response
 # from json import dumps  # debugging
-from os import mkdir, chdir
+from os import mkdir, chdir, rmdir
 
 
 start_time = perf_counter()
@@ -21,7 +21,7 @@ start_time = perf_counter()
 HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'}
 BASE_URL = 'https://api.cryptodatadownload.com'
 DEBUG = False  # default: False
-DATA_DIR = 'Scraped Data'
+DATA_DIR = '..\\Scraped Data'
 
 
 # FUNCTIONS:
@@ -103,6 +103,11 @@ with Session() as session:
                     print('The requested resource was not found on this server.')
                 else:
                     open(f'{exchange}\\{symbol.replace("/", " ")}.csv', 'wb').write(data)
+
+        try:
+            rmdir(exchange)
+        except OSError:  # [WinError 145] The directory is not empty
+            pass
 
 
 print('\n' + f'Successfully finished in {int(perf_counter()-start_time)}s.')
