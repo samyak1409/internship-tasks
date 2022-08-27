@@ -62,7 +62,7 @@ with Session() as session:  # requests session init
 
 #### 4) Complete HTML is not Loading using `Requests` because it's a Dynamic Website?
 
-**Preferred) Use [Requests-HTML](https://docs.python-requests.org/projects/requests-html/en/latest)**
+**Preferred) Use [Requests-HTML](https://docs.python-requests.org/projects/requests-html/en/latest) ([Alternative Link](https://requests.readthedocs.io/projects/requests-html/en/latest))**
 
 - [How I Scrape JAVASCRIPT websites with Python](https://youtu.be/0hiGp3lF6ig) | [Scrape Amazon NEW METHOD with Python 2020](https://youtu.be/WcPNlnsNZyY)
 - [Render Dynamic Pages - Web Scraping Product Links with Python](https://youtu.be/MeBU-4Xs2RU) | [Rendering Dynamic Pages 2! - Web Scraping ALL products with Python](https://youtu.be/B14mtXA7Tyw)
@@ -91,7 +91,7 @@ try:
 except WebDriverException:
     raise SystemExit('''\nERROR: 'chromedriver' executable needs to be in PATH. Please see https://chromedriver.chromium.org/getting-started#h.p_ID_36 \n
 TL;DR:
-1) Download the ChromeDriver binary for your platform from https://chromedriver.chromium.org/downloads
+1) Download or Update the ChromeDriver binary for your platform from https://chromedriver.chromium.org/downloads
 2) Include the ChromeDriver location in your PATH environment variable''')
 
 driver.maximize_window()  # window must not be minimized, else page will load in greater time
