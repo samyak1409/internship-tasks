@@ -1,6 +1,6 @@
 # Internship Tasks
 
-This repository contains the codes of Web Scraping tasks of my Internship.
+This repository contains the codes of Web Scraping tasks of my first [Internship](https://internshala.com/internship/detail/data-collection-and-analytics-work-from-home-job-internship-at-vasundhara-sharma1640636683).
 
 
 
